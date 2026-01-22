@@ -1,0 +1,42 @@
+[
+  {
+    "comparison": "token_1000 vs recursive_1000",
+    "recall_a": 0.75,
+    "recall_b": 0.725,
+    "p_value": 1.0,
+    "cohens_h": 0.05683343655100259,
+    "significant": false
+  },
+  {
+    "comparison": "token_3000 vs sentence_3000",
+    "recall_a": 0.975,
+    "recall_b": 0.975,
+    "p_value": 1.0,
+    "cohens_h": 0.0,
+    "significant": false
+  },
+  {
+    "comparison": "token_3000 vs recursive_3000",
+    "recall_a": 0.975,
+    "recall_b": 0.925,
+    "p_value": 0.6153213874732861,
+    "cohens_h": 0.23725060368854933,
+    "significant": false
+  },
+  {
+    "comparison": "token_default vs sentence_default",
+    "recall_a": 0.8,
+    "recall_b": 0.975,
+    "p_value": 0.028888503554707817,
+    "cohens_h": 0.6097347887100906,
+    "significant": true
+  },
+  {
+    "comparison": "recursive_default vs sentence_default",
+    "recall_a": 0.75,
+    "recall_b": 0.975,
+    "p_value": 0.006913406919756792,
+    "cohens_h": 0.7296371219050761,
+    "significant": true
+  }
+]

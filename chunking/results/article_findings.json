@@ -1,0 +1,25 @@
+{
+  "headline": "Chunk SIZE, not chunking STRATEGY, determines RAG retrieval quality",
+  "key_findings": [
+    {
+      "finding": "LlamaIndex SentenceSplitter ignores chunk_size parameter",
+      "evidence": "Requested 1024 chars, produced 3677 chars (3.6x)",
+      "impact": "All benchmarks showing sentence chunking 'wins' are confounded"
+    },
+    {
+      "finding": "Chunk size has strong correlation with recall",
+      "evidence": "r=0.53 (hotpotqa), r=0.98 (natural_questions)",
+      "impact": "Increasing chunk size from 756->3897 chars improves recall from 80.6%->94.0%"
+    },
+    {
+      "finding": "When controlled, token chunking equals or beats sentence chunking",
+      "evidence": "token_3000 (2800 chars): 97.5% vs sentence_3000 (8150 chars): 95.0%",
+      "impact": "Strategy choice matters less than chunk size choice"
+    }
+  ],
+  "practical_recommendations": [
+    "Use larger chunks (2800-8150 chars) for better recall",
+    "If using sentence chunking, be aware it produces 3.6x larger chunks than other strategies",
+    "For controlled experiments, use recursive or semantic or token chunking"
+  ]
+}

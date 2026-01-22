@@ -1,0 +1,664 @@
+{
+  "config": "token_long",
+  "strategy": "token",
+  "chunk_size": 1024,
+  "actual_chunk_size": 943.9405487804878,
+  "timestamp": "2026-01-13T12:56:08.677176",
+  "chunking_stats": {
+    "doc_count": 60,
+    "chunk_count": 656,
+    "chunks_per_doc": 10.933333333333334,
+    "avg_doc_length": 8113.0,
+    "avg_chunk_length": 944.0,
+    "chunking_occurred": true
+  },
+  "evaluation": {
+    "context_recall": 0.8,
+    "context_precision": 0.6333333332820833,
+    "faithfulness": 0.746031746031746,
+    "answer_relevancy": 0.0,
+    "retrieval_success_rate": 0.85
+  },
+  "query_results": [
+    {
+      "query_id": "5a70eee85542994082a3e3f0",
+      "question": "Which group of people in West Africa with significant populations in Ghana, Ivory Coast, Liberia and Sierra Leone use the Ida?",
+      "ground_truth": "The Yoruba",
+      "generated_answer": " The Yoruba people in West Africa are the ones who use the Ida sword.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6579,
+          "full_text": "Sierra Leone have been dropped since the 2014 Ebola Outbreak.  The show is broadcast by networks in these four countries and across the African continent.\n\n## Ida (sword)\n\nThe Ida is a kind of sword used by the Yoruba people of West Africa.  It is a long sword with a narrow to wide blade and sheathe.  The sword is sharp, and cuts on contact but typically begins to dull if not sharpened regularly.  It can be single-edged or double-edged.  These blades are typically heavier by the tip of the blade.\n\n## Fula people of Sierra Leone\n\nFula people of Sierra Leone is the third major ethnic group in Sierra Leone and a branch of the Fula people of West Africa.  The Fula make up about 10% of Sierra Leone's population.  The Sierra Leone Fula people settled in the Western Area region of Sierra Leone more than four hundred years ago as settlers from the Fouta Djallon Kingdom that expanded to northern Sierra Leone (Kabala, Bombali).\n\n## Yoruba people\n\nThe Yoruba share borders",
+          "text_preview": "Sierra Leone have been dropped since the 2014 Ebola Outbreak.  The show is broadcast by networks in these four countries and across the African continent.\n\n## Ida (sword)\n\nThe Ida is a kind of sword used by the Yoruba people of West Africa.  It is a long sword with a narrow to wide blade and sheathe.  The sword is sharp, and cuts on contact but typically begins to dull if not sharpened regularly.  It can be single-edged or double-edged.  These blades are typically heavier by the tip of the blade...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6287,
+          "full_text": "settled in the Western Area region of Sierra Leone more than four hundred years ago as settlers from the Fouta Djallon Kingdom that expanded to northern Sierra Leone (Kabala, Bombali).\n\n## Yoruba people\n\nThe Yoruba share borders with the Bariba to the northwest in Benin, the Nupe to the north and the Ebira to the northeast in central Nigeria.  To the east are the Edo, \u1eb8san and the Afemai groups in mid-western Nigeria.  Adjacent to the Ebira and Edo groups are the related Igala people found in the northeast, on the left bank of the Niger River.  To the southwest are the Gbe speaking Mahi, Egun, Fon and Ewe who border Yoruba communities in Benin and Togo.  To the southeast are Itsekiri who live in the north-west end of the Niger delta.  They are ancestrally related to the Yoruba but chose to maintain a distinct cultural identity.  Significant Yoruba populations in other West African countries can be found in Ghana, Ivory",
+          "text_preview": "settled in the Western Area region of Sierra Leone more than four hundred years ago as settlers from the Fouta Djallon Kingdom that expanded to northern Sierra Leone (Kabala, Bombali).\n\n## Yoruba people\n\nThe Yoruba share borders with the Bariba to the northwest in Benin, the Nupe to the north and the Ebira to the northeast in central Nigeria.  To the east are the Edo, \u1eb8san and the Afemai groups in mid-western Nigeria.  Adjacent to the Ebira and Edo groups are the related Igala people found in th...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5994,
+          "full_text": "from the word \"\u00e0g\u00f9d\u00e0\" in the Yoruba language.  Most of the Latin American returnees or Amaros started migrating to Africa after slavery was abolished on the continent while others from West Africa, or the Saros were recaptured and freed slaves already resident in Sierra Leone.  Many of the returnees chose to return to Nigeria for cultural, missionary and economic reasons.  Many (if not the greater majority) of them were originally descended from the Yoruba of western and central Nigeria.  Other Nigerian groups forming part of the Sierra Leonean Krio population included Efik, Igbos, Hausa and Nupe.",
+          "text_preview": "from the word \"\u00e0g\u00f9d\u00e0\" in the Yoruba language.  Most of the Latin American returnees or Amaros started migrating to Africa after slavery was abolished on the continent while others from West Africa, or the Saros were recaptured and freed slaves already resident in Sierra Leone.  Many of the returnees chose to return to Nigeria for cultural, missionary and economic reasons.  Many (if not the greater majority) of them were originally descended from the Yoruba of western and central Nigeria.  Other ...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 205.22,
+      "generation_latency_ms": 2265.8
+    },
+    {
+      "query_id": "5a7a4f335542990198eaf11e",
+      "question": "Who is from farther west, Kings of Convenience or Belle and Sebastian?",
+      "ground_truth": "Belle and Sebastian",
+      "generated_answer": " Kings of Convenience are from Bergen, Norway, while Belle and Sebastian are from Glasgow, Scotland. Therefore, neither Kings of Convenience nor Belle and Sebastian are from farther west than the other as they are both in Europe.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6823,
+          "full_text": "the musical group is known for their delicate tunes, calming voices, and intricate and subtle guitar melodies.  One can also hear some Bossa Nova influence.  \u00d8ye and B\u00f8e both compose and sing the songs.\n\n## Arizona State Route 389\n\nState Route 389, also known as SR 389, is a state highway in far northern Arizona serving the Arizona Strip.  SR 389 stretches from the Utah border at Colorado City, southeast to Pipe Spring National Monument, and ends at U.S. Route 89A in Fredonia; it is the only major east\u2013west route between these two towns, and also serves to connect Fredonia with points farther west such as St. George, Utah.\n\n## Belle and Sebastian\n\nBelle and Sebastian are a Scottish band formed in Glasgow in January 1996.  Led by Stuart Murdoch, the band has released 9 albums to date.  Much of their work had been released on Jeepster Records, but they are now signed to Rough Trade Records in the United Kingdom and Matador Records in the United States.  Though often praised by critics, Belle and",
+          "text_preview": "the musical group is known for their delicate tunes, calming voices, and intricate and subtle guitar melodies.  One can also hear some Bossa Nova influence.  \u00d8ye and B\u00f8e both compose and sing the songs.\n\n## Arizona State Route 389\n\nState Route 389, also known as SR 389, is a state highway in far northern Arizona serving the Arizona Strip.  SR 389 stretches from the Utah border at Colorado City, southeast to Pipe Spring National Monument, and ends at U.S. Route 89A in Fredonia; it is the only maj...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6161,
+          "full_text": "Who is from farther west, Kings of Convenience or ...\n\n## Eureka, Nunavut\n\nEureka is a small research base on Fosheim Peninsula, Ellesmere Island, Qikiqtaaluk Region, in the Canadian territory of Nunavut.  It is located on the north side of Slidre Fiord, which enters Eureka Sound farther west.  It is the third-northernmost permanent research community in the world.  The only two farther north are Alert, which is also on Ellesmere Island, and Nord, in Greenland.  Eureka has the lowest average annual temperature and the lowest amount of precipitation of any weather station in Canada.\n\n## Kings of Convenience\n\nKings of Convenience is an indie folk-pop duo from Bergen, Norway.  Consisting of Erlend \u00d8ye and Eirik Glambek B\u00f8e, the musical group is known for their delicate tunes, calming voices, and intricate and subtle guitar melodies.  One can also hear some Bossa Nova influence.  \u00d8ye and B\u00f8e both compose and sing the songs.\n\n## Arizona State",
+          "text_preview": "Who is from farther west, Kings of Convenience or ...\n\n## Eureka, Nunavut\n\nEureka is a small research base on Fosheim Peninsula, Ellesmere Island, Qikiqtaaluk Region, in the Canadian territory of Nunavut.  It is located on the north side of Slidre Fiord, which enters Eureka Sound farther west.  It is the third-northernmost permanent research community in the world.  The only two farther north are Alert, which is also on Ellesmere Island, and Nord, in Greenland.  Eureka has the lowest average ann...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.4944,
+          "full_text": "released 9 albums to date.  Much of their work had been released on Jeepster Records, but they are now signed to Rough Trade Records in the United Kingdom and Matador Records in the United States.  Though often praised by critics, Belle and Sebastian have enjoyed only limited commercial success.\n\n## Texas State Highway 77\n\nState Highway 77, or SH 77, is a numbered state highway in Texas, occupying the counties of Morris and Cass.  SH 77 is 46.815 mi long, and connects U.S. Highway 259 to the eastern state line.  It begins four miles (6\u00a0km) north of Omaha on US 259, and travels eastward to Naples, meeting U.S. Highway 67 and State Highway 338.  In Douglassville, SH 77 intersects State Highway 8.  After cutting across the south side of Atlanta, where it meets U.S. Highway 59 (Future Interstate 369), SH 77 cuts to the southeast, and crosses into the very northwest corner of Louisiana, becoming Louisiana Highway 1.  SH 77 was originally",
+          "text_preview": "released 9 albums to date.  Much of their work had been released on Jeepster Records, but they are now signed to Rough Trade Records in the United Kingdom and Matador Records in the United States.  Though often praised by critics, Belle and Sebastian have enjoyed only limited commercial success.\n\n## Texas State Highway 77\n\nState Highway 77, or SH 77, is a numbered state highway in Texas, occupying the counties of Morris and Cass.  SH 77 is 46.815 mi long, and connects U.S. Highway 259 to the eas...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 264.37,
+      "generation_latency_ms": 1952.65
+    },
+    {
+      "query_id": "5a7f74975542992097ad2f77",
+      "question": "In 2010, what was the population for a state which is known for Annalee Dolls?",
+      "ground_truth": "6,241",
+      "generated_answer": " The question asks for the population of a state that is not directly associated with Annalee Dolls in the provided context. The states mentioned are Missouri, where Wentzville is located, and Indiana, where Marion County is located. However, Annalee Dolls are manufactured in Meredith, New Hampshire, not in either of these two states. Therefore, there is no state mentioned in the given context that is associated with Annalee Dolls in 2010, and thus, it cannot be determined what the population for such a state would have been in 2010 based on the provided information.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6586,
+          "full_text": "containing 34000 sqft of space, and had US$15 million in sales with 300 employees.  The popularity of Annalee Dolls led R. Stuart Wallace to write that \"the most famous manufactured item to come from New Hampshire in the 20th century is the Annalee doll.\"  Annalee Dolls have reached up to $6,000 at auction.  In 2008, the company closed its museum and sold its Meredith factory while as of 2006, there were only 30 employees.\n\n## Wentzville, Missouri\n\nWentzville is a city located in western St. Charles County, Missouri, United States.  As of the 2010 census, the city had a total population of 29,070.  2016 population estimates have placed the city's population at 37,395, making it the 17th largest city in Missouri.  Wentzville was the fastest growing city in Missouri between 2000 and 2010, and population estimates since 2010 indicate that Wentzville is likely to continue",
+          "text_preview": "containing 34000 sqft of space, and had US$15 million in sales with 300 employees.  The popularity of Annalee Dolls led R. Stuart Wallace to write that \"the most famous manufactured item to come from New Hampshire in the 20th century is the Annalee doll.\"  Annalee Dolls have reached up to $6,000 at auction.  In 2008, the company closed its museum and sold its Meredith factory while as of 2006, there were only 30 employees.\n\n## Wentzville, Missouri\n\nWentzville is a city located in western St. Cha...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6586,
+          "full_text": "Area, which has a population of 541,991 and includes the counties of Christian, Dallas, Greene, Polk, Webster, Stone and Taney.  Springfield's nickname is \"Queen City of the Ozarks\" and it is known as the \"Birthplace of Route 66\".  It is home to several universities, including Missouri State University, Drury University, and Evangel University.\n\n## Annalee Dolls\n\nAnnalee Dolls, Inc., also known as Annalee Mobilitee Dolls Inc., and AMD Holdings Inc., is a company located in Meredith, New Hampshire, that manufactures collectible dolls.  The company was founded by Barbara Annalee Davis (later Thorndike) who died in 2002.  At the company's height, it filled over 14 acre of land dotted with seven buildings containing 34000 sqft of space, and had US$15 million in sales with 300 employees.  The popularity of Annalee Dolls led R. Stuart Wallace to write that \"the most famous manufactured item to come from New Hampshire in",
+          "text_preview": "Area, which has a population of 541,991 and includes the counties of Christian, Dallas, Greene, Polk, Webster, Stone and Taney.  Springfield's nickname is \"Queen City of the Ozarks\" and it is known as the \"Birthplace of Route 66\".  It is home to several universities, including Missouri State University, Drury University, and Evangel University.\n\n## Annalee Dolls\n\nAnnalee Dolls, Inc., also known as Annalee Mobilitee Dolls Inc., and AMD Holdings Inc., is a company located in Meredith, New Hampshir...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.4106,
+          "full_text": "In 2010, what was the population for a state which...\n\n## Marion County, Indiana\n\nMarion County is a county located in the U.S. state of Indiana.  Census 2010 recorded a population of 903,393, making it the largest county in the state and 55th most populated county in the country, greater than the population of six states.  The county seat is Indianapolis, the state capital and largest city.  Marion County is consolidated with Indianapolis through an arrangement known as Unigov.\n\n## Athens, Georgia\n\nAthens (formally known as Athens-Clarke County) is a consolidated city\u2013county in the U.S. state of Georgia, in the northeastern part of the state about an hour's drive from the global city of Atlanta, and comprising the former city of Athens proper (the county seat) and Clarke County.  The University of Georgia, the state's flagship public research university, is located in this college town, and contributed to its initial growth.  In 1991, after a vote the preceding year, the original city abandoned its charter",
+          "text_preview": "In 2010, what was the population for a state which...\n\n## Marion County, Indiana\n\nMarion County is a county located in the U.S. state of Indiana.  Census 2010 recorded a population of 903,393, making it the largest county in the state and 55th most populated county in the country, greater than the population of six states.  The county seat is Indianapolis, the state capital and largest city.  Marion County is consolidated with Indianapolis through an arrangement known as Unigov.\n\n## Athens, Geor...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 297.34,
+      "generation_latency_ms": 3211.0
+    },
+    {
+      "query_id": "5adf88995542993344016cd4",
+      "question": "Which city is the home of the character that might be based on John Capozzi?",
+      "ground_truth": "Baltimore",
+      "generated_answer": " Baltimore, as depicted in the HBO drama \"The Wire\". The character Tommy Carcetti might have been possibly inspired by John Capozzi.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.578,
+          "full_text": "a former 17 year at-large member of the District of Columbia Democratic State Committee.  He ran as a Candidate to become an At-Large Councilmember on the Council of the District of Columbia and was defeated September 10, 1996.  Capozzi is considered the possible inspiration for the character Tommy Carcetti in the HBO drama \"The Wire\".  He previously worked for BRMi Consulting as a Recruitment Manager.  Currently, Capozzi works for the Office of the Chief Technology Officer of the District of Columbia as a Project Manager.",
+          "text_preview": "a former 17 year at-large member of the District of Columbia Democratic State Committee.  He ran as a Candidate to become an At-Large Councilmember on the Council of the District of Columbia and was defeated September 10, 1996.  Capozzi is considered the possible inspiration for the character Tommy Carcetti in the HBO drama \"The Wire\".  He previously worked for BRMi Consulting as a Recruitment Manager.  Currently, Capozzi works for the Office of the Chief Technology Officer of the District of Co...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.5511,
+          "full_text": "Which city is the home of the character that might...\n\n## Fictional portrayals of psychopaths\n\nFictional portrayals of psychopaths, or sociopaths, are some of the most notorious in film and literature but may only vaguely or partly relate to the concept of psychopathy, which is itself used with varying definitions by mental health professionals, criminologists and others.  The character may be identified as a diagnosed/assessed psychopath or sociopath within the fictional work itself, or by its creator when discussing their intentions with the work, which might be distinguished from opinions of audiences or critics based only on a character appearing to show traits or behaviors associated with an undefined popular stereotype of psychopathy.\n\n## Tommy Carcetti\n\nThomas J. \"Tommy\" Carcetti ( ) is a fictional character on the HBO drama \"The Wire\", played by Aidan Gillen.  Carcetti is an ambitious Baltimore politician who begins the series with a seat on the city council.\n\n## Saint John's Cathedral Boys' School\n\nSaint John's Cathedral Boys' School (SJCBS) was a school",
+          "text_preview": "Which city is the home of the character that might...\n\n## Fictional portrayals of psychopaths\n\nFictional portrayals of psychopaths, or sociopaths, are some of the most notorious in film and literature but may only vaguely or partly relate to the concept of psychopathy, which is itself used with varying definitions by mental health professionals, criminologists and others.  The character may be identified as a diagnosed/assessed psychopath or sociopath within the fictional work itself, or by its ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5159,
+          "full_text": "Time\".  In \"Catch-22\", Yossarian might be a 28-year-old captain in the 256th squadron of the Army Air Forces where he could serve as a B-25 bombardier stationed on the small island of Pianosa off the Italian mainland during World War II.  Yossarian's exploits are based on the experiences of the author: Heller was also a bombardier in the Army Air Corps, stationed on an island off the coast of Italy during World War II.\n\n## Direct from Brooklyn\n\nDirect from Brooklyn is a compilation of music videos by American alternative rock group They Might Be Giants.  It was released on VHS in 1999 and DVD in 2003.  The title refers to the home of John Linnell and John Flansburgh, founding members of the band.  Many of the music videos were filmed in Brooklyn and other parts of New York City.\n\n## The Mundanes\n\nMarsha Armitage was the lead vocalist.  The band was initially based in Providence (several of the band members attended Brown University) and played locally in the",
+          "text_preview": "Time\".  In \"Catch-22\", Yossarian might be a 28-year-old captain in the 256th squadron of the Army Air Forces where he could serve as a B-25 bombardier stationed on the small island of Pianosa off the Italian mainland during World War II.  Yossarian's exploits are based on the experiences of the author: Heller was also a bombardier in the Army Air Corps, stationed on an island off the coast of Italy during World War II.\n\n## Direct from Brooklyn\n\nDirect from Brooklyn is a compilation of music vide...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 221.89,
+      "generation_latency_ms": 1427.23
+    },
+    {
+      "query_id": "5ae226bd5542994d89d5b379",
+      "question": "When is the national league which the Manchester United is participating in, set to end in 2018?",
+      "ground_truth": "13 May 2018",
+      "generated_answer": " The season that Manchester United is participating in, the Premier League, is scheduled to finish on 13 May 2018. However, it's important to note that this question refers to a different competition (Premier League) than the one mentioned in the National League 2 North context.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6865,
+          "full_text": "after the tournament was unsponsored the previous year.  The final will be held at Wembley Stadium in London.  The reigning champions are Manchester United.  The winners will qualify for the second qualifying round of the 2018\u201319 UEFA Europa League.\n\n## National League 2 North\n\nNational League 2 North, (which before September 2009 was known as National Division Three North) is a level four league in the English rugby union system and provides mostly amateur competition for teams in the northern half of England.  From 2009\u201310 the RFU restructured the league system in England, and this league was expanded from fourteen to sixteen teams.  Participating clubs are from the English Midlands and Northern England.  Each team plays thirty league games on a home and away basis.  The champion club is promoted to National League 1 and the runner-up participates in a one-off play-off with the runner-up of National League 2 South for promotion.  Relegation is to either the Midlands Premier or North Premier leagues depending on where the teams are based.\n\n## 2017\u201318 Manchester United",
+          "text_preview": "after the tournament was unsponsored the previous year.  The final will be held at Wembley Stadium in London.  The reigning champions are Manchester United.  The winners will qualify for the second qualifying round of the 2018\u201319 UEFA Europa League.\n\n## National League 2 North\n\nNational League 2 North, (which before September 2009 was known as National Division Three North) is a level four league in the English rugby union system and provides mostly amateur competition for teams in the northern ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.644,
+          "full_text": "season of the Premier League, the top English professional league for association football clubs, since its establishment in 1992.  The season started on 11 August 2017 and is scheduled to finish on 13 May 2018.  Fixtures for the 2017\u201318 season were announced on 14 June 2017.\n\n## 2014\u201315 National League 2 North\n\nThe 2014\u201315 National League 2 North is the sixth season (28th overall) of the fourth tier of the English domestic rugby union competitions since the professionalised format of the second division was introduced.  New teams to the division include Hull Ionians (relegated from National League 1 2013\u201314), Broadstreet (promoted from National League 3 Midlands), Huddersfield and Stockport (both promoted from National League 3 North).  Ampthill was also transferred back to the division after spending the 2013\u201314 season in National League 2 South.  At the end of the season the champions are promoted to National League 1 while the second placed team will",
+          "text_preview": "season of the Premier League, the top English professional league for association football clubs, since its establishment in 1992.  The season started on 11 August 2017 and is scheduled to finish on 13 May 2018.  Fixtures for the 2017\u201318 season were announced on 14 June 2017.\n\n## 2014\u201315 National League 2 North\n\nThe 2014\u201315 National League 2 North is the sixth season (28th overall) of the fourth tier of the English domestic rugby union competitions since the professionalised format of the second...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6349,
+          "full_text": "runner-up participates in a one-off play-off with the runner-up of National League 2 South for promotion.  Relegation is to either the Midlands Premier or North Premier leagues depending on where the teams are based.\n\n## 2017\u201318 Manchester United F.C. season\n\nThe 2017\u201318 season is Manchester United's 26th season in the Premier League and their 43rd consecutive season in the top flight of English football.  The club will participate in the Premier League, FA Cup, EFL Cup (as holders), UEFA Champions League and UEFA Super Cup.\n\n## Hugh Kerr (footballer)\n\nHugh Kerr (1882 \u2013 10 April 1918) was a Scottish footballer.  His regular position was as a forward.  He played for Westerlea, Ayr, and Manchester United.  Kerr joined Ayr from Westerlea in 1903, but only spent half a season there before joining Manchester United in January 1904.  However, the Ayr officials were of the opinion that United had made an illegal, unofficial approach to sign Kerr, and an enquiry into",
+          "text_preview": "runner-up participates in a one-off play-off with the runner-up of National League 2 South for promotion.  Relegation is to either the Midlands Premier or North Premier leagues depending on where the teams are based.\n\n## 2017\u201318 Manchester United F.C. season\n\nThe 2017\u201318 season is Manchester United's 26th season in the Premier League and their 43rd consecutive season in the top flight of English football.  The club will participate in the Premier League, FA Cup, EFL Cup (as holders), UEFA Champi...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 363.38,
+      "generation_latency_ms": 2194.27
+    },
+    {
+      "query_id": "5a78c56455429974737f7876",
+      "question": "What exit of Garden State Parkway should you take in order to get to the Seacourt Pavilion?",
+      "ground_truth": "Exit 82",
+      "generated_answer": " In order to get to the Seacourt Pavilion, you should take Exit 82 from the Garden State Parkway. This exit leads to Route 37 East, which will take you to Hooper Avenue (County Route 549), where the Ocean County Mall and the Seacourt Pavilion are located.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7094,
+          "full_text": "as US 1/9 to the George Washington Bridge.\n\n## Seacourt Pavilion\n\nThe Seacourt Pavilion is a regional shopping center on Hooper Avenue in Toms River, New Jersey.  It is right across the street from the Ocean County Mall.  The mall has a gross leasable area of 253000 sqft .\n\n## Garden State Parkway\n\nThe Garden State Parkway (GSP) is a 172.4 mi limited-access toll parkway that stretches the length of New Jersey from the New York line at Montvale to Cape May at the state's southernmost tip.  Its name refers to New Jersey's nickname, the \"Garden State\".  Most New Jerseyans refer to it as simply \"the Parkway\".  The parkway's official, but unsigned, designation is Route\u00a0444.  At its north end, the parkway becomes the Garden State Parkway Connector, a component of the New York State Thruway system that connects to the Thruway mainline in Ramapo.  The Parkway is primarily for passenger vehicle use, with trucks weighing over 10,000 pounds prohibited",
+          "text_preview": "as US 1/9 to the George Washington Bridge.\n\n## Seacourt Pavilion\n\nThe Seacourt Pavilion is a regional shopping center on Hooper Avenue in Toms River, New Jersey.  It is right across the street from the Ocean County Mall.  The mall has a gross leasable area of 253000 sqft .\n\n## Garden State Parkway\n\nThe Garden State Parkway (GSP) is a 172.4 mi limited-access toll parkway that stretches the length of New Jersey from the New York line at Montvale to Cape May at the state's southernmost tip.  Its na...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6869,
+          "full_text": "is mostly a two-lane undivided road that closely parallels the Garden State Parkway and runs near the Jersey Shore.  Along this stretch, it passes through the communities of Rio Grande, Cape May Court House, Somers Point, Pleasantville, Absecon, Tuckerton, Manahawkin, and Beachwood.  In the Toms River area, US 9 runs along the Garden State Parkway for a short distance before heading northwest away from it and the Jersey Shore into Lakewood Township.  Upon entering Monmouth County, the route transitions into a multilane suburban divided highway and continues through Howell Township, Freehold Township, Manalapan Township, Marlboro Township, Old Bridge Township, Sayreville, and South Amboy.  In Woodbridge Township, US 9 merges with US 1 and the two routes continue through northern New Jersey as US 1/9 to the George Washington Bridge.\n\n## Seacourt Pavilion\n\nThe Seacourt Pavilion is a regional shopping center on Hooper Avenue in Toms River, New Jersey.  It is right across the street from the Ocean County",
+          "text_preview": "is mostly a two-lane undivided road that closely parallels the Garden State Parkway and runs near the Jersey Shore.  Along this stretch, it passes through the communities of Rio Grande, Cape May Court House, Somers Point, Pleasantville, Absecon, Tuckerton, Manahawkin, and Beachwood.  In the Toms River area, US 9 runs along the Garden State Parkway for a short distance before heading northwest away from it and the Jersey Shore into Lakewood Township.  Upon entering Monmouth County, the route tran...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6729,
+          "full_text": "What exit of Garden State Parkway should you take ...\n\n## Ocean County Mall\n\nThe Ocean County Mall is a super-regional mall, opened in 1976 by Edward J. DeBartolo Corporation, located in Toms River, New Jersey on Hooper Avenue (County Route 549).  The mall is accessible from Exit 82 of the Garden State Parkway via Route 37 East.  The mall is managed by Simon Property Group.  The mall has a gross leasable area of 890000 sqft .\n\n## Beesley's Point Bridge\n\nThe Beesley's Point Bridge was a bridge in New Jersey, United States, that was built privately by the Ocean City Automobile Club in 1927.  Completed in 1928, control of the bridge was acquired by the Beesley's Point Bridge Company.  It was a toll bridge from its opening.  Prior to its closing, it was best known for carrying US 9 over the Great Egg Harbor Bay, connecting Upper Township, in Cape May County to Somers Point in Atlantic County.  Prior to 1955, the bridge concurrently",
+          "text_preview": "What exit of Garden State Parkway should you take ...\n\n## Ocean County Mall\n\nThe Ocean County Mall is a super-regional mall, opened in 1976 by Edward J. DeBartolo Corporation, located in Toms River, New Jersey on Hooper Avenue (County Route 549).  The mall is accessible from Exit 82 of the Garden State Parkway via Route 37 East.  The mall is managed by Simon Property Group.  The mall has a gross leasable area of 890000 sqft .\n\n## Beesley's Point Bridge\n\nThe Beesley's Point Bridge was a bridge in...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 257.79,
+      "generation_latency_ms": 2309.26
+    },
+    {
+      "query_id": "5a79102a554299148911f9da",
+      "question": "This team which is moving from Oakland, California to Las Vegas Nevada with share its stadium with what college?",
+      "ground_truth": "University of Nevada, Las Vegas",
+      "generated_answer": " The team moving from Oakland, California to Las Vegas Nevada (the Oakland Raiders) will share their stadium (Las Vegas Stadium) with the UNLV Rebels football team from the University of Nevada, Las Vegas (UNLV).",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6808,
+          "full_text": "in Industrial Engineering, 1976; then subsequently from Simon Greenleaf University in Santa Ana, Ca.  (now a campus of Trinity International University, with an MA in Christian Apologetics in 1989.\n\n## Oakland Raiders relocation to Las Vegas\n\nThe Oakland Raiders relocation to Las Vegas was a successful effort by the owner of the Oakland Raiders (Mark Davis) to relocate the American football club from its current and longtime home of Oakland, California to Las Vegas, Nevada.  The team is scheduled to begin play as the Las Vegas Raiders for the 2020 National Football League (NFL) season (although a move to Las Vegas could happen as soon as 2019 with Sam Boyd Stadium), playing home games at the Las Vegas Stadium.  NFL team owners voted 31\u20131 to approve the move, which was announced at the annual league meetings in Phoenix, Arizona on March 27, 2017.  The Raiders became the third NFL franchise to relocate in the 2010s, following the Rams' move from St. Louis, Missouri to Los Angeles, California on January 12,",
+          "text_preview": "in Industrial Engineering, 1976; then subsequently from Simon Greenleaf University in Santa Ana, Ca.  (now a campus of Trinity International University, with an MA in Christian Apologetics in 1989.\n\n## Oakland Raiders relocation to Las Vegas\n\nThe Oakland Raiders relocation to Las Vegas was a successful effort by the owner of the Oakland Raiders (Mark Davis) to relocate the American football club from its current and longtime home of Oakland, California to Las Vegas, Nevada.  The team is schedule...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6697,
+          "full_text": "flights from Las Vegas to the Grand Canyon.  Prior to moving to the North Las Vegas Airport its main bases were McCarran International Airport (LAS), Las Vegas and Henderson Executive Airport (HND), Las Vegas.\n\n## Sports in the Las Vegas metropolitan area\n\nThe Las Vegas metropolitan area is home to many sports, most of which take place in the unincorporated communities around Las Vegas rather than in the city itself.  The Las Vegas Valley has one major league professional team: the Vegas Golden Knights of the National Hockey League (NHL) who began play in 2017 as the region's first major pro team.  The Oakland Raiders of the National Football League (NFL) will begin play in Las Vegas as the \"Las Vegas Raiders\" by 2020 and become the region's second major professional team.  Las Vegas is also home to one minor league sports team: the Las Vegas 51s of the Triple-A Pacific Coast League (Minor League Baseball).  The 51s are currently the only team to actually play in the city of Las Vegas, playing at the city owned Cashman Field.",
+          "text_preview": "flights from Las Vegas to the Grand Canyon.  Prior to moving to the North Las Vegas Airport its main bases were McCarran International Airport (LAS), Las Vegas and Henderson Executive Airport (HND), Las Vegas.\n\n## Sports in the Las Vegas metropolitan area\n\nThe Las Vegas metropolitan area is home to many sports, most of which take place in the unincorporated communities around Las Vegas rather than in the city itself.  The Las Vegas Valley has one major league professional team: the Vegas Golden ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6573,
+          "full_text": "This team which is moving from Oakland, California...\n\n## The D Las Vegas\n\nThe D Las Vegas Casino Hotel is a 34-story, 638-room hotel and casino in Downtown Las Vegas Nevada, owned and operated by Derek and Greg Stevens.\n\n## E. Brent Bryson\n\nE. Brent Bryson (born June 19, 1957, in Wise, Virginia) is a nationally recognized criminal defense attorney based out of Las Vegas Nevada for the last 20 years.  He was involved in the O.J. Simpson Las Vegas robbery case, in which he defended Simpson's co-defendant, Clarence \"C.J.\" Stewart, who was ultimately convicted along with Simpson.\n\n## Las Vegas Stadium\n\nLas Vegas Stadium is the working name for a domed stadium under construction in Paradise, Nevada for the Las Vegas Raiders of the National Football League (NFL) and the UNLV Rebels football team from the University of Nevada, Las Vegas (UNLV).  It is located on about 62 acres west of Mandalay Bay at Russell Road and Hacienda Avenue and between Polaris Avenue and Dean Martin Drive, just west of Interstate",
+          "text_preview": "This team which is moving from Oakland, California...\n\n## The D Las Vegas\n\nThe D Las Vegas Casino Hotel is a 34-story, 638-room hotel and casino in Downtown Las Vegas Nevada, owned and operated by Derek and Greg Stevens.\n\n## E. Brent Bryson\n\nE. Brent Bryson (born June 19, 1957, in Wise, Virginia) is a nationally recognized criminal defense attorney based out of Las Vegas Nevada for the last 20 years.  He was involved in the O.J. Simpson Las Vegas robbery case, in which he defended Simpson's co-d...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 409.84,
+      "generation_latency_ms": 2054.74
+    },
+    {
+      "query_id": "5a7f5d165542992097ad2f3c",
+      "question": "Whose works are more likely to be seen in an art gallery, Hovsep Pushman or Armen Chakmakian?",
+      "ground_truth": "Hovsep Pushman",
+      "generated_answer": " Based on the provided context, Hovsep Pushman's works are more likely to be seen in an art gallery as he was an artist known for his contemplative still lifes and sensitive portraits of women. Armen Chakmakian, while being an Armenian-American musician, composer, recording artist, and producer, is not associated with the visual arts and therefore it's less likely that his works would be in an art gallery.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.5943,
+          "full_text": "the GRAMMY\u00ae award-winning band Shadowfax, their 1992 CD, \"Esperanto\" was nominated for a Best New Age Album GRAMMY\u00ae Award.  He has released two solo albums on his label TruArt Records: \"Ceremonies\" (1998); \"Caravans\" (2004).  Two tracks from \"Ceremonies\", \"Gypsy Rain\" and \"Distant Lands\", also appear on the famed \"Buddha Bar\" and \"Buddha Bar IV\" compilation albums, respectively.\n\n## Hovsep Pushman\n\nHovsep Pushman (Armenian: \u0545\u0578\u057e\u057d\u0567\u0583 \u0553\u0578\u0582\u0577\u0574\u0561\u0576 ; May 9, 1877 \u2013 February 13, 1966) was an American artist of Armenian background.  He was known for his contemplative still lifes and sensitive portraits of women, often in exotic dress.  He was most closely associated during his lifetime with the Grand Central Art Galleries,",
+          "text_preview": "the GRAMMY\u00ae award-winning band Shadowfax, their 1992 CD, \"Esperanto\" was nominated for a Best New Age Album GRAMMY\u00ae Award.  He has released two solo albums on his label TruArt Records: \"Ceremonies\" (1998); \"Caravans\" (2004).  Two tracks from \"Ceremonies\", \"Gypsy Rain\" and \"Distant Lands\", also appear on the famed \"Buddha Bar\" and \"Buddha Bar IV\" compilation albums, respectively.\n\n## Hovsep Pushman\n\nHovsep Pushman (Armenian: \u0545\u0578\u057e\u057d\u0567\u0583 \u0553\u0578\u0582\u0577\u0574\u0561\u0576 ; May 9, 1877 \u2013 February 13, 1966) was an American artist...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5506,
+          "full_text": "city of Christchurch, New Zealand.  It is funded by Christchurch City Council.  It has its own substantial art collection and presents a programme of New Zealand and international exhibitions.  The gallery opened on 11 May 2003, replacing the city's former public art gallery, the Robert McDougall Art Gallery, which opened on 16 June 1932 and closed on 16 June 2002.\n\n## Armen Chakmakian\n\nArmen John Chakmakian (Armenian: \u0531\u0580\u0574\u0565\u0576 \u0549\u0561\u0584\u0574\u0561\u0584\u0575\u0561\u0576 ; born (February 11, 1966) in Glendale, California) is an Armenian-American musician, composer, recording artist, and producer.  Formerly the keyboardist for the GRAMMY\u00ae award-winning band Shadowfax, their 1992 CD, \"Esperanto\" was nominated for a Best New Age Album GRAMMY\u00ae Award.  He has released two solo albums on his label TruArt Records:",
+          "text_preview": "city of Christchurch, New Zealand.  It is funded by Christchurch City Council.  It has its own substantial art collection and presents a programme of New Zealand and international exhibitions.  The gallery opened on 11 May 2003, replacing the city's former public art gallery, the Robert McDougall Art Gallery, which opened on 16 June 1932 and closed on 16 June 2002.\n\n## Armen Chakmakian\n\nArmen John Chakmakian (Armenian: \u0531\u0580\u0574\u0565\u0576 \u0549\u0561\u0584\u0574\u0561\u0584\u0575\u0561\u0576 ; born (February 11, 1966) in Glendale, California) is an Arm...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5276,
+          "full_text": "1966) was an American artist of Armenian background.  He was known for his contemplative still lifes and sensitive portraits of women, often in exotic dress.  He was most closely associated during his lifetime with the Grand Central Art Galleries, which represented him from its opening in 1922 until his death in 1966.",
+          "text_preview": "1966) was an American artist of Armenian background.  He was known for his contemplative still lifes and sensitive portraits of women, often in exotic dress.  He was most closely associated during his lifetime with the Grand Central Art Galleries, which represented him from its opening in 1922 until his death in 1966.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 344.2,
+      "generation_latency_ms": 2253.78
+    },
+    {
+      "query_id": "5ae406245542995dadf242e2",
+      "question": "Marion Greene was a health policy analyst for St. Judt Medical company, which had how many principal operations worldwide?",
+      "ground_truth": "20",
+      "generated_answer": " The context provided does not specify the number of principal operations St. Jude Medical had worldwide.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6328,
+          "full_text": "drinks \"should be prohibited in all public places, including community centres and sports arenas.\"  The Center has also published research concluding that were California Assembly Bill 669 to be passed, that \"85 percent [of the money raised] or $1.4 billion, would be returned to counties, in proportion to their population, to pay for education and children\u2019s health programs.\"\n\n## Everette James\n\nEverette James is Professor of Health Policy and Management at the University of Pittsburgh and Director of the University of Pittsburgh\u2019s Health Policy Institute (HPI).  In September, 2014 he was named to the M. Allen Pond Endowed Chair in Health Policy and Management.  He teaches graduate courses on the history of U.S. health reform and writes and speaks frequently on healthcare business and legal issues.\n\n## St. Jude Medical\n\nSt. Jude Medical, Inc. was an American global medical device company headquartered in Little Canada, Minnesota, U.S., a suburb of Saint Paul.  The company had more than 20 principal operations and manufacturing facilities worldwide with products sold in more than 100 countries.  Its major markets include the",
+          "text_preview": "drinks \"should be prohibited in all public places, including community centres and sports arenas.\"  The Center has also published research concluding that were California Assembly Bill 669 to be passed, that \"85 percent [of the money raised] or $1.4 billion, would be returned to counties, in proportion to their population, to pay for education and children\u2019s health programs.\"\n\n## Everette James\n\nEverette James is Professor of Health Policy and Management at the University of Pittsburgh and Direc...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5972,
+          "full_text": "60A, which included portions of the city of Minneapolis in Hennepin County, which is in the Twin Cities metropolitan area.  A Democrat, she was a health policy analyst for St. Jude Medical in Little Canada.\n\n## National Association for Public Health Policy\n\nThe National Association for Public Health Policy was founded in 1980 by a group of past-presidents of the American Public Health Association led by Milton Terris, MD, MPH.  The purpose of the Association is \u201cto improve the health of the people of the United States by helping to develop health policy, formulating and initiating legislation to implement such policy, and supporting measures to strengthen the public health services.\u201d  It sponsors the \"Journal of Public Health Policy\" and the online journal \"NAPHP.ORG\".\n\n## Sachin H. Jain\n\nSachin H. Jain (born in 1980 in New York City and raised in Alpine, New Jersey) is an American physician and health policy analyst who held leadership positions in the Center for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Health Information Technology",
+          "text_preview": "60A, which included portions of the city of Minneapolis in Hennepin County, which is in the Twin Cities metropolitan area.  A Democrat, she was a health policy analyst for St. Jude Medical in Little Canada.\n\n## National Association for Public Health Policy\n\nThe National Association for Public Health Policy was founded in 1980 by a group of past-presidents of the American Public Health Association led by Milton Terris, MD, MPH.  The purpose of the Association is \u201cto improve the health of the peop...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5847,
+          "full_text": "in 1980 in New York City and raised in Alpine, New Jersey) is an American physician and health policy analyst who held leadership positions in the Center for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Health Information Technology (ONC).  He is president and chief executive officer at the CareMore Health System after serving as Chief Medical Information and Innovation Officer at Merck and Co, lecturer in health care policy at Harvard Medical School, and attending physician at the Boston VA Hospital.  He is also co-founder and co-Editor-in-Chief of \"Healthcare: The Science of Delivery and Innovation\", consulting professor of medicine at the Stanford University School of Medicine, and a Contributor at Forbes.\n\n## Health services research\n\nHealth services research (HSR), also known as health systems research or health policy and systems research (HPSR), is a multidisciplinary scientific field that examines how people get access to health care practitioners and health care services, how much care costs, and what happens to patients as a result of this care.  Studies in HSR investigate how social factors, health policy, financing",
+          "text_preview": "in 1980 in New York City and raised in Alpine, New Jersey) is an American physician and health policy analyst who held leadership positions in the Center for Medicare and Medicaid Services (CMS) and the Office of the National Coordinator for Health Information Technology (ONC).  He is president and chief executive officer at the CareMore Health System after serving as Chief Medical Information and Innovation Officer at Merck and Co, lecturer in health care policy at Harvard Medical School, and a...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 275.27,
+      "generation_latency_ms": 1570.68
+    },
+    {
+      "query_id": "5a7f22005542993067513657",
+      "question": "The album that contains the song \"Get Together\" by Madonna was mainly recorded in whose home studio?",
+      "ground_truth": "Stuart Price",
+      "generated_answer": " The album that contains the song \"Get Together\" by Madonna, Confessions on a Dance Floor (2005), was mainly recorded at Stuart Price's home-studio.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6273,
+          "full_text": "the tenth studio album by American singer and songwriter Madonna.  It was released on November 9, 2005 by Warner Bros.  Records.  A complete departure from her previous studio album \"American Life\" (2003), the album includes influences of 1970s and 1980s disco, as well as modern-day club music.  Initially, she began working with Mirwais Ahmadza\u00ef for the album, but later felt that their collaboration was not going in the direction she desired.  Madonna took her collaboration with Stuart Price who was overviewing her documentary \"I'm Going to Tell You a Secret\".  The album was mainly recorded at Price's home-studio where Madonna spent most of her time during the recordings.\n\n## Luz de Vida\n\nLuz de Vida is a charity album benefiting the Tucson Together Fund, supporting those affected by the 2011 shooting in Tucson, Arizona, United States.  Similar to \"Can We Get Together\", another album with the same cause, \"Luz de Vida\" (whose title is Spanish for \"Light of life\") features a large",
+          "text_preview": "the tenth studio album by American singer and songwriter Madonna.  It was released on November 9, 2005 by Warner Bros.  Records.  A complete departure from her previous studio album \"American Life\" (2003), the album includes influences of 1970s and 1980s disco, as well as modern-day club music.  Initially, she began working with Mirwais Ahmadza\u00ef for the album, but later felt that their collaboration was not going in the direction she desired.  Madonna took her collaboration with Stuart Price who...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6074,
+          "full_text": "studio album \"Music\".  Originally intended to be the fourth single of the album, the release was cancelled due to a disagreement between Madonna and her recording company.  Finally Warner Bros. released it in the United States as a promotional single on September 18, 2001.  Written and produced by Madonna and Mirwais Ahmadza\u00ef, the track is bright and uplifting in its content and composition.  It was the first song that Madonna and Ahmadza\u00ef worked on and recorded.  Ahmadza\u00ef had to work separately on his laptop to generate the sound elements which Madonna wanted in the song, since it was difficult to generate the music in the recording studio.  \"Impressive Instant\" has been described as a club-savvy stomper containing futuristic keyboard lines, with Madonna's vocals being distorted and robotic.  Backed by laser noises and synths, the song's lyrics deal with love at first sight, and contains nonsense lyrics.\n\n## Jump (Madonna song)\n\n\"Jump\" is a song by American singer Madonna from her tenth studio album \"Confessions on a Dance Floor\"",
+          "text_preview": "studio album \"Music\".  Originally intended to be the fourth single of the album, the release was cancelled due to a disagreement between Madonna and her recording company.  Finally Warner Bros. released it in the United States as a promotional single on September 18, 2001.  Written and produced by Madonna and Mirwais Ahmadza\u00ef, the track is bright and uplifting in its content and composition.  It was the first song that Madonna and Ahmadza\u00ef worked on and recorded.  Ahmadza\u00ef had to work separately...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6,
+          "full_text": "line and the closing part of the song.  Paige would later take on a more prominent role in the group after Pendergrass left the group for a solo career.\n\n## Get Together (Madonna song)\n\n\"Get Together\" is a song by American singer Madonna from her tenth studio album \"Confessions on a Dance Floor\" (2005).  Produced by Madonna and Stuart Price, the song was released as the third single from the album by Warner Bros.  Records on June 6, 2006.  The decision was spurred by the fact that \"Get Together\" was the third most downloaded song from the album.  It was also released to coincide with the start of Madonna's Confessions Tour.  Inspired by Stardust's single \"Music Sounds Better with You\", \"Get Together\" portrays an anthem-like picture with its lyrics, about the different possibilities of finding love on the dance floor.\n\n## Love Don't Live Here Anymore\n\n\"Love Don't Live Here Anymore\" is a song written by Miles Gregory and originally recorded by Rose Royce.  It was produced by former",
+          "text_preview": "line and the closing part of the song.  Paige would later take on a more prominent role in the group after Pendergrass left the group for a solo career.\n\n## Get Together (Madonna song)\n\n\"Get Together\" is a song by American singer Madonna from her tenth studio album \"Confessions on a Dance Floor\" (2005).  Produced by Madonna and Stuart Price, the song was released as the third single from the album by Warner Bros.  Records on June 6, 2006.  The decision was spurred by the fact that \"Get Together\"...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 257.06,
+      "generation_latency_ms": 1861.52
+    },
+    {
+      "query_id": "5ae29d8a5542996483e64a0f",
+      "question": "What National Park contains the Thornton River and the Blue Ridge Mountains?",
+      "ground_truth": "Shenandoah National Park",
+      "generated_answer": " Shenandoah National Park",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7772,
+          "full_text": "Area\n\nThe Blue Ridge National Heritage Area is a federally designated National Heritage Area encompassing the twenty-five westernmost counties of North Carolina, which are associated with the Blue Ridge Mountains.  The designation provides a framework for the promotion and interpretation of the area's cultural and historic character, and the preservation of the natural and built environment.  The National Heritage Area includes the North Carolina portions of Great Smoky Mountains National Park and the Blue Ridge Parkway.  Other attractions include Mount Mitchell in Pisgah National Forest, Nantahala National Forest and the North Carolina portion of the Appalachian Trail.  The Qualla Boundary of the Eastern Band of Cherokee Indians is also within the National Heritage Area.  The area's musical heritage and folk craftsmanship are also recognized by the National Heritage Area.\n\n## Thornton River\n\nThe Thornton River is a 27.9 mi river in the U.S. state of Virginia.  It rises at Thornton Gap in Shenandoah National Park and flows east through Rappahannock County, running parallel to U.S. Route 211 until it reaches the town of Sperryville.  Continuing east into",
+          "text_preview": "Area\n\nThe Blue Ridge National Heritage Area is a federally designated National Heritage Area encompassing the twenty-five westernmost counties of North Carolina, which are associated with the Blue Ridge Mountains.  The designation provides a framework for the promotion and interpretation of the area's cultural and historic character, and the preservation of the natural and built environment.  The National Heritage Area includes the North Carolina portions of Great Smoky Mountains National Park a...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.765,
+          "full_text": "Mountains, turning northeast when it comes to the western edge of the Blue Ridge Mountains near Buchanan, Virginia.  From Buchanan the river flows along the base of the Blue Ridge Mountains until it joins the Maury River near the town of Glasgow, Virginia and then it turns southeast and begins its descent over the Balcony Falls rapids and through the James River Gorge.  The rocks of the gorge are metamorphic in nature with the oldest exposed outcrops being from the Proterozoic Era.",
+          "text_preview": "Mountains, turning northeast when it comes to the western edge of the Blue Ridge Mountains near Buchanan, Virginia.  From Buchanan the river flows along the base of the Blue Ridge Mountains until it joins the Maury River near the town of Glasgow, Virginia and then it turns southeast and begins its descent over the Balcony Falls rapids and through the James River Gorge.  The rocks of the gorge are metamorphic in nature with the oldest exposed outcrops being from the Proterozoic Era.",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7481,
+          "full_text": "What National Park contains the Thornton River and...\n\n## Skyline Drive\n\nSkyline Drive is a 105 mi road that runs the entire length of the National Park Service's Shenandoah National Park in the Blue Ridge Mountains of Virginia, generally along the ridge of the mountains.  The drive's northern terminus is at an intersection with U.S. Route 340 (US 340) near Front Royal, and the southern terminus is at an interchange with US 250 near Interstate 64 (I-64) in Rockfish Gap, where the road continues south as the Blue Ridge Parkway.  The road has intermediate interchanges with US 211 in Thornton Gap and US 33 in Swift Run Gap.\n\n## Blue Ridge Music Center\n\nThe Blue Ridge Music Center is a music venue, museum, and visitor center located at milepost 213 on the Blue Ridge Parkway near Galax, Virginia.  The center celebrates the music and musicians of the Blue Ridge Mountains through concerts, exhibits, and programs that highlight living musical heritage of the Blue Ridge region and interpret its significance within the larger landscape of American music and culture.  The site",
+          "text_preview": "What National Park contains the Thornton River and...\n\n## Skyline Drive\n\nSkyline Drive is a 105 mi road that runs the entire length of the National Park Service's Shenandoah National Park in the Blue Ridge Mountains of Virginia, generally along the ridge of the mountains.  The drive's northern terminus is at an intersection with U.S. Route 340 (US 340) near Front Royal, and the southern terminus is at an interchange with US 250 near Interstate 64 (I-64) in Rockfish Gap, where the road continues ...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 257.81,
+      "generation_latency_ms": 1161.03
+    },
+    {
+      "query_id": "5ae7ba7a5542993210983f12",
+      "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+      "ground_truth": "Usher",
+      "generated_answer": " The singer whose song was released as the lead single from the album \"Confessions\" and had a popular song stuck behind for eight consecutive weeks is Usher.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.5251,
+          "full_text": "Patrick J. Que Smith, Robert McDowell, LRoc, Ludacris, Da'Ron, and Lil Jon.  It also features guest vocals from Lil Jon and Ludacris, with the former also producing the song as well as incorporating crunk and R&B\u2014which he coined as crunk&B\u2014in the song's production.  The song was released as the lead single from Usher's fourth studio album \"Confessions\" (2004) on January 27, 2004, after Usher was told by Arista Records, his label at the time, to record more tracks for the album.\n\n## Stay (Sugarland song)\n\n\"Stay\" is a song recorded by American country music duo Sugarland.  It was released in September 2007 as the fourth and final single from their album \"Enjoy the Ride\" (see 2006 in country music).  Overall, the song is the group's eighth single to enter the \"Billboard\" Hot Country Songs charts, where it reached a peak position of #2 for four weeks, stuck behind Taylor Swift's \"Our Song\", and",
+          "text_preview": "Patrick J. Que Smith, Robert McDowell, LRoc, Ludacris, Da'Ron, and Lil Jon.  It also features guest vocals from Lil Jon and Ludacris, with the former also producing the song as well as incorporating crunk and R&B\u2014which he coined as crunk&B\u2014in the song's production.  The song was released as the lead single from Usher's fourth studio album \"Confessions\" (2004) on January 27, 2004, after Usher was told by Arista Records, his label at the time, to record more tracks for the album.\n\n## Stay (Sugarla...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5085,
+          "full_text": "As a result of its eight weeks at number 2, \"I Don't Wanna Know\" stands in joint fifth place for the most weeks at number 2 by a song which did not go to number 1, behind Foreigner's \"Waiting for a Girl Like You\", Missy Elliott's \"Work It\", Donna Lewis's \"I Love You Always Forever\" and Shania Twain's \"You're Still the One\".\n\n## No One (Alicia Keys song)\n\n\"No One\" is a song by American singer and songwriter Alicia Keys from her third studio album, \"As I Am\" (2007).  It was written and produced by Keys, Kerry Brothers Jr., and George M. Harry, and released as the album's lead single on September 11, 2007.  The song topped the \"Billboard\" Hot 100 for five consecutive weeks and the Hot R&B/Hip-Hop Songs chart for 10 consecutive weeks, while charting inside the top 10 in most major markets.\n\n## Feel Good Inc.\n\n\"Feel Good Inc\" is a song by British virtual band",
+          "text_preview": "As a result of its eight weeks at number 2, \"I Don't Wanna Know\" stands in joint fifth place for the most weeks at number 2 by a song which did not go to number 1, behind Foreigner's \"Waiting for a Girl Like You\", Missy Elliott's \"Work It\", Donna Lewis's \"I Love You Always Forever\" and Shania Twain's \"You're Still the One\".\n\n## No One (Alicia Keys song)\n\n\"No One\" is a song by American singer and songwriter Alicia Keys from her third studio album, \"As I Am\" (2007).  It was written and produced by...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5061,
+          "full_text": "the US \"Billboard\" 200 for fifteen weeks at different times in 1956 (eight consecutive weeks), 1957, 1958 and 1959.  In the UK, upon its release in 1958, the album reached No.1 for 19 consecutive weeks and became the biggest-selling album of the year.  The album was released on Columbia Records, whose President, Goddard Lieberson provided the $375,000 needed to stage the show in return for the rights to the Cast recording.  The album was later re-issued on Compact disc in 1988 and has been re-released a number of times since.  It is currently available with bonus tracks.\n\n## Yeah! (Usher song)\n\n\"Yeah!\"  is a song by American singer Usher.  He co-wrote the song with Sean Garrett, Patrick J. Que Smith, Robert McDowell, LRoc, Ludacris, Da'Ron, and Lil Jon.  It also features guest vocals from Lil Jon and Ludacris, with the former also producing the song as well as incorporating",
+          "text_preview": "the US \"Billboard\" 200 for fifteen weeks at different times in 1956 (eight consecutive weeks), 1957, 1958 and 1959.  In the UK, upon its release in 1958, the album reached No.1 for 19 consecutive weeks and became the biggest-selling album of the year.  The album was released on Columbia Records, whose President, Goddard Lieberson provided the $375,000 needed to stage the show in return for the rights to the Cast recording.  The album was later re-issued on Compact disc in 1988 and has been re-re...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 266.03,
+      "generation_latency_ms": 1803.3
+    },
+    {
+      "query_id": "5a8c06bb5542995e66a47530",
+      "question": "Darl Hall and John Oats fifth studio album was released in 1976, which song was the first of their six #1 singles?",
+      "ground_truth": "\"Rich Girl\"",
+      "generated_answer": " The first of Daryl Hall and John Oates' six #1 singles from their fifth studio album \"Bigger Than Both of Us\" was \"Rich Girl\".",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6504,
+          "full_text": "of Gold\"; as well as \"American Country Love Song\" from his fifth studio album, \"American Love\".\n\n## Acapella (Kelis song)\n\n\"Acapella\" is a song performed by American recording artist Kelis, taken from her fifth studio album \"Flesh Tone\" (2010).  The song is a departure from her past singles in that it is a dance/electronic track rather than hip hop/R&B influenced.  The song was first premiered on her Twitter page and her official website in November, but was digitally released February 23, 2010 as the lead single from the singer's fifth studio album \"Flesh Tone\".\n\n## Bigger Than Both of Us\n\nBigger Than Both of Us is the fifth studio album by American pop duo Hall & Oates, released in August 1976.  The album included the first of their six #1 singles on the \"Billboard\" Hot 100, \"Rich Girl\".  Hall & Oates released a song titled \"Bigger Than Both of Us\" on their \"Beauty on a Back Street\" album one year",
+          "text_preview": "of Gold\"; as well as \"American Country Love Song\" from his fifth studio album, \"American Love\".\n\n## Acapella (Kelis song)\n\n\"Acapella\" is a song performed by American recording artist Kelis, taken from her fifth studio album \"Flesh Tone\" (2010).  The song is a departure from her past singles in that it is a dance/electronic track rather than hip hop/R&B influenced.  The song was first premiered on her Twitter page and her official website in November, but was digitally released February 23, 2010 ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6467,
+          "full_text": "final single, \"Fast\", was sent to country radio.  With \"Fast\" also reaching number one in April 2017, Bryan became the first artist in the chart's history to achieve six number one singles from one album.\n\n## Johnny (John Farnham album)\n\nJohnny is the fifth studio album by Australian pop singer John Farnham, (who was billed then as \"Johnny\" Farnham) which was released on HMV for EMI Records in August 1971.  It peaked at #24 on the Australian Kent Music Report Albums Charts.  Farnham had earlier #1 singles with \"Sadie (The Cleaning Lady)\" in 1968 and his cover of \"Raindrops Keep Fallin' On My Head\" in 1970; a non-album single, \"Acapulco Sun\" was released in May 1971 but there were no charting singles from \"Johnny\".  The album features compositions from artists as diverse as George Harrison, Elton John, Stevie Wonder, Joe South and George Gershwin and Ira Gershwin\n\n##",
+          "text_preview": "final single, \"Fast\", was sent to country radio.  With \"Fast\" also reaching number one in April 2017, Bryan became the first artist in the chart's history to achieve six number one singles from one album.\n\n## Johnny (John Farnham album)\n\nJohnny is the fifth studio album by Australian pop singer John Farnham, (who was billed then as \"Johnny\" Farnham) which was released on HMV for EMI Records in August 1971.  It peaked at #24 on the Australian Kent Music Report Albums Charts.  Farnham had earlier ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6358,
+          "full_text": "ten studio albums, two live albums, one video album, four extended plays, 30 singles, four promotional singles, and 26 music videos.  The band independently released their eponymous debut studio album in 1996, two years after their formation.  In February 1998, the band signed to Aware Records and Columbia Records and re-released the album under the two labels.  Three singles were released from \"Train\"; the album's second single, \"Meet Virginia\", peaked at number 20 on the US \"Billboard\" Hot 100.  The album peaked at number 76 on the US \"Billboard\" 200 and was certified platinum by the Recording Industry Association of America (RIAA).  In the period following the release of \"Train\", producer Brendan O'Brien started working with the band in a partnership that would last for three albums.  The band released their second studio album \"Drops of Jupiter\" in March 2001; it was preceded by the release of its lead single, \"Drops of Jupiter (Tell Me)\".  The single became a commercial",
+          "text_preview": "ten studio albums, two live albums, one video album, four extended plays, 30 singles, four promotional singles, and 26 music videos.  The band independently released their eponymous debut studio album in 1996, two years after their formation.  In February 1998, the band signed to Aware Records and Columbia Records and re-released the album under the two labels.  Three singles were released from \"Train\"; the album's second single, \"Meet Virginia\", peaked at number 20 on the US \"Billboard\" Hot 100...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 513.43,
+      "generation_latency_ms": 1777.18
+    },
+    {
+      "query_id": "5a888c9d5542997e5c09a612",
+      "question": "Who is from farther west, Halestorm or Audioslave?",
+      "ground_truth": "Audioslave",
+      "generated_answer": " Audioslave, as they are based in Los Angeles, California, which is located west of both Fredonia, Arizona (where US Route 89A ends), and St. George, Utah (which is connected to Fredonia via AZ-389). Halestorm, on the other hand, hails from Red Lion, Pennsylvania, which is much farther east.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7958,
+          "full_text": "to Pipe Spring National Monument, and ends at U.S. Route 89A in Fredonia; it is the only major east\u2013west route between these two towns, and also serves to connect Fredonia with points farther west such as St. George, Utah.\n\n## Halestorm\n\nHalestorm is an American hard rock band from Red Lion, Pennsylvania, consisting of lead vocalist and guitarist Lzzy Hale, her brother drummer and percussionist Arejay Hale, guitarist Joe Hottinger, and bassist Josh Smith.  The group's self-titled debut album was released on April 28, 2009, through Atlantic Records.  Their second album \"The Strange Case Of...\" was released on April 10, 2012.  Its lead single \"Love Bites (So Do I)\" from that album won their first Grammy Award for Best Hard Rock/Metal Performance on February 10, 2013.\n\n## Audioslave\n\nAudioslave was an American rock supergroup formed in Los Angeles in 2001.  The four-piece band consisted of Soundgarden",
+          "text_preview": "to Pipe Spring National Monument, and ends at U.S. Route 89A in Fredonia; it is the only major east\u2013west route between these two towns, and also serves to connect Fredonia with points farther west such as St. George, Utah.\n\n## Halestorm\n\nHalestorm is an American hard rock band from Red Lion, Pennsylvania, consisting of lead vocalist and guitarist Lzzy Hale, her brother drummer and percussionist Arejay Hale, guitarist Joe Hottinger, and bassist Josh Smith.  The group's self-titled debut album was...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7939,
+          "full_text": "for Best Hard Rock/Metal Performance on February 10, 2013.\n\n## Audioslave\n\nAudioslave was an American rock supergroup formed in Los Angeles in 2001.  The four-piece band consisted of Soundgarden lead singer/rhythm guitarist Chris Cornell and Rage Against the Machine members Tom Morello (lead guitar), Tim Commerford (bass/backing vocals), and Brad Wilk (drums).  Critics first described Audioslave as a combination of Soundgarden and Rage Against the Machine, but by the band's second album, \"Out of Exile\", it was noted that they had established a separate identity.  Audioslave's sound was created by blending 1970s hard rock with 1990s alternative rock.  Moreover, Morello incorporated his well-known, unconventional guitar solos into the mix.  As with Rage Against the Machine, the band prided themselves on the fact that all sounds on their albums were produced using only guitar, bass, drums, and vocals.\n\n## Monashee",
+          "text_preview": "for Best Hard Rock/Metal Performance on February 10, 2013.\n\n## Audioslave\n\nAudioslave was an American rock supergroup formed in Los Angeles in 2001.  The four-piece band consisted of Soundgarden lead singer/rhythm guitarist Chris Cornell and Rage Against the Machine members Tom Morello (lead guitar), Tim Commerford (bass/backing vocals), and Brad Wilk (drums).  Critics first described Audioslave as a combination of Soundgarden and Rage Against the Machine, but by the band's second album, \"Out of...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5895,
+          "full_text": "his well-known, unconventional guitar solos into the mix.  As with Rage Against the Machine, the band prided themselves on the fact that all sounds on their albums were produced using only guitar, bass, drums, and vocals.\n\n## Monashee Mountains\n\nThe Monashee Mountains are a mountain range lying mostly in British Columbia, Canada, extending into the U.S. state of Washington.  They stretch 530 km from north to south and 150 km from east to west.  They are a sub-range of the Columbia Mountains.  They are limited on the eastern side by the Columbia River and Arrow Lakes, beyond which lie the Selkirk Mountains, and by the upper North Thompson River and the Interior Plateau on the west.  The northern end of the range is at the southern end of the Robson Valley just south of the town of Valemount.  The southern extremity of the range is in Washington State, where the Kettle River Range reaches just down to the confluence of the Kettle River and the Columbia, and also farther west to the southern extremity of",
+          "text_preview": "his well-known, unconventional guitar solos into the mix.  As with Rage Against the Machine, the band prided themselves on the fact that all sounds on their albums were produced using only guitar, bass, drums, and vocals.\n\n## Monashee Mountains\n\nThe Monashee Mountains are a mountain range lying mostly in British Columbia, Canada, extending into the U.S. state of Washington.  They stretch 530 km from north to south and 150 km from east to west.  They are a sub-range of the Columbia Mountains.  Th...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 296.81,
+      "generation_latency_ms": 2398.95
+    },
+    {
+      "query_id": "5a8a42ec55429970aeb7027c",
+      "question": "Are Marilyn Manson and Joe Lynn Turner both American singer, songwriters?",
+      "ground_truth": "yes",
+      "generated_answer": " Yes, both Marilyn Manson (born Brian Warner) and Joe Lynn Turner are American singers and songwriters.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7874,
+          "full_text": "with their theatrical live performances.  In 1993, they were the first act signed to Trent Reznor's Nothing Records label.  Until 1996, the name of each member was created by combining the first name of an iconic female sex symbol and the last name of an iconic serial killer, for example Marilyn Monroe and Charles Manson.  Their lineup has changed between many of their album releases; the current members of Marilyn Manson are the eponymous lead singer (the only remaining original member), bassist Twiggy Ramirez, guitarists Paul Wiley and Tyler Bates, and drummer Gil Sharone.\n\n## Lynn Turner (murderer)\n\nLynn Turner (July 13, 1968 \u2013 August 30, 2010), born Julia Lynn Womack, was an American convicted murderer.  In 1995, her husband, Glenn Turner, died after allegedly being sick with the flu.  In 2001, the death of what had been described as her common law husband, Randy Thompson, under remarkably similar circumstances, aroused the suspicion of law enforcement.  After investigation, it was determined by authorities",
+          "text_preview": "with their theatrical live performances.  In 1993, they were the first act signed to Trent Reznor's Nothing Records label.  Until 1996, the name of each member was created by combining the first name of an iconic female sex symbol and the last name of an iconic serial killer, for example Marilyn Monroe and Charles Manson.  Their lineup has changed between many of their album releases; the current members of Marilyn Manson are the eponymous lead singer (the only remaining original member), bassis...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7841,
+          "full_text": "Are Marilyn Manson and Joe Lynn Turner both Americ...\n\n## Joe Lynn Turner\n\nJoe Lynn Turner (born Joseph Arthur Mark Linquito, August 2, 1951) is an American singer, guitarist, songwriter, and producer.  He is known for his work in the hard rock bands Rainbow and Deep Purple.  During his career, Turner fronted and played guitar with pop rock band Fandango in the late 1970s; and in the early 80s, he became a member of Rainbow, fronting the band and writing songs with guitarist, Ritchie Blackmore and bassist, and producer, Roger Glover.  After Rainbow had disbanded (the first time) in March 1984, he pursued a solo career, released one album, Rescue You, and then later did session work, singing background vocals for the likes of Billy Joel, Cher, and Michael Bolton.  On the advice of Bolton, Turner began recording jingles for radio and television.  Other songs he had composed or through collaboration with songwriters like Desmond Child and Jack Ponti were being recorded and released by international recording artists Jimmy",
+          "text_preview": "Are Marilyn Manson and Joe Lynn Turner both Americ...\n\n## Joe Lynn Turner\n\nJoe Lynn Turner (born Joseph Arthur Mark Linquito, August 2, 1951) is an American singer, guitarist, songwriter, and producer.  He is known for his work in the hard rock bands Rainbow and Deep Purple.  During his career, Turner fronted and played guitar with pop rock band Fandango in the late 1970s; and in the early 80s, he became a member of Rainbow, fronting the band and writing songs with guitarist, Ritchie Blackmore a...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7637,
+          "full_text": "the band Marilyn Manson, which he co-founded with guitarist Daisy Berkowitz and of which he remains the only constant member.  His stage name was formed by combining and juxtaposing the names of two American pop cultural icons: actress Marilyn Monroe and cult leader Charles Manson.\n\n## Tom Merlynn\n\nTom Merlynn (July 26, 1955), is an American singer, Songwriter, Producer, Engineer known for his works with singer Joe Lynn Turner.  Tom Merlynn has worked on hard rock projects such as Rated X, with Joe Lynn Turner, Carmine Appice, Tony Franklin and Karl Cochran on the Frontiers Record Label.  Sunstorm (band), the Jan Holberg Project, Tobias Sammett - The Mystery of Time, Doo-wop group The Wizards featuring Joel Katz and many others.  Tom has also written and produced various Television and Radio Commercials as well as many marketing projects for Thumann's, Inc., Carlstadt, NJ.",
+          "text_preview": "the band Marilyn Manson, which he co-founded with guitarist Daisy Berkowitz and of which he remains the only constant member.  His stage name was formed by combining and juxtaposing the names of two American pop cultural icons: actress Marilyn Monroe and cult leader Charles Manson.\n\n## Tom Merlynn\n\nTom Merlynn (July 26, 1955), is an American singer, Songwriter, Producer, Engineer known for his works with singer Joe Lynn Turner.  Tom Merlynn has worked on hard rock projects such as Rated X, with ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 256.46,
+      "generation_latency_ms": 1790.03
+    },
+    {
+      "query_id": "5ae7313c5542991e8301cbbc",
+      "question": " No. 3 Elementary Flying Training School RAAF operated at an Airport during World War 2 that is closest to Which city center in Australia?",
+      "ground_truth": "Melbourne, Victoria, Australia",
+      "generated_answer": " Archerfield, Queensland. No. 3 Elementary Flying Training School initially utilized aircraft and facilities of the civilian air training organizations based there, as it was established as No. 3 Flying Training School at Archerfield, Queensland in November 1939.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6986,
+          "full_text": "pilot training unit of World War II.  It was established in October 1941 at Bundaberg Airport and provided introductory flying training to new RAAF pilots.  No. 12 Elementary Flying Training School relocated to Lowood Airfield on 12 January 1942.  Due to arrival of the United States Army Air Corp at Lowood in March, the aircraft, staff and trainees were allocated to other units, with the unit being disbanded in April.\n\n## No. 4 Elementary Flying Training School RAAF\n\nNo.\u00a04 Elementary Flying Training School (No.\u00a04 EFTS) was a Royal Australian Air Force (RAAF) pilot training unit that operated during World War\u00a0II.  It was one of twelve elementary flying training schools employed by the RAAF to provide introductory flight instruction to new pilots as part of Australia's contribution to the Empire Air Training Scheme.  No.\u00a04 EFTS was established in January 1940 at Mascot, New South Wales, and initially operated in conjunction with civilian flying organisations based at Mascot and Newcastle.  The school was",
+          "text_preview": "pilot training unit of World War II.  It was established in October 1941 at Bundaberg Airport and provided introductory flying training to new RAAF pilots.  No. 12 Elementary Flying Training School relocated to Lowood Airfield on 12 January 1942.  Due to arrival of the United States Army Air Corp at Lowood in March, the aircraft, staff and trainees were allocated to other units, with the unit being disbanded in April.\n\n## No. 4 Elementary Flying Training School RAAF\n\nNo.\u00a04 Elementary Flying Trai...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.695,
+          "full_text": "Air Force (RAAF) pilot training unit that operated during World War\u00a0II.  It was one of twelve elementary flying training schools employed by the RAAF to provide introductory flight instruction to new pilots as part of Australia's contribution to the Empire Air Training Scheme.  No.\u00a02 EFTS was established in November 1939 as No.\u00a03 Flying Training School at Archerfield, Queensland, and partially utilised aircraft and facilities of the civilian air training organisations based there.  The school was renamed No.\u00a02 EFTS in January 1940.  It was disbanded in March 1942, and its operations transferred to No.\u00a05 Elementary Flying School at Narromine, New South Wales, and No.\u00a011 Elementary Flying School at Benalla, Victoria.\n\n## No. 1 Elementary Flying Training School RAAF\n\nNo.\u00a01 Elementary Flying Training School (No.\u00a01 EFTS) was a Royal Australian Air Force (RAAF) pilot training unit that operated during World War\u00a0II.  It was one of twelve elementary flying training schools employed by",
+          "text_preview": "Air Force (RAAF) pilot training unit that operated during World War\u00a0II.  It was one of twelve elementary flying training schools employed by the RAAF to provide introductory flight instruction to new pilots as part of Australia's contribution to the Empire Air Training Scheme.  No.\u00a02 EFTS was established in November 1939 as No.\u00a03 Flying Training School at Archerfield, Queensland, and partially utilised aircraft and facilities of the civilian air training organisations based there.  The school wa...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6775,
+          "full_text": "Elementary Flying Training School (No.\u00a01 EFTS) was a Royal Australian Air Force (RAAF) pilot training unit that operated during World War\u00a0II.  It was one of twelve elementary flying training schools employed by the RAAF to provide introductory flight instruction to new pilots as part of Australia's contribution to the Empire Air Training Scheme.  The unit was established in November 1939 as No.\u00a02 Flying Training School at Melbourne, Victoria.  It was relocated to Parafield, South Australia, in December 1939 and renamed No.\u00a01 EFTS the following month.  Training activities relocated to Tamworth, New South Wales, in May 1944; the school was disbanded in December that year.\n\n## No. 8 Elementary Flying Training School RAAF\n\nNo.\u00a08 Elementary Flying Training School (No.\u00a08 EFTS) was a Royal Australian Air Force (RAAF) pilot training unit that operated during World War\u00a0II.  It was one of twelve elementary flying training schools employed by the RAAF to provide introductory flight instruction to new pilots as",
+          "text_preview": "Elementary Flying Training School (No.\u00a01 EFTS) was a Royal Australian Air Force (RAAF) pilot training unit that operated during World War\u00a0II.  It was one of twelve elementary flying training schools employed by the RAAF to provide introductory flight instruction to new pilots as part of Australia's contribution to the Empire Air Training Scheme.  The unit was established in November 1939 as No.\u00a02 Flying Training School at Melbourne, Victoria.  It was relocated to Parafield, South Australia, in D...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 247.53,
+      "generation_latency_ms": 2252.52
+    },
+    {
+      "query_id": "5a8aed1755429950cd6afbf1",
+      "question": "Are Fastbacks and Local Natives both from the same US state?",
+      "ground_truth": "no",
+      "generated_answer": " No, Fastbacks are from Washington, while Local Natives are from California.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7561,
+          "full_text": "Produced by The National guitarist Aaron Dessner, the album was preceded by the singles, \"Breakers\" and \"Heavy Feet.\"  \"Breakers\" reached #12 on the Billboard Top 200.  The song \"Mt. Washington\" was also featured in the 2015 video game \"Life Is Strange\".\n\n## Local Natives\n\nLocal Natives (previously known as Cavil at Rest) is an American indie rock band based in Silver Lake, Los Angeles, California, United States.  Their debut album, \"Gorilla Manor\", was first released in the UK in November 2009, and later released in the US on February 16, 2010.  The album received mostly positive reviews and debuted in the Billboard 200 and at No. 3 in the New Artist Chart.  Their second album, \"Hummingbird\", was released in January 2013.  Their third album, \"Sunlit Youth\", was released in September 2016.\n\n## Fastbacks\n\nFastbacks were a Seattle, Washington, punk rock band.  Formed in 1979",
+          "text_preview": "Produced by The National guitarist Aaron Dessner, the album was preceded by the singles, \"Breakers\" and \"Heavy Feet.\"  \"Breakers\" reached #12 on the Billboard Top 200.  The song \"Mt. Washington\" was also featured in the 2015 video game \"Life Is Strange\".\n\n## Local Natives\n\nLocal Natives (previously known as Cavil at Rest) is an American indie rock band based in Silver Lake, Los Angeles, California, United States.  Their debut album, \"Gorilla Manor\", was first released in the UK in November 2009,...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7195,
+          "full_text": "was released in January 2013.  Their third album, \"Sunlit Youth\", was released in September 2016.\n\n## Fastbacks\n\nFastbacks were a Seattle, Washington, punk rock band.  Formed in 1979 by songwriter/guitarist Kurt Bloch (born August 28, 1960), and friends Lulu Gargiulo (guitar and vocals, born October 12, 1960) and Kim Warnick (bass and vocals, born April 7, 1959), they disbanded in 2001.  Their sound mixed a generally punk rock approach to vocals and sound textures with poppy tunes and strong musicianship.\n\n## Chief (band)\n\nChief is a four-person band from Santa Monica, California, stationed in Los Angeles, California.  Chief has released three singles entitled \"Mighty Proud,\" \"Breaking Walls\", and \"Night And Day,\" as well as an EP called \"The Castle Is Gone\" and their debut and only full album, \"Modern Rituals\".  All of these releases (except for the EP which was released",
+          "text_preview": "was released in January 2013.  Their third album, \"Sunlit Youth\", was released in September 2016.\n\n## Fastbacks\n\nFastbacks were a Seattle, Washington, punk rock band.  Formed in 1979 by songwriter/guitarist Kurt Bloch (born August 28, 1960), and friends Lulu Gargiulo (guitar and vocals, born October 12, 1960) and Kim Warnick (bass and vocals, born April 7, 1959), they disbanded in 2001.  Their sound mixed a generally punk rock approach to vocals and sound textures with poppy tunes and strong mus...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6709,
+          "full_text": "Proud,\" \"Breaking Walls\", and \"Night And Day,\" as well as an EP called \"The Castle Is Gone\" and their debut and only full album, \"Modern Rituals\".  All of these releases (except for the EP which was released under their own record label) have been via Domino Records.  They have been compared to bands such as Coldplay and Local Natives by \"The New York Times\".  The \"Times\" goes on to say \"Mr. Koga can sound like the young Tom Petty.\"  Other reviews of Chief have similarly been generally good.  On June 14, 2011, they played their farewell show at The Troubadour but began performing together again one year later.",
+          "text_preview": "Proud,\" \"Breaking Walls\", and \"Night And Day,\" as well as an EP called \"The Castle Is Gone\" and their debut and only full album, \"Modern Rituals\".  All of these releases (except for the EP which was released under their own record label) have been via Domino Records.  They have been compared to bands such as Coldplay and Local Natives by \"The New York Times\".  The \"Times\" goes on to say \"Mr. Koga can sound like the young Tom Petty.\"  Other reviews of Chief have similarly been generally good.  On...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 265.94,
+      "generation_latency_ms": 1452.21
+    },
+    {
+      "query_id": "5ac3a2f35542993915413856",
+      "question": "What three other National forests are administered by the same people who administer the park in which the Art Loeb trail runs through?",
+      "ground_truth": "Croatan, Nantahala, and Uwharrie",
+      "generated_answer": " The Pisgah National Forest is administered by the same people who also manage the Croatan, Nantahala, and Uwharrie National Forests. However, it's not mentioned that they are the same people who administer the park in which the Art Loeb trail runs through. To answer your question, I would need to find out which national forests in North Carolina share administration with Pisgah National Forest. Unfortunately, based on the provided context, I cannot confirm the other three national forests that are administered by the same people who administer the park in which the Art Loeb trail runs through.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6301,
+          "full_text": "forests that continue to manage themselves somewhat separately through district offices.  The Coeur d'Alene, St. Joe, and Kaniksu National Forests together occupy 3,224,739-acre (5,038.66 sq mi, or 13,050.06\u00a0km) in northern Idaho (better known as the Idaho Panhandle).  The northernmost portion of the IPNF share a boundary with Canada.  Its headquarters are located in Coeur d'Alene, Idaho.\n\n## Art Loeb Trail\n\nThe Art Loeb Trail is a 30.1 mi trail located in Pisgah National Forest in Western North Carolina.  The northern terminus is at the Daniel Boone Boy Scout Camp in Haywood County, while the trail's southern terminus is located near the Davidson River Campground, near Brevard, in Transylvania County.  Along the way, the trail traverses several significant peaks, including Black Balsam Knob (6,214 ft), Tennent Mountain (6040 ft) and Pilot Mountain (5095 ft).  The trail also passes the base of Cold",
+          "text_preview": "forests that continue to manage themselves somewhat separately through district offices.  The Coeur d'Alene, St. Joe, and Kaniksu National Forests together occupy 3,224,739-acre (5,038.66 sq mi, or 13,050.06\u00a0km) in northern Idaho (better known as the Idaho Panhandle).  The northernmost portion of the IPNF share a boundary with Canada.  Its headquarters are located in Coeur d'Alene, Idaho.\n\n## Art Loeb Trail\n\nThe Art Loeb Trail is a 30.1 mi trail located in Pisgah National Forest in Western North...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6171,
+          "full_text": "The forest is administered together with the other three United States National Forests and two National Grasslands located entirely in Texas, from common offices in Lufkin, Texas.  The units include Angelina, Davy Crockett, Sabine, and Sam Houston National Forests, plus Caddo National Grassland and Lyndon B. Johnson National Grassland.  There are local ranger district offices located in New Waverly.\n\n## Idaho Panhandle National Forests\n\nThe Idaho Panhandle National Forests are a jointly administered set of three national forests located in the U.S. state of Idaho.  Approximately 22.4% of the forest (in the Kaniksu portion) extends into the states of Montana (14.1%) and Washington (8.3%).  The IPNF were created in 2000 to administer three separate national forests that continue to manage themselves somewhat separately through district offices.  The Coeur d'Alene, St. Joe, and Kaniksu National Forests together occupy 3,224,739-acre (5,038.66 sq mi, or",
+          "text_preview": "The forest is administered together with the other three United States National Forests and two National Grasslands located entirely in Texas, from common offices in Lufkin, Texas.  The units include Angelina, Davy Crockett, Sabine, and Sam Houston National Forests, plus Caddo National Grassland and Lyndon B. Johnson National Grassland.  There are local ranger district offices located in New Waverly.\n\n## Idaho Panhandle National Forests\n\nThe Idaho Panhandle National Forests are a jointly adminis...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6079,
+          "full_text": "Shenipsit Trail is one of the blue-blazed hiking trails managed by the Connecticut Forest and Park Association (CFPA).\n\n## Pisgah National Forest\n\nPisgah National Forest is a National Forest in the Appalachian Mountains of western North Carolina.  It is administered by the United States Forest Service, part of the United States Department of Agriculture.  The Pisgah National Forest is completely contained within the state of North Carolina.  The forest is managed together with the other three North Carolina National Forests (Croatan, Nantahala, and Uwharrie) from common headquarters in Asheville, North Carolina.  There are local ranger district offices located in Pisgah Forest, Mars Hill, and Nebo.\n\n## Sam Houston National Forest\n\nThe Sam Houston National Forest, one of four National Forests in Texas, is located 50 miles north of Houston.  The forest is administered together with the other three United States National Forests and two National Grasslands located entirely in Texas, from common offices in Lufkin, Texas.  The units include Angelina, Davy Crockett, Sabine, and",
+          "text_preview": "Shenipsit Trail is one of the blue-blazed hiking trails managed by the Connecticut Forest and Park Association (CFPA).\n\n## Pisgah National Forest\n\nPisgah National Forest is a National Forest in the Appalachian Mountains of western North Carolina.  It is administered by the United States Forest Service, part of the United States Department of Agriculture.  The Pisgah National Forest is completely contained within the state of North Carolina.  The forest is managed together with the other three No...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 494.98,
+      "generation_latency_ms": 3201.09
+    },
+    {
+      "query_id": "5abfa18f5542990832d3a176",
+      "question": "The mother of  Megan Phelps-Roper is best known as the former spokesperson of a church located in what city?",
+      "ground_truth": "Topeka",
+      "generated_answer": " The mother of Megan Phelps-Roper is best known as the former spokesperson of the Westboro Baptist Church located in Topeka, Kansas.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7077,
+          "full_text": "\u0531\u057d\u057f\u0578\u0582\u0561\u056e\u0561\u056e\u056b\u0576 \u0565\u056f\u0565\u0572\u0565\u0581\u056b ), is an inactive 12th or 13th century Caucasian Albanian church located in the village of Ki\u015f approximately 5\u00a0km north of Shaki, Azerbaijan.  It has functioned at different times as a Caucasian Albanian Apostolic church a Chalcedonian church within the Georgian Orthodox Church and later as Armenian Apostolic Church.\n\n## Megan Phelps-Roper\n\nMegan Phelps-Roper (born January 31, 1986) is a social media activist, lobbying to overcome divisions and hatred between religious and political divides.  Formerly a prominent member of the Westboro Baptist Church (WBC), she left the church with her sister Grace in November 2012.  Her mother is Shirley Phelps-Roper, whose father was the church's founder Fred Phelps.\n\n## St Wilfrid's, York\n\nSt Wilfrid's is a Roman Catholic church located in the centre of York, England,",
+          "text_preview": "\u0531\u057d\u057f\u0578\u0582\u0561\u056e\u0561\u056e\u056b\u0576 \u0565\u056f\u0565\u0572\u0565\u0581\u056b ), is an inactive 12th or 13th century Caucasian Albanian church located in the village of Ki\u015f approximately 5\u00a0km north of Shaki, Azerbaijan.  It has functioned at different times as a Caucasian Albanian Apostolic church a Chalcedonian church within the Georgian Orthodox Church and later as Armenian Apostolic Church.\n\n## Megan Phelps-Roper\n\nMegan Phelps-Roper (born January 31, 1986) is a social media activist, lobbying to overcome divisions and hatred between religious and po...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6994,
+          "full_text": "Richard Duffield Cong.  Orat as parish priest.\n\n## Radim \u0160pa\u010dek\n\nRadim \u0160pa\u010dek (* 13.  October 1973, Ostrava) is a Czech director, producent and actor best known for film Walking Too Fast.  He is the only director who has received both Czech Lion and Fluffy Lion.  His father Ladislav \u0160pa\u010dek is an Etiquette expert, journalist and former Spokesperson of V\u00e1clav Havel.\n\n## Shirley Phelps-Roper\n\nShirley Lynn Phelps-Roper (born Shirley Lynn Phelps, October 31, 1957) is an American lawyer and political activist.  She is best known as the former spokesperson of the Westboro Baptist Church of Topeka, Kansas, an organization known for its highly publicized homophobic public protests conducted under the slogan \"God Hates Fags.\"\n\n## Christ Church (Port Republic, Maryland)\n\nThe Christ Church is a historic Episcopal church located at Port Republic, Calvert County, Maryland, United States.  The church is",
+          "text_preview": "Richard Duffield Cong.  Orat as parish priest.\n\n## Radim \u0160pa\u010dek\n\nRadim \u0160pa\u010dek (* 13.  October 1973, Ostrava) is a Czech director, producent and actor best known for film Walking Too Fast.  He is the only director who has received both Czech Lion and Fluffy Lion.  His father Ladislav \u0160pa\u010dek is an Etiquette expert, journalist and former Spokesperson of V\u00e1clav Havel.\n\n## Shirley Phelps-Roper\n\nShirley Lynn Phelps-Roper (born Shirley Lynn Phelps, October 31, 1957) is an American lawyer and political ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6685,
+          "full_text": "The mother of  Megan Phelps-Roper is best known as...\n\n## Franklin Street Presbyterian Church and Parsonage\n\nFranklin Street Presbyterian Church and Parsonage is a historic Presbyterian church located at 100 West Franklin Street at Cathedral Street, northwest corner in Baltimore, Maryland, United States.  The church is a rectangular Tudor Gothic building dedicated in 1847, with an addition in 1865.  The front features two 60 foot flanking octagonal towers are also crenelated and have louvered belfry openings and stained glass Gothic-arched windows.  The parsonage has walls of brick, heavy Tudor-Gothic window hoods, and battlements atop the roof and was built in 1857.  This church was incorporated in 1844 by a group of men from the First Presbyterian Church then located at the northwest corner of East Fayette Street and North Street (now Guilford Avenue) in downtown (later relocated in 1854 to West Madison Street and Park Avenue in Mount Vernon-Belvedere neighborhood after selling their previous third church building of",
+          "text_preview": "The mother of  Megan Phelps-Roper is best known as...\n\n## Franklin Street Presbyterian Church and Parsonage\n\nFranklin Street Presbyterian Church and Parsonage is a historic Presbyterian church located at 100 West Franklin Street at Cathedral Street, northwest corner in Baltimore, Maryland, United States.  The church is a rectangular Tudor Gothic building dedicated in 1847, with an addition in 1865.  The front features two 60 foot flanking octagonal towers are also crenelated and have louvered be...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 405.96,
+      "generation_latency_ms": 1967.71
+    },
+    {
+      "query_id": "5a790d9855429974737f7954",
+      "question": "What contest did Drew Barry's younger brother win in 1996?",
+      "ground_truth": "the 1996 NBA Slam Dunk Contest",
+      "generated_answer": " The NBA Slam Dunk Contest in 1996, as Brent Barry won this event.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.745,
+          "full_text": "It was also the first time a \"Big Four\" country won the contest since the rule's introduction in 2000.\n\n## Drew Barry\n\nDrew William Barry (born February 17, 1973) is an American retired professional basketball player.  He is the son of Basketball Hall of Famer Rick Barry and has three brothers: Scooter, Jon and Brent, who also share his profession.  His grandfather Bruce Hale also played in the NBA and was Rick's college coach at Miami of Florida.  His stepmother is Lynn Barry.\n\n## Brent Barry\n\nBrent Robert Barry (born December 31, 1971) is an American retired professional basketball player.  He is the son of former NBA player Rick Barry.  The 6 ft , 210 lb shooting guard played professionally in the National Basketball Association, winning two championships with the San Antonio Spurs.  He also won the 1996 NBA Slam Dunk Contest.\n\n## Antrobus baronets\n\nThe Antrobus Baronetcy, of Antrobus in the County Palatine of Chester, is a title in the",
+          "text_preview": "It was also the first time a \"Big Four\" country won the contest since the rule's introduction in 2000.\n\n## Drew Barry\n\nDrew William Barry (born February 17, 1973) is an American retired professional basketball player.  He is the son of Basketball Hall of Famer Rick Barry and has three brothers: Scooter, Jon and Brent, who also share his profession.  His grandfather Bruce Hale also played in the NBA and was Rick's college coach at Miami of Florida.  His stepmother is Lynn Barry.\n\n## Brent Barry\n\n...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6724,
+          "full_text": "in the Dutch nobility.  The title descended from father to son until the death of his grandson, the tenth Baronet, in 1937.\n\n## Eurovision Song Contest 2010\n\nThe Eurovision Song Contest 2010 was the 55th annual Eurovision Song Contest, broadcast from the Telenor Arena in B\u00e6rum, Greater Oslo, Norway.  Norway gained the rights to host the contest after achieving a record breaking victory in Moscow the previous year.  It was the third time Norway had hosted the contest, having previously done so in 1986 and 1996.  The 2010 winner was Germany with Lena singing \"Satellite\", written by American Julie Frost and Denmark's John Gordon.  It was Germany's first win in twenty-eight years, its second since the Contest's inception, and its first win as a unified country.  It was also the first time a \"Big Four\" country won the contest since the rule's introduction in 2000.\n\n## Drew Barry\n\nDrew William Barry (born February 17, 1973) is an American retired professional basketball",
+          "text_preview": "in the Dutch nobility.  The title descended from father to son until the death of his grandson, the tenth Baronet, in 1937.\n\n## Eurovision Song Contest 2010\n\nThe Eurovision Song Contest 2010 was the 55th annual Eurovision Song Contest, broadcast from the Telenor Arena in B\u00e6rum, Greater Oslo, Norway.  Norway gained the rights to host the contest after achieving a record breaking victory in Moscow the previous year.  It was the third time Norway had hosted the contest, having previously done so in...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6499,
+          "full_text": "San Antonio Spurs.  He also won the 1996 NBA Slam Dunk Contest.\n\n## Antrobus baronets\n\nThe Antrobus Baronetcy, of Antrobus in the County Palatine of Chester, is a title in the Baronetage of the United Kingdom.  It was created on 22 May 1815 for Edmund Antrobus, of Antrobus Hall, Antrobus, Cheshire, a Fellow of the Royal Society, with remainder to his nephews Edmund Antrobus and Gibbs Antrobus.  He died unmarried in 1826 and was succeeded according to the special remainder by his nephew Edmund, the second Baronet.  He and his brother Gibbs were the sons of John Antrobus, brother of the first Baronet.  The second Baronet was succeeded by his eldest son, the third Baronet.  He sat as Member of Parliament for Surrey East and Wilton.  His eldest son, the fourth Baronet, was a Colonel in the Coldstream Guards.  He died without surviving male issue and was succeeded by his younger brother, the fifth",
+          "text_preview": "San Antonio Spurs.  He also won the 1996 NBA Slam Dunk Contest.\n\n## Antrobus baronets\n\nThe Antrobus Baronetcy, of Antrobus in the County Palatine of Chester, is a title in the Baronetage of the United Kingdom.  It was created on 22 May 1815 for Edmund Antrobus, of Antrobus Hall, Antrobus, Cheshire, a Fellow of the Royal Society, with remainder to his nephews Edmund Antrobus and Gibbs Antrobus.  He died unmarried in 1826 and was succeeded according to the special remainder by his nephew Edmund, t...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 479.17,
+      "generation_latency_ms": 1696.33
+    }
+  ]
+}

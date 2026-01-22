@@ -1,0 +1,63 @@
+# Experiment: Chunk Size Correlation on Natural Questions
+# Research Question: Does the chunk size effect generalize to Natural Questions?
+#
+# HotpotQA finding: r=0.56 correlation between chunk size and recall
+# (bigger chunks = better recall)
+#
+# The puzzle from cross_dataset experiment:
+#   - Semantic chunking (~900 chars) achieved 68.2% recall - BEST
+#   - Sentence chunking (~3600 chars) only got 52.5% - WORSE than smaller
+#   - This suggests chunk size correlation might be REVERSED on NQ
+#
+# This experiment tests three chunk sizes with the same strategy (token)
+# to isolate the chunk size effect from strategy differences.
+#
+# Hypotheses:
+#   H1: r > 0.5 (like HotpotQA) -> Size effect is universal
+#   H2: r ≈ 0 (no correlation) -> Effect is task-dependent
+#   H3: r < -0.3 (negative) -> Smaller chunks help on long docs
+
+name: chunk_size_correlation
+description: Chunk size vs recall correlation on Natural Questions
+
+# Dataset: Natural Questions with long documents (same as cross_dataset)
+dataset: natural_questions
+dataset_args:
+  num_examples: 40
+  min_length: 60000   # Long documents only (60K+ chars)
+  seed: 42
+
+# Token chunking at 3 different sizes
+configurations:
+  # Small chunks (~1000 chars = ~250 tokens)
+  - name: token_1000_nq
+    strategy: token
+    token_chunk_size: 250   # ~1000 chars
+    chunk_overlap: 50
+
+  # Medium chunks (~2000 chars = ~500 tokens)
+  - name: token_2000_nq
+    strategy: token
+    token_chunk_size: 500   # ~2000 chars
+    chunk_overlap: 100
+
+  # Large chunks (~3000 chars = ~750 tokens)
+  - name: token_3000_nq
+    strategy: token
+    token_chunk_size: 750   # ~3000 chars
+    chunk_overlap: 150
+
+# Evaluation settings
+evaluation:
+  metrics:
+    - context_recall
+    - context_precision
+    - faithfulness
+    - answer_relevancy
+  top_k: 3
+  num_queries: 40
+
+# Output settings
+output:
+  detailed: true
+  summary: true

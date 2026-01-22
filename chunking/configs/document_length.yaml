@@ -1,0 +1,142 @@
+# Experiment: Document Length Study
+# Research Question: How does document length affect chunking strategy performance?
+#
+# This experiment compares 4 chunking strategies across 3 document length categories
+# using the HotpotQA dataset. Each configuration runs 20 queries.
+#
+# Document length distribution in HotpotQA:
+#   - short: 2000-4000 chars (~9% of docs)
+#   - medium: 4000-7000 chars (~60% of docs)
+#   - long: 7000+ chars (~31% of docs)
+#
+# Expected insights:
+#   - Do strategies perform differently on short vs long documents?
+#   - Is there a minimum document length where chunking matters?
+#   - Which strategy is most robust across document lengths?
+
+name: document_length
+description: How document length affects chunking strategies
+
+# Dataset: HotpotQA multi-hop reasoning questions
+dataset: hotpotqa
+dataset_args:
+  num_examples: 60  # Will be filtered by length category
+  seed: 42          # Fixed seed for reproducibility
+
+# Experiment configurations - 12 total (4 strategies x 3 lengths)
+configurations:
+  # ============================================================
+  # SHORT DOCUMENTS (2000-4000 chars)
+  # Expected: ~3-6 chunks per document at 512-1024 chunk size
+  # ============================================================
+
+  # Token chunking - fixed token count per chunk
+  - name: token_short
+    strategy: token
+    chunk_size: 1024        # ~256 tokens at 4 chars/token
+    chunk_overlap: 128
+    filters:
+      doc_length: short     # Documents 2000-4000 chars
+
+  # Sentence chunking - respects sentence boundaries
+  - name: sentence_short
+    strategy: sentence
+    chunk_size: 1024
+    chunk_overlap: 200
+    filters:
+      doc_length: short
+
+  # Recursive chunking - hierarchical separators (industry standard)
+  - name: recursive_short
+    strategy: recursive
+    chunk_size: 1024
+    chunk_overlap: 128
+    filters:
+      doc_length: short
+
+  # Semantic chunking - embedding-based boundaries
+  - name: semantic_short
+    strategy: semantic
+    chunk_size: 1024        # Note: Ignored for semantic (not controllable)
+    filters:
+      doc_length: short
+
+  # ============================================================
+  # MEDIUM DOCUMENTS (4000-7000 chars)
+  # Expected: ~8-14 chunks per document
+  # ============================================================
+
+  - name: token_medium
+    strategy: token
+    chunk_size: 1024
+    chunk_overlap: 128
+    filters:
+      doc_length: medium
+
+  - name: sentence_medium
+    strategy: sentence
+    chunk_size: 1024
+    chunk_overlap: 200
+    filters:
+      doc_length: medium
+
+  - name: recursive_medium
+    strategy: recursive
+    chunk_size: 1024
+    chunk_overlap: 128
+    filters:
+      doc_length: medium
+
+  - name: semantic_medium
+    strategy: semantic
+    chunk_size: 1024
+    filters:
+      doc_length: medium
+
+  # ============================================================
+  # LONG DOCUMENTS (7000+ chars)
+  # Expected: ~14+ chunks per document
+  # This is where chunking should matter most
+  # ============================================================
+
+  - name: token_long
+    strategy: token
+    chunk_size: 1024
+    chunk_overlap: 128
+    filters:
+      doc_length: long
+
+  - name: sentence_long
+    strategy: sentence
+    chunk_size: 1024
+    chunk_overlap: 200
+    filters:
+      doc_length: long
+
+  - name: recursive_long
+    strategy: recursive
+    chunk_size: 1024
+    chunk_overlap: 128
+    filters:
+      doc_length: long
+
+  - name: semantic_long
+    strategy: semantic
+    chunk_size: 1024
+    filters:
+      doc_length: long
+
+# Evaluation settings
+evaluation:
+  metrics:
+    - context_recall       # Primary metric: Did we retrieve the right context?
+    - context_precision    # Secondary: How precise was retrieval?
+    - faithfulness         # Generation quality: Is answer faithful?
+    - answer_relevancy     # Generation quality: Is answer relevant?
+  top_k: 3                 # Retrieve top 3 chunks per query
+  num_queries: 20          # Queries per configuration
+
+# Output settings
+output:
+  detailed: true           # Save per-query results
+  summary: true            # Save aggregated summary

@@ -1,0 +1,57 @@
+{
+  "experiment": "chunk_size_correlation",
+  "description": "Chunk size vs recall correlation on Natural Questions",
+  "dataset": "natural_questions",
+  "timestamp": "2026-01-14T10:51:11.698432",
+  "num_configurations": 3,
+  "results": [
+    {
+      "config": "token_1000_nq",
+      "strategy": "token",
+      "chunk_size": 1024,
+      "actual_chunk_size": 918.3795416433762,
+      "context_recall": 0.5666666666666667,
+      "context_precision": 0.670833333294375,
+      "faithfulness": 0.7018925518925518,
+      "answer_relevancy": 0.0,
+      "retrieval_success_rate": 0.325,
+      "duration_seconds": 1794.71,
+      "num_chunks": 5367,
+      "chunks_per_doc": 134.175,
+      "avg_doc_length": 96504.0,
+      "avg_chunk_length": 918.0
+    },
+    {
+      "config": "token_2000_nq",
+      "strategy": "token",
+      "chunk_size": 1024,
+      "actual_chunk_size": 1914.736324281779,
+      "context_recall": 0.8222222222222222,
+      "context_precision": 0.80833333328375,
+      "faithfulness": 0.8085839598997494,
+      "answer_relevancy": 0.0,
+      "retrieval_success_rate": 0.475,
+      "duration_seconds": 1992.14,
+      "num_chunks": 2541,
+      "chunks_per_doc": 63.525,
+      "avg_doc_length": 96504.0,
+      "avg_chunk_length": 1915.0
+    },
+    {
+      "config": "token_3000_nq",
+      "strategy": "token",
+      "chunk_size": 1024,
+      "actual_chunk_size": 2912.0264741275573,
+      "context_recall": 0.8638888888888889,
+      "context_precision": 0.7520833332917708,
+      "faithfulness": 0.8602756892230576,
+      "answer_relevancy": 0.0,
+      "retrieval_success_rate": 0.525,
+      "duration_seconds": 2003.31,
+      "num_chunks": 1662,
+      "chunks_per_doc": 41.55,
+      "avg_doc_length": 96504.0,
+      "avg_chunk_length": 2912.0
+    }
+  ]
+}

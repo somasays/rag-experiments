@@ -1,0 +1,664 @@
+{
+  "config": "token_medium",
+  "strategy": "token",
+  "chunk_size": 1024,
+  "actual_chunk_size": 905.1934782608696,
+  "timestamp": "2026-01-13T11:43:34.723123",
+  "chunking_stats": {
+    "doc_count": 60,
+    "chunk_count": 460,
+    "chunks_per_doc": 7.666666666666667,
+    "avg_doc_length": 5509.0,
+    "avg_chunk_length": 905.0,
+    "chunking_occurred": true
+  },
+  "evaluation": {
+    "context_recall": 0.75,
+    "context_precision": 0.6208333332935416,
+    "faithfulness": 0.6816666666666666,
+    "answer_relevancy": 0.0,
+    "retrieval_success_rate": 0.8
+  },
+  "query_results": [
+    {
+      "query_id": "5add405f5542992c1e3a2581",
+      "question": "What book provided the foundation for Masters and Johnson's research team?",
+      "ground_truth": "Patterns of Sexual Behavior",
+      "generated_answer": " The book that provided the foundation for Masters and Johnson's research team is \"Patterns of Sexual Behavior\" by Clellan S. Ford and Frank A. Beach.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7377,
+          "full_text": "accuracy of the book was questioned by fellow anarchist and historian Max Nettlau, who looked upon it in a \"highly-skeptical\" manner.\n\n## Masters and Johnson\n\nThe Masters and Johnson research team, composed of William H. Masters and Virginia E. Johnson, pioneered research into the nature of human sexual response and the diagnosis and treatment of sexual disorders and dysfunctions from 1957 until the 1990s.\n\n## William Masters\n\nWilliam Howell Masters (December 27, 1915 \u2013 February 16, 2001) was an American gynecologist, best known as the senior member of the Masters and Johnson sexuality research team.  Along with his wife Virginia E. Johnson, he pioneered research into the nature of human sexual response and the diagnosis and treatment of sexual dysfunctions and disorders from 1957 until the 1990s.",
+          "text_preview": "accuracy of the book was questioned by fellow anarchist and historian Max Nettlau, who looked upon it in a \"highly-skeptical\" manner.\n\n## Masters and Johnson\n\nThe Masters and Johnson research team, composed of William H. Masters and Virginia E. Johnson, pioneered research into the nature of human sexual response and the diagnosis and treatment of sexual disorders and dysfunctions from 1957 until the 1990s.\n\n## William Masters\n\nWilliam Howell Masters (December 27, 1915 \u2013 February 16, 2001) was an...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6903,
+          "full_text": "particular emphasis on primates.  The book, which has been called a \"classic\" of its field, provided the foundation for the later research of Masters and Johnson.  A revised edition, titled \"Human Sexuality in Four Perspectives\", was published in 1977.\n\n## Josef Peukert\n\nJosef Peukert (22 January 1855 \u2013 3 March 1910) was a German Bohemian anarchist known for his autobiographical book \"Memoirs from the proletarian revolutionary labour movement\" (German: \"Erinnerungen eines Proletariers aus der revolution\u00e4ren Arbeiterbewegung\" ).  The book provided a glimpse into the early days of the radical labour movement in Austria, the start of the anarchist movement in Germany and the exile of the anarchists in London and America at the time of Socialist Law (1878-1890).  The accuracy of the book was questioned by fellow anarchist and historian Max Nettlau, who looked upon it in a \"highly-skeptical\" manner.\n\n## Masters and Johnson\n\nThe Masters and Johnson research team, composed of William H. Masters and",
+          "text_preview": "particular emphasis on primates.  The book, which has been called a \"classic\" of its field, provided the foundation for the later research of Masters and Johnson.  A revised edition, titled \"Human Sexuality in Four Perspectives\", was published in 1977.\n\n## Josef Peukert\n\nJosef Peukert (22 January 1855 \u2013 3 March 1910) was a German Bohemian anarchist known for his autobiographical book \"Memoirs from the proletarian revolutionary labour movement\" (German: \"Erinnerungen eines Proletariers aus der re...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6524,
+          "full_text": "is a series of children's books by Ruth Lerner Perle, Deborah Colvin Borgo, Judy Blankenship and Richard Max Kolding.  They are similar to the \"Sweet Pickles\" books in that each letter of the alphabet is represented in a separate book with an animal representing each letter.  Each story was filled with words and objects that begin with the letter of the alphabet featured in that book.  A special word page at the end of each book provided extra practice in identifying letters and words.  The series was initially published in the early 1990s.\n\n## Patterns of Sexual Behavior\n\nPatterns of Sexual Behavior is a 1951 book by Clellan S. Ford and Frank A. Beach.  In this work of scientific literature, the authors integrate information about human sexual behavior from 191 different cultures, and include detailed comparisons across animal species, with particular emphasis on primates.  The book, which has been called a \"classic\" of its field, provided the foundation for the later research of Masters and Johnson.  A revised edition, titled \"Human Sexuality in Four Perspectives\", was published in",
+          "text_preview": "is a series of children's books by Ruth Lerner Perle, Deborah Colvin Borgo, Judy Blankenship and Richard Max Kolding.  They are similar to the \"Sweet Pickles\" books in that each letter of the alphabet is represented in a separate book with an animal representing each letter.  Each story was filled with words and objects that begin with the letter of the alphabet featured in that book.  A special word page at the end of each book provided extra practice in identifying letters and words.  The seri...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 485.74,
+      "generation_latency_ms": 2350.22
+    },
+    {
+      "query_id": "5a80274e5542992e7d278dfb",
+      "question": "Follow the Yellow Brick Road Tour is taking place to commemorate the album that was recorded where?",
+      "ground_truth": "Ch\u00e2teau d'H\u00e9rouville",
+      "generated_answer": " The \"Follow the Yellow Brick Road\" Tour is commemorating the album \"Goodbye Yellow Brick Road,\" which was first recorded in 1973.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6592,
+          "full_text": "singer's native United Kingdom.  It has been covered by W.A.S.P., Flotsam and Jetsam, Nickelback (with Kid Rock and Dimebag Darrell), Queen, The Who, Fall Out Boy, and several others.\n\n## Follow the Yellow Brick Road\n\nFollow the Yellow Brick Road is a television play by Dennis Potter, first broadcast in 1972 as part of BBC Two's \"The Sextet\" series of eight plays featuring the same six actors.  The play's central theme is of popular culture becoming the inheritor of religious scripture, which anticipated Potter's later serial \"Pennies from Heaven\" (1978).  The play's title is taken from the song used in \"The Wizard of Oz\", another version of which features in the incidental music.",
+          "text_preview": "singer's native United Kingdom.  It has been covered by W.A.S.P., Flotsam and Jetsam, Nickelback (with Kid Rock and Dimebag Darrell), Queen, The Who, Fall Out Boy, and several others.\n\n## Follow the Yellow Brick Road\n\nFollow the Yellow Brick Road is a television play by Dennis Potter, first broadcast in 1972 as part of BBC Two's \"The Sextet\" series of eight plays featuring the same six actors.  The play's central theme is of popular culture becoming the inheritor of religious scripture, which an...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.5894,
+          "full_text": "song composed by Elton John and Bernie Taupin.  The song first appeared on the \"Goodbye Yellow Brick Road\" album in 1973.  \"Bennie and the Jets\" has been one of John's most popular songs and was performed during John's appearance at Live Aid.  The track is spelled \"Benny\" on the sleeve of the single and in the track listing of the album, but \"Bennie\" on the album vinyl disc label.\n\n## Follow the Yellow Brick Road Tour\n\nFollow the Yellow Brick Road Tour is a concert tour by British musician Elton John taking place in North America and Europe in promotion of the 40th anniversary re-release of 1973's Goodbye Yellow Brick Road.\n\n## Family Christian Center\n\nFamily Christian Center, commonly abbreviated to FCC, is a megachurch located in Munster, Indiana.  It was founded in the early 1950s by Bishop Frank Munsey and his wife, Ruth.  Today, Steve Munsey is the senior pastor at Family Christian Center.  The nondenominational church has 30,000 members, and even",
+          "text_preview": "song composed by Elton John and Bernie Taupin.  The song first appeared on the \"Goodbye Yellow Brick Road\" album in 1973.  \"Bennie and the Jets\" has been one of John's most popular songs and was performed during John's appearance at Live Aid.  The track is spelled \"Benny\" on the sleeve of the single and in the track listing of the album, but \"Bennie\" on the album vinyl disc label.\n\n## Follow the Yellow Brick Road Tour\n\nFollow the Yellow Brick Road Tour is a concert tour by British musician Elton...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5888,
+          "full_text": "as the chief executive officer (CEO).  It is narrated by Andrew Daddo, and the series' winner received a one-year employment contract worth $200,000 at a job managing Bouris' newest business venture, Yellow Brick Road.\n\n## Goodbye Yellow Brick Road (song)\n\n\"Goodbye Yellow Brick Road\" is a ballad performed by musician Elton John.  Lyrics for the song were written by Bernie Taupin and the music composed by John for his album \"Goodbye Yellow Brick Road\".  Its musical style and production were heavily influenced by 1970s soft rock.  It was widely praised by critics, and some critics have named it John's best song.\n\n## Blue Moves\n\nBlue Moves is the eleventh official album release by Elton John.  It was released in October 1976.  It was John's second double album (after \"Goodbye Yellow Brick Road\") and the first to be released by his own label, Rocket Records Ltd.  Despite the album's darker tone and a wave of negative reviews, on its release it reached no. 3 on the",
+          "text_preview": "as the chief executive officer (CEO).  It is narrated by Andrew Daddo, and the series' winner received a one-year employment contract worth $200,000 at a job managing Bouris' newest business venture, Yellow Brick Road.\n\n## Goodbye Yellow Brick Road (song)\n\n\"Goodbye Yellow Brick Road\" is a ballad performed by musician Elton John.  Lyrics for the song were written by Bernie Taupin and the music composed by John for his album \"Goodbye Yellow Brick Road\".  Its musical style and production were heavi...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 374.27,
+      "generation_latency_ms": 1642.36
+    },
+    {
+      "query_id": "5add3ccc5542997545bbbce5",
+      "question": "The Secret of Moonacre was directed by the founder of which animation studio?",
+      "ground_truth": "Klasky Csupo",
+      "generated_answer": " The Secret of Moonacre was not directed by the founder of any of the mentioned animation studios (John Lemmon Films, DR Movie, G&G Entertainment). It was directed by G\u00e1bor Csup\u00f3.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7231,
+          "full_text": "films (see below).  After initially working as character animator at Sullivan Bluth Studios under the direction of animation legend Don Bluth, he joined Danish animation studio A. Film A/S in Copenhagen, Denmark.  Amassing credits as directing animator, storyboard artist and character designer, he went on to become a central key in establishing A. Film A/S as Europe\u2019s leading feature animation studio and a household name at the majors in the US.  After a period as the creative head of Feature Animation, also acting as sequence director on several films, he went on to co-direct (with Stefan Fjeldmark) the 2006 cinema hit Asterix and the Vikings, based on R. Goscinny and A. Uderzo's legendary comic book.\n\n## The Secret of Moonacre\n\nThe Secret of Moonacre is a 2009 fantasy film based on the novel \"The Little White Horse\" by Elizabeth Goudge.  The film was directed by G\u00e1bor Csup\u00f3 and starred Dakota Blue Richards in the leading role.  The film premiered at the 2008 Toronto International Film Festival and was",
+          "text_preview": "films (see below).  After initially working as character animator at Sullivan Bluth Studios under the direction of animation legend Don Bluth, he joined Danish animation studio A. Film A/S in Copenhagen, Denmark.  Amassing credits as directing animator, storyboard artist and character designer, he went on to become a central key in establishing A. Film A/S as Europe\u2019s leading feature animation studio and a household name at the majors in the US.  After a period as the creative head of Feature An...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6881,
+          "full_text": "the novel \"The Little White Horse\" by Elizabeth Goudge.  The film was directed by G\u00e1bor Csup\u00f3 and starred Dakota Blue Richards in the leading role.  The film premiered at the 2008 Toronto International Film Festival and was released in the United Kingdom on 6 February 2009 by Warner Bros.\n\n## John Lemmon Films\n\nJohn Lemmon Films is a traditional character animation studio based in Charlotte, North Carolina, United States, and is listed among five \u201cprominent animation houses\u201d.  The company was founded in 1984 by John Lemmon and Mike Rosinski.  Initially the animation studio worked exclusively in clay animation, but has since diversified into stop-motion, 2D animation and Flash animation, as well as web game design.  The company has produced clay animated TV commercials for clients including: Disney, Cartoon Network and Dairy Queen.  The studio has created clay-animated versions of well-known products, including the Coleman lantern, and has produced clay animated spots for Tandy Corporation\u2019s chain of stores called McDuff Electronics and for Cedar Point.\n\n## DR Movie\n\nDR Movie is",
+          "text_preview": "the novel \"The Little White Horse\" by Elizabeth Goudge.  The film was directed by G\u00e1bor Csup\u00f3 and starred Dakota Blue Richards in the leading role.  The film premiered at the 2008 Toronto International Film Festival and was released in the United Kingdom on 6 February 2009 by Warner Bros.\n\n## John Lemmon Films\n\nJohn Lemmon Films is a traditional character animation studio based in Charlotte, North Carolina, United States, and is listed among five \u201cprominent animation houses\u201d.  The company was fo...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6822,
+          "full_text": "partnership with Moonscoop LLC (f/k/a Mike Young Productions (MYP) and Taffy entertainment, the US based arm of French animation studio Moonscoop SAS.\n\n## G&amp;G Entertainment\n\nG&G Entertainment (Korean: (\uc8fc)\uc9c0\uc564\uc9c0\uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 )is a South Korean/Japanese animation studio which creates animation for the domestic South Korean and Japanese anime markets.  The main studio, which is credited as G&G Entertainment, is located in South Korea, while the Japanese subsidiary studio, which is credited as G&G Direction, assists the main studio and aids in getting outsource work from other Japanese studios.  G&G Entertainment is known for its collaboration with the Japanese animation studio Gonzo, with which they have produced their most successful series to date, Kaleido Star.  Increasingly, the studio is also seeking collaborations with Chinese studios, particularly for the creation of computer animation productions.\n\n## G\u00e1bor Csup\u00f3\n\nG\u00e1bor Csup\u00f3 ( ; ] ; born September 29, 1952) is",
+          "text_preview": "partnership with Moonscoop LLC (f/k/a Mike Young Productions (MYP) and Taffy entertainment, the US based arm of French animation studio Moonscoop SAS.\n\n## G&amp;G Entertainment\n\nG&G Entertainment (Korean: (\uc8fc)\uc9c0\uc564\uc9c0\uc5d4\ud130\ud14c\uc778\uba3c\ud2b8 )is a South Korean/Japanese animation studio which creates animation for the domestic South Korean and Japanese anime markets.  The main studio, which is credited as G&G Entertainment, is located in South Korea, while the Japanese subsidiary studio, which is credited as G&G Directi...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 313.4,
+      "generation_latency_ms": 1863.43
+    },
+    {
+      "query_id": "5a86578755429960ec39b668",
+      "question": "What is the name of the company which acquired, in 2008, the world's largest beer producer that broke a distribution aggreement with Shangy's?",
+      "ground_truth": "Anheuser-Busch",
+      "generated_answer": " The company that acquired, in 2008, the world's largest beer producer (which was Anheuser-Busch at the time) and broke a distribution agreement with Shangy's is Anheuser-Busch InBev (AB InBev). This new entity was formed after the merger between AB InBev's predecessors, Anheuser-Busch, and InBev in 2008.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6724,
+          "full_text": "Hadian is an American entrepreneur and owner of Shangy's, a beer distributor founded in 1980 in Emmaus, Pennsylvania.  Hadian has distribution rights to thousands of macros and micro brews, and has continued to expand his range of beers.  In 1998, Shangy's became the distributor of Hoegaarden, a popular Belgian beer.  The agreement entitled Shangy's to distribution rights to seventeen Pennsylvania counties.  In 2004, Hadian sued InBev, the world's largest beer producer, for allegedly violating the 1998 agreement.\n\n## Birra Stela\n\nBirra Stela \"(English: Stela Beer )\" is a beer company based in Tirana, Albania.  It is the second largest beer producer in the country with an annual production capacity of 250,000 hl, covering roughly 15-18% of the domestic market.\n\n## All or Nothing Brewhouse\n\nAll or Nothing Brewhouse was founded by brothers Jeff and Eric Dornan in early 2014 in Oshawa, Ontario.  The company's",
+          "text_preview": "Hadian is an American entrepreneur and owner of Shangy's, a beer distributor founded in 1980 in Emmaus, Pennsylvania.  Hadian has distribution rights to thousands of macros and micro brews, and has continued to expand his range of beers.  In 1998, Shangy's became the distributor of Hoegaarden, a popular Belgian beer.  The agreement entitled Shangy's to distribution rights to seventeen Pennsylvania counties.  In 2004, Hadian sued InBev, the world's largest beer producer, for allegedly violating t...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6047,
+          "full_text": "first beer to market is their \"All or Nothing Hopfenweisse\", which is a lightly hopped German Weisse beer.  The company was founded as Underdog's Brewhouse but, due to a trademark dispute with another craft beer producer, All or Nothing choose to change their name to All or Nothing Brewhouse to avoid a lengthy court battle.  All or Nothing Brewhouse is currently a member of the Ontario Craft Brewers Association which represents the majority of breweries in the Province of Ontario.\n\n## InBev\n\nInBev was a brewing company that resulted from the merger between Belgium-based company Interbrew and Brazilian brewer AmBev which took place in 2004.  It existed independently until the acquisition of Anheuser-Busch in 2008, that formed Anheuser-Busch InBev (abbreviated AB InBev).  InBev had operations in over 30 countries and sales in over 130 countries.  In 2006, it had a market capitalization of \u20ac30.6 billion and net profit of \u20ac3.2 billion on sales of",
+          "text_preview": "first beer to market is their \"All or Nothing Hopfenweisse\", which is a lightly hopped German Weisse beer.  The company was founded as Underdog's Brewhouse but, due to a trademark dispute with another craft beer producer, All or Nothing choose to change their name to All or Nothing Brewhouse to avoid a lengthy court battle.  All or Nothing Brewhouse is currently a member of the Ontario Craft Brewers Association which represents the majority of breweries in the Province of Ontario.\n\n## InBev\n\nInB...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5994,
+          "full_text": "What is the name of the company which acquired, in...\n\n## Haberbusch i Schiele\n\nHaberbusch i Schiele was a (now defunct) Warsaw-based brewery holding created in 1846.  By the end of 19th century, the company had grown to become the largest beer producer in Warsaw and one of the largest in Poland.  Destroyed in the Warsaw Uprising during World War II, the brewery was then nationalized by the communist authorities of Poland and partially rebuilt for the Browary Warszawskie company.\n\n## Birra Kaon\n\nBirra Kaon \"(English: Kaon Beer )\" is a beer company, founded in Vlor\u00eb, Albania in 1995.  A proprietary of T.E.A Company, it is the fourth largest beer producer in the country.\n\n## Javad Hadian\n\nJavad Hadian is an American entrepreneur and owner of Shangy's, a beer distributor founded in 1980 in Emmaus, Pennsylvania.  Hadian has distribution rights to thousands of macros and micro brews, and has continued to expand",
+          "text_preview": "What is the name of the company which acquired, in...\n\n## Haberbusch i Schiele\n\nHaberbusch i Schiele was a (now defunct) Warsaw-based brewery holding created in 1846.  By the end of 19th century, the company had grown to become the largest beer producer in Warsaw and one of the largest in Poland.  Destroyed in the Warsaw Uprising during World War II, the brewery was then nationalized by the communist authorities of Poland and partially rebuilt for the Browary Warszawskie company.\n\n## Birra Kaon\n...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 468.88,
+      "generation_latency_ms": 2663.56
+    },
+    {
+      "query_id": "5a7d41425542997cc2c4743b",
+      "question": "What type of plane is the four engine heavy bomber, first introduced in 1938 for the United States Army, which is hangared at Conroe North Houston Regional Airport?",
+      "ground_truth": "American Boeing B-17 Flying Fortress",
+      "generated_answer": " The four-engine heavy bomber that is hangared at Conroe North Houston Regional Airport is a Boeing B-17 Flying Fortress.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7701,
+          "full_text": "which is located at Conroe North Houston Regional Airport in Conroe, Texas.\n\n## Boeing B-17 Flying Fortress\n\nThe Boeing B-17 Flying Fortress is a four-engine heavy bomber developed in the 1930s for the United States Army Air Corps (USAAC).  Competing against Douglas and Martin for a contract to build 200 bombers, the Boeing entry (prototype Model 299/XB-17) outperformed both competitors and exceeded the air corps' performance specifications.  Although Boeing lost the contract (to the Douglas B-18 Bolo) because the prototype crashed, the air corps ordered 13 more B-17s for further evaluation.  From its introduction in 1938, the B-17 Flying Fortress evolved through numerous design advances, becoming the third-most produced bomber of all time, behind the B-24 and the multirole Ju 88.\n\n## Northrop YB-35\n\nThe Northrop XB-35 and YB-35 were experimental heavy bomber aircraft developed by the Northrop Corporation for the United States Army Air Forces during and shortly after World War II.  The airplane",
+          "text_preview": "which is located at Conroe North Houston Regional Airport in Conroe, Texas.\n\n## Boeing B-17 Flying Fortress\n\nThe Boeing B-17 Flying Fortress is a four-engine heavy bomber developed in the 1930s for the United States Army Air Corps (USAAC).  Competing against Douglas and Martin for a contract to build 200 bombers, the Boeing entry (prototype Model 299/XB-17) outperformed both competitors and exceeded the air corps' performance specifications.  Although Boeing lost the contract (to the Douglas B-1...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7192,
+          "full_text": "2018 Bomber) was a program to develop a new medium bomber for the United States Air Force.  The NGB was initially projected to enter service around 2018 as a stealthy, subsonic, medium-range, medium payload bomber to supplement and possibly\u2014to a limited degree\u2014replace the U.S. Air Force's aging bomber fleet (B-52 Stratofortress and B-1 Lancer).  The NGB program was superseded by the Long Range Strike Bomber (LRS-B) heavy bomber program.\n\n## Texas Raiders\n\nTexas Raiders is an American Boeing B-17 Flying Fortress, a Douglas-Long Beach built B-17G-95-DL.  The Commemorative Air Force\u2019s Gulf Coast Wing \"Texas Raiders\" group maintains and flies the aircraft.  She is hangared at General Aviation Services, which is located at Conroe North Houston Regional Airport in Conroe, Texas.\n\n## Boeing B-17 Flying Fortress\n\nThe Boeing B-17 Flying Fortress is a four-engine heavy bomber developed in the 1930s for the United States Army Air Corps",
+          "text_preview": "2018 Bomber) was a program to develop a new medium bomber for the United States Air Force.  The NGB was initially projected to enter service around 2018 as a stealthy, subsonic, medium-range, medium payload bomber to supplement and possibly\u2014to a limited degree\u2014replace the U.S. Air Force's aging bomber fleet (B-52 Stratofortress and B-1 Lancer).  The NGB program was superseded by the Long Range Strike Bomber (LRS-B) heavy bomber program.\n\n## Texas Raiders\n\nTexas Raiders is an American Boeing B-17...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6475,
+          "full_text": "What type of plane is the four engine heavy bomber...\n\n## Boeing XB-15\n\nThe Boeing XB-15 (Boeing 294) was a United States bomber aircraft designed in 1934 as a test for the United States Army Air Corps (USAAC) to see if it would be possible to build a heavy bomber with a 5000 mi range.  For a year beginning in mid-1935 it was designated the XBLR-1.  When it first flew in 1937, it was the most massive and voluminous aircraft ever built in the US.  It set a number of load-to-altitude records for land-based aircraft, including carrying a 31205 lb payload to 8200 ft on 30 July 1939.\n\n## Eighth Air Force\n\nThe Eighth Air Force (8 AF) is a numbered air force (NAF) of the United States Air Force Global Strike Command (AFGSC).  It is headquartered at Barksdale Air Force Base, Louisiana.  The command serves as Air Forces Strategic \u2013 Global Strike, one of the air components of United States Strategic",
+          "text_preview": "What type of plane is the four engine heavy bomber...\n\n## Boeing XB-15\n\nThe Boeing XB-15 (Boeing 294) was a United States bomber aircraft designed in 1934 as a test for the United States Army Air Corps (USAAC) to see if it would be possible to build a heavy bomber with a 5000 mi range.  For a year beginning in mid-1935 it was designated the XBLR-1.  When it first flew in 1937, it was the most massive and voluminous aircraft ever built in the US.  It set a number of load-to-altitude records for l...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 804.08,
+      "generation_latency_ms": 1767.94
+    },
+    {
+      "query_id": "5a8fc0065542997ba9cb3318",
+      "question": "Me and You and Everyone We Know was directed by an artist who also directed what 2011 film?",
+      "ground_truth": "The Future",
+      "generated_answer": " The artist who directed \"Me and You and Everyone We Know\" also directed the 2011 film \"The Future\".",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6751,
+          "full_text": "in the films \"Me and You and Everyone We Know\" (2005) and \"The Future\" (2011).  Her most recent book - and debut novel - \"The First Bad Man\", was published in January 2015.  July was a recipient of a Creative Capital Emerging Fields Award.",
+          "text_preview": "in the films \"Me and You and Everyone We Know\" (2005) and \"The Future\" (2011).  Her most recent book - and debut novel - \"The First Bad Man\", was published in January 2015.  July was a recipient of a Creative Capital Emerging Fields Award.",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6444,
+          "full_text": "part of a Graham Foundation Research Award.  Stanley Hart White is also known for his innovative teaching style and his influence on the work of Richard Haag, Hideo Sasaki, Peter Walker, Stu Dawson, Philip H. Lewis Jr., and numerous others Stanley Hart White married Blanche Bigney; they had one daughter, Janice Hart White, an accomplished artist.  As E. B. White's niece, Janice was an inspiration for the title character in Stuart Little, Harper and Brothers, 1945.\n\n## Me and You and Everyone We Know\n\nMe and You and Everyone We Know is a 2005 American romantic comedy-drama film written and directed by Miranda July (her directorial debut) and stars July, John Hawkes, Miles Thompson, Brandon Ratcliff, Natasha Slayton, Najarra Townsend, Carlie Westerman, and JoNell Kennedy.\n\n## Lukyamuzi Bashir\n\nLukyamuzi Bashir (or Badi)(born 7 December 1986) is a Ugandan music director, film director and producer.",
+          "text_preview": "part of a Graham Foundation Research Award.  Stanley Hart White is also known for his innovative teaching style and his influence on the work of Richard Haag, Hideo Sasaki, Peter Walker, Stu Dawson, Philip H. Lewis Jr., and numerous others Stanley Hart White married Blanche Bigney; they had one daughter, Janice Hart White, an accomplished artist.  As E. B. White's niece, Janice was an inspiration for the title character in Stuart Little, Harper and Brothers, 1945.\n\n## Me and You and Everyone We ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6102,
+          "full_text": "in 2003 in the U.S. by Miramax Films, which received international critical acclaim.  For his work in the film, he was eventually nominated for an Academy Award for Best Director.  He was also nominated for a Golden Globe Award for Best Director in 2005 for \"The Constant Gardener\", which garnered the Academy Award for Best Supporting Actress to Rachel Weisz.  He also directed the 2008 adaptation of Jos\u00e9 Saramago's novel \"Blindness\", and the 2011 film \"360\".\n\n## Miranda July\n\nMiranda July (born Miranda Jennifer Grossinger; February 15, 1974) is an American film director, screenwriter, actor, author and artist.  Her body of work includes film, fiction, monologue, digital media presentations, and live performance art.  She wrote, directed and starred in the films \"Me and You and Everyone We Know\" (2005) and \"The Future\" (2011).  Her most recent book - and debut novel - \"The First Bad Man\", was published in January 2015.  July",
+          "text_preview": "in 2003 in the U.S. by Miramax Films, which received international critical acclaim.  For his work in the film, he was eventually nominated for an Academy Award for Best Director.  He was also nominated for a Golden Globe Award for Best Director in 2005 for \"The Constant Gardener\", which garnered the Academy Award for Best Supporting Actress to Rachel Weisz.  He also directed the 2008 adaptation of Jos\u00e9 Saramago's novel \"Blindness\", and the 2011 film \"360\".\n\n## Miranda July\n\nMiranda July (born M...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 382.81,
+      "generation_latency_ms": 1320.25
+    },
+    {
+      "query_id": "5a7e49e05542991319bc9463",
+      "question": "What sibling of John D. Rockefeller III was the chairman of Chase Manhattan Corporation?",
+      "ground_truth": "David Rockefeller",
+      "generated_answer": " David Rockefeller was the sibling of John D. Rockefeller III who was the chairman of Chase Manhattan Corporation.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7861,
+          "full_text": "He attended high school at Virginia Episcopal School, where he was a basketball star.  He attended the University of North Carolina at Chapel Hill, where he was admitted to the Zeta Psi fraternity.  Having risen through the ranks of Chemical Bank before succeeding Walter V. Shipley during the Chemical Bank takeover of the Chase Manhattan Corporation, he and Douglas A. Warner III, then CEO of J.P. Morgan & Co., were the principal architects of the US$30.9 billion Chase and J.P. Morgan & Co. merger of 2000.  Harrison has been a director of the Firm or a predecessor institution since 1991.  Harrison is also a director of Merck & Co., Inc.\n\n## Chase Bank\n\nJPMorgan Chase Bank, N.A., doing business as Chase Bank, is a national bank that constitutes the consumer and commercial banking subsidiary of the U.S. multinational banking and financial services holding company, JPMorgan Chase.  The bank was known as Chase Manhattan Bank until it merged with J.P. Morgan & Co. in 2000.  Chase Manhattan Bank was formed by the",
+          "text_preview": "He attended high school at Virginia Episcopal School, where he was a basketball star.  He attended the University of North Carolina at Chapel Hill, where he was admitted to the Zeta Psi fraternity.  Having risen through the ranks of Chemical Bank before succeeding Walter V. Shipley during the Chemical Bank takeover of the Chase Manhattan Corporation, he and Douglas A. Warner III, then CEO of J.P. Morgan & Co., were the principal architects of the US$30.9 billion Chase and J.P. Morgan & Co. merge...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7714,
+          "full_text": "What sibling of John D. Rockefeller III was the ch...\n\n## Rockefeller Brothers Fund\n\nThe Rockefeller Brothers Fund (RBF) is a philanthropic foundation created and run by members of the Rockefeller family.  It was founded in New York City in 1940 as the primary philanthropic vehicle for the five third-generation Rockefeller brothers: John D. Rockefeller III, Nelson, Laurance, Winthrop and David.  It is distinct from the Rockefeller Foundation.  The Rockefellers are an industrial, political, and banking family that made one of the world's largest fortunes in the oil business during the late 19th and early 20th centuries.\n\n## William B. Harrison Jr.\n\nWilliam B. Harrison Jr., born August 12, 1943, in Rocky Mount, North Carolina, is the former CEO and chairman of JPMorgan Chase.  He attended high school at Virginia Episcopal School, where he was a basketball star.  He attended the University of North Carolina at Chapel Hill, where he was admitted to the Zeta Psi fraternity.  Having risen through the ranks of Chemical Bank before succeeding Walter",
+          "text_preview": "What sibling of John D. Rockefeller III was the ch...\n\n## Rockefeller Brothers Fund\n\nThe Rockefeller Brothers Fund (RBF) is a philanthropic foundation created and run by members of the Rockefeller family.  It was founded in New York City in 1940 as the primary philanthropic vehicle for the five third-generation Rockefeller brothers: John D. Rockefeller III, Nelson, Laurance, Winthrop and David.  It is distinct from the Rockefeller Foundation.  The Rockefellers are an industrial, political, and b...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7559,
+          "full_text": "and banking family that made one of the world's largest fortunes in the oil business during the late 19th and early 20th centuries, with John D. Rockefeller and his brother William Rockefeller primarily through Standard Oil.  The family is also known for its long association with and control of Chase Manhattan Bank.  They are considered to be one of the most powerful families, if not the most powerful family, in the history of the United States.\n\n## David Rockefeller\n\nDavid Rockefeller (June 12, 1915 \u2013 March 20, 2017) was an American banker who was chairman and chief executive of Chase Manhattan Corporation.  He was the oldest living member of the Rockefeller family and family patriarch from August 2004 until his death in March 2017.  Rockefeller was a son of John D. Rockefeller Jr. and Abby Aldrich Rockefeller, and a grandson of John D. Rockefeller and Laura Spelman Rockefeller.",
+          "text_preview": "and banking family that made one of the world's largest fortunes in the oil business during the late 19th and early 20th centuries, with John D. Rockefeller and his brother William Rockefeller primarily through Standard Oil.  The family is also known for its long association with and control of Chase Manhattan Bank.  They are considered to be one of the most powerful families, if not the most powerful family, in the history of the United States.\n\n## David Rockefeller\n\nDavid Rockefeller (June 12,...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 373.35,
+      "generation_latency_ms": 1618.28
+    },
+    {
+      "query_id": "5ae3a3835542990afbd1e19c",
+      "question": "The driver know for doing backflips off his car lost to which driver in the 2009 NASCAR Nationwide Series?",
+      "ground_truth": "Kyle Busch",
+      "generated_answer": " The question asks about the 2011 NASCAR Sprint Cup Series, not the 2009 NASCAR Nationwide Series. The provided context mentions that Carl Edwards nearly won the 2011 NASCAR Sprint Cup Series title but lost by a tiebreaker to Tony Stewart. So, in this context, Tony Stewart is the one who beat Carl Edwards, not in the 2009 NASCAR Nationwide Series, but in the 2011 NASCAR Sprint Cup Series.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6864,
+          "full_text": "to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He won the 2007 NASCAR Busch Series championship and nearly won the 2011 NASCAR Sprint Cup Series title, but lost by a tiebreaker to Tony Stewart.  Edwards is well known for doing a backflip off of his car to celebrate a victory, which was a result of saving himself from a potential fall when he had his first win.",
+          "text_preview": "to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He won the 2007 NASCAR Busch Series championship and nearly won the 2011 NASCAR Sprint Cup Series title, but lost by a tiebreaker to Tony Stewart.  Edwards is well known for doing a backflip off of his car to celebrate a victory, which was a result of saving himself from a potential fall when he had his first win.",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6797,
+          "full_text": "300 was a NASCAR Nationwide Series race held on February 23, 2013 at Daytona International Speedway in Daytona Beach, Florida.  It was the first race of the 2013 NASCAR Nationwide Series season.  The race was the 32nd running of the event, and the pole position given to Roush Fenway Racing's Trevor Bayne with a lap speed of 177.162 mph , while Tony Stewart of Richard Childress Racing won the race.  Sam Hornish, Jr. finished 2nd and Alex Bowman finished 3rd.\n\n## Dwayne Leik\n\nDwayne Leik (born February 9, 1964) is a former NASCAR driver.  He was formerly an owner of Leik Motorsports and a part-time driver in the NASCAR Nationwide Series.  He formerly worked as the business manager for Marcis Racing and legendary NASCAR driver Dave Marcis.  Leik was able to secure racing sponsorship for Marcis for eleven consecutive seasons and he is widely regarded as the key figure in resurrecting Marcis\u2019 faltering career.  Since Marcis Racing did not",
+          "text_preview": "300 was a NASCAR Nationwide Series race held on February 23, 2013 at Daytona International Speedway in Daytona Beach, Florida.  It was the first race of the 2013 NASCAR Nationwide Series season.  The race was the 32nd running of the event, and the pole position given to Roush Fenway Racing's Trevor Bayne with a lap speed of 177.162 mph , while Tony Stewart of Richard Childress Racing won the race.  Sam Hornish, Jr. finished 2nd and Alex Bowman finished 3rd.\n\n## Dwayne Leik\n\nDwayne Leik (born Feb...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6509,
+          "full_text": "by the NASCAR in the United States.  The season was contested over thirty-three races and started on February 23, 2013 at Daytona International Speedway, with the DRIVE4COPD 300, and ended on November 16 with the Ford EcoBoost 300 at Homestead-Miami Speedway.  Austin Dillon of Richard Childress Racing won the Drivers' Championship, becoming the first driver in the three major NASCAR series to do so without recording a win.  The No. 22 entry of Penske Racing won the Owners' Championship, while Ford won the Manufacturers' Championship.\n\n## Carl Edwards\n\nCarl Michael Edwards II (born August 15, 1979) is a retired American professional stock car racing driver.  He competed in the NASCAR Sprint Cup Series, driving the No. 19 Toyota Camry for Joe Gibbs Racing.  Prior to that, he drove the No. 99 Ford Fusion for Roush Fenway Racing.  He won the 2007 NASCAR Busch Series championship and nearly won the 2011 NASCAR Sprint Cup Series title, but lost by a tiebreaker",
+          "text_preview": "by the NASCAR in the United States.  The season was contested over thirty-three races and started on February 23, 2013 at Daytona International Speedway, with the DRIVE4COPD 300, and ended on November 16 with the Ford EcoBoost 300 at Homestead-Miami Speedway.  Austin Dillon of Richard Childress Racing won the Drivers' Championship, becoming the first driver in the three major NASCAR series to do so without recording a win.  The No. 22 entry of Penske Racing won the Owners' Championship, while Fo...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 249.03,
+      "generation_latency_ms": 2707.87
+    },
+    {
+      "query_id": "5a83972f5542996488c2e46d",
+      "question": "Roy Holder appeared in a 1967 film which was based on a play of the same name written by who?",
+      "ground_truth": "William Shakespeare",
+      "generated_answer": " The 1967 film that Roy Holder appeared in was based on a play written by William Shakespeare. The play is called \"The Taming of the Shrew\".",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.5789,
+          "full_text": "the sole major white character).  \"Barefoot in the Park\" had also previously been a successful 1967 film starring Robert Redford and Jane Fonda.\n\n## The Taming of the Shrew (1967 film)\n\nThe Taming of the Shrew (Italian: \"La Bisbetica domata\" ) is a 1967 film based on the play of the same name by William Shakespeare about a courtship between two strong-willed people.  The film was directed by Franco Zeffirelli and stars Elizabeth Taylor and Richard Burton as Shakespeare's Kate and Petruchio.\n\n## Roy Holder\n\nRoy Holder (born 15 June 1946) is an English television actor who has appeared in various programmes including \"Ace of Wands\", \"Z-Cars\", \"Spearhead\", the \"Doctor Who\" serial \"The Caves of Androzani\" and \"Sorry! \" His first notable appearance on the screen was in the 1961 film \"Whistle Down the Wind\", and he then appeared in \"The Taming of the Shrew\" (1967),",
+          "text_preview": "the sole major white character).  \"Barefoot in the Park\" had also previously been a successful 1967 film starring Robert Redford and Jane Fonda.\n\n## The Taming of the Shrew (1967 film)\n\nThe Taming of the Shrew (Italian: \"La Bisbetica domata\" ) is a 1967 film based on the play of the same name by William Shakespeare about a courtship between two strong-willed people.  The film was directed by Franco Zeffirelli and stars Elizabeth Taylor and Richard Burton as Shakespeare's Kate and Petruchio.\n\n## ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5479,
+          "full_text": "Caves of Androzani\" and \"Sorry! \" His first notable appearance on the screen was in the 1961 film \"Whistle Down the Wind\", and he then appeared in \"The Taming of the Shrew\" (1967), \"Here We Go Round the Mulberry Bush\" (1967), \"Romeo and Juliet\" (1968), \"The Virgin Soldiers\" (1969), \"Loot\" (1970), \"Psychomania\" (1973), \"The Land That Time Forgot\" (1975), \"Trial by Combat\" (1976) and \"Jesus of Nazareth\" (1977).  More recently, Roy played the part of Mr Hill in \"Pride & Prejudice\" (2005), and Gaffer Tom in \"Robin Hood\" (2010).\n\n## Thoroughly Modern Millie (musical)\n\nThoroughly Modern Millie is a musical with music by Jeanine Tesori, lyrics by Dick Scanlan, and a book by Richard Morris and Scanlan.  It is based on the 1967 film",
+          "text_preview": "Caves of Androzani\" and \"Sorry! \" His first notable appearance on the screen was in the 1961 film \"Whistle Down the Wind\", and he then appeared in \"The Taming of the Shrew\" (1967), \"Here We Go Round the Mulberry Bush\" (1967), \"Romeo and Juliet\" (1968), \"The Virgin Soldiers\" (1969), \"Loot\" (1970), \"Psychomania\" (1973), \"The Land That Time Forgot\" (1975), \"Trial by Combat\" (1976) and \"Jesus of Nazareth\" (1977).  More recently, Roy played the part of Mr Hill in \"Pride & Prejudice\" (2005), and Gaffe...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5166,
+          "full_text": "Roy Holder appeared in a 1967 film which was based...\n\n## The Producers (2005 film)\n\nThe Producers is a 2005 American musical comedy film directed by Susan Stroman and written by Mel Brooks and Thomas Meehan based on the eponymous 2001 Broadway musical, which in turn was based on Brooks's 1967 film of the same name starring Zero Mostel, Gene Wilder and Andreas Voutsinas.  The film stars an ensemble cast led by Nathan Lane, Matthew Broderick, Uma Thurman, Will Ferrell, Gary Beach, Roger Bart, and Jon Lovitz.  Creature effects were provided by Jim Henson's Creature Shop.\n\n## Clambake (album)\n\nClambake is the thirtieth album by American singer and musician Elvis Presley, released by RCA Victor in mono and stereo, LPM/LSP 3893, in October 1967.  It is the soundtrack to the 1967 film of the same name starring Presley.  He entered RCA Studio B in Nashville, Tennessee on February 21,",
+          "text_preview": "Roy Holder appeared in a 1967 film which was based...\n\n## The Producers (2005 film)\n\nThe Producers is a 2005 American musical comedy film directed by Susan Stroman and written by Mel Brooks and Thomas Meehan based on the eponymous 2001 Broadway musical, which in turn was based on Brooks's 1967 film of the same name starring Zero Mostel, Gene Wilder and Andreas Voutsinas.  The film stars an ensemble cast led by Nathan Lane, Matthew Broderick, Uma Thurman, Will Ferrell, Gary Beach, Roger Bart, and...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 264.88,
+      "generation_latency_ms": 1867.32
+    },
+    {
+      "query_id": "5ac3a0db554299391541383a",
+      "question": "Phyllis Kohn holds a seat in the House of Representatives which meets where?",
+      "ground_truth": "Saint Paul",
+      "generated_answer": " The context provided does not mention Phyllis Kohn. However, if we assume that there might have been an error in the question, and it should be Phyllis Kahn instead of Phyllis Kohn, then Phyllis Kahn's district is in the Minnesota House of Representatives which meets at the north wing of the State Capitol in Saint Paul.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6876,
+          "full_text": "The seat Coslett and Dietterick occupied is currently held by Republican Aaron Kaufer, who succeeded longtime Democratic representative Phyllis Mundy after Mundy's 2014 retirement.\n\n## Minnesota House of Representatives\n\nThe Minnesota House of Representatives is the lower house of the Legislature of the U.S. state of Minnesota.  There are 134 members, twice as many as the Minnesota Senate.  Floor sessions are held in the north wing of the State Capitol in Saint Paul.\n\n## Phyllis Kahn\n\nPhyllis Lorberblatt Kahn (born March 23, 1937) is a Minnesota politician and former member of the Minnesota House of Representatives.  A member of the Minnesota Democratic\u2013Farmer\u2013Labor Party (DFL), she represented District 60B, which included portions of the city of Minneapolis in Hennepin County in the Twin Cities metropolitan area.\n\n## Hideo Hiraoka\n\nHideo Hiraoka (\u5e73\u5ca1 \u79c0\u592b , Hiraoka Hideo , born January 14, 1954) is a Japanese politician",
+          "text_preview": "The seat Coslett and Dietterick occupied is currently held by Republican Aaron Kaufer, who succeeded longtime Democratic representative Phyllis Mundy after Mundy's 2014 retirement.\n\n## Minnesota House of Representatives\n\nThe Minnesota House of Representatives is the lower house of the Legislature of the U.S. state of Minnesota.  There are 134 members, twice as many as the Minnesota Senate.  Floor sessions are held in the north wing of the State Capitol in Saint Paul.\n\n## Phyllis Kahn\n\nPhyllis Lo...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6579,
+          "full_text": "Phyllis Kohn holds a seat in the House of Represen...\n\n## Janine Boyd\n\nJanine Boyd (born February 5, 1971) is the Representative of the 9th district of the Ohio House of Representatives.  She is the daughter of Barbara Boyd, who held the same seat from 1993 to 2000 and from 2007 to 2014.  Boyd previously served on council for Cleveland Heights, where she often faced criticism for her attendance.  In 2012, she was appointed to council to replace Phyllis Evans.  In 2014, she announced that she would seek to replace her mother, Barbara Boyd, in the Ohio House of Representatives.  She faced Republican Charles Hopson in the general election, and went on to win 85%-15%.\n\n## Phyllis Heineman\n\nPhyllis M. Heineman (born June 28, 1948 in Mitchell, South Dakota) is an American politician and a Republican member of the South Dakota Senate representing District 13 since January 11,",
+          "text_preview": "Phyllis Kohn holds a seat in the House of Represen...\n\n## Janine Boyd\n\nJanine Boyd (born February 5, 1971) is the Representative of the 9th district of the Ohio House of Representatives.  She is the daughter of Barbara Boyd, who held the same seat from 1993 to 2000 and from 2007 to 2014.  Boyd previously served on council for Cleveland Heights, where she often faced criticism for her attendance.  In 2012, she was appointed to council to replace Phyllis Evans.  In 2014, she announced that she wou...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6577,
+          "full_text": "Florida.  She also has served as an administrative adviser in the Summit County fiscal office.  In 2013, Sykes decided to run for the Ohio House of Representatives to succeed her father, Vernon Sykes, who was term-limited.  She defeated Summit County Councilman Frank Communale to take the Democratic nomination.  Sykes defeated Republican Cynthia Blake 72%-28% to take the seat.\n\n## Washington House of Representatives\n\nThe Washington House of Representatives is the lower house of the Washington State Legislature, and along with the Washington State Senate makes up the legislature of the US state of Washington.  It is composed of 98 Representatives from 49 districts, each of which elects one Senator and two members of the House.  All members of the House are elected to a two-year term without term limits.  The House meets at the Legislative Building in Olympia.\n\n## Franklin Coslett\n\nFranklin Coslett (October 20, 1921 \u2013 January 28, 2011) is a former Republican member of the Pennsylvania House of Representatives who served as the State Representative for",
+          "text_preview": "Florida.  She also has served as an administrative adviser in the Summit County fiscal office.  In 2013, Sykes decided to run for the Ohio House of Representatives to succeed her father, Vernon Sykes, who was term-limited.  She defeated Summit County Councilman Frank Communale to take the Democratic nomination.  Sykes defeated Republican Cynthia Blake 72%-28% to take the seat.\n\n## Washington House of Representatives\n\nThe Washington House of Representatives is the lower house of the Washington St...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 573.72,
+      "generation_latency_ms": 2409.32
+    },
+    {
+      "query_id": "5adf58f15542993a75d264d2",
+      "question": "Which television series featured an actor who also performed in \"The Young Ones\"?",
+      "ground_truth": "\"The Comic Strip Presents...\"",
+      "generated_answer": " Filthy Rich & Catflap",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6896,
+          "full_text": "Colin Grigson, bass (Rik Mayall); and Spider \"Eight-Legs\" Webb, drums (Peter Richardson).\n\n## The Young Ones (TV series)\n\nThe Young Ones is a British sitcom, broadcast in the United Kingdom from 1982 to 1984 in two six-part series.  Shown on BBC2, it featured anarchic, offbeat humour which helped bring alternative comedy to television in the 1980s and made household names of its writers and performers.  In 1985, it was shown on MTV, one of the first non-music television shows on the fledgling channel.  In a 2004 poll, it ranked at number 31 in the BBC's list of \"Britain's Best Sitcoms\".  The show's title relates to the song of the same name, written by Sid Tepper and Roy C. Bennett, and sung by Cliff Richard and The Shadows, which was a No. 1 UK hit single.",
+          "text_preview": "Colin Grigson, bass (Rik Mayall); and Spider \"Eight-Legs\" Webb, drums (Peter Richardson).\n\n## The Young Ones (TV series)\n\nThe Young Ones is a British sitcom, broadcast in the United Kingdom from 1982 to 1984 in two six-part series.  Shown on BBC2, it featured anarchic, offbeat humour which helped bring alternative comedy to television in the 1980s and made household names of its writers and performers.  In 1985, it was shown on MTV, one of the first non-music television shows on the fledgling ch...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6724,
+          "full_text": "American television series remake of the British television show \"The Young Ones\".\n\n## Carole Gray\n\nCarole Gray (born 1940 in Bulawayo, Rhodesia (today's Zimbabwe) is a former British dancer and actress who in the 1960s, particularly in West End musicals.  She appeared in television series such as \"The Avengers\", and made her film debut as Cliff Richard's girlfriend Toni in \"The Young Ones\" (1961).  Thereafter, she appeared mainly in horror films, such as \"Curse of the Fly\", \"Devils of Darkness\", and \"Island of Terror\", and was given the nickname the \"Scream Queen\".  She was married to diamond heir Douglas Cullinan.\n\n## Ben Elton\n\nBenjamin Charles Elton (born 3 May 1959) is an English comedian, author, playwright, actor and director.  He was a part of London's alternative comedy movement of the 1980s and became a writer on series such as \"The Young Ones\" and \"Blackadder\", as well as continuing as a stand-up comedian on stage and",
+          "text_preview": "American television series remake of the British television show \"The Young Ones\".\n\n## Carole Gray\n\nCarole Gray (born 1940 in Bulawayo, Rhodesia (today's Zimbabwe) is a former British dancer and actress who in the 1960s, particularly in West End musicals.  She appeared in television series such as \"The Avengers\", and made her film debut as Cliff Richard's girlfriend Toni in \"The Young Ones\" (1961).  Thereafter, she appeared mainly in horror films, such as \"Curse of the Fly\", \"Devils of Darkness\"...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6467,
+          "full_text": "actor and director.  He was a part of London's alternative comedy movement of the 1980s and became a writer on series such as \"The Young Ones\" and \"Blackadder\", as well as continuing as a stand-up comedian on stage and television.  His style in the 1980s was left-wing political satire.  Since then he has published 15 novels and written the musicals \"We Will Rock You\" (2002) and \"Love Never Dies\" (2010), the sequel to \"The Phantom of the Opera\".  His novels cover the Dystopian, Satire, and Crime genres.\n\n## Filthy Rich &amp; Catflap\n\nFilthy Rich & Catflap is a BBC sitcom produced in 1986 and broadcast in 1987.  The series featured former \"The Young Ones\" co-stars Nigel Planer, Rik Mayall, and Adrian Edmondson as its three title characters.  It was written by Ben Elton (with additional material credited to Mayall), and produced and directed by Paul Jackson (who also directed \"The Young Ones\"), with film",
+          "text_preview": "actor and director.  He was a part of London's alternative comedy movement of the 1980s and became a writer on series such as \"The Young Ones\" and \"Blackadder\", as well as continuing as a stand-up comedian on stage and television.  His style in the 1980s was left-wing political satire.  Since then he has published 15 novels and written the musicals \"We Will Rock You\" (2002) and \"Love Never Dies\" (2010), the sequel to \"The Phantom of the Opera\".  His novels cover the Dystopian, Satire, and Crime ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 269.56,
+      "generation_latency_ms": 1501.68
+    },
+    {
+      "query_id": "5a8c493e554299653c1aa020",
+      "question": "John ruskin named his album due to a removal of what?",
+      "ground_truth": "marker pen",
+      "generated_answer": " John Ruskin named his album \"I Gotta Rash\" due to a removal of a rash that occurred after Jello Biafra drew on him with a marker pen.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6856,
+          "full_text": "John ruskin named his album due to a removal of wh...\n\n## I Gotta Rash/We Are Thee Goblins from Canada\n\nI Gotta Rash/We Are Thee Goblins From Canada is a split album between Nardwuar the Human Serviette's two bands, The Evaporators, and Thee Goblins.  It was released in 1998 as an LP with a free CD.  The name I Gotta Rash comes from the time Jello Biafra drew on Nardwuar's face with a marker pen, the subsequent removal of which resulted in a rash.\n\n## The Seven Lamps of Architecture\n\nThe Seven Lamps of Architecture is an extended essay, first published in May 1849 and written by the English art critic and theorist John Ruskin.  The 'lamps' of the title are Ruskin's principles of architecture, which he later enlarged upon in the three-volume \"The Stones of Venice\".  To an extent, they codified some of the contemporary thinking behind the Gothic Revival.  At the time of its publication",
+          "text_preview": "John ruskin named his album due to a removal of wh...\n\n## I Gotta Rash/We Are Thee Goblins from Canada\n\nI Gotta Rash/We Are Thee Goblins From Canada is a split album between Nardwuar the Human Serviette's two bands, The Evaporators, and Thee Goblins.  It was released in 1998 as an LP with a free CD.  The name I Gotta Rash comes from the time Jello Biafra drew on Nardwuar's face with a marker pen, the subsequent removal of which resulted in a rash.\n\n## The Seven Lamps of Architecture\n\nThe Seven L...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6381,
+          "full_text": "focuses on Ruskin's persistence to not consummate his marriage with Gray.\n\n## John Ruskin (painting)\n\nJohn Ruskin is a painting of the leading Victorian art critic John Ruskin (1819\u20131900).  It was painted by the Pre-Raphaelite artist John Everett Millais (1829\u20131896) during 1853\u201354.  John Ruskin was an early advocate of the Pre-Raphaelite group of artists and part of their success was due to his efforts.\n\n## Ruskin College\n\nRuskin College, originally known as Ruskin Hall, Oxford, is an independent educational institution in Oxford, England.  It is named after the essayist and social critic John Ruskin (1819\u20131900) and specialises in providing educational opportunities for adults with few or no qualifications.\n\n## Ruskin Colony\n\nThe Ruskin Colony (or Ruskin Commonwealth Association) was a utopian socialist colony which existed near Tennessee City in Dickson County, Tennessee from 1894 to 1896.  The colony moved to a slightly more permanent second settlement on an old farm",
+          "text_preview": "focuses on Ruskin's persistence to not consummate his marriage with Gray.\n\n## John Ruskin (painting)\n\nJohn Ruskin is a painting of the leading Victorian art critic John Ruskin (1819\u20131900).  It was painted by the Pre-Raphaelite artist John Everett Millais (1829\u20131896) during 1853\u201354.  John Ruskin was an early advocate of the Pre-Raphaelite group of artists and part of their success was due to his efforts.\n\n## Ruskin College\n\nRuskin College, originally known as Ruskin Hall, Oxford, is an independen...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6223,
+          "full_text": "the art of landscape to the old masters.  The book was primarily written as a defence of the later work of J.M.W. Turner.  Ruskin used the book to argue that art should devote itself to the accurate documentation of nature.  In Ruskin's view, Turner had developed from early detailed documentation of nature to a later more profound insight into natural forces and atmospheric effects.  It was in his 1842 visit to Switzerland that Ruskin collected material used to form the basis of Vol One.\n\n## The Passion of John Ruskin\n\nThe Passion of John Ruskin is a Canadian short film released in 1994 based on the love life of writer and critic John Ruskin.  It is directed by Alex Chapple, starring Mark McKinney as Ruskin, and Neve Campbell as his first wife Effie Gray.  The film focuses on Ruskin's persistence to not consummate his marriage with Gray.\n\n## John Ruskin (painting)\n\nJohn Ruskin is a painting of the leading Victorian art critic John Ruskin (1819\u20131900).  It was painted by the",
+          "text_preview": "the art of landscape to the old masters.  The book was primarily written as a defence of the later work of J.M.W. Turner.  Ruskin used the book to argue that art should devote itself to the accurate documentation of nature.  In Ruskin's view, Turner had developed from early detailed documentation of nature to a later more profound insight into natural forces and atmospheric effects.  It was in his 1842 visit to Switzerland that Ruskin collected material used to form the basis of Vol One.\n\n## The...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 272.36,
+      "generation_latency_ms": 1858.7
+    },
+    {
+      "query_id": "5a72bb045542994cef4bc3e4",
+      "question": "The Nun is based on what film series based on the real life cases of Ed and Lorraine Warren?",
+      "ground_truth": "The Conjuring",
+      "generated_answer": " The \"The Nun\" is not directly based on any film series related to the real-life cases of Ed and Lorraine Warren. However, the films \"The Conjuring\" (2013) and its sequels are inspired by their reports and experiences as paranormal investigators.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.788,
+          "full_text": "Ed and Lorraine Warren to be haunted.  The doll resides in a glass box at The Warrens' Occult Museum in Monroe, Connecticut.  The story served as the inspiration for the films \"Annabelle\" (2014) and \"\" (2017).  Annabelle has been compared to Robert the Doll and was described in Gerald Brittle's 2002 biography of Ed and Lorraine Warren, \"The Demonologist\".\n\n## The Conjuring (film series)\n\nThe Conjuring is an American horror film series distributed by the New Line Cinema division of Warner Bros.  Pictures.  The films present a fictional take on the real-life cases of Ed and Lorraine Warren, paranormal investigators and authors associated with prominent yet controversial cases of haunting.  The main series follows their attempts to assist people who find themselves possessed by demonic spirits, while the spin-off films focus on the origins of some of the entities the Warrens have come across.\n\n## The Dean Case\n\nThe Dean Case is a 1982 Australian TV movie which was the first of the ABC's \"Verdict\" series - four telemovies based",
+          "text_preview": "Ed and Lorraine Warren to be haunted.  The doll resides in a glass box at The Warrens' Occult Museum in Monroe, Connecticut.  The story served as the inspiration for the films \"Annabelle\" (2014) and \"\" (2017).  Annabelle has been compared to Robert the Doll and was described in Gerald Brittle's 2002 biography of Ed and Lorraine Warren, \"The Demonologist\".\n\n## The Conjuring (film series)\n\nThe Conjuring is an American horror film series distributed by the New Line Cinema division of Warner Bros.  ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7489,
+          "full_text": "Their purportedly real-life reports inspired \"The Amityville Horror\" story and film franchise.  The Warrens come to the assistance of the Perron family (Ron Livingston and Lili Taylor), who are experiencing increasingly disturbing events in their farmhouse in Rhode Island in 1971.",
+          "text_preview": "Their purportedly real-life reports inspired \"The Amityville Horror\" story and film franchise.  The Warrens come to the assistance of the Perron family (Ron Livingston and Lili Taylor), who are experiencing increasingly disturbing events in their farmhouse in Rhode Island in 1971.",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7171,
+          "full_text": "Lady of Monza (Italian: La monaca di Monza , also known as \"The Awful Story of the Nun of Monza\" and \"The Nun of Monza\") is a 1969 Italian historical drama film directed by Eriprando Visconti.  It is loosely based on real life events of Marianna de Leyva, better known as \"The Nun of Monza\", whose story was made famous by the Alessandro Manzoni's novel \"The Betrothed\".\n\n## The Conjuring\n\nThe Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and Carey W. Hayes.  It is the first installment in \"The Conjuring\" series.  Patrick Wilson and Vera Farmiga star as Ed and Lorraine Warren, paranormal investigators and authors associated with prominent cases of haunting.  Their purportedly real-life reports inspired \"The Amityville Horror\" story and film franchise.  The Warrens come to the assistance of the Perron family (Ron Livingston and Lili Taylor), who are experiencing increasingly disturbing events in their farmhouse in Rhode",
+          "text_preview": "Lady of Monza (Italian: La monaca di Monza , also known as \"The Awful Story of the Nun of Monza\" and \"The Nun of Monza\") is a 1969 Italian historical drama film directed by Eriprando Visconti.  It is loosely based on real life events of Marianna de Leyva, better known as \"The Nun of Monza\", whose story was made famous by the Alessandro Manzoni's novel \"The Betrothed\".\n\n## The Conjuring\n\nThe Conjuring is a 2013 American supernatural horror film directed by James Wan and written by Chad Hayes and ...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 220.16,
+      "generation_latency_ms": 2002.27
+    },
+    {
+      "query_id": "5aded1595542995ec70e8f29",
+      "question": "Juhi Parmar who appears in colors TV's high rated mythological show shani which premiered on November 7 2013 was born when?",
+      "ground_truth": "born 14 December 1980",
+      "generated_answer": " The given context states that Juhi Parmar was born on 14th December 1980, not 2013 as mistakenly stated in the question. However, the mentioned television show \"Shani\" premiered on November 7, 2016, and not 2013.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6659,
+          "full_text": "Daata Shani (English: \"The lord of the deeds Shani\") is an Indian Hindi historical period drama television series, which premiered on 7 November 2016 and is broadcast on Colors TV.  The series is produced by Swastik Productions of Siddharth Kumar Tewary.  The series airs every Monday to Friday 9.00 pm The series has dubbed into Telugu on Gemini TV and it airs every Monday to Saturday 8:30 pm from 24 July 2017.\n\n## Aasiya Kazi\n\nAasiya Kazi (born 12 December 1991) is an Indian television actress best known for her role of Santu Dharamraj Mahiyavanshi in the television soap opera \"Bandini\" on Imagine TV.  She also played the role of Saudamini in Colors TV and Hema Malini\u2019s \"Matti Ki Banno\", Kastur Galla in Imagine TV's \"Dharampatni\", Dr. Shweta Kapoor / Shweta Rishi Kumar in Zee TV's \"Hitler",
+          "text_preview": "Daata Shani (English: \"The lord of the deeds Shani\") is an Indian Hindi historical period drama television series, which premiered on 7 November 2016 and is broadcast on Colors TV.  The series is produced by Swastik Productions of Siddharth Kumar Tewary.  The series airs every Monday to Friday 9.00 pm The series has dubbed into Telugu on Gemini TV and it airs every Monday to Saturday 8:30 pm from 24 July 2017.\n\n## Aasiya Kazi\n\nAasiya Kazi (born 12 December 1991) is an Indian television actress b...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6518,
+          "full_text": "Juhi Parmar who appears in colors TV's high rated ...\n\n## Juhi Parmar\n\nJuhi Parmar (born 14 December 1980) is an Indian TV personality and an anchor, actress, television presenter, singer and dancer.  She is best known for her role as Kumkum in Television Series Kumkum Ek Pyara Sa Bandhan.  She is the winner of fifth season of the reality television show Bigg Boss that aired on Colors TV.  She currently appears In Colors TV's High Rated mythological Show Shani.\n\n## Yukti Kapoor\n\nYukti Kapoor is an Indian television actress who has appeared in several television serials.  She made her film debut in 2015 with Uvaa.  She was also seen in Colors TV show Balika Vadhu and Star Plus mythological show Siya Ke Ram.  She is currently appearing in Agnifera TV show telecasting on &TV TV channel.\n\n## Radhika Madan\n\nRadhika Madan is an Indian television actress.  Before her debut as Ishani",
+          "text_preview": "Juhi Parmar who appears in colors TV's high rated ...\n\n## Juhi Parmar\n\nJuhi Parmar (born 14 December 1980) is an Indian TV personality and an anchor, actress, television presenter, singer and dancer.  She is best known for her role as Kumkum in Television Series Kumkum Ek Pyara Sa Bandhan.  She is the winner of fifth season of the reality television show Bigg Boss that aired on Colors TV.  She currently appears In Colors TV's High Rated mythological Show Shani.\n\n## Yukti Kapoor\n\nYukti Kapoor is ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6097,
+          "full_text": "degrees.  The show centers on how Sharda is striving to find deserving suitors for both her daughters and is looking for a family who will value both her daughter's education, and will not force her daughters to become housewives despite their extensive education.  The show's main theme is women's empowerment, especially in rural areas of India.  Sahil Uppal and Samridh Bawa plays the male leads as Kunal and Karan respectively.  The series was canceled and its final episode aired 29 September 2017.\n\n## Meghan Jadhav\n\nMeghan Jadhav, is an Indian television and movie actor who is best known as his role in Colors TV show Jai Shri Krishna(2008\u201309) as Shri Krishna.  He has also played as Abhimanyu in the mythological serial of Sony Entertainment Television (India) Suryaputra Karn.  His performance in Dharma Production's Bollywood film Brothers (2015 film) as younger David was highly praised.  Currently portraying the role of Kartikey, son of Shiv and",
+          "text_preview": "degrees.  The show centers on how Sharda is striving to find deserving suitors for both her daughters and is looking for a family who will value both her daughter's education, and will not force her daughters to become housewives despite their extensive education.  The show's main theme is women's empowerment, especially in rural areas of India.  Sahil Uppal and Samridh Bawa plays the male leads as Kunal and Karan respectively.  The series was canceled and its final episode aired 29 September 20...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 1718.78,
+      "generation_latency_ms": 2259.48
+    },
+    {
+      "query_id": "5ab3bb7b55429969a97a8198",
+      "question": "The actor that plays Joe MacMillan in \"Halt and Catch Fire\" also starred with Carrie Coon in what 2017 horror film?",
+      "ground_truth": "The Keeping Hours",
+      "generated_answer": " The actor who plays Joe MacMillan in \"Halt and Catch Fire\", Lee Pace, also starred with Carrie Coon in the 2017 horror film \"The Keeping Hours\".",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6883,
+          "full_text": "2017.\n\n## The Keeping Hours\n\nThe Keeping Hours is a 2017 American supernatural romantic horror film directed by Karen Moncrieff and written by Rebecca Sonnenshine.  The film stars Lee Pace and Carrie Coon.\n\n## Kerry Bish\u00e9\n\nKerry Lynne Bish\u00e9 (born May 1, 1984) is a New Zealand-born American actress, known for her lead role as Donna Clark in the AMC television series \"Halt and Catch Fire\".  Bish\u00e9 played the lead/narrator role on the final season of ABC's medical sitcom \"Scrubs\" and starred in the critically acclaimed drama film \"Argo\".",
+          "text_preview": "2017.\n\n## The Keeping Hours\n\nThe Keeping Hours is a 2017 American supernatural romantic horror film directed by Karen Moncrieff and written by Rebecca Sonnenshine.  The film stars Lee Pace and Carrie Coon.\n\n## Kerry Bish\u00e9\n\nKerry Lynne Bish\u00e9 (born May 1, 1984) is a New Zealand-born American actress, known for her lead role as Donna Clark in the AMC television series \"Halt and Catch Fire\".  Bish\u00e9 played the lead/narrator role on the final season of ABC's medical sitcom \"Scrubs\" and starred in the ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6854,
+          "full_text": "appeared in film series, including \"\" as Garrett and \"The Hobbit\" trilogy as Thranduil.  He played villain Ronan the Accuser in the film \"Guardians of the Galaxy\", and starred as Ned in the ABC series \"Pushing Daisies\" for which he was nominated for the Golden Globe Award and Primetime Emmy Award for Outstanding Lead Actor in a Comedy Series in 2008.\n\n## Carrie Coon\n\nCarrie Alexandra Coon (born January 24, 1981) is an American actress.  On stage, Coon was nominated for a Tony Award for her performance in the 2012 revival of \"Who's Afraid of Virginia Woolf? \".  In film, she starred as Margo Dunne in the 2014 thriller film \"Gone Girl\".  From 2014 to 2017, she starred as Nora Durst in the HBO drama series \"The Leftovers\", for which she received widespread critical acclaim, winning a Critics' Choice Television Award for Best Actress in a Drama Series.  Coon also won for the TCA",
+          "text_preview": "appeared in film series, including \"\" as Garrett and \"The Hobbit\" trilogy as Thranduil.  He played villain Ronan the Accuser in the film \"Guardians of the Galaxy\", and starred as Ned in the ABC series \"Pushing Daisies\" for which he was nominated for the Golden Globe Award and Primetime Emmy Award for Outstanding Lead Actor in a Comedy Series in 2008.\n\n## Carrie Coon\n\nCarrie Alexandra Coon (born January 24, 1981) is an American actress.  On stage, Coon was nominated for a Tony Award for her perfo...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6802,
+          "full_text": "29, 2014, to June 4, 2017.  It is based on Perrotta's novel of the same name.  The pilot was written by Lindelof and Perrotta, and directed by Peter Berg.  The series stars an ensemble cast featuring Justin Theroux, Amy Brenneman, Christopher Eccleston, Liv Tyler, Chris Zylka, Margaret Qualley, Carrie Coon, Ann Dowd, Regina King, and Scott Glenn.  The series was renewed for a second season, which premiered on October 4, 2015, and concluded December 6, 2015.  On December 10, 2015, HBO renewed the show for a third and final season, which premiered on April 16, 2017 and concluded on June 4, 2017.\n\n## The Keeping Hours\n\nThe Keeping Hours is a 2017 American supernatural romantic horror film directed by Karen Moncrieff and written by Rebecca Sonnenshine.  The film stars Lee Pace and Carrie Coon.\n\n## Kerry",
+          "text_preview": "29, 2014, to June 4, 2017.  It is based on Perrotta's novel of the same name.  The pilot was written by Lindelof and Perrotta, and directed by Peter Berg.  The series stars an ensemble cast featuring Justin Theroux, Amy Brenneman, Christopher Eccleston, Liv Tyler, Chris Zylka, Margaret Qualley, Carrie Coon, Ann Dowd, Regina King, and Scott Glenn.  The series was renewed for a second season, which premiered on October 4, 2015, and concluded December 6, 2015.  On December 10, 2015, HBO renewed the...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 310.87,
+      "generation_latency_ms": 1788.4
+    },
+    {
+      "query_id": "5a81a2705542990a1d231e30",
+      "question": "Which is farther north, Wynantskill, New York or Hannaford Brothers Company?",
+      "ground_truth": "Hannaford",
+      "generated_answer": " Hannaford Brothers Company, as it's based in Scarborough, Maine, which is significantly farther north than Wynantskill, New York.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7373,
+          "full_text": "is a hamlet and census-designated place (CDP) in Rensselaer County, New York, United States.  The population was 3,276 at the 2010 census.  Wynantskill is located at the north town line and the northeast corner of the town of North Greenbush.  The community is a suburb of Troy.  NY Route 66 (Pawling Ave. in Troy, Main Ave. in Wynantskill) is the main route throughout the community.  Wynantskill has a major grocery store, several banks and restaurants, a craft beverage store, convenience stores, a post office, and a bowling alley, with almost all houses located on side streets off Main Ave. Other major roads are Whiteview Road, a primarily residential road that leads to Route 4; and West Sand Lake Road.\n\n## Hannaford Brothers Company\n\nHannaford is a supermarket chain based in Scarborough, Maine.  Founded in Portland, Maine, in 1883, Hannaford operates stores in New England and New York.  The chain is",
+          "text_preview": "is a hamlet and census-designated place (CDP) in Rensselaer County, New York, United States.  The population was 3,276 at the 2010 census.  Wynantskill is located at the north town line and the northeast corner of the town of North Greenbush.  The community is a suburb of Troy.  NY Route 66 (Pawling Ave. in Troy, Main Ave. in Wynantskill) is the main route throughout the community.  Wynantskill has a major grocery store, several banks and restaurants, a craft beverage store, convenience stores, ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7152,
+          "full_text": "Road.\n\n## Hannaford Brothers Company\n\nHannaford is a supermarket chain based in Scarborough, Maine.  Founded in Portland, Maine, in 1883, Hannaford operates stores in New England and New York.  The chain is now part of the Ahold Delhaize group based in the Netherlands.\n\n## Battle of White Plains\n\nThe Battle of White Plains was a battle in the New York and New Jersey campaign of the American Revolutionary War fought on October 28, 1776, near White Plains, New York.  Following the retreat of George Washington's Continental Army northward from New York City, British General William Howe landed troops in Westchester County, intending to cut off Washington's escape route.  Alerted to this move, Washington retreated farther, establishing a position in the village of White Plains but failed to establish firm control over local high ground.  Howe's troops drove Washington's troops from a hill near the village; following this loss, Washington ordered the Americans to retreat farther north.\n\n## Lake Wayne\n\nLake Wayne formed in the Lake Erie and Lake St. Clair",
+          "text_preview": "Road.\n\n## Hannaford Brothers Company\n\nHannaford is a supermarket chain based in Scarborough, Maine.  Founded in Portland, Maine, in 1883, Hannaford operates stores in New England and New York.  The chain is now part of the Ahold Delhaize group based in the Netherlands.\n\n## Battle of White Plains\n\nThe Battle of White Plains was a battle in the New York and New Jersey campaign of the American Revolutionary War fought on October 28, 1776, near White Plains, New York.  Following the retreat of Georg...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6439,
+          "full_text": "Which is farther north, Wynantskill, New York or H...\n\n## West Broadway\n\nWest Broadway is a north-south street in the New York City borough of Manhattan, separated into two parts by Tribeca Park.  The northern part begins at Tribeca Park, near the intersection of Avenue of the Americas (Sixth Avenue), Walker Street and Beach Street in Tribeca.  It runs northbound as a one-way street past Canal Street and becomes two-way at the intersection with Grand Street one block farther north.  West Broadway then operates as a main north-south thoroughfare through SoHo until its northern end at Houston Street, on the border between SoHo and Greenwich Village.  North of Houston Street, it is designated as LaGuardia Place, which continues until Washington Square South.\n\n## Wynantskill, New York\n\nWynantskill is a hamlet and census-designated place (CDP) in Rensselaer County, New York, United States.  The population was 3,276 at the 2010 census.  Wynantskill is located at the north",
+          "text_preview": "Which is farther north, Wynantskill, New York or H...\n\n## West Broadway\n\nWest Broadway is a north-south street in the New York City borough of Manhattan, separated into two parts by Tribeca Park.  The northern part begins at Tribeca Park, near the intersection of Avenue of the Americas (Sixth Avenue), Walker Street and Beach Street in Tribeca.  It runs northbound as a one-way street past Canal Street and becomes two-way at the intersection with Grand Street one block farther north.  West Broadwa...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 318.91,
+      "generation_latency_ms": 1638.66
+    },
+    {
+      "query_id": "5ae72f75554299572ea5476c",
+      "question": "The Black Star Line was a part of the Marcus Garvey movement that was also known by what names?",
+      "ground_truth": "Colonization movement or Black Zionism",
+      "generated_answer": " The Back-to-Africa movement, Colonization movement, or Black Zionism",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7827,
+          "full_text": "Mosiah Garvey Jr., ONH (17 August 188710 June 1940), was a proponent of Black nationalism in Jamaica and especially the United States.  He was a leader of a mass movement called Pan-Africanism and he founded the Universal Negro Improvement Association and African Communities League (UNIA-ACL).  He also founded the Black Star Line, a shipping and passenger line which promoted the return of the African diaspora to their ancestral lands.  Although most American Black leaders condemned his methods and his support for racial segregation, Garvey attracted a large following.  The Black Star Line went bankrupt and Garvey was imprisoned for mail fraud in the selling of its stock.  His movement then rapidly collapsed.\n\n## Black Star of Africa\n\nThe Black Star of Africa is a black five-pointed star (\u2605) symbolizing Africa in general and Ghana in particular.  The Black Star Line, founded in 1919 by Marcus Garvey as part of the Back-to-Africa movement, modelled its name on that of the White Star Line, changing the colour from white to black to symbolise",
+          "text_preview": "Mosiah Garvey Jr., ONH (17 August 188710 June 1940), was a proponent of Black nationalism in Jamaica and especially the United States.  He was a leader of a mass movement called Pan-Africanism and he founded the Universal Negro Improvement Association and African Communities League (UNIA-ACL).  He also founded the Black Star Line, a shipping and passenger line which promoted the return of the African diaspora to their ancestral lands.  Although most American Black leaders condemned his methods a...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7341,
+          "full_text": "Ghana in particular.  The Black Star Line, founded in 1919 by Marcus Garvey as part of the Back-to-Africa movement, modelled its name on that of the White Star Line, changing the colour from white to black to symbolise ownership by black people rather than white people.  The black star became a symbol of Pan-Africanism and anti-colonialism.  Described as the \"Lodestar of African Freedom\", the black star was used in 1957 by Theodosia Okoh in the design of the Flag of Ghana.\n\n## Back-to-Africa movement\n\nThe Back-to-Africa movement, also known as the Colonization movement or Black Zionism, originated in the United States in the 19th century.  It encouraged those of African descent to return to the African homelands of their ancestors.  This movement would eventually inspire other movements ranging from the Nation of Islam to the Rastafari movement, and proved to be popular among African-Americans.",
+          "text_preview": "Ghana in particular.  The Black Star Line, founded in 1919 by Marcus Garvey as part of the Back-to-Africa movement, modelled its name on that of the White Star Line, changing the colour from white to black to symbolise ownership by black people rather than white people.  The black star became a symbol of Pan-Africanism and anti-colonialism.  Described as the \"Lodestar of African Freedom\", the black star was used in 1957 by Theodosia Okoh in the design of the Flag of Ghana.\n\n## Back-to-Africa mov...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.7105,
+          "full_text": "The Black Star Line was a part of the Marcus Garve...\n\n## Leo H. Healy\n\nLeo H. Healy (July 4, 1894-December 1962) was the Assistant District Attorney and a Judge in New York City in the 1920s.  In 1911, he held the title of \u201cWorld Champion Intercollegiate Orator\u201d.  He was an attorney for the Black Star Line and in 1923 he was a key government witness in the trial of Marcus Garvey.  In 1944 he was the defense attorney for the Christian Front, an anti-Semitic and pro-Nazi organization active in the United States from about 1938 until about 1942.\n\n## Black Star Line\n\nThe Black Star Line (1919\u22121922) was a shipping line incorporated by Marcus Garvey, the organizer of the Universal Negro Improvement Association (UNIA), and other members of the UNIA.  The shipping line was created to facilitate the transportation of goods and eventually African Americans throughout the African global economy.  It derived its name from the White Star",
+          "text_preview": "The Black Star Line was a part of the Marcus Garve...\n\n## Leo H. Healy\n\nLeo H. Healy (July 4, 1894-December 1962) was the Assistant District Attorney and a Judge in New York City in the 1920s.  In 1911, he held the title of \u201cWorld Champion Intercollegiate Orator\u201d.  He was an attorney for the Black Star Line and in 1923 he was a key government witness in the trial of Marcus Garvey.  In 1944 he was the defense attorney for the Christian Front, an anti-Semitic and pro-Nazi organization active in th...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 230.11,
+      "generation_latency_ms": 1460.45
+    },
+    {
+      "query_id": "5a8e463a5542995a26add4b7",
+      "question": "Havelock Ellis and Arnold Bennett were both what?",
+      "ground_truth": "writer",
+      "generated_answer": " Both Havelock Ellis and Arnold Bennett were writers. Havelock Ellis is known for his works on human sexuality, while Arnold Bennett is best known as a novelist.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7348,
+          "full_text": "had much later also used as a model for his 1930 novel \"Imperial Palace\".\n\n## Autoeroticism\n\nAutoeroticism is the practice of becoming sexually stimulated through internal stimuli.  The term was popularized toward the end of the 19th century by British sexologist Havelock Ellis, who defined autoeroticism as \"the phenomena of spontaneous sexual emotion generated in the absence of an external stimulus proceeding, directly or indirectly, from another person\".\n\n## Arnold Bennett\n\nEnoch Arnold Bennett (27 May 1867 \u2013 27 March 1931) was an English writer.  He is best known as a novelist, but he also worked in other fields such as the theatre, journalism, propaganda and films.\n\n## Havelock Ellis\n\nHenry Havelock Ellis, known as Havelock Ellis (2 February 1859 \u2013 8 July 1939), was an English physician, writer, progressive intellectual and social reformer who studied human sexuality.  He was co-author of the first medical textbook in English on homosexuality in 1897, and also published works on a",
+          "text_preview": "had much later also used as a model for his 1930 novel \"Imperial Palace\".\n\n## Autoeroticism\n\nAutoeroticism is the practice of becoming sexually stimulated through internal stimuli.  The term was popularized toward the end of the 19th century by British sexologist Havelock Ellis, who defined autoeroticism as \"the phenomena of spontaneous sexual emotion generated in the absence of an external stimulus proceeding, directly or indirectly, from another person\".\n\n## Arnold Bennett\n\nEnoch Arnold Bennet...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6978,
+          "full_text": "following their stories from their youth, working in their mother's draper's shop, into old age.  It covers a period of about 70 years from roughly 1840 to 1905, and is set in Burslem and Paris.  It is generally regarded as one of Bennett's finest works.\n\n## John Dicks (publisher)\n\nJohn Thomas Dicks (1818-1881) was a publisher in London in the 19th century.  He issued popular, affordably priced fiction and drama, such as \"shilling Shakespeares and wonderfully cheap reprints of Scott and other standard authors.\"  Earlier in his career he worked with Peter Perring Thoms and George W. M. Reynolds.  Employees included illustrator Frederick Gilbert.  Readers included Thomas Burt and Havelock Ellis.  Dicks retired in the 1870s, when his sons took over the firm which continued into the 1960s.\n\n## The Great Adventure (1921 film)\n\nThe Great Adventure is a 1921 American silent romantic comedy film produced by Whitman Bennett and distributed by First",
+          "text_preview": "following their stories from their youth, working in their mother's draper's shop, into old age.  It covers a period of about 70 years from roughly 1840 to 1905, and is set in Burslem and Paris.  It is generally regarded as one of Bennett's finest works.\n\n## John Dicks (publisher)\n\nJohn Thomas Dicks (1818-1881) was a publisher in London in the 19th century.  He issued popular, affordably priced fiction and drama, such as \"shilling Shakespeares and wonderfully cheap reprints of Scott and other st...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6965,
+          "full_text": "\u2013 8 July 1939), was an English physician, writer, progressive intellectual and social reformer who studied human sexuality.  He was co-author of the first medical textbook in English on homosexuality in 1897, and also published works on a variety of sexual practices and inclinations, as well as transgender psychology.  He is credited with introducing the notions of narcissism and autoeroticism, later adopted by psychoanalysis.  Like many intellectuals of his era, he supported eugenics and he served as president of the Eugenics Society.\n\n## Edith Ellis\n\nEdith Mary Oldham Ellis (n\u00e9e Lees; 1861, Manchester \u2013 1916, Paddington, London) was an English writer and women's rights activist.  She was married to the early sexologist Havelock Ellis.",
+          "text_preview": "\u2013 8 July 1939), was an English physician, writer, progressive intellectual and social reformer who studied human sexuality.  He was co-author of the first medical textbook in English on homosexuality in 1897, and also published works on a variety of sexual practices and inclinations, as well as transgender psychology.  He is credited with introducing the notions of narcissism and autoeroticism, later adopted by psychoanalysis.  Like many intellectuals of his era, he supported eugenics and he ser...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 236.21,
+      "generation_latency_ms": 1689.94
+    },
+    {
+      "query_id": "5abb254c5542992ccd8e7f29",
+      "question": "What type of boat was the German submarine U-505 that was captured by the U.S. Navy in 1944?",
+      "ground_truth": "German Type IXC U-boat",
+      "generated_answer": " The German submarine U-505 is a Type IXC U-boat, as stated in the provided context.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7769,
+          "full_text": "and sinking another German submarine in 1944.  The surrender of the German garrisons of the Channel Islands was signed on 9 May 1945 aboard \"Bulldog\".  Redundant after the war, she was broken up for scrap in 1946.\n\n## German submarine U-505\n\nU-505 is a German Type IXC U-boat built for Nazi Germany's \"Kriegsmarine\" during World War II.  She was captured by the U.S. Navy on June 4, 1944.\n\n## SM U-90\n\nSM \"U-90\" was a Type U 87 u-boat of the Imperial German Navy during World War I.  Its commander Walter Remy made regular stops at remote island North Rona for provisions such as fresh mutton.  On 15 May 1918, \"U-90\" shelled the Hirta wireless station in St Kilda, Scotland.  On 31 May 1918, \"U-90\" torpedoed and sank USS\u00a0\"President Lincoln\" , a former Hamburg America",
+          "text_preview": "and sinking another German submarine in 1944.  The surrender of the German garrisons of the Channel Islands was signed on 9 May 1945 aboard \"Bulldog\".  Redundant after the war, she was broken up for scrap in 1946.\n\n## German submarine U-505\n\nU-505 is a German Type IXC U-boat built for Nazi Germany's \"Kriegsmarine\" during World War II.  She was captured by the U.S. Navy on June 4, 1944.\n\n## SM U-90\n\nSM \"U-90\" was a Type U 87 u-boat of the Imperial German Navy during World War I.  Its commander Wa...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7328,
+          "full_text": "\"U-90\" shelled the Hirta wireless station in St Kilda, Scotland.  On 31 May 1918, \"U-90\" torpedoed and sank USS\u00a0\"President Lincoln\" , a former Hamburg America Line steamer that had been seized by the United States for troop transportation.  From the U.S. Navy crew that abandoned the sinking vessel, \"U-90\" captured Lieutenant Edouard Izac, eventually taking him to Germany.  Izac later escaped German captivity and reported to the US Navy about German submarine movements.\n\n## German submarine U-5269\n\nGerman submarine \"U-5269\" was a Type XXVIIB \"Seehund\" midget submarine which bears one of the highest registry numbers of the Kriegsmarine to be issued to a submarine during World War II.  \"U-5269\" was not, however, the last German submarine commissioned (that boat was \"U-4712\") but was issued a higher registry since contracted boats were frequently commissioned out of order due to scheduling and construction conflicts.\n\n## German submarine",
+          "text_preview": "\"U-90\" shelled the Hirta wireless station in St Kilda, Scotland.  On 31 May 1918, \"U-90\" torpedoed and sank USS\u00a0\"President Lincoln\" , a former Hamburg America Line steamer that had been seized by the United States for troop transportation.  From the U.S. Navy crew that abandoned the sinking vessel, \"U-90\" captured Lieutenant Edouard Izac, eventually taking him to Germany.  Izac later escaped German captivity and reported to the US Navy about German submarine movements.\n\n## German submarine U-526...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7268,
+          "full_text": "Navy had captured an enemy ship since the nineteenth century.  More importantly the Americans captured a code book that enabled Allied forces to more frequently pinpoint other German vessels.\n\n## USS Guadalcanal (CVE-60)\n\nUSS \"Guadalcanal\" (CVE-60) was a \"Casablanca\"-class escort carrier of the United States Navy, which served during and after World War II.  She was the first ship to carry her name.  She was the flagship of the Hunter-killer Group which captured the German submarine (\"U-boat\") \"U-505\" .\n\n## HMS Harvester (H19)\n\nHMS \"Harvester\" was an H-class destroyer originally ordered by the Brazilian Navy with the name \"Jurua\" in the late 1930s, but bought by the Royal Navy after the beginning of World War II in September 1939.  Almost immediately after being commissioned, in May 1940, the ship began evacuating Allied troops from Dunkirk and other locations in France.  Afterwards she was assigned to the Western Approaches Command for convoy escort duties.",
+          "text_preview": "Navy had captured an enemy ship since the nineteenth century.  More importantly the Americans captured a code book that enabled Allied forces to more frequently pinpoint other German vessels.\n\n## USS Guadalcanal (CVE-60)\n\nUSS \"Guadalcanal\" (CVE-60) was a \"Casablanca\"-class escort carrier of the United States Navy, which served during and after World War II.  She was the first ship to carry her name.  She was the flagship of the Hunter-killer Group which captured the German submarine (\"U-boat\") \"...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 822.49,
+      "generation_latency_ms": 1646.26
+    },
+    {
+      "query_id": "5a7a45425542990783324ee2",
+      "question": "What American corporation owns Claim Jumper?",
+      "ground_truth": "Landry's",
+      "generated_answer": " Landry's, Inc. owns Claim Jumper.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7574,
+          "full_text": "Company; Power Corporation owns 72% of Great-West Lifeco.  Great-West Lifeco is the only one of those finance companies that is a member of the TSX Composite Index.)\n\n## Landry's, Inc.\n\nLandry's, Inc., is an American, privately owned, multi-brand dining/hospitality/entertainment/gaming corporation.  Headquartered in Houston, Texas, Landry's, Inc. owns and operates more than 600 restaurant/hotel/casino/entertainment destinations in 37 states and the District of Columbia.  The company also owns and operates numerous international locations.\n\n## Baker v. Morton\n\nBaker v. Morton, 79 U.S. 150 (1870) , was the first \"serious\" court case to come out of Omaha, Nebraska Territory, prior to statehood.  In the trial a claim jumper fought against local land barons to stake out a homestead in the area that was to become the city of Omaha.  The case was important for establishing homesteaders rights and ensuring the future growth of Omaha would benefit everyone, not only wealthy",
+          "text_preview": "Company; Power Corporation owns 72% of Great-West Lifeco.  Great-West Lifeco is the only one of those finance companies that is a member of the TSX Composite Index.)\n\n## Landry's, Inc.\n\nLandry's, Inc., is an American, privately owned, multi-brand dining/hospitality/entertainment/gaming corporation.  Headquartered in Houston, Texas, Landry's, Inc. owns and operates more than 600 restaurant/hotel/casino/entertainment destinations in 37 states and the District of Columbia.  The company also owns an...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7331,
+          "full_text": "the prime of their career.  The center is located adjacent to and is visible from the major north/south of I-680 that links the area to San Francisco.  In addition, two BART stations provide rapid transit for office workers from the surrounding area to the city.\n\n## Bonanza Bunny\n\nBonanza Bunny is a 1959 Bugs Bunny cartoon featuring French Canadian claim jumper Blacque Jacque Shellacque.\n\n## London Life Insurance Company\n\nThe London Life Insurance Company is a Canadian life insurance company best known for its \"Freedom 55\" slogan, evocative of saving money to an extent that would allow one to retire at age 55.  London Life is a part of Great-West Lifeco subsidiary The Great-West Life Assurance Company, which in turn is controlled by Power Financial Corporation (Great-West Lifeco owns 100% of The Great-West Life Assurance Company; Power Corporation owns 72% of Great-West Lifeco.  Great-West Lifeco is the only one of those finance companies that is a member of the TSX Composite Index.)\n\n## Landry's, Inc.\n\nLandry's, Inc.,",
+          "text_preview": "the prime of their career.  The center is located adjacent to and is visible from the major north/south of I-680 that links the area to San Francisco.  In addition, two BART stations provide rapid transit for office workers from the surrounding area to the city.\n\n## Bonanza Bunny\n\nBonanza Bunny is a 1959 Bugs Bunny cartoon featuring French Canadian claim jumper Blacque Jacque Shellacque.\n\n## London Life Insurance Company\n\nThe London Life Insurance Company is a Canadian life insurance company bes...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.7195,
+          "full_text": "Lee Hwa, Goldheart and Citigems brands.  Aspial Corporation is a contemporary fashion jeweller in Singapore and is the only listed jeweller on the Singapore Exchange.  The company's Aspial brand consists of its top range products, followed by Lee Hwa Jewellery, Goldheart and Citigems which cater to the younger people.\n\n## Claim Jumper\n\nClaim Jumper Restaurant and Saloon is an American restaurant chain with more than 40 locations.  The company is based in Houston, Texas.  Claim Jumper is wholly owned by Landry's, Inc.",
+          "text_preview": "Lee Hwa, Goldheart and Citigems brands.  Aspial Corporation is a contemporary fashion jeweller in Singapore and is the only listed jeweller on the Singapore Exchange.  The company's Aspial brand consists of its top range products, followed by Lee Hwa Jewellery, Goldheart and Citigems which cater to the younger people.\n\n## Claim Jumper\n\nClaim Jumper Restaurant and Saloon is an American restaurant chain with more than 40 locations.  The company is based in Houston, Texas.  Claim Jumper is wholly o...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 236.05,
+      "generation_latency_ms": 1316.32
+    }
+  ]
+}

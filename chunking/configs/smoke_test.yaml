@@ -1,0 +1,39 @@
+# Smoke Test Configuration
+# Purpose: Quick verification that the chunking pipeline works end-to-end
+#
+# This minimal config runs 1 strategy with 5 queries to verify:
+# - Dataset loading works
+# - Chunking produces valid nodes
+# - ChromaDB indexing works
+# - RAGAS evaluation completes
+# - Results are saved correctly
+#
+# Expected runtime: ~2-3 minutes
+
+name: smoke_test
+description: Quick verification of chunking pipeline
+
+# Dataset: HotpotQA (small sample)
+dataset: hotpotqa
+dataset_args:
+  num_examples: 5    # Minimal sample
+  seed: 42           # Fixed seed for reproducibility
+
+# Single configuration to test
+configurations:
+  - name: token_test
+    strategy: token
+    chunk_size: 1024
+    chunk_overlap: 128
+
+# Minimal evaluation
+evaluation:
+  metrics:
+    - context_recall     # Primary metric only
+  top_k: 3
+  num_queries: 5         # Match dataset size
+
+# Output settings
+output:
+  detailed: true
+  summary: true

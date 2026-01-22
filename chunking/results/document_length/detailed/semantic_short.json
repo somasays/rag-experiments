@@ -1,0 +1,664 @@
+{
+  "config": "semantic_short",
+  "strategy": "semantic",
+  "chunk_size": 1024,
+  "actual_chunk_size": 859.2276422764228,
+  "timestamp": "2026-01-13T11:29:15.097256",
+  "chunking_stats": {
+    "doc_count": 60,
+    "chunk_count": 246,
+    "chunks_per_doc": 4.1,
+    "avg_doc_length": 3523.0,
+    "avg_chunk_length": 859.0,
+    "chunking_occurred": true
+  },
+  "evaluation": {
+    "context_recall": 0.95,
+    "context_precision": 0.7624999999322917,
+    "faithfulness": 0.7833333333333333,
+    "answer_relevancy": 0.0,
+    "retrieval_success_rate": 0.95
+  },
+  "query_results": [
+    {
+      "query_id": "5adcf2b55542992c1e3a24cd",
+      "question": "How many children's books has the writer of the sitcom Maid Marian and her Merry Men written ? ",
+      "ground_truth": "sixteen",
+      "generated_answer": " Tony Robinson, the writer of the sitcom \"Maid Marian and her Merry Men,\" has written sixteen children's books.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6397,
+          "full_text": "Robin and his crew must evade the cruel Sheriff of Nottingham and his henchmen and stop the machinations of the vile usurper to England's throne, Prince John.  However, Robin must avoid killing enemies as much as possible, or he will not be able to recruit as many new Merry Men.\n\n## Tony Robinson\n\nSir Anthony \"Tony\" Robinson (born 15 August 1946) is an English actor, comedian, author, presenter, historian and political activist.  He is known for playing Baldrick in the BBC television series \"Blackadder\" and for hosting the Channel 4 programmes \"Time Team\" and \"The Worst Jobs in History\".  Robinson is a member of the Labour Party and has served on its National Executive Committee.  He has also written sixteen children's books.\n\n## Maid Marian and Her Merry Men\n\nMaid Marian and her Merry Men is a British children's sitcom created and written by Tony Robinson and directed by David Bell.  It began in 1989 on BBC One and ran for four series, with the last episode shown in 1994.  The show was a partially musical comic retelling of the legend of Robin Hood, placing Maid Marian in the role of leader of the Merry Men, and reducing Robin to an incompetent ex-tailor.\n\n## List of Maid Marian and Her Merry Men episodes\n\nThe following is a list of the episodes of the BBC television series \"Maid Marian and her Merry Men\".",
+          "text_preview": "Robin and his crew must evade the cruel Sheriff of Nottingham and his henchmen and stop the machinations of the vile usurper to England's throne, Prince John.  However, Robin must avoid killing enemies as much as possible, or he will not be able to recruit as many new Merry Men.\n\n## Tony Robinson\n\nSir Anthony \"Tony\" Robinson (born 15 August 1946) is an English actor, comedian, author, presenter, historian and political activist.  He is known for playing Baldrick in the BBC television series \"Bla...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5922,
+          "full_text": "How many children's books has the writer of the si...\n\n## Ramsay Gilderdale\n\nRamsay Wilson Gilderdale (born 5 August 1962 in Wakefield, West Yorkshire) is an English actor, who played Guy of Gisbourne in BBC comedy \"Maid Marian and Her Merry Men\".  He also appeared in \"Rumpole of the Bailey\" and \"Blackadder's Christmas Carol\".\n\n## Howard Lew Lewis\n\nHoward Lew Lewis (born 21 August 1941) is an English comedian and actor, best known for his roles in comedy series including \"Maid Marian and her Merry Men\" and \"Brush Strokes\".\n\n## Adam Morris\n\nAdam Morris (also known as Wayne Morris) is a British stage and screen actor whose most notable roles have been Robin Hood (or Robin of Kensington) in the television comedy series \"Maid Marian and Her Merry Men\", and more recently, Philip Norton in \"Genie in the House\".  Trained at London's Central School of Speech and Drama, his stage appearances include Bri in \"A Day in the Death of Joe Egg\" and Gordon in \"The Throne\" for the New Vic, and he appeared for one week in \"Speed the Plow\" at the Playhouse Theatre, London, opposite Lindsay Lohan while Richard Schiff was indisposed.\n\n## Kate Lonergan\n\nHelen Catherine \"Kate\" Lonergan (born 4 January 1962 in Barton-upon-Irwell, Lancashire) is an English former actress, best known for playing the role of Marian in the 1989\u201394 BBC One children's television series \"Maid Marian and her Merry Men\".\n\n## David Lloyd (actor)\n\nDavid Lloyd (born 17 May 1955) is an English actor and screenwriter, perhaps best known from his role in \"Maid Marian and her Merry Men\", where he played Graeme, one of the two guards (alongside Mark Billingham's Gary).\n\n## Mike Edmonds\n\nMike Edmonds (born 13 January 1944) is an English actor with dwarfism, known for his role as Little Ron in the children's television show \"Maid Marian and Her Merry Men\".\n\n## Robin Hood: The Legend of Sherwood\n\nRobin Hood: The Legend of Sherwood is a 2002 stealth-based real-time tactics video game developed by Spellbound Studios.  It is similar to games such as \"\" and the \"Commandos\" series.  In the game, the player controls up to five characters in a setting based on the stories of the protagonist, Robin Hood.  ",
+          "text_preview": "How many children's books has the writer of the si...\n\n## Ramsay Gilderdale\n\nRamsay Wilson Gilderdale (born 5 August 1962 in Wakefield, West Yorkshire) is an English actor, who played Guy of Gisbourne in BBC comedy \"Maid Marian and Her Merry Men\".  He also appeared in \"Rumpole of the Bailey\" and \"Blackadder's Christmas Carol\".\n\n## Howard Lew Lewis\n\nHoward Lew Lewis (born 21 August 1941) is an English comedian and actor, best known for his roles in comedy series including \"Maid Marian and her Mer...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5581,
+          "full_text": "The player can also control Robin Hood's Merry Men, including Little John, Friar Tuck, Will Scarlet, Will Stutely, and Maid Marian.  ",
+          "text_preview": "The player can also control Robin Hood's Merry Men, including Little John, Friar Tuck, Will Scarlet, Will Stutely, and Maid Marian.  ",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 305.01,
+      "generation_latency_ms": 2656.4
+    },
+    {
+      "query_id": "5adc2e3d554299438c868d6b",
+      "question": "Jes\u00fas Dautt is a Mexican professional footballer who is on loan from a club founded on what date?",
+      "ground_truth": "28 June 1945",
+      "generated_answer": " Jes\u00fas Dautt's parent club, CF Monterrey, was founded on 28th June 1945.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7186,
+          "full_text": "Jes\u00fas Dautt is a Mexican professional footballer w...\n\n## C.F. Monterrey\n\nClub de F\u00fatbol Monterrey is a Mexican football club from Monterrey, Nuevo Le\u00f3n.  Founded on 28 June 1945, it is the oldest active team in the professional division from the northern part of Mexico, and currently play in the Liga MX.  The club is owned by FEMSA, Latin America's largest bottling company.  ",
+          "text_preview": "Jes\u00fas Dautt is a Mexican professional footballer w...\n\n## C.F. Monterrey\n\nClub de F\u00fatbol Monterrey is a Mexican football club from Monterrey, Nuevo Le\u00f3n.  Founded on 28 June 1945, it is the oldest active team in the professional division from the northern part of Mexico, and currently play in the Liga MX.  The club is owned by FEMSA, Latin America's largest bottling company.  ",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6877,
+          "full_text": "Its home games have been played in the Estadio BBVA Bancomer since 2015.\n\n## Jes\u00fas Manuel Corona\n\nJes\u00fas Manuel Corona Ru\u00edz (born 6 January 1993) is a Mexican professional footballer who plays as a winger for Portuguese club Porto and the Mexico national team.\n\n## Jes\u00fas Due\u00f1as\n\nJes\u00fas Alberto Due\u00f1as Manzo (March 16, 1989) is a Mexican professional footballer who plays for Liga MX club Tigres UANL and the Mexico national team.\n\n## Jes\u00fas Veyna\n\nJes\u00fas Zaid Veyna Montes (born March 17, 1995 in Zacatecas City, Zacatecas), known as Jes\u00fas Veyna, is a Mexican professional association football (soccer) player who plays for Club Necaxa in the Mexican first division.  He formerly played for Ascenso MX club Atl\u00e9tico San Luis and Liga MX side Club Am\u00e9rica.\n\n## Jes\u00fas Urbina\n\nJes\u00fas Yair Urbina N\u00fa\u00f1ez (born March 3, 1983) is a Mexican professional footballer who plays for Morelia on loan from UANL of Liga MX.\n\n## Enrique Cedillo\n\nEnrique de Jes\u00fas Cedillo Ort\u00edz (born 8 April 1996) is a Mexican professional footballer who plays as a defender for Liga MX club Am\u00e9rica.\n\n## Alan Puga\n\nAlan de Jes\u00fas Puga Olivares (born 8 April 1995 in San Francisco del Rinc\u00f3n, Guanajuato) is a Mexican professional footballer who plays in the midfielder position for Club Le\u00f3n Premier.\n\n## Jes\u00fas Dautt\n\nJes\u00fas Dautt is a Mexican professional footballer who plays for Tapachula of Ascenso MX on loan from Monterrey.\n\n",
+          "text_preview": "Its home games have been played in the Estadio BBVA Bancomer since 2015.\n\n## Jes\u00fas Manuel Corona\n\nJes\u00fas Manuel Corona Ru\u00edz (born 6 January 1993) is a Mexican professional footballer who plays as a winger for Portuguese club Porto and the Mexico national team.\n\n## Jes\u00fas Due\u00f1as\n\nJes\u00fas Alberto Due\u00f1as Manzo (March 16, 1989) is a Mexican professional footballer who plays for Liga MX club Tigres UANL and the Mexico national team.\n\n## Jes\u00fas Veyna\n\nJes\u00fas Zaid Veyna Montes (born March 17, 1995 in Zacatec...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6781,
+          "full_text": "## Edgar Alaffita\n\nEdgar Jahir Alaffita Garc\u00eda (born October 18, 1996) is a Mexican professional footballer who plays as a defender for Mexican club Club Necaxa, on loan from San Luis.\n\n## Jos\u00e9 de Jes\u00fas God\u00ednez\n\nJos\u00e9 de Jes\u00fas God\u00ednez Navarro (born January 20, 1997) is a Mexican professional footballer who plays as a striker for Liga MX club C.D. Guadalajara.",
+          "text_preview": "## Edgar Alaffita\n\nEdgar Jahir Alaffita Garc\u00eda (born October 18, 1996) is a Mexican professional footballer who plays as a defender for Mexican club Club Necaxa, on loan from San Luis.\n\n## Jos\u00e9 de Jes\u00fas God\u00ednez\n\nJos\u00e9 de Jes\u00fas God\u00ednez Navarro (born January 20, 1997) is a Mexican professional footballer who plays as a striker for Liga MX club C.D. Guadalajara.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 399.87,
+      "generation_latency_ms": 1502.6
+    },
+    {
+      "query_id": "5ae5e1345542996de7b71a50",
+      "question": "What fictional character created by Tom Clancy was turned into a film in 2002?",
+      "ground_truth": "Jack Ryan",
+      "generated_answer": " The fictional character Jack Ryan, created by Tom Clancy, was turned into a film in 2002.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7034,
+          "full_text": "It was the fourth of Clancy's \"Jack Ryan\" books to be turned into a film (2002).\n\n## Jack Ryan (character)\n\nDr. John Patrick \"Jack\" Ryan Sr., KCVO (Hon.",
+          "text_preview": "It was the fourth of Clancy's \"Jack Ryan\" books to be turned into a film (2002).\n\n## Jack Ryan (character)\n\nDr. John Patrick \"Jack\" Ryan Sr., KCVO (Hon.",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6309,
+          "full_text": "What fictional character created by Tom Clancy was...\n\n## Sam Fisher (Splinter Cell)\n\nSamuel \"Sam\" Fisher is a fictional character and the protagonist of the \"Tom Clancy's Splinter Cell\" series of video games developed by Ubisoft as well as a series of tie-in novels endorsed by Tom Clancy.  His full name is first seen in \"Tom Clancy's Splinter Cell\", the first game of the series, when he was using the computer in the V-22 Osprey to encrypt his home call.  Fisher was originally voiced by veteran actor Michael Ironside in the first five installments of the series.  In 2013, Eric Johnson assumed the voice and physical role in \"\".\n\n## Tom Clancy's Net Force Explorers: Deathworld\n\nTom Clancy's Net Force Explorers or Net Force Explorers is a series of young adult novels created by Tom Clancy and Steve Pieczenik as a spin-off of the military fiction series Tom Clancy's Net Force.\n\n## Tom Clancy's Net Force Explorers: High Wire\n\nTom Clancy's Net Force Explorers or Net Force Explorers is a series of young adult novels created by Tom Clancy and Steve Pieczenik as a spin-off of the military fiction series Tom Clancy's Net Force.\n\n## Tom Clancy's Net Force Explorers: Duel Identity\n\nTom Clancy's Net Force Explorers or Net Force Explorers is a series of young adult novels created by Tom Clancy and Steve Pieczenik as a spin-off of the military fiction series Tom Clancy's Net Force.\n\n## Tom Clancy's Splinter Cell: Pandora Tomorrow\n\nTom Clancy's Splinter Cell: Pandora Tomorrow is a stealth video game developed and published by Ubisoft Shanghai, while Ubisoft Montreal, developer of the original \"Splinter Cell\", was working on \"\".  \"Pandora Tomorrow\" is the second game in the \"Splinter Cell\" series endorsed by writer Tom Clancy.  The game follows the covert activities of Sam Fisher, an agent working for a black-ops branch of the National Security Agency (NSA) called \"Third Echelon\".  Sam Fisher is voiced by Michael Ironside, Dennis Haysbert voices the character Irving Lambert, Fisher's boss, making this the only time he is not voiced by Don Jordan.  Lalo Schifrin provides the theme music for the game.  A remastered high-definition version of \"Tom Clancy's Splinter Cell: Pandora Tomorrow\" was announced for the PlayStation Network for the PlayStation 3 on December 20, 2010.\n\n## Tom Clancy's Net Force Explorers: Death Match\n\nTom Clancy's Net Force Explorers or Net Force Explorers is a series of young adult novels created by Tom Clancy and Steve Pieczenik as a spin-off of the military fiction series Tom Clancy's Net Force.\n\n## Tom Clancy's Net Force Explorers: Gameprey\n\nTom Clancy's Net Force Explorers or Net Force Explorers is a series of young adult novels created by Tom Clancy and Steve Pieczenik as a spin-off of the military fiction series Tom Clancy's Net Force.\n\n## The Sum of All Fears\n\nThe Sum of All Fears is a best-selling thriller novel by Tom Clancy and part of the Jack Ryan universe.  ",
+          "text_preview": "What fictional character created by Tom Clancy was...\n\n## Sam Fisher (Splinter Cell)\n\nSamuel \"Sam\" Fisher is a fictional character and the protagonist of the \"Tom Clancy's Splinter Cell\" series of video games developed by Ubisoft as well as a series of tie-in novels endorsed by Tom Clancy.  His full name is first seen in \"Tom Clancy's Splinter Cell\", the first game of the series, when he was using the computer in the V-22 Osprey to encrypt his home call.  Fisher was originally voiced by veteran ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6227,
+          "full_text": "), Ph.D. is a fictional character created by Tom Clancy who appears in many of his novels and their respective film adaptations.\n\n## Tom Clancy's Net Force Explorers: Cold Case\n\nTom Clancy's Net Force Explorers: Cold Case is a young adult novel by Bill McCay that is the fifteenth book in the series Tom Clancy's Net Force Explorers created by Tom Clancy and Steve Pieczenik.",
+          "text_preview": "), Ph.D. is a fictional character created by Tom Clancy who appears in many of his novels and their respective film adaptations.\n\n## Tom Clancy's Net Force Explorers: Cold Case\n\nTom Clancy's Net Force Explorers: Cold Case is a young adult novel by Bill McCay that is the fifteenth book in the series Tom Clancy's Net Force Explorers created by Tom Clancy and Steve Pieczenik.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 269.3,
+      "generation_latency_ms": 1870.03
+    },
+    {
+      "query_id": "5a7f275d55429934daa2fd01",
+      "question": "Are both Jonathan Marray and Wayne Black British?",
+      "ground_truth": "no",
+      "generated_answer": " No, Wayne Black is not British. He is from Zimbabwe. Jonathan Marray is British, as indicated in his context description.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7551,
+          "full_text": "Are both Jonathan Marray and Wayne Black British?...\n\n## Jonathan Marray\n\nJonathan \"Jonny\" Marray (born 10 March 1981) is a British tennis player and a Wimbledon Men's Doubles champion.  Marray is a former top 20 doubles player, reaching a career high of world no. 15 in January 2013, mainly due to more regular appearances on the ATP World Tour, following his victory at Wimbledon 2012.  He has also competed on the singles tour, reaching world no. 215 in April 2005, but was unable to continue his singles career, in part due to injuries.\n\n## 2013 BH Telecom Indoors \u2013 Doubles\n\nDustin Brown and Jonathan Marray were the defending champions but Marray decided not to participate. <br>\n\n## Wayne Black\n\nWayne Hamilton Black (born 17 November 1973 in Harare, is a former professional male tennis player from Zimbabwe.\n\n## 2016 Hall of Fame Tennis Championships \u2013 Doubles\n\nJonathan Marray and Aisam-ul-Haq Qureshi were the defending champions, but Qureshi chose to compete in Hamburg instead.  Marray played alongside Adil Shamasdin, but lost in the final to Sam Groth and Chris Guccione, 4\u20136, 3\u20136.\n\n",
+          "text_preview": "Are both Jonathan Marray and Wayne Black British?...\n\n## Jonathan Marray\n\nJonathan \"Jonny\" Marray (born 10 March 1981) is a British tennis player and a Wimbledon Men's Doubles champion.  Marray is a former top 20 doubles player, reaching a career high of world no. 15 in January 2013, mainly due to more regular appearances on the ATP World Tour, following his victory at Wimbledon 2012.  He has also competed on the singles tour, reaching world no. 215 in April 2005, but was unable to continue his ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6961,
+          "full_text": "## 2010 TEAN International \u2013 Men's Doubles\n\nJonathan Marray and Jamie Murray were the defending champions, but Marray chose not to participate.  ",
+          "text_preview": "## 2010 TEAN International \u2013 Men's Doubles\n\nJonathan Marray and Jamie Murray were the defending champions, but Marray chose not to participate.  ",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6227,
+          "full_text": "Nielsen paired up with Grigor Dimitrov, but lost to Julien Benneteau and Nenad Zimonji\u0107 in the second round.",
+          "text_preview": "Nielsen paired up with Grigor Dimitrov, but lost to Julien Benneteau and Nenad Zimonji\u0107 in the second round.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 197.35,
+      "generation_latency_ms": 1097.55
+    },
+    {
+      "query_id": "5a90719b5542995b442420b7",
+      "question": "What are the subdivisions of Neringa Municipality called in English?",
+      "ground_truth": "elderships",
+      "generated_answer": " The subdivisions of Neringa Municipality in English are called \"municipalities\" and \"elderships\". In this specific context, Juodkrant\u0117 and Nida are examples of villages that belong to the municipality of Neringa.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6979,
+          "full_text": "What are the subdivisions of Neringa Municipality ...\n\n## Juodkrant\u0117\n\nJuodkrant\u0117 (literally: \"Black Shore\", German: \"Schwarzort\") with permanent population of about 720 people is a quiet Lithuanian seaside resort village located on the Curonian Spit.  A part of Neringa municipality, Juodkrant\u0117 is the second largest settlement on Lithuania's part of the spit.\n\n## B\u0159ezina (former Ti\u0161nov District)\n\nB\u0159ezina is a village and municipality (\"obec\") in Brno-Country District in the South Moravian Region of the Czech Republic.  It used to be in Ti\u0161nov District.  (Another municipality called B\u0159ezina, now in the same district, used to be in Blansko District.)\n\n## Neringa Municipality\n\nNeringa ( ) or Neringa Municipality (Lithuanian: \"Neringos savivaldyb\u0117\" ) is a municipality of Klaip\u0117da County in westernmost Lithuania, comprising several villages in the Curonian Spit.  In terms of population, it is the smallest municipality of the county.\n\n## Veghel\n\nVeghel (] ) is a town and a former municipality in the southern Netherlands.  On 1 January 2017 Veghel, together with Schijndel and Sint-Oedenrode, merged into a new municipality called Meierijstad creating the largest municipality of the province North-Brabant in terms of land area.\n\n",
+          "text_preview": "What are the subdivisions of Neringa Municipality ...\n\n## Juodkrant\u0117\n\nJuodkrant\u0117 (literally: \"Black Shore\", German: \"Schwarzort\") with permanent population of about 720 people is a quiet Lithuanian seaside resort village located on the Curonian Spit.  A part of Neringa municipality, Juodkrant\u0117 is the second largest settlement on Lithuania's part of the spit.\n\n## B\u0159ezina (former Ti\u0161nov District)\n\nB\u0159ezina is a village and municipality (\"obec\") in Brno-Country District in the South Moravian Region ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6637,
+          "full_text": "Most of the new development is taking place in the northern district of the municipality called Nea Politeia (New Town).\n\n## Klaaswaal\n\nKlaaswaal is a village and former municipality in the Dutch province of South Holland.  It is centrally located on one of the islands of South Holland called the Hoeksche Waard.  Klaaswaal was a separate municipality until 1984, when it was merged with Numansdorp to form a new municipality called Cromstrijen.\n\n## De Meern\n\nDe Meern is a village in the Dutch province of Utrecht.  It is part of the municipality of Utrecht, and lies 6 km west of the middle of the city.  Before 2001 the villages De Meern, Vleuten and Haarzuilens formed a municipality called Vleuten-De Meern.  On 1 January 2001 this municipality was incorporated in the city (and municipality) of Utrecht.  Since 1999 the number of inhabitants of De Meern has increased from about 10,000 to 21,000.\n\n## Nida, Lithuania\n\nNida (German: \"Nidden\" ) is a resort town in Lithuania, the administrative centre of Neringa municipality.  Located on the Curonian Spit between the Curonian Lagoon and the Baltic Sea, it is the westernmost point of Lithuania and the Baltic states, close to the border with the Russian Kaliningrad Oblast exclave.  It currently has about 1,650 residents.\n\n## Schijndel\n\nSchijndel ( ) is a town and former municipality in the southern Netherlands, in the province of North Brabant.  Schijndel is located approximately 14 km southeast of 's-Hertogenbosch.  Schijndel was founded on the 6th of December in the year 1309.  On 1 January 2017 Schijndel, together with Veghel and Sint-Oedenrode, merged into a new municipality called Meierijstad creating the largest municipality of the province North-Brabant in terms of land area.\n\n## Municipalities of Lithuania\n\nLithuania is divided into three layers of administrative divisions.  The first-level division consists of 10 counties (Lithuanian: singular \u2013 \"apskritis\", plural \u2013 \"apskritys\").  These are sub-divided into 60 municipalities (Lithuanian: plural \u2013 \"savivaldyb\u0117s\", singular \u2013 \"savivaldyb\u0117\"), which in turn are further sub-divided into over 500 smaller groups, known as elderships (Lithuanian: plural \u2013 \"seni\u016bnijos\", singular \u2013 \"seni\u016bnija\").",
+          "text_preview": "Most of the new development is taking place in the northern district of the municipality called Nea Politeia (New Town).\n\n## Klaaswaal\n\nKlaaswaal is a village and former municipality in the Dutch province of South Holland.  It is centrally located on one of the islands of South Holland called the Hoeksche Waard.  Klaaswaal was a separate municipality until 1984, when it was merged with Numansdorp to form a new municipality called Cromstrijen.\n\n## De Meern\n\nDe Meern is a village in the Dutch prov...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6281,
+          "full_text": "Due to rapid development, the population has been growing fast.  ",
+          "text_preview": "Due to rapid development, the population has been growing fast.  ",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 415.17,
+      "generation_latency_ms": 2400.64
+    },
+    {
+      "query_id": "5a85d4395542996432c570f5",
+      "question": "What city, located in Lincoln County, Montana, United States, is Vegepet based in?",
+      "ground_truth": "Troy, Montana",
+      "generated_answer": " Troy, Montana",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7333,
+          "full_text": "What city, located in Lincoln County, Montana, Uni...\n\n## Vegepet\n\nVegepet is the brand of a line of vegan dog and cat food by Harbingers of a New Age, based in Troy, Montana, United States.\n\n## Troy, Montana\n\nTroy is a city in Lincoln County, Montana, United States.  The population was 938 at the 2010 census.\n\n## Kemmerer, Wyoming\n\nKemmerer is the largest city in and the county seat of Lincoln County, Wyoming, United States.  The population was 2,656 at the 2010 census.  ",
+          "text_preview": "What city, located in Lincoln County, Montana, Uni...\n\n## Vegepet\n\nVegepet is the brand of a line of vegan dog and cat food by Harbingers of a New Age, based in Troy, Montana, United States.\n\n## Troy, Montana\n\nTroy is a city in Lincoln County, Montana, United States.  The population was 938 at the 2010 census.\n\n## Kemmerer, Wyoming\n\nKemmerer is the largest city in and the county seat of Lincoln County, Wyoming, United States.  The population was 2,656 at the 2010 census.  ",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5488,
+          "full_text": "The junction of State Highway 27 and U.S. Route 321 is located nearby.  The city is the county seat of Lincoln County, and is the only legally incorporated municipality wholly within the rural county.",
+          "text_preview": "The junction of State Highway 27 and U.S. Route 321 is located nearby.  The city is the county seat of Lincoln County, and is the only legally incorporated municipality wholly within the rural county.",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5353,
+          "full_text": "As the county seat of Lincoln County, Kemmerer is the location of the Lincoln County Courthouse.\n\n## Lincolnton\u2013Lincoln County Regional Airport\n\nLincolnton\u2013Lincoln County Regional Airport (ICAO: KIPJ,\u00a0FAA LID: IPJ) is a public use airport located five nautical miles (9\u00a0km) east of the central business district of Lincolnton, a city in Lincoln County, North Carolina, United States.  It is owned by the City of Lincolnton & Lincoln County.  According to the FAA's National Plan of Integrated Airport Systems for 2009\u20132013, it is a \"general aviation\" airport (it had previously been a \"reliever airport\").\n\n",
+          "text_preview": "As the county seat of Lincoln County, Kemmerer is the location of the Lincoln County Courthouse.\n\n## Lincolnton\u2013Lincoln County Regional Airport\n\nLincolnton\u2013Lincoln County Regional Airport (ICAO: KIPJ,\u00a0FAA LID: IPJ) is a public use airport located five nautical miles (9\u00a0km) east of the central business district of Lincolnton, a city in Lincoln County, North Carolina, United States.  It is owned by the City of Lincolnton & Lincoln County.  According to the FAA's National Plan of Integrated Airport...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 292.59,
+      "generation_latency_ms": 739.51
+    },
+    {
+      "query_id": "5a848eff5542990548d0b2cd",
+      "question": "What river has five waterfalls depicted on a state seal?",
+      "ground_truth": "Missouri River",
+      "generated_answer": " The Great Falls of the Missouri River have five waterfalls depicted on a state seal, specifically on the Seal of Montana.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7528,
+          "full_text": "Emma Green, was an American painter and designer.  She designed the State Seal of Idaho, used also on the Flag of Idaho, and is the only woman to have designed a state seal.\n\n## Aintharuvi\n\nAintharuvi is a group of five waterfalls, that is nearby the famous waterfalls of Tamil Nadu, India, the Coutrallam Falls.  It is located in Tenkasi.  The English meaning of the name is Five falls.The waterfalls is compared with Adisesha, the holy snake since the waterfalls cascades in five directions resembling a 5-headed Cobra.\n\n## Seal of Colorado\n\nThe Seal of the State of Colorado is an adaptation of the territorial seal which was adopted by the First Territorial Assembly on November 6, 1861.  ",
+          "text_preview": "Emma Green, was an American painter and designer.  She designed the State Seal of Idaho, used also on the Flag of Idaho, and is the only woman to have designed a state seal.\n\n## Aintharuvi\n\nAintharuvi is a group of five waterfalls, that is nearby the famous waterfalls of Tamil Nadu, India, the Coutrallam Falls.  It is located in Tenkasi.  The English meaning of the name is Five falls.The waterfalls is compared with Adisesha, the holy snake since the waterfalls cascades in five directions resembl...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6857,
+          "full_text": "What river has five waterfalls depicted on a state...\n\n## Seal of Montana\n\nThe Great Seal of the State of Montana was adopted in 1865, when Montana was a United States Territory.  When it became a state in 1889, it was decided to use the same seal.  In 1891, proposals were made to make changes or adopt a brand new seal.  None of these proposals passed legislation.  The outer ring of the seal contains the text \"The Great Seal of the State of Montana\".  The inner circle depicts a landscape of mountains, plains and forests by the Great Falls on the Missouri River.  A plow, a pick and a shovel are depicted on the front, representing the state's industry.  The banner at the bottom of the seal reads the territorial motto of \"Oro y Plata\", meaning \"Gold and Silver\" in Spanish.\n\n## Seal of Uttarakhand\n\nThe State Seal of Uttarakhand or The State Emblem of Uttarakhand is the official state seal used by the Government of Uttarakhand and is carried on all official correspondences made by State of Uttarakhand.  It was adopted by the newly formed Interim Government of Uttarakhand at the establishment of the state on 9 November 2000.\n\n## Flag of Nebraska\n\nThe flag of the state of Nebraska is a blue rectangular cloth charged with the Nebraskan state seal.  The current design was commissioned in 1925, when a bill was passed that the flag would have the Nebraska state seal in gold and silver on a field of national blue.\n\n## Seal of Oregon\n\nThe Seal of the State of Oregon is the official seal of the U.S. state of Oregon.  It was designed by Harvey Gordon in 1857, two years before Oregon was admitted to the Union.  The seal was preceded by the Salmon Seal of the Provisional Government and the Seal of the Oregon Territory.  The state seal is mandated by Article VI of the Oregon Constitution.\n\n## Flag of Minnesota\n\nThe flag of Minnesota is the state flag of Minnesota and consists of scenes from the Seal of Minnesota on a blue background.  The first version of the flag was flown from 1893 until 1957, and was changed to be more easily manufacturable, and the state seal became simpler.  The current flag was adopted in 1957 and the state seal on the flag was modified in 1983.\n\n## Great Falls (Missouri River)\n\nThe Great Falls of the Missouri River are a series of waterfalls on the upper Missouri River in north-central Montana in the United States.  From upstream to downstream, the five falls, which are located along a 10 mi segment of the river, are:\n\n## Flag of Florida\n\nThe flag of Florida consists of a red saltire on a white background, with the state seal superimposed on the center.  The design was approved by popular referendum November 6, 1900.  The flag's current design has been in use since May 21, 1985, after the state seal was graphically altered and officially sanctioned for use by state officials.\n\n",
+          "text_preview": "What river has five waterfalls depicted on a state...\n\n## Seal of Montana\n\nThe Great Seal of the State of Montana was adopted in 1865, when Montana was a United States Territory.  When it became a state in 1889, it was decided to use the same seal.  In 1891, proposals were made to make changes or adopt a brand new seal.  None of these proposals passed legislation.  The outer ring of the seal contains the text \"The Great Seal of the State of Montana\".  The inner circle depicts a landscape of moun...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6408,
+          "full_text": "The only changes made to the territorial seal design being the substitution of the words, \"State of Colorado\" and the figures \"1876\" for the corresponding inscriptions on the territorial seal.  The first General Assembly of the State of Colorado approved the adoption of the state seal on March 15, 1877.  ",
+          "text_preview": "The only changes made to the territorial seal design being the substitution of the words, \"State of Colorado\" and the figures \"1876\" for the corresponding inscriptions on the territorial seal.  The first General Assembly of the State of Colorado approved the adoption of the state seal on March 15, 1877.  ",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 210.43,
+      "generation_latency_ms": 2097.75
+    },
+    {
+      "query_id": "5ac43d575542997ea680ca39",
+      "question": " Ravi Khote:has included his music in which 2003 Indian drama?",
+      "ground_truth": "Kal Ho Naa Ho",
+      "generated_answer": " Ravi Khote has included his music in the 2003 Indian drama \"Kal Ho Naa Ho.\"",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6919,
+          "full_text": " Ravi Khote:has included his music in which 2003 I...\n\n## Arimpara\n\nArimpara ((Malayalam: \u0d05\u0d30\u0d3f\u0d2e\u0d4d\u0d2a\u0d3e\u0d31 ), (alternate title - \"A Story That Begins at the End\"), translation: \"The Wart\")) is a 2003 Indian drama film directed by Murali Nair.  It was screened in the Un Certain Regard section at the 2003 Cannes Film Festival.\n\n## Ravi Khote\n\nRavi \"Rags\" Khote is a playback singer for films in India, he is known for his raps between stanzas.  Some of his songs include \"Style\" from \"\", \"Rabba Rabba\" from \"Allah Ke Banday\", and \"Pretty Woman\" from \"Kal Ho Naa Ho\".\n\n## Tehzeeb (2003 film)\n\nTehzeeb (English: \"Etiquette\") is a 2003 Indian drama film directed by Khalid Mohammed.  It premiered on 21 November 2003.  The film stars Shabana Azmi, Urmila Matondkar, Diya Mirza, Arjun Rampal and Rishi Kapoor in a special appearance.  Urmila and Shabana were praised for their roles.  It was inspired by Ingmar Bergman's Swedish drama \"Autumn Sonata\" (1978), and was dedicated to Bergman.\n\n## Kal Ho Naa Ho\n\nKal Ho Naa Ho (English: \"Tomorrow May Never Come\"), abbreviated as KHNH, is a 2003 Indian romantic drama, directed by debutant director Nikkhil Advani.  The film was written by Niranjan Iyengar and Karan Johar and produced by Yash Johar and Karan Johar under their Dharma Productions banner.  The soundtrack for the film was composed by Shankar-Ehsaan-Loy, with lyrics written by Javed Akhtar.\n\n## Amar Jyoti\n\nAmar Jyoti (Eternal Flame) is a 1936 Hindi social, action adventure, drama film directed by V. Shantaram.  ",
+          "text_preview": " Ravi Khote:has included his music in which 2003 I...\n\n## Arimpara\n\nArimpara ((Malayalam: \u0d05\u0d30\u0d3f\u0d2e\u0d4d\u0d2a\u0d3e\u0d31 ), (alternate title - \"A Story That Begins at the End\"), translation: \"The Wart\")) is a 2003 Indian drama film directed by Murali Nair.  It was screened in the Un Certain Regard section at the 2003 Cannes Film Festival.\n\n## Ravi Khote\n\nRavi \"Rags\" Khote is a playback singer for films in India, he is known for his raps between stanzas.  Some of his songs include \"Style\" from \"\", \"Rabba Rabba\" from \"...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6553,
+          "full_text": "Produced by Prabhat Film Company and cited as a \"noteworthy\" film along with Shantaram's earlier \"Amrit Manthan\" (1934), the film had actress Durga Khote performing one of her most \"memorable\" roles.  K. Narayan Kale wrote the story with dialogues by Narottam Vyas.  The music was composed by Master Krishnarao.  The director of photography was V. Avadhoot, and the cast included Durga Khote, Chandra Mohan, Shanta Apte, Nandrekar, Vasanti and Narayan Kale.\n\n## The Film Emotional Atyachar\n\nThe Film Emotional Atyachar is a 2010 Indian Crime, Black Comedy film, directed by Akshay Shere and produced by Vijay Gutte.  It stars Ranvir Shorey, Mohit Ahlawat, Kalki Koechlin and Ravi Kishan in the lead roles along with Vinay Pathak, Snehal Dabi, Abhimanyu Singh, Sakshi Gulati and Shubha Khote.\n\n## Joggers' Park (film)\n\nJoggers' Park is a 2003 Indian drama film made in English and Hindi.  It is directed by Anant Balani and written by Subhash Ghai.  ",
+          "text_preview": "Produced by Prabhat Film Company and cited as a \"noteworthy\" film along with Shantaram's earlier \"Amrit Manthan\" (1934), the film had actress Durga Khote performing one of her most \"memorable\" roles.  K. Narayan Kale wrote the story with dialogues by Narottam Vyas.  The music was composed by Master Krishnarao.  The director of photography was V. Avadhoot, and the cast included Durga Khote, Chandra Mohan, Shanta Apte, Nandrekar, Vasanti and Narayan Kale.\n\n## The Film Emotional Atyachar\n\nThe Film ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6537,
+          "full_text": "Other actors in supporting roles are Shatrughan Sinha, Durga Khote, Ramesh Deo, Jagdeep and music composed by Laxmikant-Pyarelal.  The film recorded as \"Super Hit\" at the box office.  The film was a remake of Telugu film \"Punarjanma\".  ",
+          "text_preview": "Other actors in supporting roles are Shatrughan Sinha, Durga Khote, Ramesh Deo, Jagdeep and music composed by Laxmikant-Pyarelal.  The film recorded as \"Super Hit\" at the box office.  The film was a remake of Telugu film \"Punarjanma\".  ",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 247.79,
+      "generation_latency_ms": 1887.16
+    },
+    {
+      "query_id": "5ae1af14554299234fd042c4",
+      "question": "Are both William Beaudine and Richard Benjamin American actors?",
+      "ground_truth": "yes",
+      "generated_answer": " Yes, both William Beaudine and Richard Benjamin are American. While William Beaudine was primarily a film actor and director, he was also an American. On the other hand, Richard Benjamin is an American actor and film director.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7008,
+          "full_text": "Are both William Beaudine and Richard Benjamin Ame...\n\n## William Beaudine\n\nWilliam Washington Beaudine (January 15, 1892 \u2013 March 18, 1970) was an American film actor and director.  He was one of Hollywood's most prolific directors, turning out films in remarkable numbers and in a wide variety of genres.\n\n## Penrod and Sam (1931 film)\n\nPenrod and Sam is a 1931 American Pre-Code comedy film directed by William Beaudine and starring Leon Janney and Frank Coghlan Jr. It is an adaptation of the novel \"Penrod and Sam\" by Booth Tarkington.  Beaudine had previously directed a 1923 silent version \"Penrod and Sam\", and was invited to remake his earlier success.\n\n## Cornered (1924 film)\n\nCornered is a 1924 American silent drama film directed by William Beaudine.  It is considered to be a lost.  The story was filmed again in 1930, this time as a talkie called \"Road to Paradise\".  It was also directed by Beaudine.\n\n",
+          "text_preview": "Are both William Beaudine and Richard Benjamin Ame...\n\n## William Beaudine\n\nWilliam Washington Beaudine (January 15, 1892 \u2013 March 18, 1970) was an American film actor and director.  He was one of Hollywood's most prolific directors, turning out films in remarkable numbers and in a wide variety of genres.\n\n## Penrod and Sam (1931 film)\n\nPenrod and Sam is a 1931 American Pre-Code comedy film directed by William Beaudine and starring Leon Janney and Frank Coghlan Jr. It is an adaptation of the nove...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6602,
+          "full_text": "It was based on a novel by Warner Fabian (Samuel Hopkins Adams).  It was made during a brief spell Beaudine had working at Columbia Pictures.  Critics considered the film one of the studio's better B releases.  ",
+          "text_preview": "It was based on a novel by Warner Fabian (Samuel Hopkins Adams).  It was made during a brief spell Beaudine had working at Columbia Pictures.  Critics considered the film one of the studio's better B releases.  ",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6401,
+          "full_text": "## Adventures of Kitty O'Day\n\nAdventures of Kitty O'Day is a 1945 American comedy mystery film directed by William Beaudine and starring Jean Parker, Peter Cookson and Tim Ryan.  It was a sequel to the 1944 film \"Detective Kitty O'Day\".  The two films were an attempt to create a new detective series but no further films were made.  A third film, \"Fashion Model\", also directed by Beaudine, was made using a similar formula but with another actress playing a heroine with a different name.\n\n## Richard Benjamin\n\nRichard Samuel Benjamin (born May 22, 1938) is an American actor and film director.\n\n## Boy of Mine\n\nBoy of Mine is a 1923 American silent family drama film directed by William Beaudine.  It stars Ben Alexander, Rockliffe Fellowes, and Henry B. Walthall.  Wendy L. Marshall stated that \"Beaudine had the Midas touch when it came to directing children\" in films like this and \"Penrod and Sam\".\n\n## Road to Paradise (film)\n\nRoad to Paradise is a 1930 American pre-Code drama film produced and distributed by First National Pictures, and starring Loretta Young, Jack Mulhall and Raymond Hatton.  ",
+          "text_preview": "## Adventures of Kitty O'Day\n\nAdventures of Kitty O'Day is a 1945 American comedy mystery film directed by William Beaudine and starring Jean Parker, Peter Cookson and Tim Ryan.  It was a sequel to the 1944 film \"Detective Kitty O'Day\".  The two films were an attempt to create a new detective series but no further films were made.  A third film, \"Fashion Model\", also directed by Beaudine, was made using a similar formula but with another actress playing a heroine with a different name.\n\n## Richa...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 356.86,
+      "generation_latency_ms": 1676.26
+    },
+    {
+      "query_id": "5ade56ed5542997c77adee04",
+      "question": "G\u00e9rald Genta, a Swiss jewelllery designer, worked with what luxury Swiss watch manufacturer which was founded by American Watch,aker Florentine Ariosts Jones?",
+      "ground_truth": "International Watch Co.",
+      "generated_answer": " G\u00e9rald Genta worked with International Watch Company (IWC), which was founded by American watchmaker Florentine Arioste Jones.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7685,
+          "full_text": "G\u00e9rald Genta, a Swiss jewelllery designer, worked ...\n\n## Constant Girard\n\nConstant Girard (La Chaux-de-Fonds 1825 \u2013 1903 La Chaux-de-Fonds) was a Swiss watchmaker from the 19th century, who marked his time by his developments in the escapement systems, in particular that of the tourbillon.  His most famous watch, the Tourbillon with three gold bridges, is still fabricated today in modern versions by the Swiss watch manufacturer, Girard-Perregaux.\n\n## Juvenia\n\nJuvenia is a luxury Swiss watch manufacturer located in La Chaux-de-Fonds, Switzerland.  It is one of the few Swiss watch companies to have manufactured watches without interruption since its creation.  The brand is currently owned by Hong Kong group Asia Commercial Holdings Ltd.\n\n## Hamilton Watch Company\n\nThe Hamilton Watch Company is a brand of the Swatch Group, a Swiss watch company based in Bienne, Switzerland.  The Hamilton Watch Company had its genesis as an American watch design and manufacturing company, which incorporated in 1892 and produced its first watch in 1893.\n\n## G\u00e9rald Genta\n\nCharles G\u00e9rald Genta (1931-2011) was a Swiss jewellery designer, noted for his eponymous line of time pieces as well as his design work with other firms, including IWC, Universal Gen\u00e8ve, Patek Philippe and Audemars Piguet, among others.  Christie's auction house of New York called Genta's work \"\"the Faberg\u00e9 of watches\"\", while \"The Wall Street Journal\" has called them the \"world's most complicated and pricey watches\".\n\n## Patek Philippe &amp; Co.\n\nPatek Philippe & Co. ",
+          "text_preview": "G\u00e9rald Genta, a Swiss jewelllery designer, worked ...\n\n## Constant Girard\n\nConstant Girard (La Chaux-de-Fonds 1825 \u2013 1903 La Chaux-de-Fonds) was a Swiss watchmaker from the 19th century, who marked his time by his developments in the escapement systems, in particular that of the tourbillon.  His most famous watch, the Tourbillon with three gold bridges, is still fabricated today in modern versions by the Swiss watch manufacturer, Girard-Perregaux.\n\n## Juvenia\n\nJuvenia is a luxury Swiss watch man...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7335,
+          "full_text": "E. Gluck Corporation manufactures watches under two flagship brand names, Armitron and Anne Klein.  As of 1999, Armitron had the fifth largest share of all watch purchasers, by brand, in the United States.  As of 2005, Armitron ranks as one of the top ten fine and fashion watch brands in the US, along with Timex, Fossil, Seiko, Citizen, Casio, Guess, Bulova, Movado, and Pulsar.\n\n## International Watch Company\n\nInternational Watch Co., also known as IWC, is a luxury Swiss watch manufacturer located in Schaffhausen, Switzerland, and founded by American watchmaker Florentine Ariosto Jones in 1868.",
+          "text_preview": "E. Gluck Corporation manufactures watches under two flagship brand names, Armitron and Anne Klein.  As of 1999, Armitron had the fifth largest share of all watch purchasers, by brand, in the United States.  As of 2005, Armitron ranks as one of the top ten fine and fashion watch brands in the US, along with Timex, Fossil, Seiko, Citizen, Casio, Guess, Bulova, Movado, and Pulsar.\n\n## International Watch Company\n\nInternational Watch Co., also known as IWC, is a luxury Swiss watch manufacturer locat...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.7119,
+          "full_text": "It designs and manufactures timepieces and movements, including some of the most complicated mechanical watches.  It is considered by many experts and aficionados to be one of the most prestigious watch manufacturers.\n\n## Lemania\n\nLemania was a Swiss watch manufacturer and manufacturer of watch movements.\n\n## Memorigin\n\nMemorigin is a Hong Kong manufactured watch brand, which was founded by William Shum in 2011.  The brand specializes in tourbillion watches, which are often associated with luxury Swiss watch brands.  The tourbillion movement is only manufactured in a handful of factories worldwide, traditionally retailing at high five or six figure prices (USD).  Memorigin's founder decided that he could produce a quality mid-range tourbillion, which he would sell directly into the growing Chinese watch market.\n\n## Ulysse Nardin\n\nUlysse Nardin is a luxury Swiss watch manufacturer founded in 1846 in Le Locle, Switzerland, which has remained in continuous production since.  Ulysse Nardin has operated out of the same building headquartered in Le Locle, Switzerland since 1865.  Historically, the company is best known for its manufacture of highly accurate marine chronometers supplied at one point during the 1800s to over fifty of the world's navies.\n\n## E. Gluck Corporation\n\nE. Gluck Corporation is an American watch manufacturer headquartered in Little Neck, New York.  It was founded in 1956 by its current President, Eugen Gluck.  ",
+          "text_preview": "It designs and manufactures timepieces and movements, including some of the most complicated mechanical watches.  It is considered by many experts and aficionados to be one of the most prestigious watch manufacturers.\n\n## Lemania\n\nLemania was a Swiss watch manufacturer and manufacturer of watch movements.\n\n## Memorigin\n\nMemorigin is a Hong Kong manufactured watch brand, which was founded by William Shum in 2011.  The brand specializes in tourbillion watches, which are often associated with luxur...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 255.5,
+      "generation_latency_ms": 1939.93
+    },
+    {
+      "query_id": "5a73c958554299623ed4ac5c",
+      "question": "What community is the team Isaac G\u00f3mez played midfielder for located?",
+      "ground_truth": "the autonomous community of Madrid",
+      "generated_answer": " The team Isaac G\u00f3mez played midfielder for is CF Fuenlabrada, which is based in Fuenlabrada, Madrid, Spain.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6819,
+          "full_text": "He was a right-sided midfielder or playmaker.  At Zenit Saint Petersburg he often played a free playing holding midfielder (like a deep lying playmaker) or a central midfielder.\n\n",
+          "text_preview": "He was a right-sided midfielder or playmaker.  At Zenit Saint Petersburg he often played a free playing holding midfielder (like a deep lying playmaker) or a central midfielder.\n\n",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.5626,
+          "full_text": "What community is the team Isaac G\u00f3mez played midf...\n\n## Isaac G\u00f3mez (athlete)\n\nIsaac G\u00f3mez (born 3 June 1934) is a Filipino sprinter.  He competed in the men's 100 metres at the 1960 Summer Olympics.\n\n## Surya Lesmana\n\nLiem Soei Liang (), also known as Surya Lesmana (20 May 1944 \u2013 8 August 2012) was an Indonesian Association football player and manager.  Lesmana played midfielder for Persija Jakarta and the Indonesia national team.\n\n## Mariano Amaro\n\nMariano Rodrigues Amaro (7 August 1914 \u2013 23 May 1978), was a Portuguese footballer who played midfielder for Belenenses and the Portugal national team.\n\n## CF Fuenlabrada\n\nClub de F\u00fatbol Fuenlabrada, S.A.D. is a Spanish football team based in Fuenlabrada, in the autonomous community of Madrid.  Founded in 1975 it plays in Segunda Divisi\u00f3n B \u2013 Group 1, holding home matches at \"Estadio Fernando Torres\", with a capacity of 2,500 seats.\n\n## V\u00edtor Santos\n\nV\u00edtor Manuel Lopes dos Santos (born 1 June 1958 in Chimoio, Mozambique) is a former Portuguese footballer who played midfielder at top level for Sporting Braga, and gained 1 cap for the Portugal national team.\n\n## Isaac G\u00f3mez\n\nIsaac G\u00f3mez S\u00e1nchez (born 28 October 1995), commonly known as Isi, is a Spanish footballer who plays for CF Fuenlabrada as a midfielder.\n\n## C\u00e9sar de Matos\n\nC\u00e9sar de Matos Rodrigues (born Campo de Besteiros, Viseu, 22 February 1902, date of death unknown) was a Portuguese footballer who played midfielder for Belenenses and the Portugal national team.\n\n## Carlos Can\u00e1rio\n\nCarlos Augusto Ribeiro Can\u00e1rio (born 10 February 1918, date of death unknown) was a Portuguese footballer, played midfielder for Estrela Portalegre, Sporting and the Portugal national team.  He was born in Portalegre.\n\n## Vladislav Radimov\n\nVladislav Nikolayevich Radimov (Russian: \u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0301\u0432 \u041d\u0438\u043a\u043e\u043b\u0430\u0301\u0435\u0432\u0438\u0447 \u0420\u0430\u0434\u0438\u0301\u043c\u043e\u0432 ; ] ; born 26 November 1975 in Saint Petersburg, then Leningrad) is a Russian football coach and a former player who played midfielder.  He was previously the captain of FC Zenit Saint Petersburg and is a former Russian international player.  ",
+          "text_preview": "What community is the team Isaac G\u00f3mez played midf...\n\n## Isaac G\u00f3mez (athlete)\n\nIsaac G\u00f3mez (born 3 June 1934) is a Filipino sprinter.  He competed in the men's 100 metres at the 1960 Summer Olympics.\n\n## Surya Lesmana\n\nLiem Soei Liang (), also known as Surya Lesmana (20 May 1944 \u2013 8 August 2012) was an Indonesian Association football player and manager.  Lesmana played midfielder for Persija Jakarta and the Indonesia national team.\n\n## Mariano Amaro\n\nMariano Rodrigues Amaro (7 August 1914 \u2013 23...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5133,
+          "full_text": "## Harald Sp\u00f6rl\n\nHarald Sp\u00f6rl (born October 31, 1966 in Bamberg Germany) is a German former footballer.  He currently works for Hamburger SV as a scout.  From July 1987 to December 2000, Sp\u00f6rl played Midfielder for the Hamburger SV team.  He left the Hamburg SV team in December 2000, and joined the LR Ahlen team as Midfielder until June 2002.",
+          "text_preview": "## Harald Sp\u00f6rl\n\nHarald Sp\u00f6rl (born October 31, 1966 in Bamberg Germany) is a German former footballer.  He currently works for Hamburger SV as a scout.  From July 1987 to December 2000, Sp\u00f6rl played Midfielder for the Hamburger SV team.  He left the Hamburg SV team in December 2000, and joined the LR Ahlen team as Midfielder until June 2002.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 305.93,
+      "generation_latency_ms": 1871.89
+    },
+    {
+      "query_id": "5ab2e8ad554299340b525562",
+      "question": "Who starred alongside South Korean actor and singer Kim Ki-bum in the 2012 romantic comedy series I Love Lee Tae-ri?",
+      "ground_truth": "Park Ye-jin",
+      "generated_answer": " Park Ye-jin",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6976,
+          "full_text": "Who starred alongside South Korean actor and singe...\n\n## I Love Lee Tae-ri\n\nI Love Lee Tae-ri () is a 2012 South Korean romantic comedy series about a 14-year-old boy who makes a wish and suddenly grows up into a 25-year-old man.  It starred Super Junior's Kim Ki-bum and Park Ye-jin.\n\n## Allen Kim\n\nKim Ki-bum (Korean: \uae40\uae30\ubc94 ; born December 29, 1990), now better known by his stage name in Japan Allen Kibum, is a South Korean idol singer, dancer, actor and television host.\n\n## Warrior (B.A.P song)\n\n\"Warrior\" (Korean: \uc6cc\ub9ac\uc5b4) is a song recorded by South Korean boy group B.A.P.  It is released as a digital single on January 26, 2012 through TS Entertainment.  The song served as B.A.P's debut single, the first from their self-titled debut album.  ",
+          "text_preview": "Who starred alongside South Korean actor and singe...\n\n## I Love Lee Tae-ri\n\nI Love Lee Tae-ri () is a 2012 South Korean romantic comedy series about a 14-year-old boy who makes a wish and suddenly grows up into a 25-year-old man.  It starred Super Junior's Kim Ki-bum and Park Ye-jin.\n\n## Allen Kim\n\nKim Ki-bum (Korean: \uae40\uae30\ubc94 ; born December 29, 1990), now better known by his stage name in Japan Allen Kibum, is a South Korean idol singer, dancer, actor and television host.\n\n## Warrior (B.A.P song)\n...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5471,
+          "full_text": "National Tour Audition Casting.  In 2008, Key debuted as a member of South Korean boy group Shinee, who later went on to become one of the best-selling artists in Korea.  Key is widely recognised as a singer, but he has also ventured into different careers, notably as an actor and fashion designer.\n\n## Lee Jong-hyuk\n\nLee Jong-hyuk (born July 31, 1974) is a South Korean actor.  After more than a decade of leading and supporting roles on stage, film and television, he gained newfound mainstream popularity through the 2012 romantic comedy series \"A Gentleman's Dignity\".\n\n## Kim Ki-bum\n\nKim Ki-bum (born August 21, 1987) is a South Korean actor and singer.  He was a member of the South Korean boy band Super Junior.  After the release of Super Junior's third studio album \"Sorry, Sorry\" in 2009, Kim announced his leave from the group to pursue his acting career.  In 2015, Kim announced he ended his contract with S.M. ",
+          "text_preview": "National Tour Audition Casting.  In 2008, Key debuted as a member of South Korean boy group Shinee, who later went on to become one of the best-selling artists in Korea.  Key is widely recognised as a singer, but he has also ventured into different careers, notably as an actor and fashion designer.\n\n## Lee Jong-hyuk\n\nLee Jong-hyuk (born July 31, 1974) is a South Korean actor.  After more than a decade of leading and supporting roles on stage, film and television, he gained newfound mainstream po...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5208,
+          "full_text": "(\ub354 \ucef4), the original lineup consisted of vocalist Ha Hyun-woo, guitarist Jeon Kyu-ho, drummer Lee Jung-gil, and bassist Kim Jin-eok.  Due to conscription, The C.O.M. disbanded.  In 2007, they regrouped with Kim Ki-bum as bassist under the name Guckkasten, which is the German word for Zograscope.  Inspired by Hague's piece called \"Art and Fire\", the band intends to make music with psychedelic images hidden under analogous art.\n\n## Yoon Jin-yi\n\nYoon Jin-Yi (born Kim Yoon-Jin on July 27, 1990) is a South Korean actress.  She debuted in the 2012 romantic comedy TV series \"A Gentleman's Dignity\", playing a girl in love with an older man.\n\n## Mr. Sunshine (2018 TV series)\n\nMr. Sunshine () is an upcoming South Korean television series written by Kim Eun-sook and directed by Lee Eung-bok, starring Lee Byung-hun, Kim Tae-ri and Yoo Yeon-seok.  The series will air on cable network tvN in early 2018.\n\n## Key (entertainer)\n\nKim Ki-bum (born September 23, 1991), better known by his stage name Key, is a South Korean singer, actor, fashion designer and television presenter.  Born and raised in Daegu, South Korea, he later travelled to Seoul after a successful audition at the S.M. ",
+          "text_preview": "(\ub354 \ucef4), the original lineup consisted of vocalist Ha Hyun-woo, guitarist Jeon Kyu-ho, drummer Lee Jung-gil, and bassist Kim Jin-eok.  Due to conscription, The C.O.M. disbanded.  In 2007, they regrouped with Kim Ki-bum as bassist under the name Guckkasten, which is the German word for Zograscope.  Inspired by Hague's piece called \"Art and Fire\", the band intends to make music with psychedelic images hidden under analogous art.\n\n## Yoon Jin-yi\n\nYoon Jin-Yi (born Kim Yoon-Jin on July 27, 1990) is a ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 497.91,
+      "generation_latency_ms": 1488.98
+    },
+    {
+      "query_id": "5ab5b701554299637185c5e7",
+      "question": "Han Chae-young was in the 2009 drama that aired on what network?",
+      "ground_truth": "KBS2",
+      "generated_answer": " The 2009 drama that Han Chae-young was in aired on KBS2. (Refer to the context of \"Girlfriends\" provided earlier.)",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6668,
+          "full_text": "It aired on KBS2 from February 4 to March 26, 2013 on Mondays and Tuesdays at 21:55 for 16 episodes.\n\n## Girlfriends (2009 film)\n\nGirlfriends () is a 2009 South Korean romantic comedy film starring Kang Hye-jung, Han Chae-young, Huh E-jae and Bae Soo-bin.\n\n## Fireworks (2006 TV series)\n\nFireworks (; lit.  \"Fireworks Display\" or \"Exhibition of Fireworks\") is a 2006 South Korean television series starring Han Chae-young, Kang Ji-hwan, Park Eun-hye and Yoon Sang-hyun.  It aired on MBC from May 13 to July 9, 2006 on Saturdays and Sundays at 21:40 for 17 episodes.\n\n## Han Chae-young\n\nHan Chae-young (born Kim Ji-young on September 13, 1980), is a South Korean actress.  She is known for her notable roles in several Korean dramas such as \"Autumn in My Heart\", \"Delightful Girl Choon-Hyang\", \"Only You\", \"Fireworks\", \"Boys Over Flowers\", \"A Man Called God\" and \"Pretty Man\".\n\n## Sassy Girl Chun-hyang\n\nSassy Girl Chun-hyang (; lit.  Delightful Girl Chun-hyang) is a 2005 South Korean television series starring Han Chae-young, Jae Hee, Uhm Tae-woong and Park Si-eun.  It aired on KBS2 from January 3 to March 1, 2005 on Mondays and Tuesdays at 21:55 for 17 episodes.\n\n## A Man Called God\n\nA Man Called God (; also known as The Man Almighty) is a 2010 South Korean television series starring Song Il-gook, Han Chae-young, Kim Min-jong, Han Go-eun and Yoo In-young.  It aired on MBC from March 6 to May 23, 2010 on Saturdays and Sundays at 21:45 for 24 episodes.\n\n## Only You (2005 TV series)\n\nOnly You is a Korean television series produced and broadcast by SBS in early 2005.  It is the only Korean drama shot in Italy.  ",
+          "text_preview": "It aired on KBS2 from February 4 to March 26, 2013 on Mondays and Tuesdays at 21:55 for 16 episodes.\n\n## Girlfriends (2009 film)\n\nGirlfriends () is a 2009 South Korean romantic comedy film starring Kang Hye-jung, Han Chae-young, Huh E-jae and Bae Soo-bin.\n\n## Fireworks (2006 TV series)\n\nFireworks (; lit.  \"Fireworks Display\" or \"Exhibition of Fireworks\") is a 2006 South Korean television series starring Han Chae-young, Kang Ji-hwan, Park Eun-hye and Yoon Sang-hyun.  It aired on MBC from May 13 t...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6426,
+          "full_text": "The city in which has been shot the drama in Italy is Vicenza which is located in the north East part, between Venice and Verona (about 50 km distant from Venice).  It features Jo Hyun-jae (whose former agency, , is the program's production company) and Han Chae-young as the main protagonists.  It was first aired in South Korea starting 4 June 2005.\n\n## Bel Ami (TV series)\n\nBel Ami (; also known as \"Pretty Boy\", and \"'Pretty Man\", is a South Korean romantic comedy television series starring Jang Keun-suk, IU, Lee Jang-woo and Han Chae-young.  Based on the same-titled 17-volume manhwa by Chon Kye-young, it aired on KBS2 from November 20, 2013 to January 9, 2014 on Wednesdays and Thursdays at 21:55 for 16 episodes.",
+          "text_preview": "The city in which has been shot the drama in Italy is Vicenza which is located in the north East part, between Venice and Verona (about 50 km distant from Venice).  It features Jo Hyun-jae (whose former agency, , is the program's production company) and Han Chae-young as the main protagonists.  It was first aired in South Korea starting 4 June 2005.\n\n## Bel Ami (TV series)\n\nBel Ami (; also known as \"Pretty Boy\", and \"'Pretty Man\", is a South Korean romantic comedy television series starring Jang...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6396,
+          "full_text": "## Ad Genius Lee Tae-baek\n\nAd Genius Lee Tae-baek () is a 2013 South Korean television series starring Jin Goo, Park Ha-sun, Jo Hyun-jae and Han Chae-young.  Set in the cutthroat field of advertising where creativity and competition coexist, the drama is the success story of underdog Lee Tae-baek who fights his way to becoming the best ad man in the business.  ",
+          "text_preview": "## Ad Genius Lee Tae-baek\n\nAd Genius Lee Tae-baek () is a 2013 South Korean television series starring Jin Goo, Park Ha-sun, Jo Hyun-jae and Han Chae-young.  Set in the cutthroat field of advertising where creativity and competition coexist, the drama is the success story of underdog Lee Tae-baek who fights his way to becoming the best ad man in the business.  ",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 234.52,
+      "generation_latency_ms": 2067.69
+    },
+    {
+      "query_id": "5a8d7b1755429941ae14dfc6",
+      "question": "What is the 2010 population of the city 2.1 miles southwest of Marietta Air Force Station?",
+      "ground_truth": "51,271",
+      "generated_answer": " The question does not provide information about any city 2.1 miles southwest of Marietta Air Force Station. However, Smyrna, which is 2.1 miles northeast of Marietta Air Force Station, had a population of 51,271 as per the 2010 census.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.5876,
+          "full_text": "## 410th Bombardment Squadron\n\nThe 410th Bombardment Squadron is an inactive United States Air Force unit.  It was last assigned to the 94th Bombardment Group.  It was inactivated at Marietta Air Force Base, Georgia on 20 March 1951.\n\n## RAF Cottesmore\n\nRoyal Air Force Station Cottesmore or more simply RAF Cottesmore is a former Royal Air Force station in Rutland, England, situated between Cottesmore and Market Overton.  The station housed all the operational Harrier GR9 squadrons in the Royal Air Force, and No. 122 Expeditionary Air Wing.  On 15 December 2009 it was announced that the station would close in 2013 as part of defence spending cuts, along with the retirement of the Harrier GR9 and the disbandment of Joint Force Harrier.  However the formal closing ceremony took place on 31 March 2011 with the airfield becoming a satellite to RAF Wittering until March 2012.\n\n## Smyrna, Georgia\n\nSmyrna is a city northwest of the neighborhoods of Atlanta.  It is in the inner ring of the Atlanta Metropolitan Area.  As of the 2010 census, the city had a population of 51,271.  ",
+          "text_preview": "## 410th Bombardment Squadron\n\nThe 410th Bombardment Squadron is an inactive United States Air Force unit.  It was last assigned to the 94th Bombardment Group.  It was inactivated at Marietta Air Force Base, Georgia on 20 March 1951.\n\n## RAF Cottesmore\n\nRoyal Air Force Station Cottesmore or more simply RAF Cottesmore is a former Royal Air Force station in Rutland, England, situated between Cottesmore and Market Overton.  The station housed all the operational Harrier GR9 squadrons in the Royal A...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5385,
+          "full_text": "The U.S. Census Bureau estimated the population in 2013 to be 53,438.  It is included in the Atlanta-Sandy Springs-Roswell MSA, which is included in the Atlanta\u2014Athens-Clarke\u2014Sandy Springs CSA.  Smyrna grew by 28% between the years 2000 and 2012.  It is historically one of the fastest growing cities in the State of Georgia, and one of the most densely populated cities in the metro area.\n\n## Stramshall\n\nStramshall is a village within the civil parish of Uttoxeter Rural in the county of Staffordshire, England.  The village is 2.1 miles north of the town of Uttoxeter, 16.3 miles north east of Stafford and 143 miles north west of London.  The village lies 0.8 miles north of the A50 that links Warrington to Leicester.  The nearest railway station is at Uttoxeter for the Crewe to Derby line.  ",
+          "text_preview": "The U.S. Census Bureau estimated the population in 2013 to be 53,438.  It is included in the Atlanta-Sandy Springs-Roswell MSA, which is included in the Atlanta\u2014Athens-Clarke\u2014Sandy Springs CSA.  Smyrna grew by 28% between the years 2000 and 2012.  It is historically one of the fastest growing cities in the State of Georgia, and one of the most densely populated cities in the metro area.\n\n## Stramshall\n\nStramshall is a village within the civil parish of Uttoxeter Rural in the county of Staffordsh...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5111,
+          "full_text": "The nearest airport is East Midlands Airport.\n\n## Topsham Air Force Station\n\nTopsham Air Force Station is a closed United States Air Force station.  It is located 2.1 mi north of Brunswick, Maine.  It was closed in 1969.\n\n## 302d Air Division\n\nThe 302d Air Division is an inactive United States Air Force Division.  Its last assignment was with Fourteenth Air Force at Marietta Air Force Base, Georgia, where it was inactivated on 27 June 1949.\n\n## Marietta Air Force Station\n\nMarietta Air Force Station (ADC ID: M-111, NORAD ID: Z-111) is a closed United States Air Force General Surveillance Radar station.  It is located 2.1 mi northeast of Smyrna, Georgia.  It was closed in 1968.\n\n## Eldorado Air Force Station\n\nEldorado Air Force Station located 35 miles south of San Angelo, Texas was one of the four unique AN/FPS-115 PAVE PAWS, early-warning phased-array radar systems.  The 8th Space Warning Squadron, 21st Space Wing, Air Force Space Command operated at Eldorado Air Force Station.",
+          "text_preview": "The nearest airport is East Midlands Airport.\n\n## Topsham Air Force Station\n\nTopsham Air Force Station is a closed United States Air Force station.  It is located 2.1 mi north of Brunswick, Maine.  It was closed in 1969.\n\n## 302d Air Division\n\nThe 302d Air Division is an inactive United States Air Force Division.  Its last assignment was with Fourteenth Air Force at Marietta Air Force Base, Georgia, where it was inactivated on 27 June 1949.\n\n## Marietta Air Force Station\n\nMarietta Air Force Stat...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 340.93,
+      "generation_latency_ms": 2463.08
+    },
+    {
+      "query_id": "5a8038b55542996402f6a485",
+      "question": "Jacques Sernas, actor in Fugitive in Trieste, was of what nationality?",
+      "ground_truth": "Lithuanian-born French",
+      "generated_answer": " Lithuanian-born French",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6986,
+          "full_text": "It was made at Cinecitt\u00e0 with sets designed by the art director Franco Lolli.  It is also known by the alternative title of Luxury Girls.\n\n## Fugitive in Trieste\n\nFugitive in Trieste (Italian: \"Clandestino a Trieste\" ) is a 1951 Italian war-drama film directed by Guido Salvini and starring Doris Duranti, Jacques Sernas and Massimo Girotti.\n\n## Jump into Hell\n\nJump into Hell is a 1955 war film directed by David Butler.  The film stars Jacques Sernas (billed as \"Jack Sernas\") and Kurt Kasznar.  The first contemporary Hollywood war film of the war in Indochina, the story is a fictionalized account of the Battle of Dien Bien Phu.",
+          "text_preview": "It was made at Cinecitt\u00e0 with sets designed by the art director Franco Lolli.  It is also known by the alternative title of Luxury Girls.\n\n## Fugitive in Trieste\n\nFugitive in Trieste (Italian: \"Clandestino a Trieste\" ) is a 1951 Italian war-drama film directed by Guido Salvini and starring Doris Duranti, Jacques Sernas and Massimo Girotti.\n\n## Jump into Hell\n\nJump into Hell is a 1955 war film directed by David Butler.  The film stars Jacques Sernas (billed as \"Jack Sernas\") and Kurt Kasznar.  Th...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.658,
+          "full_text": "## Finishing School (1953 film)\n\nFinishing School (Italian: Fanciulle di lusso) is a 1953 French-Italian comedy film directed by Bernard Vorhaus and starring Susan Stephen, Anna Maria Ferrero and Jacques Sernas.  ",
+          "text_preview": "## Finishing School (1953 film)\n\nFinishing School (Italian: Fanciulle di lusso) is a 1953 French-Italian comedy film directed by Bernard Vorhaus and starring Susan Stephen, Anna Maria Ferrero and Jacques Sernas.  ",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6496,
+          "full_text": "Jacques Sernas, actor in Fugitive in Trieste, was ...\n\n## Man from 1997\n\nMan From 1997 is a time travel episode of the 1956\u201357 anthology television series \"Conflict\" directed by Roy del Ruth, produced by Roy Huggins, written by James Gunn from a story by Alfred Bester, and starring Jacques Sernas, Charles Ruggles, Gloria Talbott and James Garner.  The music was written by David Buttolph and the cinematographer was Ted D. McCord.  The show was originally telecast on November 27, 1956 and a kinescope of the broadcast currently exists.\n\n## Altair (film)\n\nAltair is a 1956 Italian romantic drama film directed by Leonardo De Mitri and starring Franco Interlenghi, Antonella Lualdi and Jacques Sernas.\n\n## Dieci canzoni d'amore da salvare\n\nDieci canzoni d'amore da salvare (English title: \"Ten Love Songs\") is a 1953 Italian film directed by Flavio Calzavara.  The plot concerns a songwriter, played by Jacques Sernas who leaves his sweetheart and publisher when he learns that he is going blind.  Supporting Sernas were Brunella Bovo, Franca Tamantini, and Enrico Viarisio.\n\n## Jacques Sernas\n\nJok\u016bbas Bernardas \u0160ernas (30 July 1925 \u2013 3 July 2015), commonly known as Jacques Sernas and sometimes credited as Jack Sernas, was a Lithuanian-born French actor with an international film career.\n\n## Loving You Is My Sin\n\nLoving You Is My Sin (Italian: Amarti \u00e8 il mio peccato) is a 1953 Italian melodrama film directed by  Sergio Grieco and starring  Jacques Sernas, Luisa Rossi and Elisa Cegani.\n\n## It's All Adam's Fault\n\nIt's All Adam's Fault or In Six Easy Lessons (French: C'est la faute d'Adam) is a 1958 French comedy film directed by Jacqueline Audry and starring Dany Robin, Jacques Sernas and Mijanou Bardot.\n\n## Balearic Caper\n\nBalearic Caper (Spanish: \"Zarabanda bing bing\" , Italian: \"Baleari Operazione Oro\" , French: \"Barbouze ch\u00e9rie\" , also known as Operation Gold) is a 1966 Spanish-Italian-French heist-Eurospy comedy film written and directed by Jos\u00e9 Mar\u00eda Forqu\u00e9 and starring Jacques Sernas, Daniela Bianchi and Mireille Darc.  It was shot in Ibiza.\n\n",
+          "text_preview": "Jacques Sernas, actor in Fugitive in Trieste, was ...\n\n## Man from 1997\n\nMan From 1997 is a time travel episode of the 1956\u201357 anthology television series \"Conflict\" directed by Roy del Ruth, produced by Roy Huggins, written by James Gunn from a story by Alfred Bester, and starring Jacques Sernas, Charles Ruggles, Gloria Talbott and James Garner.  The music was written by David Buttolph and the cinematographer was Ted D. McCord.  The show was originally telecast on November 27, 1956 and a kinesc...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 307.37,
+      "generation_latency_ms": 1737.43
+    },
+    {
+      "query_id": "5a7ec95b55429934daa2fc67",
+      "question": "Were Gregory La Cava and Mike Judge both actors? ",
+      "ground_truth": "no",
+      "generated_answer": " No, Gregory La Cava was a film director, not an actor, while Mike Judge is primarily known as an actor, animator, writer, producer, and director.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7628,
+          "full_text": "Were Gregory La Cava and Mike Judge both actors? ...\n\n## She Married Her Boss\n\nShe Married Her Boss is a 1935 film directed by Gregory La Cava and starring Claudette Colbert and Melvyn Douglas.\n\n## Living in a Big Way\n\nLiving in a Big Way (1947) is an American musical comedy film starring Gene Kelly and Marie McDonald as a couple who marry during World War II after only knowing each other a short time.  This was director Gregory La Cava's final film.\n\n## Mike Judge\n\nMichael Craig Judge (born October 17, 1962) is an American actor, animator, writer, producer, and director.  Judge is the creator of the television series \"Beavis and Butt-Head\" (1993\u201397, 2011), and co-creator of the television series \"King of the Hill\" (1997\u20132010), \"The Goode Family\" (2009), \"Silicon Valley\" (2014\u2013present), and \"\" (2017).  ",
+          "text_preview": "Were Gregory La Cava and Mike Judge both actors? ...\n\n## She Married Her Boss\n\nShe Married Her Boss is a 1935 film directed by Gregory La Cava and starring Claudette Colbert and Melvyn Douglas.\n\n## Living in a Big Way\n\nLiving in a Big Way (1947) is an American musical comedy film starring Gene Kelly and Marie McDonald as a couple who marry during World War II after only knowing each other a short time.  This was director Gregory La Cava's final film.\n\n## Mike Judge\n\nMichael Craig Judge (born Oct...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6622,
+          "full_text": "He also wrote and directed the films \"Beavis and Butt-Head Do America\" (1996), \"Office Space\" (1999), \"Idiocracy\" (2006) and \"Extract\" (2009).\n\n## Symphony of Six Million\n\nSymphony of Six Million is a 1932 American Pre-Code film directed by Gregory La Cava and starring Ricardo Cortez, Irene Dunne and Gregory Ratoff.  Based on the story \"Night Bell\" by Fannie Hurst, the movie concerns the rise of a Jewish physician from humble roots to the top of his profession and the social costs of losing his connection with his community, his family and with the craft of healing.\n\n## The Age of Consent (film)\n\nThe Age of Consent is a 1932 American Pre-Code drama film directed by Gregory La Cava.  The film stars Richard Cromwell as a young man who becomes involved with a waitress of a seedy restaurant, co-starring Dorothy Wilson and Arline Judge.\n\n## Lady in a Jam\n\nLady in a Jam is a 1942 film comedy directed by Gregory La Cava and starring Irene Dunne, Patric Knowles, Ralph Bellamy and Eugene Pallette.\n\n## My Man Godfrey\n\nMy Man Godfrey is a 1936 American screwball comedy film directed by Gregory La Cava.  The screenplay was written by Morrie Ryskind, with uncredited contributions by La Cava, based on \"1101 Park Avenue\", a short novel by Eric Hatch.  The story concerns a socialite who hires a derelict to be her family's butler, only to fall in love with him.  ",
+          "text_preview": "He also wrote and directed the films \"Beavis and Butt-Head Do America\" (1996), \"Office Space\" (1999), \"Idiocracy\" (2006) and \"Extract\" (2009).\n\n## Symphony of Six Million\n\nSymphony of Six Million is a 1932 American Pre-Code film directed by Gregory La Cava and starring Ricardo Cortez, Irene Dunne and Gregory Ratoff.  Based on the story \"Night Bell\" by Fannie Hurst, the movie concerns the rise of a Jewish physician from humble roots to the top of his profession and the social costs of losing his ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.646,
+          "full_text": "Powell and Lombard had been briefly married years earlier.\n\n## La Cava Bible\n\nThe La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.  I) is a 9th-century Latin illuminated Bible, which was produced in Spain, probably in the Kingdom of Asturias during the reign of Alfonso II.  The manuscript preserved at the abbey of La Trinit\u00e0 della Cava, near Cava de' Tirreni, contains 330 vellum folios which measure 320 by 260 mm.\n\n## What Every Woman Knows (1934 film)\n\nWhat Every Woman Knows (1934) is an American romantic comedy film directed by Gregory La Cava and starring Helen Hayes, Brian Aherne and Madge Evans.  The film was produced and distributed by Metro-Goldwyn-Mayer and is based on the play \"What Every Woman Knows\" (1908) by J. M. Barrie.  It was filmed by Paramount back in the silent era in 1921 and starred Lois Wilson.  An even earlier British silent version was filmed in 1917.  Hayes was familiar with the material as she had starred in a 1926 Broadway revival opposite Kenneth MacKenna.\n\n## Gregory La Cava\n\nGregory La Cava (March 10, 1892 \u2013 March 1, 1952) was an American film director best known for his films of the 1930s, including \"My Man Godfrey\" and \"Stage Door\", which earned him nominations for Academy Award for Best Director.",
+          "text_preview": "Powell and Lombard had been briefly married years earlier.\n\n## La Cava Bible\n\nThe La Cava Bible or Codex Cavensis (Cava de' Tirreni, Biblioteca statale del Monumento Nazionale Badia di Cava, Ms. memb.  I) is a 9th-century Latin illuminated Bible, which was produced in Spain, probably in the Kingdom of Asturias during the reign of Alfonso II.  The manuscript preserved at the abbey of La Trinit\u00e0 della Cava, near Cava de' Tirreni, contains 330 vellum folios which measure 320 by 260 mm.\n\n## What Eve...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 456.04,
+      "generation_latency_ms": 2221.08
+    },
+    {
+      "query_id": "5a8d841955429941ae14dfe6",
+      "question": "Who plays in both The True Adventures of Wolfboy and \"The Knick\"?",
+      "ground_truth": "Eve Hewson",
+      "generated_answer": " Chlo\u00eb Sevigny plays in both The True Adventures of Wolfboy (as a cast member) and The Knick (in the role of Nurse Lucy Elkins).",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6683,
+          "full_text": "She played Nurse Lucy Elkins in Steven Soderbergh's TV series \"The Knick\" (2014\u20132015).\n\n## The Sea Hunters: True Adventures with Famous Shipwrecks\n\nThe Sea Hunters: True Adventures with Famous Shipwrecks\n\n## The Positively True Adventures of the Alleged Texas Cheerleader-Murdering Mom\n\nThe Positively True Adventures of the Alleged Texas Cheerleader-Murdering Mom",
+          "text_preview": "She played Nurse Lucy Elkins in Steven Soderbergh's TV series \"The Knick\" (2014\u20132015).\n\n## The Sea Hunters: True Adventures with Famous Shipwrecks\n\nThe Sea Hunters: True Adventures with Famous Shipwrecks\n\n## The Positively True Adventures of the Alleged Texas Cheerleader-Murdering Mom\n\nThe Positively True Adventures of the Alleged Texas Cheerleader-Murdering Mom",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.5321,
+          "full_text": "The event is also notable for its scale; about 3,000 players play in groups of up to eight people (more recently ten) over four days each year.  With tickets for each player costing roughly $40-$62 each, depending on the year and convention venue, or $28 for True Grind, the event grosses about $100,000, a phenomenal amount for a LARP in the United States.  The company also hosted the event True Heroes in 2004 and 2005.  True Adventures ran these events at Gen Con SoCal when the convention was still in existence.  The company grew out of Martin's work in creating elaborate props and puzzles for his Dungeons & Dragons game.\n\n## The True Adventures of Wolfboy\n\nThe True Adventures of Wolfboy is an upcoming American film directed by Martin Krejc\u00ed and written by Olivia Dufault.  The film stars Jaeden Lieberher, Chlo\u00eb Sevigny, John Turturro, Chris Messina, and Eve Hewson.\n\n## How Angel Peterson Got His Name\n\nHow Angel Peterson Got His Name is a nonfiction, young adult memoir written by Gary Paulsen, outlining the hilarious, and often dangerous stunts Paulsen and his friends pull in order to entertain themselves and impress the young ladies.  All of the tales in this book are about the true adventures of Paulsen and his friends during the mid-1950s.\n\n## Eve Hewson\n\nMemphis Eve Sunny Day Hewson (born 7 July 1991), known professionally as Eve Hewson, is an Irish actress.  Her first major role was in the drama film \"This Must Be the Place\" (2011).  ",
+          "text_preview": "The event is also notable for its scale; about 3,000 players play in groups of up to eight people (more recently ten) over four days each year.  With tickets for each player costing roughly $40-$62 each, depending on the year and convention venue, or $28 for True Grind, the event grosses about $100,000, a phenomenal amount for a LARP in the United States.  The company also hosted the event True Heroes in 2004 and 2005.  True Adventures ran these events at Gen Con SoCal when the convention was st...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.4703,
+          "full_text": "Who plays in both The True Adventures of Wolfboy a...\n\n## The Sea Hunters II\n\nThe Sea Hunters II: More True Adventures with Famous Shipwrecks is a nonfiction work by adventure novelist Clive Cussler published in the United States in 2002.  This work details the author's continuing search for famous shipwrecks with his nonprofit organization NUMA.  There is also a television series titled \"The Sea Hunters\" which is based on the book.  It airs on the National Geographic Channel and History Television in Canada.\n\n## The Mostly True Adventures of Homer P. Figg\n\nThe Mostly True Adventures of Homer P. Figg is a children's historical novel by Rodman Philbrick, author of \"Freak the Mighty\".  Set during the American Civil War, it follows the adventures of a boy who is an inveterate teller of tall tales on his quest to find his older brother, a Union soldier.  First published in 2009, it was named as a Newbery Honor Book in 2010 The Lexile Level of this book is 950L and the Accelerated Reader (AR) Level is 5.6\n\n## Further Adventures Of\n\nFurther Adventures Of is the eighth studio album by Canadian singer/songwriter Bruce Cockburn.  The album was released in 1978 by True North Records.  ",
+          "text_preview": "Who plays in both The True Adventures of Wolfboy a...\n\n## The Sea Hunters II\n\nThe Sea Hunters II: More True Adventures with Famous Shipwrecks is a nonfiction work by adventure novelist Clive Cussler published in the United States in 2002.  This work details the author's continuing search for famous shipwrecks with his nonprofit organization NUMA.  There is also a television series titled \"The Sea Hunters\" which is based on the book.  It airs on the National Geographic Channel and History Televis...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 485.42,
+      "generation_latency_ms": 1937.35
+    },
+    {
+      "query_id": "5a88d7fc5542993b751ca879",
+      "question": "Futbolita has interviewed what Spanish Professional footballer who plays as a striker for New York City FC?",
+      "ground_truth": "David Villa",
+      "generated_answer": " David Villa",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7359,
+          "full_text": "Manchester City FC, an English club with ambitions to spread a style of \u201cbeautiful\u201d football around the globe, joined up with the New York Yankees and handed the job of Sporting Director of New York City FC to Claudio Reyna, former captain of the US National team.  When Reyna selected Jason Kreis as the team\u2019s first coach, a race began to find players in the months before the inaugural season.  Global soccer stars like David Villa and Frank Lampard join a growing squad of American rising stars, to face the highs and lows, joys and sacrifices, disappointments and triumphs of the first season.  Playing in front of their home fans in Yankee Stadium, at a time when soccer has never been more popular in the US, they fight to win the hearts of New Yorkers.\n\n## Futbolita\n\nAsh Hashim (born 16 November 1988), better known as F\u00fatbolita\u2122 is a Singaporean sports journalist, FIFA Players' Agent, personality and international blogger known as the \"Female Voice of Football\".  Her website and brand, \"Futbolita\" (Futbolita.com), is known for featuring exclusive interviews with world-renowned sports personalities in the European football world, including David Villa, Xavi, Fernando Torres, Cristiano Ronaldo, Rom\u00e1rio and Jos\u00e9 Mourinho.\n\n## David Villa\n\nDavid Villa S\u00e1nchez (] ; born 3 December 1981) is a Spanish professional footballer who plays as a striker for New York City FC and the Spain national team.  He is the captain of New York City.  He is nicknamed El Guaje (\"The Kid\" in Asturian) because as a youngster he frequently played football with children much older than him.",
+          "text_preview": "Manchester City FC, an English club with ambitions to spread a style of \u201cbeautiful\u201d football around the globe, joined up with the New York Yankees and handed the job of Sporting Director of New York City FC to Claudio Reyna, former captain of the US National team.  When Reyna selected Jason Kreis as the team\u2019s first coach, a race began to find players in the months before the inaugural season.  Global soccer stars like David Villa and Frank Lampard join a growing squad of American rising stars, ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7326,
+          "full_text": "New York City FC plays their home games at Yankee Stadium in the New York City borough of The Bronx.\n\n## 2015 New York City FC season\n\nThe 2015 New York City FC season is the club's first season of existence, their first season in the top tier of American soccer, and their first season in Major League Soccer.  New York City FC plays their home games at Yankee Stadium in the New York City borough of The Bronx.\n\n## 2016 New York City FC season\n\nThe 2016 New York City FC season is the club's second season of competition and their second in the top tier of American soccer, Major League Soccer.  New York City FC plays their home games at Yankee Stadium in the New York City borough of The Bronx.\n\n## E\u00f1aut Zubikarai\n\nE\u00f1aut Zubikarai Go\u00f1i (born 26 February 1984) is a Spanish professional footballer who plays for New Zealand club Auckland City FC as a goalkeeper.\n\n## City FC\n\nCity FC or just City is usually used as short-hand to refer to one of Manchester City F.C., New York City FC or Melbourne City FC, which are all association football clubs owned by the City Football Group, an organisation which bases it's identity around the cognomen \"City\".\n\n## Win!\n\nWin!  ",
+          "text_preview": "New York City FC plays their home games at Yankee Stadium in the New York City borough of The Bronx.\n\n## 2015 New York City FC season\n\nThe 2015 New York City FC season is the club's first season of existence, their first season in the top tier of American soccer, and their first season in Major League Soccer.  New York City FC plays their home games at Yankee Stadium in the New York City borough of The Bronx.\n\n## 2016 New York City FC season\n\nThe 2016 New York City FC season is the club's second...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6902,
+          "full_text": "Futbolita has interviewed what Spanish Professiona...\n\n## Rafa Jord\u00e0\n\nRafael \"Rafa\" Jord\u00e0 Ruiz de Assin (born 1 January 1984) is a Spanish professional footballer who plays for Indian club Mumbai City FC as a centre forward.\n\n## New York City FC Stadium\n\nThe New York City FC Stadium is a proposed soccer-specific stadium to be built in New York City for the expansion franchise New York City FC of Major League Soccer.  The team currently plays their home games at Yankee Stadium.\n\n## 2017 New York City FC season\n\nThe 2017 New York City FC season is the club's third season of competition and their third in the top tier of American soccer, Major League Soccer.  ",
+          "text_preview": "Futbolita has interviewed what Spanish Professiona...\n\n## Rafa Jord\u00e0\n\nRafael \"Rafa\" Jord\u00e0 Ruiz de Assin (born 1 January 1984) is a Spanish professional footballer who plays for Indian club Mumbai City FC as a centre forward.\n\n## New York City FC Stadium\n\nThe New York City FC Stadium is a proposed soccer-specific stadium to be built in New York City for the expansion franchise New York City FC of Major League Soccer.  The team currently plays their home games at Yankee Stadium.\n\n## 2017 New York ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 1239.23,
+      "generation_latency_ms": 1452.98
+    },
+    {
+      "query_id": "5ae73c00554299572ea5478a",
+      "question": "The Runge-Kutta methods were developed by M.W. Kutta and a German mathematician, physicist, and Spectroscopist that was born in what year?",
+      "ground_truth": "1856",
+      "generated_answer": " Carl David Tolm\u00e9 Runge was born in the year 1856.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7084,
+          "full_text": "## Carl David Tolm\u00e9 Runge\n\nCarl David Tolm\u00e9 Runge (] ; 30 August 1856 \u2013 3 January 1927) was a German mathematician, physicist, and spectroscopist.",
+          "text_preview": "## Carl David Tolm\u00e9 Runge\n\nCarl David Tolm\u00e9 Runge (] ; 30 August 1856 \u2013 3 January 1927) was a German mathematician, physicist, and spectroscopist.",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.679,
+          "full_text": "These methods were developed around 1900 by the German mathematicians C. Runge and M. W. Kutta.\n\n## Kutta condition\n\nThe Kutta condition is a principle in steady-flow fluid dynamics, especially aerodynamics, that is applicable to solid bodies with sharp corners, such as the trailing edges of airfoils.  It is named for German mathematician and aerodynamicist Martin Wilhelm Kutta.\n\n## Kutta\u2013Joukowski theorem\n\nThe Kutta\u2013Joukowski theorem is a fundamental theorem of aerodynamics used for the calculation of the lift of an airfoil and any two-dimensional bodies including circular cylinders translating in a uniform fluid at a constant speed large enough so that the flow seen in the body-fixed frame is steady and unseparated.  The theorem relates the lift generated by an airfoil to the speed of the airfoil through the fluid, the density of the fluid and the circulation around the airfoil.  The circulation is defined as the line integral around a closed loop enclosing the airfoil of the component of the velocity of the fluid tangent to the loop.  It is named after the German Martin Wilhelm Kutta and the Russian Nikolai Zhukovsky (or Joukowski) who first developed its key ideas in the early 20th century.  Kutta\u2013Joukowski theorem is an inviscid theory, but it is a good approximation for real viscous flow in typical aerodynamic applications.\n\n## Frank Natterer\n\nFrank Natterer (July 20, 1941) is a German mathematician.  He was born in Wangen im Allg\u00e4u, Germany.  Natterer pioneered and shaped the field of mathematical methods in imaging including computed tomography (CT), magnetic resonance imaging (MRI) and ultrasonic imaging).\n\n",
+          "text_preview": "These methods were developed around 1900 by the German mathematicians C. Runge and M. W. Kutta.\n\n## Kutta condition\n\nThe Kutta condition is a principle in steady-flow fluid dynamics, especially aerodynamics, that is applicable to solid bodies with sharp corners, such as the trailing edges of airfoils.  It is named for German mathematician and aerodynamicist Martin Wilhelm Kutta.\n\n## Kutta\u2013Joukowski theorem\n\nThe Kutta\u2013Joukowski theorem is a fundamental theorem of aerodynamics used for the calcula...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.679,
+          "full_text": "The Runge-Kutta methods were developed by M.W. Kut...\n\n## Segregated Runge-Kutta methods\n\nThe Segregated Runge-Kutta (SRK) method is a family of IMplicit-EXplicit (IMEX) Runge-Kutta methods that were developed to approximate the solution of Differential Algebraic Equations (DAE) of index 2.\n\n## Runge\u2013Kutta\u2013Fehlberg method\n\nIn mathematics, the Runge\u2013Kutta\u2013Fehlberg method (or Fehlberg method) is an algorithm in numerical analysis for the numerical solution of ordinary differential equations.  It was developed by the German mathematician Erwin Fehlberg and is based on the large class of Runge\u2013Kutta methods.\n\n## Trefftz method\n\nIn mathematics, the Trefftz method is a method for the numerical solution of partial differential equations named after the German mathematician Erich Trefftz (1888\u20131937).  It falls within the class of finite element methods.\n\n## Wolfgang Hackbusch\n\nWolfgang Hackbusch (born 24 October 1948 in Westerstede, Lower Saxony) is a German mathematician, known for his pioneering research in multigrid methods and later hierarchical matrices, a concept generalizing the fast multipole method.  He was a professor at the University of Kiel and is currently one of the directors of the Max Planck Institute for Mathematics in the Sciences in Leipzig.\n\n## Martin Wilhelm Kutta\n\nMartin Wilhelm Kutta (] ; 3 November 1867 \u2013 25 December 1944) was a German mathematician.\n\n## Runge\u2013Kutta methods\n\nIn numerical analysis, the Runge\u2013Kutta methods are a family of implicit and explicit iterative methods, which include the well-known routine called the Euler Method, used in temporal discretization for the approximate solutions of ordinary differential equations.  ",
+          "text_preview": "The Runge-Kutta methods were developed by M.W. Kut...\n\n## Segregated Runge-Kutta methods\n\nThe Segregated Runge-Kutta (SRK) method is a family of IMplicit-EXplicit (IMEX) Runge-Kutta methods that were developed to approximate the solution of Differential Algebraic Equations (DAE) of index 2.\n\n## Runge\u2013Kutta\u2013Fehlberg method\n\nIn mathematics, the Runge\u2013Kutta\u2013Fehlberg method (or Fehlberg method) is an algorithm in numerical analysis for the numerical solution of ordinary differential equations.  It w...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 374.26,
+      "generation_latency_ms": 1789.71
+    },
+    {
+      "query_id": "5adbfa38554299438c868d00",
+      "question": "What is the birthdate of this Australian dramatic coloratura soprano, who taught Simon Gilbert?",
+      "ground_truth": "7 November 192610",
+      "generated_answer": " Joan Sutherland was born on 7 November 1926.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6871,
+          "full_text": "She collaborated with opera composer Gioachino Rossini in the creation of a number of roles that remain in the repertory to this day; they were married on 22 March 1822.  She was the composer of four collections of songs.\n\n## Desir\u00e9e Rancatore\n\nDesir\u00e9e Rancatore (born 1977 in Palermo, Sicily) is an Italian dramatic coloratura soprano with an active career on the opera and concert stages of Europe.\n\n## Marie Wilt\n\nMarie Wilt (also Maria Vilda and Marie Liebenthaler) (30 January 1833 \u2013 24 September 1891) was an Austrian dramatic coloratura soprano.  Possessing a wide vocal range with a significant amount of power and flexibility, Wilt sang a wide repertoire that encompassed the operas of Wolfgang Amadeus Mozart, the German operas of Richard Wagner, the grand operas of Giuseppe Verdi, and the bel canto operas of Bellini, Rossini, and Donizetti.  She sang for many years at the Vienna Hofoper (now Vienna State Opera) and for a number of seasons at the Royal Opera House, Covent Garden in London.  She notably portrayed the role of Sulamith in the world premiere of Karl Goldmark's \"Die K\u00f6nigin von Saba\" in 1875.  Also a regular performer of the concert repertoire, Wilt often appeared in performances of works by Beethoven, Haydn, and Mendelssohn.\n\n## Richard Bonynge\n\nRichard Alan Bonynge ( ) (born 29 September 1930) is an Australian conductor and pianist.  He is the widower of Australian dramatic coloratura soprano Dame Joan Sutherland.  Bonynge conducted virtually all of Sutherland's operatic performances from 1962 until her retirement in 1990.\n\n## Rebeka Bobanj\n\nRebeka Bobanj (born June 5, 1981 in Subotica) is a Hungarian dramatic coloratura soprano.\n\n## Simon Gilbert (tenor)\n\nSimon Gilbert (born 6 October 1937 in Hendon, London) is an English actor and tenor.  At the age of twenty one he took singing lessons with the teachers of the Australian soprano Joan Sutherland.  ",
+          "text_preview": "She collaborated with opera composer Gioachino Rossini in the creation of a number of roles that remain in the repertory to this day; they were married on 22 March 1822.  She was the composer of four collections of songs.\n\n## Desir\u00e9e Rancatore\n\nDesir\u00e9e Rancatore (born 1977 in Palermo, Sicily) is an Italian dramatic coloratura soprano with an active career on the opera and concert stages of Europe.\n\n## Marie Wilt\n\nMarie Wilt (also Maria Vilda and Marie Liebenthaler) (30 January 1833 \u2013 24 Septembe...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6436,
+          "full_text": "In 1967, he sang with Scottish Opera, for example appearing in \"L'anima del filosofo\".  Joining The Adelphi Theatre's company for the musical \"Show Boat\", he played lead man to the show's star, Cleo Laine.\n\n## Caterina Mancini\n\nCaterina Mancini (November 10, 1924 - January 21, 2011) was an Italian dramatic coloratura soprano, primarily active in Italy in the 1950s.\n\n## Joan Sutherland\n\nDame Joan Alston Sutherland, OM, AC, DBE (7 November 192610 October 2010) was an Australian dramatic coloratura soprano noted for her contribution to the renaissance of the bel canto repertoire from the late 1950s through to the 1980s.\n\n## Nino Machaidze\n\nNino Machaidze (Georgian: \u10dc\u10d8\u10dc\u10dd \u10db\u10d0\u10e9\u10d0\u10d8\u10eb\u10d4; born 1983, Tbilisi) is a Georgian Lyric Dramatic coloratura soprano.",
+          "text_preview": "In 1967, he sang with Scottish Opera, for example appearing in \"L'anima del filosofo\".  Joining The Adelphi Theatre's company for the musical \"Show Boat\", he played lead man to the show's star, Cleo Laine.\n\n## Caterina Mancini\n\nCaterina Mancini (November 10, 1924 - January 21, 2011) was an Italian dramatic coloratura soprano, primarily active in Italy in the 1950s.\n\n## Joan Sutherland\n\nDame Joan Alston Sutherland, OM, AC, DBE (7 November 192610 October 2010) was an Australian dramatic coloratura...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6296,
+          "full_text": "Gilbert gradually gravitated towards Opera and The Edinburgh Festival, where sang with Sutherland (in Haydn\u2019s \"Orfeo\") and Luciano Pavarotti (in \"I Capuleti e i Montecchi\").  ",
+          "text_preview": "Gilbert gradually gravitated towards Opera and The Edinburgh Festival, where sang with Sutherland (in Haydn\u2019s \"Orfeo\") and Luciano Pavarotti (in \"I Capuleti e i Montecchi\").  ",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 273.09,
+      "generation_latency_ms": 1612.96
+    }
+  ]
+}

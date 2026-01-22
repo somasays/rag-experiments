@@ -1,0 +1,184 @@
+{
+  "config": "token_test",
+  "strategy": "token",
+  "chunk_size": 1024,
+  "actual_chunk_size": 873.625,
+  "timestamp": "2026-01-22T16:14:21.884873",
+  "chunking_stats": {
+    "doc_count": 5,
+    "chunk_count": 40,
+    "chunks_per_doc": 8.0,
+    "avg_doc_length": 5514.0,
+    "avg_chunk_length": 874.0,
+    "chunking_occurred": true
+  },
+  "evaluation": {
+    "context_recall": 1.0,
+    "context_precision": 0.0,
+    "faithfulness": 0.0,
+    "answer_relevancy": 0.0,
+    "retrieval_success_rate": 1.0
+  },
+  "query_results": [
+    {
+      "query_id": "5ae143ed55429920d5234360",
+      "question": "In what year was the university where Sergei Aleksandrovich Tokarev was a professor founded?",
+      "ground_truth": "1755",
+      "generated_answer": " The university where Sergei Aleksandrovich Tokarev was a professor, Moscow State University, was founded in the year 1755.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.631,
+          "full_text": "Sergei Dmitrochenko\n\nSergei Aleksandrovich Dmitrochenko (Russian: \u0421\u0435\u0440\u0433\u0435\u0301\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0414\u043c\u0438\u0442\u0440\u043e\u0447\u0435\u043d\u043a\u043e ; born June 21, 1993) is a Russian football midfielder.\n\n## Sergei Aleksandrovich Tokarev\n\nSergei Aleksandrovich Tokarev (Russian: \u0421\u0435\u0440\u0433\u0435\u0301\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u0301\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0422\u043e\u0301\u043a\u0430\u0440\u0435\u0432 , 29 December 1899 \u2013 19 April 1985) was a Russian scholar, ethnographer, historian, researcher of religious beliefs, doctor of historical sciences, and professor at Moscow State University.\n\n## Sergei Aleksandrovich Kudryavtsev\n\nSergei Aleksandrovich Kudryavtsev (1903 \u2013 April 25, 1938) was a Ukrainian communist Soviet politician.  He was born in Kharkiv.  During the Great Purge, he was arrested on October 13, 1937 and later executed by firing squad.  After the death of",
+          "text_preview": "Sergei Dmitrochenko\n\nSergei Aleksandrovich Dmitrochenko (Russian: \u0421\u0435\u0440\u0433\u0435\u0301\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0414\u043c\u0438\u0442\u0440\u043e\u0447\u0435\u043d\u043a\u043e ; born June 21, 1993) is a Russian football midfielder.\n\n## Sergei Aleksandrovich Tokarev\n\nSergei Aleksandrovich Tokarev (Russian: \u0421\u0435\u0440\u0433\u0435\u0301\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u0301\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0422\u043e\u0301\u043a\u0430\u0440\u0435\u0432 , 29 December 1899 \u2013 19 April 1985) was a Russian scholar, ethnographer, historian, researcher of religious beliefs, doctor of historical sciences, and professor at Moscow State University.\n\n## Sergei Aleksandrovich Kudryavtsev\n\nSergei A...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.4971,
+          "full_text": "In what year was the university where Sergei Aleks...\n\n## Moscow State University\n\nLomonosov Moscow State University (MSU; Russian: \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u041c.  \u0412.  \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0430 , often abbreviated \u041c\u0413\u0423) is a coeducational and public research university located in Moscow, Russia.  It was founded on January 25, 1755 by Mikhail Lomonosov.  MSU was renamed after Lomonosov in 1940 and was then known as \"Lomonosov University\".  It also houses the tallest educational building in the world.  It is rated among the universities with the best reputation in the world.  Its current rector is Viktor Sadovnichiy.\n\n## Sergei Roshchin\n\nSergei Aleksandrovich Roshchin (Russian: \u0421\u0435\u0440\u0433\u0435\u0301\u0439 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0420\u043e\u0449\u0438\u043d ; born January 28, 1989) is a Russian football defender, who last played for FC Znamya",
+          "text_preview": "In what year was the university where Sergei Aleks...\n\n## Moscow State University\n\nLomonosov Moscow State University (MSU; Russian: \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0438\u0439 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442 \u0438\u043c\u0435\u043d\u0438 \u041c.  \u0412.  \u041b\u043e\u043c\u043e\u043d\u043e\u0441\u043e\u0432\u0430 , often abbreviated \u041c\u0413\u0423) is a coeducational and public research university located in Moscow, Russia.  It was founded on January 25, 1755 by Mikhail Lomonosov.  MSU was renamed after Lomonosov in 1940 and was then known as \"Lomonosov University\".  It also houses the tallest educational building in the w...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.4736,
+          "full_text": "1938) was a Ukrainian communist Soviet politician.  He was born in Kharkiv.  During the Great Purge, he was arrested on October 13, 1937 and later executed by firing squad.  After the death of Joseph Stalin, he was rehabilitated in 1956.",
+          "text_preview": "1938) was a Ukrainian communist Soviet politician.  He was born in Kharkiv.  During the Great Purge, he was arrested on October 13, 1937 and later executed by firing squad.  After the death of Joseph Stalin, he was rehabilitated in 1956.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 829.79,
+      "generation_latency_ms": 8142.89
+    },
+    {
+      "query_id": "5abc19705542993a06baf86e",
+      "question": "Black Book starred the actress and writer of what heritage?",
+      "ground_truth": "Dutch",
+      "generated_answer": " The actress who starred in \"Black Book\" is Halina Reijn, who is of Dutch heritage.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.515,
+          "full_text": "Black Book\" (\"Mishefa Re\u015f\" in Kurdish).  It is claimed that the original text of the \"Book of Revelation\" is kept in the Yazidi village of Ba'idn and the original text of the \"Yazidi Black Book\" is kept in the village of Qasr 'tzz at-Din.\n\n## Halina Reijn\n\nHalina Reijn (born 10 November 1975) is a Dutch actress and writer.\n\n## Neil Smith (writer)\n\nNeil Smith is a fiction writer who lives in Montreal, the city where he was born.  His most recent book, a novel called \"Boo\", came out in May 2015 with Random House imprints in America, Britain, and Canada.  The book is narrated by a young science geek named Oliver Dalrymple who finds himself in a heaven reserved exclusively for 13-year-olds.  In addition to English, \"Boo\" has been published in traditional Chinese, Czech, Dutch, French, German, and Portuguese. \" Publishers Weekly\", \"Booklist\", and \"Quill & Quire\" all gave",
+          "text_preview": "Black Book\" (\"Mishefa Re\u015f\" in Kurdish).  It is claimed that the original text of the \"Book of Revelation\" is kept in the Yazidi village of Ba'idn and the original text of the \"Yazidi Black Book\" is kept in the village of Qasr 'tzz at-Din.\n\n## Halina Reijn\n\nHalina Reijn (born 10 November 1975) is a Dutch actress and writer.\n\n## Neil Smith (writer)\n\nNeil Smith is a fiction writer who lives in Montreal, the city where he was born.  His most recent book, a novel called \"Boo\", came out in May 2015 wi...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5131,
+          "full_text": "Noir du Capitalisme (\"The Black Book of Capitalism\") is a 1998 French book published in reaction to \"The Black Book of Communism\".  Unlike the latter work, \"Le Livre Noir du Capitalisme\"'s primary goal is not to try to attribute a number of victims to the political system in question.  Rather, the body of the book is composed of a series of independent works from various writers who each voice their critique on the various aspects of capitalism.  Topics covered range from the African slave trade to the effects of globalization.\n\n## Black Book (film)\n\nBlack Book (Dutch: Zwartboek ) is a 2006 Dutch thriller film co-written and directed by Paul Verhoeven and starring Carice van Houten, Sebastian Koch, Thom Hoffman, and Halina Reijn.  The film, credited as based on several true events and characters, is about a young Jewish woman in the Netherlands who becomes a spy for the resistance during World War II after tragedy befalls her in an encounter with the Nazis.  The film had its world premiere on 1 September 2006 at",
+          "text_preview": "Noir du Capitalisme (\"The Black Book of Capitalism\") is a 1998 French book published in reaction to \"The Black Book of Communism\".  Unlike the latter work, \"Le Livre Noir du Capitalisme\"'s primary goal is not to try to attribute a number of victims to the political system in question.  Rather, the body of the book is composed of a series of independent works from various writers who each voice their critique on the various aspects of capitalism.  Topics covered range from the African slave trade...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5129,
+          "full_text": "Holocaust and the participation of Jews in the fighting and the resistance movement against the Nazis during World War II.\n\n## Books of Clanranald\n\nThe Books of Clanranald are two paper manuscripts that date to about the early 18th century.  The books are written in Classical Gaelic, and are best known for their traditional account of the history of Clan Donald.  The manuscripts are commonly referred to as the \"Red Book\" and the \"Black Book\".  The name \"Red Book\", however, may actually be a misnomer.  Although Gaelic tradition on South Uist notes a \"Red Book of MacMhuirich\", it is uncertain whether this book is identical to the surviving manuscript.  In fact, the manuscript may be partly derived from the red book of tradition.  The name \"Black Book\" may have been coined in order to distinguish it from the so-called \"Red Book\".\n\n## Black Book (novel)\n\nBlack Book (Dutch: Zwartboek ) is a Dutch-language 2006 thriller novel by Laurens Abbink Spaink.  It is the novelization of the",
+          "text_preview": "Holocaust and the participation of Jews in the fighting and the resistance movement against the Nazis during World War II.\n\n## Books of Clanranald\n\nThe Books of Clanranald are two paper manuscripts that date to about the early 18th century.  The books are written in Classical Gaelic, and are best known for their traditional account of the history of Clan Donald.  The manuscripts are commonly referred to as the \"Red Book\" and the \"Black Book\".  The name \"Red Book\", however, may actually be a misn...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 1557.88,
+      "generation_latency_ms": 1545.99
+    },
+    {
+      "query_id": "5ac3e0f7554299194317388b",
+      "question": "Which actor does American Beauty and American Beauty have in common?",
+      "ground_truth": "Kevin Spacey",
+      "generated_answer": " Kevin Spacey. He played the role of Lester Burnham in both \"American Beauty\" (1999 film) and \"American Beauty\", which is a reference to the soundtrack album of the same movie.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7225,
+          "full_text": "English: The American Beauty , is a French comedy film from 1961, directed by Robert Dh\u00e9ry, written by Alfred Adam, starring Alfred Adam and Louis de Fun\u00e8s.  The film was known under the titles: \"La bella americana\" (Italy), \"The American Beauty\" (English title), \"Der tolle Amerikaner\" (West Germany).\n\n## List of accolades received by American Beauty\n\n\"American Beauty\" is a 1999 American drama film directed by Sam Mendes and written by Alan Ball.  The film stars Kevin Spacey as Lester Burnham, a middle-aged office worker who has a midlife crisis when he becomes infatuated with his teenage daughter's best friend.  Released in North America on September\u00a015, 1999, \"American Beauty\" was positively received by critics and audiences alike; it was the best-reviewed American film of the year and grossed over $350 million worldwide.  Reviewers praised all aspects of the production, with particular emphasis on Mendes, Spacey and Ball; criticism tended to focus on the familiarity of the characters and setting.  At",
+          "text_preview": "English: The American Beauty , is a French comedy film from 1961, directed by Robert Dh\u00e9ry, written by Alfred Adam, starring Alfred Adam and Louis de Fun\u00e8s.  The film was known under the titles: \"La bella americana\" (Italy), \"The American Beauty\" (English title), \"Der tolle Amerikaner\" (West Germany).\n\n## List of accolades received by American Beauty\n\n\"American Beauty\" is a 1999 American drama film directed by Sam Mendes and written by Alan Ball.  The film stars Kevin Spacey as Lester Burnham, a...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7077,
+          "full_text": "is a 1999 American drama film directed by Sam Mendes and written by Alan Ball.  Kevin Spacey stars as Lester Burnham, a 42-year-old advertising executive who has a midlife crisis when he becomes infatuated with his teenage daughter's best friend, Angela (Mena Suvari).  Annette Bening co-stars as Lester's materialistic wife, Carolyn, and Thora Birch plays their insecure daughter, Jane.  Wes Bentley, Chris Cooper, and Allison Janney also feature.  The film is described by academics as a satire of American middle-class notions of beauty and personal satisfaction; analysis has focused on the film's explorations of romantic, and paternal love, sexuality, beauty, materialism, self-liberation, and redemption.\n\n## American Beauty (soundtrack)\n\nAmerican Beauty: Music from the Original Motion Picture Soundtrack is the soundtrack album to the 1999 film starring Kevin Spacey and Annette Bening.",
+          "text_preview": "is a 1999 American drama film directed by Sam Mendes and written by Alan Ball.  Kevin Spacey stars as Lester Burnham, a 42-year-old advertising executive who has a midlife crisis when he becomes infatuated with his teenage daughter's best friend, Angela (Mena Suvari).  Annette Bening co-stars as Lester's materialistic wife, Carolyn, and Thora Birch plays their insecure daughter, Jane.  Wes Bentley, Chris Cooper, and Allison Janney also feature.  The film is described by academics as a satire of ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6896,
+          "full_text": "the band was most proud of, Pete Wentz responded, \"It's hard to say because it's like having kids.  [Patrick] says The Kids Aren't Alright\".\n\n## Christopher Greenbury\n\nChristopher Greenbury, ACE (September 24, 1951 \u2013 January 4, 2007) was a British film editor with more than thirty film credits dating from 1979's \"The Muppet Movie\".  With Tariq Anwar, he won the BAFTA Award for Best Editing for \"American Beauty\" (1999), which he was also nominated for an Academy Award for Best Film Editing.  \"American Beauty\" is a serious drama, but in general Greenbury edited comedy films, including six directed by the Farrelly brothers commencing with 1994's \"Dumb and Dumber\".\n\n## American Beauty (1999 film)\n\nAmerican Beauty is a 1999 American drama film directed by Sam Mendes and written by Alan Ball.  Kevin Spacey stars as Lester Burnham, a 42-year-old advertising executive who has a midlife crisis when he becomes infatuated with his teenage",
+          "text_preview": "the band was most proud of, Pete Wentz responded, \"It's hard to say because it's like having kids.  [Patrick] says The Kids Aren't Alright\".\n\n## Christopher Greenbury\n\nChristopher Greenbury, ACE (September 24, 1951 \u2013 January 4, 2007) was a British film editor with more than thirty film credits dating from 1979's \"The Muppet Movie\".  With Tariq Anwar, he won the BAFTA Award for Best Editing for \"American Beauty\" (1999), which he was also nominated for an Academy Award for Best Film Editing.  \"Ame...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 233.91,
+      "generation_latency_ms": 2001.49
+    },
+    {
+      "query_id": "5ae518655542993aec5ec139",
+      "question": "Ken Pruitt  was a Republican member of an upper house of the legislature with how many members ?",
+      "ground_truth": "40 members",
+      "generated_answer": " Ken Pruitt was a Republican member of an upper house, which in this case is the Florida Senate, and it has 40 members.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6569,
+          "full_text": "Ken Pruitt  was a Republican member of an upper ho...\n\n## Florida Senate\n\nThe Florida Senate is the upper house of the legislature of the U.S. state of Florida.  Along with the House of Representatives, it composes the Florida Legislature.  The Senate has 40 members, each elected from a single-member district with a population of about 470,000.  The Senate meets at the State Capitol in Tallahassee.\n\n## Wisconsin Legislature\n\nThe Wisconsin Legislature is the state legislature of the U.S. state of Wisconsin.  The Legislature is a bicameral body composed of the upper house Wisconsin State Senate and the lower Wisconsin State Assembly, both of which have had Republican majorities since January 2011.  With both houses combined, the legislature has 132 members representing an equal number of constituent districts.  The Legislature convenes at the state capitol in Madison.\n\n## Ken Pruitt\n\nKen Pruitt (born January 24, 1957) was a Republican member of the Florida Senate, representing the 28th District from 2000 to 2009.  His district includes portions of",
+          "text_preview": "Ken Pruitt  was a Republican member of an upper ho...\n\n## Florida Senate\n\nThe Florida Senate is the upper house of the legislature of the U.S. state of Florida.  Along with the House of Representatives, it composes the Florida Legislature.  The Senate has 40 members, each elected from a single-member district with a population of about 470,000.  The Senate meets at the State Capitol in Tallahassee.\n\n## Wisconsin Legislature\n\nThe Wisconsin Legislature is the state legislature of the U.S. state of...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.649,
+          "full_text": "Nevada Senate, with 21 members.  All 63 members of the Legislature are elected from an equal amount of constituent districts across the state.  The Legislature is the third smallest bicameral state legislature in the United States (the Alaska Legislature is the smallest bicameral, with only 60 members and the Delaware General Assembly has 62 members).\n\n## Upper house\n\nAn upper house, sometimes called a Senate, is one of two chambers of a bicameral legislature (or one of three chambers of a tricameral legislature), the other chamber being the lower house.  The house formally designated as the upper house is usually smaller, and often has more restricted power, than the lower house.  Examples of upper houses in countries include the UK's House of Lords, India's Rajya Sabha, Russia's Federation Council, Ireland's Seanad, Germany's Bundesrat and the United States Senate.\n\n## Alaska Legislature\n\nThe Alaska Legislature is the state legislature of the U.S. state of Alaska.  It is a bicameral institution, consisting of the lower Alaska House of Representatives, with 40",
+          "text_preview": "Nevada Senate, with 21 members.  All 63 members of the Legislature are elected from an equal amount of constituent districts across the state.  The Legislature is the third smallest bicameral state legislature in the United States (the Alaska Legislature is the smallest bicameral, with only 60 members and the Delaware General Assembly has 62 members).\n\n## Upper house\n\nAn upper house, sometimes called a Senate, is one of two chambers of a bicameral legislature (or one of three chambers of a trica...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.624,
+          "full_text": "Both sit at Parliament House in the state capital, Sydney.  The Assembly is referred to as the lower house and the Council as the upper house.  It is normal for legislation to be first deliberated on and enacted in the lower house, and then considered in the upper house, which acts in the main as a house of review.  The Council has 42 members, elected by proportional representation in which the whole state is treated as a single electorate.  Members serve eight-year terms, which are staggered so that half the Council is up for election every four years\u2014roughly coinciding with elections to the Legislative Assembly.\n\n## Nevada Legislature\n\nThe Nevada Legislature is the state legislature of the U.S. state of Nevada.  The Legislature is a bicameral body, consisting of the lower house Nevada Assembly, with 42 members, and the upper house Nevada Senate, with 21 members.  All 63 members of the Legislature are elected from an equal amount of constituent districts across the state.  The Legislature is the third smallest bicameral state legislature in the United States (the Alaska Legislature is the",
+          "text_preview": "Both sit at Parliament House in the state capital, Sydney.  The Assembly is referred to as the lower house and the Council as the upper house.  It is normal for legislation to be first deliberated on and enacted in the lower house, and then considered in the upper house, which acts in the main as a house of review.  The Council has 42 members, elected by proportional representation in which the whole state is treated as a single electorate.  Members serve eight-year terms, which are staggered so...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 320.81,
+      "generation_latency_ms": 1685.38
+    },
+    {
+      "query_id": "5ab985eb554299131ca42360",
+      "question": "Between Greyia and Calibanus, which genus contains more species?",
+      "ground_truth": "Greyia",
+      "generated_answer": " The genus containing more species between Greyia and Calibanus is not mentioned in the provided context as both of these genera have specific numbers of species associated with them. However, the list of Amanita species suggests that it could potentially contain more species than both Greyia and Calibanus combined due to having over 500 named species. But this comparison cannot be definitive without knowing the exact number of species in each genus from the given context.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6492,
+          "full_text": "Calibanus\n\nCalibanus is a genus of two species of flowering plants, both evergreen succulents from dry areas of northeastern Mexico.  The APG III classification system places it in the family Asparagaceae, subfamily Nolinoideae (formerly the family Ruscaceae. )  It was formerly included in the Agavaceae (now Agavoideae) but is now separated from them, for it is polycarpic and dioecious.  Its name refers to the monster Caliban, an antagonist in Shakespeare's \"The Tempest\".\n\n## Ceratozamia\n\nCeratozamia is a genus of New World cycads in the family Zamiaceae.  The genus contains 27 known currently living species and one or two fossil species.  Most species are endemic to mountainous areas of Mexico, while few species extend into the mountains of Guatemala, Honduras and Belize.  The genus name comes from the Greek \"ceras\", meaning horn, which refers to the paired, spreading horny projections on the male and female",
+          "text_preview": "Calibanus\n\nCalibanus is a genus of two species of flowering plants, both evergreen succulents from dry areas of northeastern Mexico.  The APG III classification system places it in the family Asparagaceae, subfamily Nolinoideae (formerly the family Ruscaceae. )  It was formerly included in the Agavaceae (now Agavoideae) but is now separated from them, for it is polycarpic and dioecious.  Its name refers to the monster Caliban, an antagonist in Shakespeare's \"The Tempest\".\n\n## Ceratozamia\n\nCerato...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6392,
+          "full_text": "in the tropics.  The genus is also sometimes considered to include the genus \"Bowdleria\", which holds the fernbirds of New Zealand.  The most widespread species, the tawny grassbird, ranges from the Philippines to southern New South Wales, whereas the Fly River grassbird is restricted to swampland in the southern part of New Guinea.  The natural habitat of the typical grassbirds is, as the name suggests, wet grasslands, swamps and other marshlands.  Some species exist away from water in tall grasslands, heathlands, and forest clearings.  Some species have adapted to the margins of rice fields and gardens.\n\n## Greyia\n\nGreyia is a genus of plant in family Melianthaceae.  It contains three species:\n\n## Lophodermium\n\nLophodermium is a genus of fungi within the family Rhytismataceae.  The genus contains 145 species and has a global distribution.  Species of this genus are usually observed producing zone lines, conidiomata and ascomata on dead",
+          "text_preview": "in the tropics.  The genus is also sometimes considered to include the genus \"Bowdleria\", which holds the fernbirds of New Zealand.  The most widespread species, the tawny grassbird, ranges from the Philippines to southern New South Wales, whereas the Fly River grassbird is restricted to swampland in the southern part of New Guinea.  The natural habitat of the typical grassbirds is, as the name suggests, wet grasslands, swamps and other marshlands.  Some species exist away from water in tall gra...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6014,
+          "full_text": "Between Greyia and Calibanus, which genus contains...\n\n## List of Amanita species\n\nThe following is a list of some notable species of the agaric genus \"Amanita\".  This genus contains over 500 named species and varieties, but the list is far from exhaustive.  The list follows the classification of subgenera and sections of \"Amanita\" outline by Corner and Bas; Bas, as used by Tulloss (2007) and modified by Redhead & al. (2016) for \"Amanita\" subgenus \"Amanitina\" and Singer for \"Amanita\" section \"Roanokenses\".  Bolding of the species name and an asterisk (*) following indicates the species is the type species of that section, with a double asterisk (**) indicating the type species of the entire genus.  Use of common names follows Tulloss (2007), Holden (2003), Arora (1986), and Lincoff (1981).\n\n## Calyptocephalellidae\n\nThe",
+          "text_preview": "Between Greyia and Calibanus, which genus contains...\n\n## List of Amanita species\n\nThe following is a list of some notable species of the agaric genus \"Amanita\".  This genus contains over 500 named species and varieties, but the list is far from exhaustive.  The list follows the classification of subgenera and sections of \"Amanita\" outline by Corner and Bas; Bas, as used by Tulloss (2007) and modified by Redhead & al. (2016) for \"Amanita\" subgenus \"Amanitina\" and Singer for \"Amanita\" section \"Ro...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 360.81,
+      "generation_latency_ms": 2717.29
+    }
+  ]
+}

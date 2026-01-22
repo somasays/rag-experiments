@@ -1,0 +1,25 @@
+{
+  "experiment": "smoke_test",
+  "description": "Quick verification of chunking pipeline",
+  "dataset": "hotpotqa",
+  "timestamp": "2026-01-22T16:14:22.071066",
+  "num_configurations": 1,
+  "results": [
+    {
+      "config": "token_test",
+      "strategy": "token",
+      "chunk_size": 1024,
+      "actual_chunk_size": 873.625,
+      "context_recall": 1.0,
+      "context_precision": 0.0,
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.0,
+      "retrieval_success_rate": 1.0,
+      "duration_seconds": 53.17,
+      "num_chunks": 40,
+      "chunks_per_doc": 8.0,
+      "avg_doc_length": 5514.0,
+      "avg_chunk_length": 874.0
+    }
+  ]
+}

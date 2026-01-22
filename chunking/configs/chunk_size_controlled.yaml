@@ -1,0 +1,119 @@
+# Experiment: Chunk Size Controlled Study
+# Research Question: Do chunking strategies differ when chunk size is controlled?
+#
+# Previous experiments showed chunk size is a confounding variable - sentence
+# chunking produced larger chunks and better recall. This experiment controls
+# for chunk size to isolate the effect of the chunking strategy itself.
+#
+# Design:
+#   Part A: Target ~1000 chars - compare token, recursive, semantic
+#   Part B: Target ~3000 chars - compare all 4 strategies
+#   Part C: Default settings - baseline comparison
+#
+# Key insight to test: Is sentence chunking better because of larger chunks,
+# or because sentence boundaries help retrieval?
+
+name: chunk_size_controlled
+description: Controlled chunk size comparison to isolate strategy effects
+
+# Dataset: HotpotQA (long documents only for meaningful chunking)
+dataset: hotpotqa
+dataset_args:
+  num_examples: 40
+  min_length: 7000  # Long documents only
+  seed: 42
+
+# Experiment configurations
+configurations:
+  # ============================================================
+  # PART A: ~1000 char target
+  # Semantic can't be controlled, token and recursive can
+  # ============================================================
+
+  # Token at ~1000 chars (~250 tokens)
+  - name: token_1000
+    strategy: token
+    token_chunk_size: 250   # ~1000 chars at 4 chars/token
+    chunk_overlap: 50
+
+  # Recursive at ~1000 chars
+  - name: recursive_1000
+    strategy: recursive
+    chunk_size: 1000
+    chunk_overlap: 100
+
+  # Semantic (not controllable, ~1100 chars typical)
+  - name: semantic_1000
+    strategy: semantic
+    chunk_size: 1000        # Ignored - semantic determines size
+
+  # ============================================================
+  # PART B: ~3000 char target
+  # All strategies can be compared at larger size
+  # ============================================================
+
+  # Token at ~3000 chars (~750 tokens)
+  - name: token_3000
+    strategy: token
+    token_chunk_size: 750
+    chunk_overlap: 150
+
+  # Sentence at ~3000 chars
+  - name: sentence_3000
+    strategy: sentence
+    chunk_size: 3000
+    chunk_overlap: 300
+
+  # Recursive at ~3000 chars
+  - name: recursive_3000
+    strategy: recursive
+    chunk_size: 3000
+    chunk_overlap: 300
+
+  # Semantic (still ~1100 chars - can't increase)
+  - name: semantic_3000
+    strategy: semantic
+    chunk_size: 3000        # Ignored
+
+  # ============================================================
+  # PART C: Default settings (baseline)
+  # Each strategy at its natural/default configuration
+  # ============================================================
+
+  # Token default (~256 tokens = ~1024 chars)
+  - name: token_default
+    strategy: token
+    chunk_size: 1024
+    chunk_overlap: 128
+
+  # Sentence default (~1024 chars, may produce larger due to boundaries)
+  - name: sentence_default
+    strategy: sentence
+    chunk_size: 1024
+    chunk_overlap: 200
+
+  # Recursive default (~1024 chars)
+  - name: recursive_default
+    strategy: recursive
+    chunk_size: 1024
+    chunk_overlap: 128
+
+  # Semantic default (~1100 chars, not controllable)
+  - name: semantic_default
+    strategy: semantic
+    chunk_size: 1024
+
+# Evaluation settings
+evaluation:
+  metrics:
+    - context_recall
+    - context_precision
+    - faithfulness
+    - answer_relevancy
+  top_k: 3
+  num_queries: 40
+
+# Output settings
+output:
+  detailed: true
+  summary: true

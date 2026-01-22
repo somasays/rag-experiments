@@ -1,0 +1,1304 @@
+{
+  "config": "recursive_1000",
+  "strategy": "recursive",
+  "chunk_size": 1000,
+  "actual_chunk_size": 643.3825757575758,
+  "timestamp": "2026-01-13T14:55:06.554016",
+  "chunking_stats": {
+    "doc_count": 40,
+    "chunk_count": 528,
+    "chunks_per_doc": 13.2,
+    "avg_doc_length": 8323.0,
+    "avg_chunk_length": 643.0,
+    "chunking_occurred": true
+  },
+  "evaluation": {
+    "context_recall": 0.725,
+    "context_precision": 0.6645833332803125,
+    "faithfulness": 0.721978021978022,
+    "answer_relevancy": 0.0,
+    "retrieval_success_rate": 0.725
+  },
+  "query_results": [
+    {
+      "query_id": "5ae1d1a55542997f29b3c138",
+      "question": "Which of the fighter in Battle of Gavinana was created in 1422, and came to an end when the Holy Roman Empire was wound up in 1806, as the result of the Napoleonic Wars?",
+      "ground_truth": "Army of the Holy Roman",
+      "generated_answer": " The Army of the Holy Roman Empire was one of the fighters in the Battle of Gavinana. It was created in 1422 and came to an end in 1806 due to the Napoleonic Wars. However, it's important to note that the Army of the Holy Roman Empire was not a single entity but rather an amalgamation of various territorial forces within the empire.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6901,
+          "full_text": "## Army of the Holy Roman Empire\n\nThe Army of the Holy Roman Empire (German \"Reichsarmee\", \"Reichsheer\" or \"Reichsarmatur\"; Latin \"exercitus imperii\") was created in 1422, and came to an end when the Holy Roman Empire was wound up in 1806, as the result of the Napoleonic Wars.  It must not be confused with the Imperial Army (\"Kaiserliche Armee\") of the Emperor.\n\n## French\u2013Habsburg relations",
+          "text_preview": "## Army of the Holy Roman Empire\n\nThe Army of the Holy Roman Empire (German \"Reichsarmee\", \"Reichsheer\" or \"Reichsarmatur\"; Latin \"exercitus imperii\") was created in 1422, and came to an end when the Holy Roman Empire was wound up in 1806, as the result of the Napoleonic Wars.  It must not be confused with the Imperial Army (\"Kaiserliche Armee\") of the Emperor.\n\n## French\u2013Habsburg relations",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.659,
+          "full_text": "## Battle of Gavinana\n\nThe Battle of Gavinana was a battle in the War of the League of Cognac.  It was fought on 3 August 1530 between the city of Florence and the army of the Holy Roman Empire.\n\n## Frederick William III of Prussia",
+          "text_preview": "## Battle of Gavinana\n\nThe Battle of Gavinana was a battle in the War of the League of Cognac.  It was fought on 3 August 1530 between the city of Florence and the army of the Holy Roman Empire.\n\n## Frederick William III of Prussia",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6138,
+          "full_text": "Which of the fighter in Battle of Gavinana was cre...\n\n## Corpus Evangelicorum\n\nThe Corpus Evangelicorum was a league of Protestant imperial states within the Holy Roman Empire that came into existence on 22 July 1653.  It progenitor was King Gustavus Adolphus of Sweden who proposed the Corpus as a body of Protestant states who were allies, or were potential allies, against Ferdinand II, the Holy Roman Emperor, during the Thirty Years' War.  Gustavus Adolphus proposed that the Corpus Evangelicorum was to be the civil administration alongside the Corpus Bellicum which would be responsible for military concerns.  The presidency of the Corpus Evangelicorum became associated with the Electorate of Saxony.  The Corpus lasted until 1806 and the dissolution of the Holy Roman Empire during the Napoleonic Wars.\n\n## Duchy of W\u00fcrttemberg",
+          "text_preview": "Which of the fighter in Battle of Gavinana was cre...\n\n## Corpus Evangelicorum\n\nThe Corpus Evangelicorum was a league of Protestant imperial states within the Holy Roman Empire that came into existence on 22 July 1653.  It progenitor was King Gustavus Adolphus of Sweden who proposed the Corpus as a body of Protestant states who were allies, or were potential allies, against Ferdinand II, the Holy Roman Emperor, during the Thirty Years' War.  Gustavus Adolphus proposed that the Corpus Evangelicor...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 276.91,
+      "generation_latency_ms": 6202.27
+    },
+    {
+      "query_id": "5a8a1b7a5542992d82986ec0",
+      "question": "Where did the father of Edward Garrison Walker live when he wrote \"An Appeal to the Coloured Citizens of the World\"?",
+      "ground_truth": "Boston",
+      "generated_answer": " The father of Edward Garrison Walker, David Walker, lived in Boston, Massachusetts when he wrote \"An Appeal to the Coloured Citizens of the World\".",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7109,
+          "full_text": "## David Walker (abolitionist)\n\nDavid Walker (September 28, 1796August 6, 1830) was an outspoken African-American abolitionist, writer and anti-slavery activist.  Though his father was a slave, his mother was free so therefore he was free.  In 1829, while living in Boston, Massachusetts, he published \"An Appeal to the Coloured Citizens of the World\", a call for black unity and self-help in the fight against oppression and injustice.\n\n## The Untamed Youth",
+          "text_preview": "## David Walker (abolitionist)\n\nDavid Walker (September 28, 1796August 6, 1830) was an outspoken African-American abolitionist, writer and anti-slavery activist.  Though his father was a slave, his mother was free so therefore he was free.  In 1829, while living in Boston, Massachusetts, he published \"An Appeal to the Coloured Citizens of the World\", a call for black unity and self-help in the fight against oppression and injustice.\n\n## The Untamed Youth",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6614,
+          "full_text": "## Edward G. Walker\n\nEdward Garrison Walker, also known as Edwin Garrison Walker (1830\u20131901), was an American artisan in Boston who became an attorney in 1861; he was one of the first black men to pass the Massachusetts bar.  He later became a politician and in 1866, nine years after the state extended the franchise to African-American men, he and Charles Lewis Mitchell were the first two black men elected to the Massachusetts State Legislature.  Walker was the son of Eliza and David Walker, an abolitionist who had written an appeal in 1829 calling for the end of slavery.\n\n## Terry Garrison\n\nTerrence Edward Garrison (born January 19, 1949) is an American politician.  He was elected to the North Carolina House of Representatives in 2016.  A Democrat, he serves the 32nd district.\n\n## Mickey Walker (boxer)",
+          "text_preview": "## Edward G. Walker\n\nEdward Garrison Walker, also known as Edwin Garrison Walker (1830\u20131901), was an American artisan in Boston who became an attorney in 1861; he was one of the first black men to pass the Massachusetts bar.  He later became a politician and in 1866, nine years after the state extended the franchise to African-American men, he and Charles Lewis Mitchell were the first two black men elected to the Massachusetts State Legislature.  Walker was the son of Eliza and David Walker, an ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6218,
+          "full_text": "Where did the father of Edward Garrison Walker liv...\n\n## Palestinians",
+          "text_preview": "Where did the father of Edward Garrison Walker liv...\n\n## Palestinians",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 319.99,
+      "generation_latency_ms": 1280.79
+    },
+    {
+      "query_id": "5a85cead5542991dd0999ea9",
+      "question": "What arcade game is named after the only player in major league history to have a 0.300 batting average for 7 consecutive seasons?",
+      "ground_truth": "a pinball machine",
+      "generated_answer": " The arcade game named after Tony Gwynn, who is the only player in Major League Baseball history to achieve a .300 batting average for seven consecutive seasons (1987-1994), is not directly mentioned in the provided context. However, Tony Gwynn's likeness and name were used in MLB 2K8 as part of the \"Hall of Fame\" roster. It is important to note that while Gwynn's career spanned multiple years beyond his seven-season streak, the arcade game specifically honors his remarkable consistency during this time frame.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6684,
+          "full_text": ".  Tony Gwynn, for example, had 159 hits in 451 ABs in 1996 (.353 average) but only 498 PAs.  Gwynn's batting average would have dropped to .349 (159 hits in 455 ABs) with four hitless ABs added to reach the 502 PA requirement, but this would still have been higher than the next-highest eligible player (.344 average), so he was awarded the 1996 NL batting title.",
+          "text_preview": ".  Tony Gwynn, for example, had 159 hits in 451 ABs in 1996 (.353 average) but only 498 PAs.  Gwynn's batting average would have dropped to .349 (159 hits in 455 ABs) with four hitless ABs added to reach the 502 PA requirement, but this would still have been higher than the next-highest eligible player (.344 average), so he was awarded the 1996 NL batting title.",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6598,
+          "full_text": "In baseball, batting average (AVG) is a measure of a batter's success rate in achieving a hit during an at bat.  In Major League Baseball (MLB), it is calculated by dividing a player's hits by his at bats (AB).  In MLB, a player in each league wins the \"batting title\" each season for having the highest batting average that year.  The American League (AL) winner is known as the \"Rod Carew American League Batting Champion\", while the National League (NL) leader is designated the \"Tony Gwynn National League Batting Champion\".  Under current rules, a player must have 3.1 plate appearances (PA) per team game (for a total of 502 over the current 162-game season) to qualify for the batting title.  However, if a player's lead in AVG is sufficiently large that enough hitless at bats can be added to reach this requirement and the player still would have the highest batting average, he wins the title.  Tony Gwynn, for example, had 159 hits in 451 ABs in 1996 (.353 average) but only 498 PAs",
+          "text_preview": "In baseball, batting average (AVG) is a measure of a batter's success rate in achieving a hit during an at bat.  In Major League Baseball (MLB), it is calculated by dividing a player's hits by his at bats (AB).  In MLB, a player in each league wins the \"batting title\" each season for having the highest batting average that year.  The American League (AL) winner is known as the \"Rod Carew American League Batting Champion\", while the National League (NL) leader is designated the \"Tony Gwynn Nation...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6394,
+          "full_text": ".  On September 7, 1982 was sent to the Detroit Tigers by the Cincinnati Reds as part of a conditional deal.  German played 4 years in Major League Baseball (2 years in the American League played 12 games ) and ( 2 years in the National League played 55 games ) with a total of 67 games, 62 AB, 19 Runs, 18 hits, 2 doubles, 3 triples, 5 stolen bases a fielding % of .893 and batting average of .290",
+          "text_preview": ".  On September 7, 1982 was sent to the Detroit Tigers by the Cincinnati Reds as part of a conditional deal.  German played 4 years in Major League Baseball (2 years in the American League played 12 games ) and ( 2 years in the National League played 55 games ) with a total of 67 games, 62 AB, 19 Runs, 18 hits, 2 doubles, 3 triples, 5 stolen bases a fielding % of .893 and batting average of .290",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 246.0,
+      "generation_latency_ms": 3153.79
+    },
+    {
+      "query_id": "5a82301155429926c1cdae4a",
+      "question": "How much was Ammon Bundy's son ordered to pay in grazing fees?",
+      "ground_truth": "over $1 million",
+      "generated_answer": " The context provided does not specify an amount for the grazing fees that Cliven Bundy's son, Ammon Bundy, was ordered to pay. The text only mentions that the United States Bureau of Land Management (BLM) had obtained court orders directing Cliven Bundy to pay over $1 million in withheld grazing fees. However, it does not specify whether this amount applies to both Cliven and Ammon Bundy or just Cliven.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7777,
+          "full_text": "## Forage value index\n\nThe Forage Value Index is a derived index of the relative change in the previous year\u2019s average monthly rate per head for pasturing cattle on privately owned land in the West.  Used in calculating federal grazing fees.\n\n## Maintenance fee (EPA)",
+          "text_preview": "## Forage value index\n\nThe Forage Value Index is a derived index of the relative change in the previous year\u2019s average monthly rate per head for pasturing cattle on privately owned land in the West.  Used in calculating federal grazing fees.\n\n## Maintenance fee (EPA)",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7629,
+          "full_text": "## Cliven Bundy\n\nCliven D. Bundy (born April 29, 1946) is an American cattle rancher from Bunkerville, Nevada who is currently federally incarcerated and awaiting trial with bail denied for his role in the 2014 Bundy standoff.  He vocally advocated a philosophy opposed to what he views as federal government overreach.  He is known for having participated in the 2014 Bundy Standoff in Nevada, an armed standoff with federal and state law enforcement over defaulted grazing fees.  Some viewed him as a hero for having led a movement of ranchers to encourage more ranchers to join him in defaulting on their grazing fees as per their federal grazing contracts.  Some considered him to be dangerously provocative.  He is the father of Ammon Bundy, who in 2016 also led another armed standoff against the government, the occupation of the Malheur National Wildlife Refuge in Oregon.\n\n## Sentinel Offender Services",
+          "text_preview": "## Cliven Bundy\n\nCliven D. Bundy (born April 29, 1946) is an American cattle rancher from Bunkerville, Nevada who is currently federally incarcerated and awaiting trial with bail denied for his role in the 2014 Bundy standoff.  He vocally advocated a philosophy opposed to what he views as federal government overreach.  He is known for having participated in the 2014 Bundy Standoff in Nevada, an armed standoff with federal and state law enforcement over defaulted grazing fees.  Some viewed him as...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7432,
+          "full_text": "## Bundy standoff\n\nThe 2014 Bundy standoff was an armed confrontation between supporters of cattle rancher Cliven Bundy and law enforcement following a 21-year legal dispute in which the United States Bureau of Land Management (BLM) had obtained court orders directing Bundy to pay over $1 million in withheld grazing fees for Bundy's use of federally owned land adjacent to Bundy's ranch in southeastern Nevada.\n\n## Citizens for Constitutional Freedom\n\nCitizens for Constitutional Freedom (C4CF), later also known as People for Constitutional Freedom (P4CF), was the name taken on January 4, 2016, by an armed private U.S. militia that occupied the U.S. Fish and Wildlife Service's Malheur National Wildlife Refuge headquarters in the U.S. state of Oregon from January 2 to February 11, 2016.  The leader of the organization was Ammon Bundy, son of Cliven D. Bundy, who engaged in a standoff with the federal government over grazing rights on federal land.\n\n## Stealth inflation",
+          "text_preview": "## Bundy standoff\n\nThe 2014 Bundy standoff was an armed confrontation between supporters of cattle rancher Cliven Bundy and law enforcement following a 21-year legal dispute in which the United States Bureau of Land Management (BLM) had obtained court orders directing Bundy to pay over $1 million in withheld grazing fees for Bundy's use of federally owned land adjacent to Bundy's ranch in southeastern Nevada.\n\n## Citizens for Constitutional Freedom\n\nCitizens for Constitutional Freedom (C4CF), la...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 276.82,
+      "generation_latency_ms": 2637.29
+    },
+    {
+      "query_id": "5adfef32554299603e4183ca",
+      "question": "What was the name of the soap opera that Thomas Ormson played David Platt and Adam Rickitt plated Nick Tilsley?",
+      "ground_truth": "Coronation Street",
+      "generated_answer": " The soap opera that Thomas Ormson played David Platt and Adam Rickitt played Nick Tilsley is \"Coronation Street\".",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7963,
+          "full_text": "## Adam Rickitt\n\nAdam Peter Rickitt (born 29 May 1978) is an English actor, singer and model and charity fundraiser.  He is most well known for playing Nick Tilsley in the soap opera \"Coronation Street\" from 1997 to 1999 and again from 2002 to 2004.  He is now part of the pop supergroup 5th Story, set up for \"The Big Reunion\".\n\n## David Platt (Coronation Street)\n\nDavid Daniel Platt (also Tilsley) is a fictional character from the British ITV soap opera, \"Coronation Street\".  He was born on-screen during an episode broadcast on 25 December 1990.  He was played by Thomas Ormson from 25 December 1990 until 15 March 2000 when Ormson left the serial.  Jack P. Shepherd took over the role and made his first on screen appearance on 26 April 2000.\n\n## Ben Price",
+          "text_preview": "## Adam Rickitt\n\nAdam Peter Rickitt (born 29 May 1978) is an English actor, singer and model and charity fundraiser.  He is most well known for playing Nick Tilsley in the soap opera \"Coronation Street\" from 1997 to 1999 and again from 2002 to 2004.  He is now part of the pop supergroup 5th Story, set up for \"The Big Reunion\".\n\n## David Platt (Coronation Street)\n\nDavid Daniel Platt (also Tilsley) is a fictional character from the British ITV soap opera, \"Coronation Street\".  He was born on-scree...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.764,
+          "full_text": "Nicholas Paul \"Nick\" Tilsley (also Platt) was born off screen during an episode broadcast on 31 December 1980, but made his first appearance on 5 January 1981.  He was played by Warren Jackson from 1981 until 6 September 1996.  Adam Rickett took over the role on 15 October 1997 until 21 April 1999 but returned for three separate stints between 2002 and 2004 and made his final appearance as Nick on 11 July 2004.  Ben Price took over the role on 21 December 2009.  Nick is the first-born child of Brian (Christopher Quinten) and Gail Tilsley (Helen Worth).  He is the older brother of Sarah Platt (Tina O'Brien) and David Platt (Jack P. Shepherd) as well as the uncle of Bethany (Lucy Fallon), and Lily Platt and the grandson of Audrey Roberts.  Nick's storylines have included his adolescent problems and his role in the fraught relationship between his parents, his teenage marriage to Leanne Battersby (Jane Danson) and their divorce, and his engagement to Maria Connor (Samia Smith)",
+          "text_preview": "Nicholas Paul \"Nick\" Tilsley (also Platt) was born off screen during an episode broadcast on 31 December 1980, but made his first appearance on 5 January 1981.  He was played by Warren Jackson from 1981 until 6 September 1996.  Adam Rickett took over the role on 15 October 1997 until 21 April 1999 but returned for three separate stints between 2002 and 2004 and made his final appearance as Nick on 11 July 2004.  Ben Price took over the role on 21 December 2009.  Nick is the first-born child of B...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7546,
+          "full_text": "## Nick Tilsley\n\nNicholas Paul \"Nick\" Tilsley (also Platt) is a fictional character from the British ITV soap opera, \"Coronation Street\".  He was born off-screen during an episode broadcast on 31 December 1980, but made his first appearance on 5 January 1981.  He was played by Warren Jackson from 1981 until 6 September 1996.  Adam Rickett took over the role on 15 October 1997 until 21 April 1999 but returned for three separate stints between 2002 and 2004 and made his final appearance as Nick on 11 July 2004.  Ben Price took over the role on 21 December 2009.  Price announced his intentions to leave the serial on 26 January 2017, before making his final on-screen appearance on 2 June 2017.\n\n## Adam Rickitt",
+          "text_preview": "## Nick Tilsley\n\nNicholas Paul \"Nick\" Tilsley (also Platt) is a fictional character from the British ITV soap opera, \"Coronation Street\".  He was born off-screen during an episode broadcast on 31 December 1980, but made his first appearance on 5 January 1981.  He was played by Warren Jackson from 1981 until 6 September 1996.  Adam Rickett took over the role on 15 October 1997 until 21 April 1999 but returned for three separate stints between 2002 and 2004 and made his final appearance as Nick on...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 254.22,
+      "generation_latency_ms": 1901.97
+    },
+    {
+      "query_id": "5ab8372255429919ba4e226b",
+      "question": "What band wrote the song \"Blue Letter\" and was inducted into the Rock and Roll Hall of Fame in 1998?",
+      "ground_truth": "Fleetwood Mac",
+      "generated_answer": " The group that wrote the song \"Blue Letter\" and was inducted into the Rock and Roll Hall of Fame in 1990 is The Midnighters. However, it seems there might be a mix-up as The Midnighters were officially inducted into the Rock and Roll Hall of Fame as a group in 2012, not in 1998.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7208,
+          "full_text": "## Rock and Roll Hall of Fame\n\nThe Rock and Roll Hall of Fame, located on the shore of Lake Erie in downtown Cleveland, Ohio, recognizes and archives the history of the best-known and most influential artists, producers, engineers, and other notable figures who have had some major influence on the development of rock and roll.  The Rock and Roll Hall of Fame Foundation was established on April 20, 1983, by Atlantic Records founder and chairman Ahmet Ertegun.  In 1986, Cleveland was chosen as the Hall of Fame's permanent home.  Since opening in September 1995, the \"Rock Hall\" \u2013 part of the city's redeveloped North Coast Harbor \u2013 has hosted more than 10 million visitors and had a cumulative economic impact estimated at more than $1.8 billion.\n\n## The Midnighters",
+          "text_preview": "## Rock and Roll Hall of Fame\n\nThe Rock and Roll Hall of Fame, located on the shore of Lake Erie in downtown Cleveland, Ohio, recognizes and archives the history of the best-known and most influential artists, producers, engineers, and other notable figures who have had some major influence on the development of rock and roll.  The Rock and Roll Hall of Fame Foundation was established on April 20, 1983, by Atlantic Records founder and chairman Ahmet Ertegun.  In 1986, Cleveland was chosen as the...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6526,
+          "full_text": "## Music of Ohio\n\nThe Rock and Roll Hall of Fame and the Rhythm and Blues Music Hall of Fame are located in Cleveland, Ohio.  Ohio musicians inducted into the Rock and Roll Hall of Fame include, The Isley Brothers (from Cincinnati) in '92, The Moonglows (from Cleveland) in 2000, The O'Jays (from Canton) in '05, Chrissie Hynde (from Akron) of The Pretenders in '05, and Bobby Womack (from Cleveland) (d.2014) in '09.  This state is also the home of four major symphony orchestras which are located in Cleveland, Akron, Cincinnati, and Dayton as well as a \"pops\" orchestra, the Cincinnati Pops.",
+          "text_preview": "## Music of Ohio\n\nThe Rock and Roll Hall of Fame and the Rhythm and Blues Music Hall of Fame are located in Cleveland, Ohio.  Ohio musicians inducted into the Rock and Roll Hall of Fame include, The Isley Brothers (from Cincinnati) in '92, The Moonglows (from Cleveland) in 2000, The O'Jays (from Canton) in '05, Chrissie Hynde (from Akron) of The Pretenders in '05, and Bobby Womack (from Cleveland) (d.2014) in '09.  This state is also the home of four major symphony orchestras which are located i...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6475,
+          "full_text": ".  The group's lead singer, Hank Ballard, was inducted into the Rock and Roll Hall of Fame in 1990.  The Midnighters as a \"group\" were inducted into the Rock and Roll Hall of Fame on April 14, 2012.",
+          "text_preview": ".  The group's lead singer, Hank Ballard, was inducted into the Rock and Roll Hall of Fame in 1990.  The Midnighters as a \"group\" were inducted into the Rock and Roll Hall of Fame on April 14, 2012.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 368.87,
+      "generation_latency_ms": 2185.79
+    },
+    {
+      "query_id": "5ac5382c5542996feb3fea43",
+      "question": "What year was the company, who released Forever Kingdom for PlayStation 2, founded?",
+      "ground_truth": "1986",
+      "generated_answer": " The company that released Forever Kingdom, FromSoftware, was founded in November 1986.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6511,
+          "full_text": "## FromSoftware\n\nFromSoftware, Inc. (\u682a\u5f0f\u4f1a\u793e\u30d5\u30ed\u30e0\u30fb\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2 , Kabushikigaisha Furomu Sofutowea ) is a Japanese video game company founded in November 1986.  The company is known primarily outside Japan for being the developers of the \"Armored Core\" and \"Souls\" series, as well as \"Bloodborne\".\n\n## Forever Kingdom\n\nForever Kingdom, known in Japan as Evergrace II (\u30a8\u30f4\u30a1\u30fc\u30b0\u30ec\u30a4\u30b9 , Ev\u0101gureisu Tsu ) , is an action role-playing game released for the PlayStation 2 by FromSoftware.  It is the prequel to \"Evergrace\".\n\n## Dancing Stage Fusion",
+          "text_preview": "## FromSoftware\n\nFromSoftware, Inc. (\u682a\u5f0f\u4f1a\u793e\u30d5\u30ed\u30e0\u30fb\u30bd\u30d5\u30c8\u30a6\u30a7\u30a2 , Kabushikigaisha Furomu Sofutowea ) is a Japanese video game company founded in November 1986.  The company is known primarily outside Japan for being the developers of the \"Armored Core\" and \"Souls\" series, as well as \"Bloodborne\".\n\n## Forever Kingdom\n\nForever Kingdom, known in Japan as Evergrace II (\u30a8\u30f4\u30a1\u30fc\u30b0\u30ec\u30a4\u30b9 , Ev\u0101gureisu Tsu ) , is an action role-playing game released for the PlayStation 2 by FromSoftware.  It is the prequel to \"Evergrace\".\n...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.594,
+          "full_text": "What year was the company, who released Forever Ki...\n\n## The King of Fighters 2000",
+          "text_preview": "What year was the company, who released Forever Ki...\n\n## The King of Fighters 2000",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.584,
+          "full_text": "## PlayStation Underground\n\nPlayStation Underground is a now-defunct American video game magazine, originally published by Sony Computer Entertainment America.  The magazine focused on PlayStation fanbase, including gaming on the original Sony PlayStation and the PlayStation 2.  Unlike its paper-based counterpart the \"Official U.S. PlayStation Magazine\", PlayStation Underground came in the form of CD-ROMs which could be played on the PlayStation and PlayStation 2 consoles.  The magazine released its first issue on March 26, 1997 and ended with its final issue in 2001.  The Magazine released a total of seventeen issues during its active years.  The magazine was eventually merged with \"Official U.S. PlayStation Magazine\" in 2001 when it was discontinued.\n\n## FromSoftware",
+          "text_preview": "## PlayStation Underground\n\nPlayStation Underground is a now-defunct American video game magazine, originally published by Sony Computer Entertainment America.  The magazine focused on PlayStation fanbase, including gaming on the original Sony PlayStation and the PlayStation 2.  Unlike its paper-based counterpart the \"Official U.S. PlayStation Magazine\", PlayStation Underground came in the form of CD-ROMs which could be played on the PlayStation and PlayStation 2 consoles.  The magazine released...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 438.14,
+      "generation_latency_ms": 1139.03
+    },
+    {
+      "query_id": "5abb02fe554299232ef4a39f",
+      "question": "Anna Aglatova made her first public appearance at which Moscow theatre in 2005?",
+      "ground_truth": "Bolshoi Theatre",
+      "generated_answer": " The Bolshoi Theatre",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7014,
+          "full_text": "Anna Aglatova made her first public appearance at ...\n\n## Bolshoi Theatre\n\nThe Bolshoi Theatre (Russian: \u0411\u043e\u043b\u044c\u0448\u043e\u0301\u0439 \u0442\u0435\u0430\u0301\u0442\u0440 , \"Bol'shoy Teatr, Big Theatre\"; ] ) is a historic theatre in Moscow, Russia, designed by architect Joseph Bov\u00e9, which holds ballet and opera performances.  Before the October Revolution it was a part of the Imperial Theatres of the Russian Empire along with Maly Theatre (\"Small Theatre\") in Moscow and a few theatres in Saint Petersburg (Hermitage Theatre, Bolshoi (Kamenny) Theatre, later Mariinsky Theatre and others).\n\n## Anna Nechaeva",
+          "text_preview": "Anna Aglatova made her first public appearance at ...\n\n## Bolshoi Theatre\n\nThe Bolshoi Theatre (Russian: \u0411\u043e\u043b\u044c\u0448\u043e\u0301\u0439 \u0442\u0435\u0430\u0301\u0442\u0440 , \"Bol'shoy Teatr, Big Theatre\"; ] ) is a historic theatre in Moscow, Russia, designed by architect Joseph Bov\u00e9, which holds ballet and opera performances.  Before the October Revolution it was a part of the Imperial Theatres of the Russian Empire along with Maly Theatre (\"Small Theatre\") in Moscow and a few theatres in Saint Petersburg (Hermitage Theatre, Bolshoi (Kamenny) Th...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6951,
+          "full_text": "Anna Khachaturovna Aglatova (Russian: \u0410\u043d\u043d\u0430 \u0425\u0430\u0447\u0430\u0442\u0443\u0440\u043e\u0432\u043d\u0430 \u0410\u0433\u043b\u0430\u0442\u043e\u0432\u0430 ) is a Russian soprano singer who was born in Kislovodsk and by 2004 joined the singing department of the Gnessin State Musical College.  Prior to it, she was a recipient of the \"Sergei Leiferkus grant\" from the Vladimir Spivakov Fund and in 2005 made her first public appearance at the Bolshoi Theatre.  Her career there, have not started with ease since her father didn't want her to work for Bolshoi.  In 2003, she was a recipient of the first prize at the Bella voce International Competition and the same year participated at both the Christmas Festival at D\u00fcsseldorf and the fourteenth annual Chaliapin Season at Mineralnye Vody.  She also was a participant for \"Irina Arkhipova Fund\" and was a part of the Novosibirsk Opera and Ballet Theatre",
+          "text_preview": "Anna Khachaturovna Aglatova (Russian: \u0410\u043d\u043d\u0430 \u0425\u0430\u0447\u0430\u0442\u0443\u0440\u043e\u0432\u043d\u0430 \u0410\u0433\u043b\u0430\u0442\u043e\u0432\u0430 ) is a Russian soprano singer who was born in Kislovodsk and by 2004 joined the singing department of the Gnessin State Musical College.  Prior to it, she was a recipient of the \"Sergei Leiferkus grant\" from the Vladimir Spivakov Fund and in 2005 made her first public appearance at the Bolshoi Theatre.  Her career there, have not started with ease since her father didn't want her to work for Bolshoi.  In 2003, she was a recipient of...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.677,
+          "full_text": ".  There, in 2006, she sang the role of \"Susanna\" at the \"The Marriage of Figaro\" which was performed at the Moscow International Performance Arts Center and was directed by Tatjana Guerbaca while Teodor Currentzis was its conductor.  In 2008 she became an All-Russian Festival winner, and next year became \"Triumph prize\" recipient.",
+          "text_preview": ".  There, in 2006, she sang the role of \"Susanna\" at the \"The Marriage of Figaro\" which was performed at the Moscow International Performance Arts Center and was directed by Tatjana Guerbaca while Teodor Currentzis was its conductor.  In 2008 she became an All-Russian Festival winner, and next year became \"Triumph prize\" recipient.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 340.78,
+      "generation_latency_ms": 958.2
+    },
+    {
+      "query_id": "5ae06ee755429945ae959352",
+      "question": "What is the city where Orville Siegfried went to college and that is located in Jackson county?",
+      "ground_truth": "Lee's Summit, Missouri",
+      "generated_answer": " Washington & Jefferson College is not located in Jackson County. It's located in Washington, Pennsylvania. Orville Siegfried did not attend college in Jackson County.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6782,
+          "full_text": "What is the city where Orville Siegfried went to c...\n\n## Orville Siegfried\n\nOrville Maynard Siegfried (February 19, 1903 \u2013 May 1965) was a professional American football player for the St. Louis All-Stars.  He attended high school in Lee's Summit, Missouri.  He attended Washington & Jefferson College.\n\n## Jackson County, Arkansas",
+          "text_preview": "What is the city where Orville Siegfried went to c...\n\n## Orville Siegfried\n\nOrville Maynard Siegfried (February 19, 1903 \u2013 May 1965) was a professional American football player for the St. Louis All-Stars.  He attended high school in Lee's Summit, Missouri.  He attended Washington & Jefferson College.\n\n## Jackson County, Arkansas",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6403,
+          "full_text": "## Jackson County Public Schools (North Carolina)\n\nJackson County Public Schools is a public school district serving Jackson County, North Carolina, USA.  It is headquartered in the county seat of Sylva.  The Jackson County School system is unique in the way that is still has a K-8 System with combined Elementary and Middle Schools, with one central High School and one combined K-12 Elementary/Middle/High School.  The county school system has eight schools, all with different histories and stories behind why they are the way they are today.  The school system includes four Kindergarten through 8th Grade Schools, two Kindergarten through 12th Grade Schools, one traditional 9th through 12th Grade High School, and one alternative 9th through 12th Grade High School Early College.\n\n## Lee's Summit, Missouri",
+          "text_preview": "## Jackson County Public Schools (North Carolina)\n\nJackson County Public Schools is a public school district serving Jackson County, North Carolina, USA.  It is headquartered in the county seat of Sylva.  The Jackson County School system is unique in the way that is still has a K-8 System with combined Elementary and Middle Schools, with one central High School and one combined K-12 Elementary/Middle/High School.  The county school system has eight schools, all with different histories and stori...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6235,
+          "full_text": "Jackson County Early College is a public high school located in Sylva, North Carolina.  It opened as an alternative to Smoky Mountain High School in 2008 for those students willing to put in extra work to also earn a community college 2-year degree along with their High School Diploma.  Jackson County Early College is a part of the Jackson County School System.  It serves as an extension of Smoky Mountain High School, with Students being able to participate in Smoky Mountain Extracurricular activities, such as Marching Band, Indoor Percussion, Jazz Band, Sports, and some Clubs.  It was originally located in Oaks Hall on the Southwestern Community College Campus in Webster, NC, where quarters were tight due to the increasing enrollment of the Early College and Southwestern Community College, but it moved in the Fall of 2010 to a building with eight classrooms built by the county for the student's High School Classes, to get them out of the college buildings",
+          "text_preview": "Jackson County Early College is a public high school located in Sylva, North Carolina.  It opened as an alternative to Smoky Mountain High School in 2008 for those students willing to put in extra work to also earn a community college 2-year degree along with their High School Diploma.  Jackson County Early College is a part of the Jackson County School System.  It serves as an extension of Smoky Mountain High School, with Students being able to participate in Smoky Mountain Extracurricular acti...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 337.13,
+      "generation_latency_ms": 1511.16
+    },
+    {
+      "query_id": "5ab681ea55429953192ad2e0",
+      "question": "Are Gael and Fitness published in the same country?",
+      "ground_truth": "no",
+      "generated_answer": " The provided context does not mention Gael or Fitness, so it's impossible to determine if they are published in the same country based on this information.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7526,
+          "full_text": "## Fitness Gurls\n\nFitness Gurls is a fitness based magazine.  It covers fitness, health, nutrition and exercise routines.  The magazine is published bi-monthly in print and digitally.  The magazine has been compared to a Maxim for Fitness.\n\n## Marina Kamen",
+          "text_preview": "## Fitness Gurls\n\nFitness Gurls is a fitness based magazine.  It covers fitness, health, nutrition and exercise routines.  The magazine is published bi-monthly in print and digitally.  The magazine has been compared to a Maxim for Fitness.\n\n## Marina Kamen",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6989,
+          "full_text": "Are Gael and Fitness published in the same country...\n\n## BodyAttack\n\nBodyAttack is a commercial group-fitness aerobics program including some sports-derived movements, aimed primarily at developing cardiovascular fitness.  The program is created and distributed by Les Mills International, with music and movements varied every few months.  In the UK it is offered at around 1,300 health and fitness facilities, approximately one fifth of such facilities in the country.  It consists of a standardized class that is either 55 minutes or 45 minutes in length, led by an instructor who leads participants through various exercises to a contemporary music soundtrack.  Like BodyPump and other Les Mills programs, the movements, exercises and music are standardized for all instructors, with the company releasing a new program every three months.  As with most aerobics classes, the aim is to develop numerous domains of physical fitness, particularly cardiovascular fitness and stamina.",
+          "text_preview": "Are Gael and Fitness published in the same country...\n\n## BodyAttack\n\nBodyAttack is a commercial group-fitness aerobics program including some sports-derived movements, aimed primarily at developing cardiovascular fitness.  The program is created and distributed by Les Mills International, with music and movements varied every few months.  In the UK it is offered at around 1,300 health and fitness facilities, approximately one fifth of such facilities in the country.  It consists of a standardiz...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.698,
+          "full_text": "## Born Fitness\n\nBorn Fitness is an online fitness and nutrition coaching platform developed by New York Times best-selling author and former Men\u2019s Health fitness editor Adam Bornstein.  The company provides personalized fitness and nutrition coaching to clients while also fact-checking the latest health news to ensure the continued development of their fitness programs.  Born Fitness has helped over 50 million people through published content and coaching.\n\n## Multi-stage fitness test",
+          "text_preview": "## Born Fitness\n\nBorn Fitness is an online fitness and nutrition coaching platform developed by New York Times best-selling author and former Men\u2019s Health fitness editor Adam Bornstein.  The company provides personalized fitness and nutrition coaching to clients while also fact-checking the latest health news to ensure the continued development of their fitness programs.  Born Fitness has helped over 50 million people through published content and coaching.\n\n## Multi-stage fitness test",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 725.61,
+      "generation_latency_ms": 1185.42
+    },
+    {
+      "query_id": "5ae6b6065542991bbc976168",
+      "question": "Out of the actors who have played the role of Luc Deveraux in the Universal Soldier franchise, which actor has also starred in the movies Holby City, Doctor Strange, the Bourne Ultimatum and Zero Dark Thirty?",
+      "ground_truth": "Scott Adkins",
+      "generated_answer": " Jean-Claude Van Damme is the only actor among those who have played the role of Luc Deveraux in the Universal Soldier franchise that has also starred in the movies \"Holby City,\" \"Doctor Strange,\" \"The Bourne Ultimatum,\" and \"Zero Dark Thirty.\" However, his appearances in these films are not related to his role as Luc Deveraux.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7091,
+          "full_text": "## Universal Soldier (franchise)\n\nThe Universal Soldier franchise is a series of science fiction action films.  The franchise began in 1992 with \"Universal Soldier\" and as of 2012 comprises six entries (some of which are now considered non-canon).  The films centered on the character of Luc Deveraux (played first by Jean-Claude Van Damme and then by Matt Battaglia) until \"\", which focuses on a new protagonist named John (played by Scott Adkins).\n\n## Adrian Fletcher (character)",
+          "text_preview": "## Universal Soldier (franchise)\n\nThe Universal Soldier franchise is a series of science fiction action films.  The franchise began in 1992 with \"Universal Soldier\" and as of 2012 comprises six entries (some of which are now considered non-canon).  The films centered on the character of Luc Deveraux (played first by Jean-Claude Van Damme and then by Matt Battaglia) until \"\", which focuses on a new protagonist named John (played by Scott Adkins).\n\n## Adrian Fletcher (character)",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7086,
+          "full_text": "## Luc Deveraux\n\nLuc Deveraux is a fictional character and the protagonist of the \"Universal Soldier\" film series.  He is most famously portrayed by Belgian actor and martial artist Jean-Claude Van Damme.  Van Damme portrays Luc in the 1992 film \"Universal Soldier\" and its sequels \"\" (1999), \"\" (2009), and \"\" (2012); he is portrayed by Matt Battaglia in the direct-to-video sequels \"\" (1998) and \"\" (1998).\n\n## Jayne Grayson",
+          "text_preview": "## Luc Deveraux\n\nLuc Deveraux is a fictional character and the protagonist of the \"Universal Soldier\" film series.  He is most famously portrayed by Belgian actor and martial artist Jean-Claude Van Damme.  Van Damme portrays Luc in the 1992 film \"Universal Soldier\" and its sequels \"\" (1999), \"\" (2009), and \"\" (2012); he is portrayed by Matt Battaglia in the direct-to-video sequels \"\" (1998) and \"\" (1998).\n\n## Jayne Grayson",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6766,
+          "full_text": "## Universal Soldier: Regeneration\n\nUniversal Soldier: Regeneration (also known in some countries as Universal Soldier: A New Beginning) is a 2009 American sci-fi action film directed and edited by John Hyams (the son of director Peter Hyams, who previously worked with Jean-Claude Van Damme on three films, 1994's \"Timecop\", 1995's \"Sudden Death\" and 2013's \"Enemies Closer\"; in this film Peter is the director of photography).  The film stars Jean-Claude Van Damme and Dolph Lundgren, who both reprise their roles from the first film.  It is the third theatrical installment in the \"Universal Soldier series\".  The film is a direct sequel to the original \"Universal Soldier\" from 1992, unrelated to the two \"Universal Soldier\" television sequels that were produced in 1998 and completely ignores the events from the 1999 theatrical sequel \"\".\n\n## Luc Deveraux",
+          "text_preview": "## Universal Soldier: Regeneration\n\nUniversal Soldier: Regeneration (also known in some countries as Universal Soldier: A New Beginning) is a 2009 American sci-fi action film directed and edited by John Hyams (the son of director Peter Hyams, who previously worked with Jean-Claude Van Damme on three films, 1994's \"Timecop\", 1995's \"Sudden Death\" and 2013's \"Enemies Closer\"; in this film Peter is the director of photography).  The film stars Jean-Claude Van Damme and Dolph Lundgren, who both repr...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 290.89,
+      "generation_latency_ms": 2372.72
+    },
+    {
+      "query_id": "5ae4a45b55429970de88d9ed",
+      "question": "Although he mostly provided backing vocals as part of this group, Mark Owen's first single \"Four Minute Warning\" released on 4 August 2003, was once part of this English pop music group.",
+      "ground_truth": "Take That",
+      "generated_answer": " Take That",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7751,
+          "full_text": "## Four Minute Warning (song)\n\n\"Four Minute Warning\" is the first single to be released from Take That band member Mark Owen's second solo studio album, \"In Your Own Time\".  The single was released on 4 August 2003.  The single peaked at #4 on the UK Singles Chart, making it his third UK top 10 single.  It sold over 80,000 copies in the UK.  It was Owen's first single to be released on Island Records, after he was dropped from RCA in September 1997.\n\n## Suburban Kid",
+          "text_preview": "## Four Minute Warning (song)\n\n\"Four Minute Warning\" is the first single to be released from Take That band member Mark Owen's second solo studio album, \"In Your Own Time\".  The single was released on 4 August 2003.  The single peaked at #4 on the UK Singles Chart, making it his third UK top 10 single.  It sold over 80,000 copies in the UK.  It was Owen's first single to be released on Island Records, after he was dropped from RCA in September 1997.\n\n## Suburban Kid",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6341,
+          "full_text": "## In Your Own Time\n\nIn Your Own Time is the second studio album by Take That band member Mark Owen.  The album was released on 3 November 2003, nearly seven years after his first album.  Due to the popularity of \"In Your Own Time\", his first album, \"Green Man\", was re-released two weeks later, with the addition of five unreleased tracks.  Two singles were released from the album: \"Four Minute Warning\" and \"Alone Without You\".  The album sold 17,805 copies in the UK.  The album peaked at number 59 on the UK Albums Chart, 26 places lower than his debut album.\n\n## Ben Folds Five",
+          "text_preview": "## In Your Own Time\n\nIn Your Own Time is the second studio album by Take That band member Mark Owen.  The album was released on 3 November 2003, nearly seven years after his first album.  Due to the popularity of \"In Your Own Time\", his first album, \"Green Man\", was re-released two weeks later, with the addition of five unreleased tracks.  Two singles were released from the album: \"Four Minute Warning\" and \"Alone Without You\".  The album sold 17,805 copies in the UK.  The album peaked at number ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5253,
+          "full_text": "Although he mostly provided backing vocals as part...\n\n## Take That\n\nTake That are an English pop music group formed in Manchester, England in 1990.  The group currently consists of Gary Barlow, Howard Donald and Mark Owen.  The original line-up also featured Jason Orange and Robbie Williams.  Barlow acts as the group's lead singer and primary songwriter, with Owen and Williams initially providing backing vocals and Donald and Orange serving primarily as dancers.Now though both Owen and Donald act as backing vocals.\n\n## Andrus, Blackwood and Company",
+          "text_preview": "Although he mostly provided backing vocals as part...\n\n## Take That\n\nTake That are an English pop music group formed in Manchester, England in 1990.  The group currently consists of Gary Barlow, Howard Donald and Mark Owen.  The original line-up also featured Jason Orange and Robbie Williams.  Barlow acts as the group's lead singer and primary songwriter, with Owen and Williams initially providing backing vocals and Donald and Orange serving primarily as dancers.Now though both Owen and Donald a...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 214.16,
+      "generation_latency_ms": 963.79
+    },
+    {
+      "query_id": "5ab42b905542992339550040",
+      "question": "What kind of music did Firework's artist make before getting into pop?",
+      "ground_truth": "gospel",
+      "generated_answer": " Before getting into pop, Katy Perry made gospel music.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6712,
+          "full_text": "## Firework (song)\n\n\"Firework\" is a song by American singer Katy Perry from her third studio album, \"Teenage Dream\" (2010).  Perry co-wrote the song with Ester Dean and its producers StarGate and Sandy Vee.  It is a dance-pop self-empowerment anthem with inspirational lyrics, and Perry felt it was an important song for her on \"Teenage Dream\".  Capitol Records released it as the album's third single on October 26, 2010.\n\n## Bubblegum, Lemonade, and... Something for Mama\n\nBubblegum, Lemonade and\u2026 Something for Mama is the second solo album released by Cass Elliot under the billing \"Mama Cass\".  It was recorded in 1969 and arranged and produced by Steve Barri.  The album was originally released on July 5, 1969, with only 11 tracks.  It was released again on December 6, 1969, under a new title and with a different album cover as Make Your Own Kind of Music/It\u2019s Getting Better. \" Make Your Own Kind of Music\" had just become a hit and was added to the album.\n\n## Fire We Make",
+          "text_preview": "## Firework (song)\n\n\"Firework\" is a song by American singer Katy Perry from her third studio album, \"Teenage Dream\" (2010).  Perry co-wrote the song with Ester Dean and its producers StarGate and Sandy Vee.  It is a dance-pop self-empowerment anthem with inspirational lyrics, and Perry felt it was an important song for her on \"Teenage Dream\".  Capitol Records released it as the album's third single on October 26, 2010.\n\n## Bubblegum, Lemonade, and... Something for Mama\n\nBubblegum, Lemonade and\u2026 ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6434,
+          "full_text": "## Katy Perry\n\nKatheryn Elizabeth Hudson (born October 25, 1984), known professionally as Katy Perry, is an American singer and songwriter.  After singing in church during her childhood, she pursued a career in gospel music as a teenager.  Perry signed with Red Hill Records and released her debut studio album \"Katy Hudson\" under her birth name in 2001, which was commercially unsuccessful.  She moved to Los Angeles the following year to venture into secular music after Red Hill ceased operations and she subsequently began working with producers Glen Ballard, Dr. Luke, and Max Martin.  After adopting the stage name Katy Perry and being dropped by The Island Def Jam Music Group and Columbia Records, she signed a recording contract with Capitol Records in April 2007.\n\n## Feuerwerk (song)",
+          "text_preview": "## Katy Perry\n\nKatheryn Elizabeth Hudson (born October 25, 1984), known professionally as Katy Perry, is an American singer and songwriter.  After singing in church during her childhood, she pursued a career in gospel music as a teenager.  Perry signed with Red Hill Records and released her debut studio album \"Katy Hudson\" under her birth name in 2001, which was commercially unsuccessful.  She moved to Los Angeles the following year to venture into secular music after Red Hill ceased operations ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6375,
+          "full_text": "## Shelton Jones",
+          "text_preview": "## Shelton Jones",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 234.59,
+      "generation_latency_ms": 1188.12
+    },
+    {
+      "query_id": "5a867089554299211dda2b30",
+      "question": "Which magazine is published more often, Shonen Jump or Rolling Stone?",
+      "ground_truth": "Rolling Stone",
+      "generated_answer": " Rolling Stone is a biweekly magazine, meaning it is published twice a week. On the other hand, Shonen Jump (in its North American publication) is published monthly. Therefore, Rolling Stone is published more frequently than Shonen Jump.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7246,
+          "full_text": "## Rolling Stone\n\nRolling Stone is an American biweekly magazine that focuses on popular culture.  It was founded in San Francisco in 1967 by Jann Wenner, who is still the magazine's publisher, and the music critic Ralph J. Gleason.  It was first known for its musical coverage and for political reporting by Hunter S. Thompson.  In the 1990s, the magazine shifted focus to a younger readership interested in youth-oriented television shows, film actors, and popular music.  In recent years, it has resumed its traditional mix of content.\n\n## Kyosuke Usuta\n\nKyosuke Usuta (\u3046\u3059\u305f \u4eac\u4ecb , Usuta Ky\u014dsuke , born May 25, 1974 in K\u014dshi, Kumamoto) is a Japanese manga artist.  His best known works are \"\" which was published in \"Weekly Shonen Jump\" from 1995 to 1997 and which was adapted into a 48-episode anime series produced by Madhouse; and \"Pyu to Fuku!  Jaguar\" which was also serialized in \"Weekly Shonen Jump\" between 2000 and 2010, adapted into an anime film and a live action movie in 2008.",
+          "text_preview": "## Rolling Stone\n\nRolling Stone is an American biweekly magazine that focuses on popular culture.  It was founded in San Francisco in 1967 by Jann Wenner, who is still the magazine's publisher, and the music critic Ralph J. Gleason.  It was first known for its musical coverage and for political reporting by Hunter S. Thompson.  In the 1990s, the magazine shifted focus to a younger readership interested in youth-oriented television shows, film actors, and popular music.  In recent years, it has r...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6818,
+          "full_text": "## Shonen Jump (magazine)\n\nShonen Jump, officially stylized SHONEN JUMP and abbreviated SJ, is a \"sh\u014dnen\" manga anthology published in North America by Viz Media.  It debuted in November 2002 with the first issue having a January 2003 cover date.  Based on Shueisha's popular Japanese magazine \"Weekly Sh\u014dnen Jump\", \"Shonen Jump\" is retooled for English readers and the American audience, including changing it from a weekly publication to a monthly one.  It features serialized chapters from four manga series, and articles on Japanese language and culture, as well as manga, anime, video games, and figurines.  Prior to the magazine's launch, Viz launched an extensive marketing campaign to promote it and help it succeed where previous manga anthologies published in North America had failed.  Shueisha purchased an equity interest in Viz to help fund the venture, and Cartoon Network, Suncoast, and Diamond Distributors became promotional partners in the magazine.\n\n## Cross Manage",
+          "text_preview": "## Shonen Jump (magazine)\n\nShonen Jump, officially stylized SHONEN JUMP and abbreviated SJ, is a \"sh\u014dnen\" manga anthology published in North America by Viz Media.  It debuted in November 2002 with the first issue having a January 2003 cover date.  Based on Shueisha's popular Japanese magazine \"Weekly Sh\u014dnen Jump\", \"Shonen Jump\" is retooled for English readers and the American audience, including changing it from a weekly publication to a monthly one.  It features serialized chapters from four ma...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6595,
+          "full_text": "## Weekly Shonen Jump (American magazine)\n\nWeekly Shonen Jump is a digital \"sh\u014dnen\" manga anthology published in North America by Viz Media, and the successor to their monthly print anthology \"Shonen Jump\".  It began serialization on January 30, 2012 as Weekly Shonen Jump Alpha (officially stylized as \"Weekly SHONEN JUMP \u03b1lpha\" or \"Weekly SHONEN JUMP Alpha\"), with two free preview issues released in the buildup to its launch.  Based on Shueisha's popular Japanese magazine \"Weekly Sh\u014dnen Jump\", \"Weekly Shonen Jump\" is an attempt to provide English readers with easily accessible, affordable, and officially licensed editions of the latest installments of popular \"Sh\u014dnen Jump\" manga soon after their release in Japan, as an alternative to popular bootleg scanlation services.\n\n## Rosario + Vampire",
+          "text_preview": "## Weekly Shonen Jump (American magazine)\n\nWeekly Shonen Jump is a digital \"sh\u014dnen\" manga anthology published in North America by Viz Media, and the successor to their monthly print anthology \"Shonen Jump\".  It began serialization on January 30, 2012 as Weekly Shonen Jump Alpha (officially stylized as \"Weekly SHONEN JUMP \u03b1lpha\" or \"Weekly SHONEN JUMP Alpha\"), with two free preview issues released in the buildup to its launch.  Based on Shueisha's popular Japanese magazine \"Weekly Sh\u014dnen Jump\", \"...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 255.72,
+      "generation_latency_ms": 2337.72
+    },
+    {
+      "query_id": "5a88e605554299206df2b39c",
+      "question": "What is the population of the town at the intersection of Interstate Highways 77 and  the longest Interstate highway within the borders of Virginia?",
+      "ground_truth": "8,211 at the 2010 census",
+      "generated_answer": " The context provided does not contain information about the population of the town at the intersection of Interstate Highways 77 and I-81, which is the longest Interstate highway within the borders of Virginia. To find that information, you would need to look up the specific towns or cities where these intersections occur separately.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7008,
+          "full_text": "## Interstate 85 in Virginia\n\nInterstate 85 (I-85) is a part of the Interstate Highway System that runs from Montgomery, Alabama to Petersburg, Virginia.  In Virginia, the Interstate Highway runs 68.64 mi from the North Carolina state line near Bracey north to I-95 in Petersburg.  I-85 passes through the eastern part of Southside Virginia, where it parallels U.S. Route 1 (US 1) from Petersburg, where the highway runs concurrently with US 460, to south of South Hill, where the highway intersects Southside's major east\u2013west highway, US 58.  The Interstate Highway is the primary connection between the Richmond\u2013Petersburg metropolitan area and the Research Triangle and other major metropolitan areas of North Carolina.  Like all mainline Interstate Highways, I-85 is a part of the National Highway System for its entire length in Virginia.",
+          "text_preview": "## Interstate 85 in Virginia\n\nInterstate 85 (I-85) is a part of the Interstate Highway System that runs from Montgomery, Alabama to Petersburg, Virginia.  In Virginia, the Interstate Highway runs 68.64 mi from the North Carolina state line near Bracey north to I-95 in Petersburg.  I-85 passes through the eastern part of Southside Virginia, where it parallels U.S. Route 1 (US 1) from Petersburg, where the highway runs concurrently with US 460, to south of South Hill, where the highway intersects ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6584,
+          "full_text": "## List of auxiliary Interstate Highways\n\nThe auxiliary Interstate Highways (also called three-digit Interstate Highways) are a supplemental subset of the freeways within the Interstate Highway System of the United States.  Similar to the mainline Interstate Highways, these highways also meet all Interstate Highway Standards (with rare exceptions), they receive the same percentage of federal funding (90%), and they comply with other federal standards.\n\n## Interstate 81 in Virginia\n\nInterstate 81 (I-81) is an 855 mi highway.  In the U.S. state of Virginia, I-81 runs for 324.92 mi , making the portion in Virginia longer than any other state's portion.  It is also the longest Interstate highway within the borders of Virginia.  It stretches from the Tennessee state line near Bristol to the West Virginia state line near Winchester.\n\n## List of Interstate Highways in Texas",
+          "text_preview": "## List of auxiliary Interstate Highways\n\nThe auxiliary Interstate Highways (also called three-digit Interstate Highways) are a supplemental subset of the freeways within the Interstate Highway System of the United States.  Similar to the mainline Interstate Highways, these highways also meet all Interstate Highway Standards (with rare exceptions), they receive the same percentage of federal funding (90%), and they comply with other federal standards.\n\n## Interstate 81 in Virginia\n\nInterstate 81...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.621,
+          "full_text": "## List of Interstate Highways in Texas\n\nThe Interstate Highways in Texas are all owned and maintained by the U.S. state of Texas.  The Texas Department of Transportation (TxDOT) is the agency responsible for the day-to-day maintenance and operations of the Interstate Highways in Texas.  The Interstate Highway System in Texas covers 3239.7 mi and consists of twelve primary routes, seven auxiliary routes and Interstate 35 (I-35) which is split into two branches, I-35E and I-35W, that provide access to both Fort Worth and Dallas.  The longest segment of Interstate Highway in Texas is I-10 at 878.6 mi ; the shortest is I-110 at 0.9 mi .\n\n## Interstate 85 in Virginia",
+          "text_preview": "## List of Interstate Highways in Texas\n\nThe Interstate Highways in Texas are all owned and maintained by the U.S. state of Texas.  The Texas Department of Transportation (TxDOT) is the agency responsible for the day-to-day maintenance and operations of the Interstate Highways in Texas.  The Interstate Highway System in Texas covers 3239.7 mi and consists of twelve primary routes, seven auxiliary routes and Interstate 35 (I-35) which is split into two branches, I-35E and I-35W, that provide acce...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 335.4,
+      "generation_latency_ms": 2421.4
+    },
+    {
+      "query_id": "5a76a0005542993569682c64",
+      "question": "Which American film director is an advisor for Disney, Rick Ray or John Lasseter?",
+      "ground_truth": "John Alan Lasseter",
+      "generated_answer": " John Lasseter",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7522,
+          "full_text": "Which American film director is an advisor for Dis...\n\n## John Lasseter\n\nJohn Alan Lasseter (born January 12, 1957) is an American animator, film director, screenwriter, and film producer.  He currently is the chief creative officer of Pixar Animation Studios, Walt Disney Animation Studios, and DisneyToon Studios.  He is also the Principal Creative Advisor for Walt Disney Imagineering.\n\n## Rick Ray\n\nRick Ray is an American filmmaker best known for his 2006 documentary film 10 Questions for the Dalai Lama which he wrote, filmed and directed.  His documentary \"Lynching Charlie Lynch\", about the trials of former medical marijuana dispensary owner Charles C. Lynch, premiered at the 2011 San Luis Obispo International Film Festival on March 9.\n\n## Luxo Jr.",
+          "text_preview": "Which American film director is an advisor for Dis...\n\n## John Lasseter\n\nJohn Alan Lasseter (born January 12, 1957) is an American animator, film director, screenwriter, and film producer.  He currently is the chief creative officer of Pixar Animation Studios, Walt Disney Animation Studios, and DisneyToon Studios.  He is also the Principal Creative Advisor for Walt Disney Imagineering.\n\n## Rick Ray\n\nRick Ray is an American filmmaker best known for his 2006 documentary film 10 Questions for the D...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6652,
+          "full_text": "## Lasseter Family Winery\n\nLasseter Family Winery is a winery located in Glen Ellen, Sonoma County, California.  The winery was founded in 2000 by Pixar and Walt Disney Animation Studios CCO John Lasseter and his wife, Nancy Lasseter.  The winery, once inhabited by the Grand Cru Winery, produces approximately 1,200 cases of French red wine blends annually, with the capacity to produce up to 6,000.  The winery grows Bordeaux and Rh\u00f4ne varietals on 27 acres.  One of the Lasseters' winemaking mentors was Jess Jackson, of Kendall-Jackson.\n\n## Wreck-It Ralph",
+          "text_preview": "## Lasseter Family Winery\n\nLasseter Family Winery is a winery located in Glen Ellen, Sonoma County, California.  The winery was founded in 2000 by Pixar and Walt Disney Animation Studios CCO John Lasseter and his wife, Nancy Lasseter.  The winery, once inhabited by the Grand Cru Winery, produces approximately 1,200 cases of French red wine blends annually, with the capacity to produce up to 6,000.  The winery grows Bordeaux and Rh\u00f4ne varietals on 27 acres.  One of the Lasseters' winemaking mento...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5962,
+          "full_text": "## Red's Dream\n\nRed's Dream is a 1987 American computer-animated short film produced by Pixar and directed by John Lasseter.  The short film, which runs four minutes, stars Red, a unicycle.  Propped up in the corner of a bicycle store on a rainy night, Red dreams about a better place.  \"Red's Dream\" was Pixar's second computer-animated short following \"Luxo Jr.\" in 1986, also directed by Lasseter.\n\n## Winnie the Pooh (2011 film)",
+          "text_preview": "## Red's Dream\n\nRed's Dream is a 1987 American computer-animated short film produced by Pixar and directed by John Lasseter.  The short film, which runs four minutes, stars Red, a unicycle.  Propped up in the corner of a bicycle store on a rainy night, Red dreams about a better place.  \"Red's Dream\" was Pixar's second computer-animated short following \"Luxo Jr.\" in 1986, also directed by Lasseter.\n\n## Winnie the Pooh (2011 film)",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 309.24,
+      "generation_latency_ms": 1087.18
+    },
+    {
+      "query_id": "5ae400ab5542995dadf242be",
+      "question": "Were both the One, Inc. v. Olesen and  Erie Railroad Co. v. Tompkins cases ones that included a ruling by the United States Supreme Court?",
+      "ground_truth": "yes",
+      "generated_answer": " Yes, both One, Inc. v. Olesen and Erie Railroad Co. v. Tompkins were cases in which the United States Supreme Court issued rulings.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7458,
+          "full_text": "## Erie Railroad Co. v. Tompkins\n\nErie Railroad Co. v. Tompkins, 304 U.S. 64 (1938) , is a landmark decision by the Supreme Court of the United States in which the Court held that federal courts did not have the judicial power to create general federal common law when hearing state law claims under diversity jurisdiction.  In reaching this holding, the Court overturned almost a century of federal civil procedure case law, and established the foundation of what remains the modern law of diversity jurisdiction as it applies to United States federal courts.\n\n## Same-sex marriage in the Sixth Circuit",
+          "text_preview": "## Erie Railroad Co. v. Tompkins\n\nErie Railroad Co. v. Tompkins, 304 U.S. 64 (1938) , is a landmark decision by the Supreme Court of the United States in which the Court held that federal courts did not have the judicial power to create general federal common law when hearing state law claims under diversity jurisdiction.  In reaching this holding, the Court overturned almost a century of federal civil procedure case law, and established the foundation of what remains the modern law of diversity...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6997,
+          "full_text": "## Klaxon Co. v. Stentor Electric Manufacturing Co.\n\nKlaxon Company v. Stentor Electric Manufacturing Company, 313 U.S. 487 (1941) , was a United States Supreme Court case in which the Court applied the choice-of-law principles of \"Erie Railroad v. Tompkins\" to conflicts between laws of different states for cases sitting in federal court on diversity jurisdiction.  The court held that a federal court sitting in diversity must apply the choice-of-law doctrine of the forum state to choose between the forum state's law and the other state's law (as distinguished from the federal choice-of-law doctrines which had been used before \"Erie\").\n\n## V.L. v. E.L.",
+          "text_preview": "## Klaxon Co. v. Stentor Electric Manufacturing Co.\n\nKlaxon Company v. Stentor Electric Manufacturing Company, 313 U.S. 487 (1941) , was a United States Supreme Court case in which the Court applied the choice-of-law principles of \"Erie Railroad v. Tompkins\" to conflicts between laws of different states for cases sitting in federal court on diversity jurisdiction.  The court held that a federal court sitting in diversity must apply the choice-of-law doctrine of the forum state to choose between ...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6932,
+          "full_text": "## Ragan v. Merchants Transfer &amp; Warehouse Co.\n\nRagan v. Merchants Transfer & Warehouse Co., 337 U.S. 530 (1949), is a United States Supreme Court case in which the Court held that federal courts sitting in diversity should begin the running of the statute of limitations for a claim according to state law instead of according to the federal rules of civil procedure.  The court reasoned that a claim could not be given longer life in federal court than it would have had in a state court while being consistent with the holding in \"Erie Railroad v. Tompkins\".\n\n## Erie Railroad Co. v. Tompkins",
+          "text_preview": "## Ragan v. Merchants Transfer &amp; Warehouse Co.\n\nRagan v. Merchants Transfer & Warehouse Co., 337 U.S. 530 (1949), is a United States Supreme Court case in which the Court held that federal courts sitting in diversity should begin the running of the statute of limitations for a claim according to state law instead of according to the federal rules of civil procedure.  The court reasoned that a claim could not be given longer life in federal court than it would have had in a state court while ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 254.38,
+      "generation_latency_ms": 1589.31
+    },
+    {
+      "query_id": "5a815c2e5542995ce29dcbe8",
+      "question": "Where was the NBA Draft held in which Harrison Bryce Jordan Barnes was selected by the Golden State Warriors in the first round of the draft with the seventh overall pick?",
+      "ground_truth": "Prudential Center in Newark",
+      "generated_answer": " The NBA Draft where Harrison Bryce Jordan Barnes was selected by the Golden State Warriors in the first round of the draft with the seventh overall pick was the 2012 NBA draft, not the 2002 or 1972 drafts as mentioned in the context provided.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7216,
+          "full_text": "## Kevon Looney\n\nKevon Grant Looney (born February 6, 1996) is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA).  As a freshman playing college basketball with the UCLA Bruins, he earned second-team all-conference honors in the Pac-12 in 2014\u201315.  After the season, he decided to forgo his college eligibility and enter the 2015 NBA draft, and was subsequently selected in the first round by Golden State with the 30th overall pick.  He won an NBA championship with the Warriors in 2017.\n\n## Harrison Barnes\n\nHarrison Bryce Jordan Barnes (born May 30, 1992) is an American professional basketball player for the Dallas Mavericks of the National Basketball Association (NBA).  He played college basketball for the North Carolina Tar Heels before being selected by the Golden State Warriors in the first round of the 2012 NBA draft with the seventh overall pick.  Barnes won an NBA championship with the Warriors in 2015.",
+          "text_preview": "## Kevon Looney\n\nKevon Grant Looney (born February 6, 1996) is an American professional basketball player for the Golden State Warriors of the National Basketball Association (NBA).  As a freshman playing college basketball with the UCLA Bruins, he earned second-team all-conference honors in the Pac-12 in 2014\u201315.  After the season, he decided to forgo his college eligibility and enter the 2015 NBA draft, and was subsequently selected in the first round by Golden State with the 30th overall pick...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6252,
+          "full_text": "## 2002 NBA draft\n\nThe 2002 NBA draft was held on June 26, 2002, at The Theater at Madison Square Garden.  In this draft, National Basketball Association (NBA) teams took turns selecting 57 amateur college basketball players and other first-time eligible players, such as players from non-North American leagues.  The draft was broadcast on TNT at 7:30 PM (EDT).  The NBA announced that about 42 college and high school players, and five international players, had filed as early-entry candidates for the draft.  The Chicago Bulls and the Golden State Warriors both had a 22.5 percent probability of acquiring the first overall pick, but the Houston Rockets, with an 8.9 percent probability, won the NBA draft lottery on May 19.  The Bulls and Warriors were second and third, respectively.  As punishment for salary-cap violations during the 2000\u201301 season, the Minnesota Timberwolves forfeited their first-round draft pick.\n\n## 2012 NBA draft",
+          "text_preview": "## 2002 NBA draft\n\nThe 2002 NBA draft was held on June 26, 2002, at The Theater at Madison Square Garden.  In this draft, National Basketball Association (NBA) teams took turns selecting 57 amateur college basketball players and other first-time eligible players, such as players from non-North American leagues.  The draft was broadcast on TNT at 7:30 PM (EDT).  The NBA announced that about 42 college and high school players, and five international players, had filed as early-entry candidates for...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6209,
+          "full_text": "The 1972 NBA draft was the 26th annual draft of the National Basketball Association (NBA).  The draft was held on April 10 and 15, 1972 before the 1972\u201373 season.  In this draft, 17 NBA teams took turns selecting amateur U.S. college basketball players and other eligible players, including international players.  The first two picks in the draft belonged to the teams that finished last in each conference, with the order determined by a coin flip.  The Portland Trail Blazers won the coin flip and were awarded the first overall pick, while the Buffalo Braves were awarded the second pick.  The remaining first-round picks and the subsequent rounds were assigned to teams in reverse order of their win\u2013loss record in the previous season.  As a result of last year's supplemental hardship draft, the Cincinnati Royals, the Atlanta Hawks, the Golden State Warriors and the Baltimore Bullets forfeited their first round picks, while the Los Angeles Lakers forfeited their fourth round pick",
+          "text_preview": "The 1972 NBA draft was the 26th annual draft of the National Basketball Association (NBA).  The draft was held on April 10 and 15, 1972 before the 1972\u201373 season.  In this draft, 17 NBA teams took turns selecting amateur U.S. college basketball players and other eligible players, including international players.  The first two picks in the draft belonged to the teams that finished last in each conference, with the order determined by a coin flip.  The Portland Trail Blazers won the coin flip and...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 347.57,
+      "generation_latency_ms": 2602.73
+    },
+    {
+      "query_id": "5abe92de5542993f32c2a16b",
+      "question": "Which feature does the G-shock watch have that is tested by a leakage test?",
+      "ground_truth": "water resistance",
+      "generated_answer": " The G-Shock watch has a feature that is tested by a Leakage Current Test, which is part of Electrical Safety Testing. This test ensures the electrical isolation of the housing, and it is one of the tests required for the watch to conform to safety standards.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7907,
+          "full_text": "Which feature does the G-shock watch have that is ...\n\n## Wet leakage current test\n\nThe wet leakage current test is an electrical withstanding test carried out on electrical appliances to test the electrical isolation of the housing.  The test is carried out by submersing the appliance into water with one lead attached to the electrical leads of the appliance, and the other lead connected to the water.  It is often carried out on photovoltaic modules in order to qualify them for IEC61646 or IEC61625 certification.\n\n## Water Resistant mark",
+          "text_preview": "Which feature does the G-shock watch have that is ...\n\n## Wet leakage current test\n\nThe wet leakage current test is an electrical withstanding test carried out on electrical appliances to test the electrical isolation of the housing.  The test is carried out by submersing the appliance into water with one lead attached to the electrical leads of the appliance, and the other lead connected to the water.  It is often carried out on photovoltaic modules in order to qualify them for IEC61646 or IEC6...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7279,
+          "full_text": "## Water Resistant mark\n\nWater Resistant is a common mark stamped on the back of wrist watches to indicate how well a watch is sealed against the ingress of water.  It is usually accompanied by an indication of the static test pressure that a sample of newly manufactured watches were exposed to in a leakage test.  The test pressure can be indicated either directly in units of pressure such as bar, atmospheres, or (more commonly) as an equivalent water depth in metres (in the United States sometimes also in feet).\n\n## Draize test",
+          "text_preview": "## Water Resistant mark\n\nWater Resistant is a common mark stamped on the back of wrist watches to indicate how well a watch is sealed against the ingress of water.  It is usually accompanied by an indication of the static test pressure that a sample of newly manufactured watches were exposed to in a leakage test.  The test pressure can be indicated either directly in units of pressure such as bar, atmospheres, or (more commonly) as an equivalent water depth in metres (in the United States someti...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7225,
+          "full_text": "## Electrical safety testing\n\nElectrical safety testing is essential to ensure safe operating standards for any product that uses electricity.  Various governments and agencies have developed stringent requirements for electrical products that are sold world-wide.  In most markets it is mandatory for a product to conform to safety standards promulgated by safety and standard agencies such as UL, CE, VDE, CSA, BSI, CCC and so on.  To conform to such standards, the product must pass safety tests such as the high voltage test (also called as Dielectric voltage-withstand test or high potential test), Insulation Resistance Test, Ground (Earth) Bond & Ground Continuity Test & Leakage Current Test (also called as Line Leakage Test, Earth Leakage Current Test, Enclosure Leakage Current Test or Patient Leakage Current Test).  These tests are described in IEC 60335, IEC 61010 and many other national and international standards.\n\n## Anderson\u2013Darling test",
+          "text_preview": "## Electrical safety testing\n\nElectrical safety testing is essential to ensure safe operating standards for any product that uses electricity.  Various governments and agencies have developed stringent requirements for electrical products that are sold world-wide.  In most markets it is mandatory for a product to conform to safety standards promulgated by safety and standard agencies such as UL, CE, VDE, CSA, BSI, CCC and so on.  To conform to such standards, the product must pass safety tests s...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 357.29,
+      "generation_latency_ms": 1956.36
+    },
+    {
+      "query_id": "5ac531ea5542994611c8b419",
+      "question": "What team was formed in 1996 that starred players like Robert Parish?",
+      "ground_truth": "50 Greatest Players in National Basketball Association History",
+      "generated_answer": " The team that was formed in 1996 and starred players like Robert Parish is not mentioned in the provided context. The context only discusses Robert Parish's career, but it does not provide any information about a specific team being formed in 1996.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7502,
+          "full_text": "## Robert Parish\n\nRobert Parish (born August 30, 1953) is an American retired basketball center.  He was known for his strong defense, his high arcing jump shooting, and his clutch rebounding late in games.  Robert Parish was elected to the Basketball Hall of Fame in 2003.  In 1996, Parish was also named as one of the 50 Greatest Players in NBA History.  His nickname was The Chief, after the fictitious Chief Bromden, a silent, giant Native American character in the film \"One Flew Over the Cuckoo's Nest\".  According to Parish, former Celtics forward Cedric Maxwell gave him this nickname because of his stoic nature.  He played an NBA-record 1,611 regular season games in his career.\n\n## The Reform Movement (Upper Canada)",
+          "text_preview": "## Robert Parish\n\nRobert Parish (born August 30, 1953) is an American retired basketball center.  He was known for his strong defense, his high arcing jump shooting, and his clutch rebounding late in games.  Robert Parish was elected to the Basketball Hall of Fame in 2003.  In 1996, Parish was also named as one of the 50 Greatest Players in NBA History.  His nickname was The Chief, after the fictitious Chief Bromden, a silent, giant Native American character in the film \"One Flew Over the Cuckoo...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6116,
+          "full_text": "What team was formed in 1996 that starred players ...\n\n## Pyramid Valley",
+          "text_preview": "What team was formed in 1996 that starred players ...\n\n## Pyramid Valley",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5386,
+          "full_text": "## Land Arts of the American West",
+          "text_preview": "## Land Arts of the American West",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 243.65,
+      "generation_latency_ms": 1575.97
+    },
+    {
+      "query_id": "5ab7f97a5542991d322237ef",
+      "question": "What is Opry Mills in Nashville, Tennessee?",
+      "ground_truth": "super-regional shopping mall",
+      "generated_answer": " Opry Mills is a super-regional shopping mall located in Nashville, Tennessee. It was built on the former site of the Opryland USA theme park in 2000 and is owned by Simon Property Group. The name suggests a connection to the Grand Ole Opry, which is a weekly country-music stage concert in Nashville, Tennessee that has been running since 1925. However, the two entities are separate.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.8499,
+          "full_text": "What is Opry Mills in Nashville, Tennessee?...\n\n## Opry Mills\n\nOpry Mills is a super-regional shopping mall owned by Simon Property Group, formerly by its initial owners Mills Corporation and Gaylord Entertainment.  It opened in Nashville, Tennessee in 2000 on the former site of the Opryland USA theme park.\n\n## Grand Ole Opry",
+          "text_preview": "What is Opry Mills in Nashville, Tennessee?...\n\n## Opry Mills\n\nOpry Mills is a super-regional shopping mall owned by Simon Property Group, formerly by its initial owners Mills Corporation and Gaylord Entertainment.  It opened in Nashville, Tennessee in 2000 on the former site of the Opryland USA theme park.\n\n## Grand Ole Opry",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7857,
+          "full_text": "## Grand Ole Opry\n\nThe Grand Ole Opry is a weekly country-music stage concert in Nashville, Tennessee, which was founded on November 28, 1925, by George D. Hay as a one-hour radio \"barn dance\" on WSM.  Currently owned and operated by Opry Entertainment (a division of Ryman Hospitality Properties, Inc.), it is the longest-running radio broadcast in US history, albeit not the longest-running one on a radio network.  Dedicated to honoring country music and its history, the Opry showcases a mix of famous singers and contemporary chart-toppers performing country, bluegrass, Americana, folk, gospel, and comedic performances and skits.  It attracts hundreds of thousands of visitors from around the world and millions of radio and Internet listeners.\n\n## Keith Bilbrey",
+          "text_preview": "## Grand Ole Opry\n\nThe Grand Ole Opry is a weekly country-music stage concert in Nashville, Tennessee, which was founded on November 28, 1925, by George D. Hay as a one-hour radio \"barn dance\" on WSM.  Currently owned and operated by Opry Entertainment (a division of Ryman Hospitality Properties, Inc.), it is the longest-running radio broadcast in US history, albeit not the longest-running one on a radio network.  Dedicated to honoring country music and its history, the Opry showcases a mix of f...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7735,
+          "full_text": "## Ryman Auditorium\n\nRyman Auditorium (formerly Grand Ole Opry House and Union Gospel Tabernacle) is a 2,362-seat live performance venue, located at 116 5th Avenue North, in Nashville, Tennessee and is best known as the home of the \"Grand Ole Opry\" from 1943 to 1974.  It is owned and operated by Ryman Hospitality Properties, Inc.\n\n## The Bailey Brothers and the Happy Valley Boys",
+          "text_preview": "## Ryman Auditorium\n\nRyman Auditorium (formerly Grand Ole Opry House and Union Gospel Tabernacle) is a 2,362-seat live performance venue, located at 116 5th Avenue North, in Nashville, Tennessee and is best known as the home of the \"Grand Ole Opry\" from 1943 to 1974.  It is owned and operated by Ryman Hospitality Properties, Inc.\n\n## The Bailey Brothers and the Happy Valley Boys",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 222.78,
+      "generation_latency_ms": 2589.68
+    },
+    {
+      "query_id": "5ae73d415542991e8301cc2b",
+      "question": "Who co-wrote Taylor Swift's song that had its music video premiere during the pre-show of the 2015 MTV Video Music Awards? ",
+      "ground_truth": "Max Martin and Shellback",
+      "generated_answer": " The context does not provide information on who co-wrote Taylor Swift's song that had its music video premiered during the pre-show of the 2015 MTV Video Music Awards. However, it is known that Taylor Swift is the primary songwriter for her songs.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6919,
+          "full_text": "## 2017 MTV Video Music Awards\n\nThe 2017 MTV Video Music Awards were held on August 27, 2017 at The Forum in Inglewood, California, honoring music videos released between June 25, 2016 and June 23, 2017.  It was hosted by Katy Perry.  The 34th annual award show aired live from the venue for the second time in its history.  The music video for Taylor Swift's song \"Look What You Made Me Do\" premiered during the broadcast.  Lil Yachty co-hosted the pre-show with Terrence J, Charlamagne Tha God, and MTV News' Gaby Wilson.  It was broadcast across various Viacom networks and their related apps.\n\n## First of the Year (Equinox)",
+          "text_preview": "## 2017 MTV Video Music Awards\n\nThe 2017 MTV Video Music Awards were held on August 27, 2017 at The Forum in Inglewood, California, honoring music videos released between June 25, 2016 and June 23, 2017.  It was hosted by Katy Perry.  The 34th annual award show aired live from the venue for the second time in its history.  The music video for Taylor Swift's song \"Look What You Made Me Do\" premiered during the broadcast.  Lil Yachty co-hosted the pre-show with Terrence J, Charlamagne Tha God, and...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6531,
+          "full_text": "## 2015 MTV Video Music Awards\n\nThe 2015 MTV Video Music Awards were held on August 30, 2015.  The 32nd installment of the event was held at the Microsoft Theater in Los Angeles, California, and hosted by Miley Cyrus.  Taylor Swift led the nominations with a total of ten, followed by Ed Sheeran, who had six., bringing his total number of mentions to 13.  Swift's \"Wildest Dreams\" music video premiered during the pre-show.  Cyrus also announced and released her studio album \"Miley Cyrus & Her Dead Petz\", right after her performance at the end of the show.  During his acceptance speech, Kanye West announced that he would be running for the 2020 U.S. Presidential Election.  Taylor Swift won the most awards with four, including Video of the Year and Best Female Video.  The VMA trophies were redesigned by Jeremy Scott.\n\n## Wildest Dreams (Taylor Swift song)",
+          "text_preview": "## 2015 MTV Video Music Awards\n\nThe 2015 MTV Video Music Awards were held on August 30, 2015.  The 32nd installment of the event was held at the Microsoft Theater in Los Angeles, California, and hosted by Miley Cyrus.  Taylor Swift led the nominations with a total of ten, followed by Ed Sheeran, who had six., bringing his total number of mentions to 13.  Swift's \"Wildest Dreams\" music video premiered during the pre-show.  Cyrus also announced and released her studio album \"Miley Cyrus & Her Dead...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6295,
+          "full_text": "American singer-songwriter Taylor Swift has released four video albums and has appeared in thirty-eight music videos, five films and three television shows.  From her eponymous debut album (2006), she released music videos for the singles \"Tim McGraw\", \"Teardrops on My Guitar\", \"Our Song\", and \"Picture to Burn\", all directed by Trey Fanjoy and released from 2006\u201308.  For the second of these, she earned an MTV Video Music Award for Best New Artist nomination.  She followed with three other music videos in 2008\u2014\"Beautiful Eyes\" from her extended play of the same name, \"Change\" from the \"AT&T Team USA Soundtrack\" and \"Love Story\" from her second album \"Fearless\" (2008).  The latter was nominated for two awards at the 2009 CMT Music Awards\u2014Video of the Year and Female Video of the Year.  For the video of \"You Belong with Me\" she won Best Female Video at the 2009 MTV Video Music Awards",
+          "text_preview": "American singer-songwriter Taylor Swift has released four video albums and has appeared in thirty-eight music videos, five films and three television shows.  From her eponymous debut album (2006), she released music videos for the singles \"Tim McGraw\", \"Teardrops on My Guitar\", \"Our Song\", and \"Picture to Burn\", all directed by Trey Fanjoy and released from 2006\u201308.  For the second of these, she earned an MTV Video Music Award for Best New Artist nomination.  She followed with three other music ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 274.22,
+      "generation_latency_ms": 2613.59
+    },
+    {
+      "query_id": "5a8672e4554299211dda2b39",
+      "question": "Which iPhone was the first to be completely developed by the Chief Executive Officer of Apple who was born in 1960?",
+      "ground_truth": "iPhone 5",
+      "generated_answer": " The iPhone 5 was the first iPhone to be completely developed under the guidance of Tim Cook, who was born in 1960.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7277,
+          "full_text": "## Tim Cook\n\nTimothy Donald Cook (born November 1, 1960) is an American business executive, industrial engineer, and developer.  Cook is the Chief Executive Officer of Apple Inc., previously serving as the company's Chief Operating Officer, under its founder Steve Jobs.\n\n## Jonathan G. Ornstein",
+          "text_preview": "## Tim Cook\n\nTimothy Donald Cook (born November 1, 1960) is an American business executive, industrial engineer, and developer.  Cook is the Chief Executive Officer of Apple Inc., previously serving as the company's Chief Operating Officer, under its founder Steve Jobs.\n\n## Jonathan G. Ornstein",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6457,
+          "full_text": "## IPhone 5\n\nThe iPhone 5 is a smartphone designed and marketed by Apple Inc. It is the sixth generation of the iPhone, succeeding the iPhone 4S and preceding the iPhone 5S and iPhone 5C.  Formally unveiled as part of a press event on September 12, 2012, it was released on September 21, 2012.  It was the first iPhone to be completely developed under the guidance of Tim Cook and the last iPhone to be overseen by Steve Jobs.",
+          "text_preview": "## IPhone 5\n\nThe iPhone 5 is a smartphone designed and marketed by Apple Inc. It is the sixth generation of the iPhone, succeeding the iPhone 4S and preceding the iPhone 5S and iPhone 5C.  Formally unveiled as part of a press event on September 12, 2012, it was released on September 21, 2012.  It was the first iPhone to be completely developed under the guidance of Tim Cook and the last iPhone to be overseen by Steve Jobs.",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.5811,
+          "full_text": "## Bobby Mehta",
+          "text_preview": "## Bobby Mehta",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 303.24,
+      "generation_latency_ms": 965.86
+    },
+    {
+      "query_id": "5ab736a65542992aa3b8c7db",
+      "question": " \"She's a Mystery to Me\" is a song on an album released in 1989 by what label?",
+      "ground_truth": "Virgin",
+      "generated_answer": " The song \"She's a Mystery to Me\" is on the album \"Mystery Girl,\" which was released on the Virgin label in 1989.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6119,
+          "full_text": "## Mystery Girl\n\nMystery Girl is the twenty-second album by Roy Orbison, the last album recorded whle he was alive and posthumously released on the Virgin label in 1989.  The album became a hit worldwide, reaching #5 on the US \"Billboard\" 200, and #2 on the UK Albums Chart.\n\n## Airwaves (album)\n\nAirwaves is an album released by British rock band Badfinger in 1979 on the Elektra label (a sister label to Warner Bros.  Records, their previous label), the seventh album released that was credited to Badfinger.  Anticipated as a comeback album for the group at the time, expectations were not quite realized, as the \"group\" now consisted of just the duo of Tom Evans and Joey Molland, accompanied by guitarist Joe Tansin and various session musicians.\n\n## Jarren Benton",
+          "text_preview": "## Mystery Girl\n\nMystery Girl is the twenty-second album by Roy Orbison, the last album recorded whle he was alive and posthumously released on the Virgin label in 1989.  The album became a hit worldwide, reaching #5 on the US \"Billboard\" 200, and #2 on the UK Albums Chart.\n\n## Airwaves (album)\n\nAirwaves is an album released by British rock band Badfinger in 1979 on the Elektra label (a sister label to Warner Bros.  Records, their previous label), the seventh album released that was credited to ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6061,
+          "full_text": "\"She's a Mystery to Me\" is a song on an album rel...\n\n## Conrad Uno\n\nConrad Uno is an American record producer and founder of the independent record label PopLlama Records.  Uno began his career making his own music as a teenager in his makeshift basement studio.  At the request of his friends, the Young Fresh Fellows, Uno produced their debut album \"The Fabulous Sounds of the Pacific Northwest\".  When the band decided to release their debut album themselves, Uno founded PopLlama Records to help with the release.  He would also produce their next four albums; \"Topsy Turvey\" (1985), \"The Men Who Loved Music\" (1987), \"Totally Lost\" (1988) and \"This One's for the Ladies\" (1989), the latter three released through Frontier Records.  He would also produce albums by Dharma Bums, \"Haywire: Out Through the Indoor\" (1989), and Scott McCaughey, \"My Chartreuse Opinion\" (1989), while he was the engineer on Mudhoney's self-titled album released in 1989.\n\n## Mystery Girl",
+          "text_preview": "\"She's a Mystery to Me\" is a song on an album rel...\n\n## Conrad Uno\n\nConrad Uno is an American record producer and founder of the independent record label PopLlama Records.  Uno began his career making his own music as a teenager in his makeshift basement studio.  At the request of his friends, the Young Fresh Fellows, Uno produced their debut album \"The Fabulous Sounds of the Pacific Northwest\".  When the band decided to release their debut album themselves, Uno founded PopLlama Records to help...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5872,
+          "full_text": "## Bet You Think I'm Lonely\n\nBet You Think I'm Lonely was the fourth album released by the Wild Strawberries, and the only album released under the band's own label Strawberry Records.  It followed the release of the song \"Life Sized Marilyn Monroe\", which also became a track on this album.  It was originally released in 1994, and the band toured to support and promote it in 1995.  It was re-released in 1998 by Nettwerk, with whom the Wild Strawberries had signed a contract in 1995.  The re-release featured cover artwork that was not as dark as the original.\n\n## Idol Is Dead",
+          "text_preview": "## Bet You Think I'm Lonely\n\nBet You Think I'm Lonely was the fourth album released by the Wild Strawberries, and the only album released under the band's own label Strawberry Records.  It followed the release of the song \"Life Sized Marilyn Monroe\", which also became a track on this album.  It was originally released in 1994, and the band toured to support and promote it in 1995.  It was re-released in 1998 by Nettwerk, with whom the Wild Strawberries had signed a contract in 1995.  The re-rele...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 315.95,
+      "generation_latency_ms": 1938.08
+    },
+    {
+      "query_id": "5ae5b06e554299546bf82f2a",
+      "question": "What was the capacity of the stadium that Colecci\u00f3n Privada that was filmed on October 10, 2000?",
+      "ground_truth": "15,500",
+      "generated_answer": " The provided context does not mention any \"Colecci\u00f3n Privada\" or an event related to it. Therefore, it's impossible to determine the capacity of a stadium that was allegedly filmed on October 10, 2000. It would be necessary to have additional context or information to accurately answer this question.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7057,
+          "full_text": "## July 5, 1962 Stadium",
+          "text_preview": "## July 5, 1962 Stadium",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6755,
+          "full_text": ".  It also hosted the 2000 African Championships in Athletics.  After a formal compliance with current safety standards in 1999, the stadium was reduced to an 80,200 capacity, and following a new phase of renovation in 2003, the stadium's capacity has been reduced further to its current all-seater capacity of 64,000.  The future capacity will be 80,000 with possible further renovations.",
+          "text_preview": ".  It also hosted the 2000 African Championships in Athletics.  After a formal compliance with current safety standards in 1999, the stadium was reduced to an 80,200 capacity, and following a new phase of renovation in 2003, the stadium's capacity has been reduced further to its current all-seater capacity of 64,000.  The future capacity will be 80,000 with possible further renovations.",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6166,
+          "full_text": "## Palacio de Deportes de la Comunidad de Madrid\n\nPalacio de Deportes de la Comunidad de Madrid (English: \"Community of Madrid Sports Centre\"), since November 2016 called WiZink Center for sponsorship reasons, is an indoor sporting arena located in Madrid, Spain.  Its capacity is 15,000 people for basketball matches and 15,500 for concerts (with standing public ramp).\n\n## Colecci\u00f3n Privada",
+          "text_preview": "## Palacio de Deportes de la Comunidad de Madrid\n\nPalacio de Deportes de la Comunidad de Madrid (English: \"Community of Madrid Sports Centre\"), since November 2016 called WiZink Center for sponsorship reasons, is an indoor sporting arena located in Madrid, Spain.  Its capacity is 15,000 people for basketball matches and 15,500 for concerts (with standing public ramp).\n\n## Colecci\u00f3n Privada",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 260.82,
+      "generation_latency_ms": 1680.8
+    },
+    {
+      "query_id": "5ae7f56e5542993210983fd1",
+      "question": "Who is the author of the series in which Rupert Grint plays one of the three main characters?",
+      "ground_truth": "J. K. Rowling",
+      "generated_answer": " The author of the series in which Rupert Grint plays one of the three main characters is J. K. Rowling.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6635,
+          "full_text": "## Y\u016bki Tokiwa\n\nY\u016bki Tokiwa (\u5e38\u76e4 \u7950\u8cb4 , Tokiwa Y\u016bki , born on August 16, 1991 in Hy\u014dgo-ken) is a Japanese voice actor represented by Gekidan Himawari.  He is the official Japanese voice dub-over artist for actor: \"Rupert Grint\" as \"Ron Weasley\" in the Harry Potter film series and for Daryl Sabara.\n\n## Rupert Grint\n\nRupert Alexander Lloyd Grint (born 24 August 1988) is an English actor and producer.  He rose to prominence playing Ron Weasley, one of the three main characters in the \"Harry Potter\" film series.  Grint was cast as Ron at the age of 11, having previously acted only in school plays and at his local theatre group.  From 2001 to 2011, he starred in all eight \"Harry Potter\" films alongside Daniel Radcliffe playing as Harry Potter and Emma Watson playing as Hermione Granger.\n\n## Ron Weasley",
+          "text_preview": "## Y\u016bki Tokiwa\n\nY\u016bki Tokiwa (\u5e38\u76e4 \u7950\u8cb4 , Tokiwa Y\u016bki , born on August 16, 1991 in Hy\u014dgo-ken) is a Japanese voice actor represented by Gekidan Himawari.  He is the official Japanese voice dub-over artist for actor: \"Rupert Grint\" as \"Ron Weasley\" in the Harry Potter film series and for Daryl Sabara.\n\n## Rupert Grint\n\nRupert Alexander Lloyd Grint (born 24 August 1988) is an English actor and producer.  He rose to prominence playing Ron Weasley, one of the three main characters in the \"Harry Potter\" fi...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6522,
+          "full_text": "Who is the author of the series in which Rupert Gr...\n\n## List of Harry Potter cast members\n\nSeveral actors of the United Kingdom and Ireland have voiced or portrayed characters appearing in the \"Harry Potter\" film series based on the book series by J. K. Rowling.  Daniel Radcliffe, Rupert Grint and Emma Watson have played Harry Potter, Ron Weasley and Hermione Granger in all the films.  When they were cast only Radcliffe had previously acted in a film.  Complementing them on screen are such actors as Helena Bonham Carter, Jim Broadbent, John Cleese, Robbie Coltrane, Warwick Davis, Ralph Fiennes, Michael Gambon, Brendan Gleeson, Richard Griffiths, Richard Harris, John Hurt, Jason Isaacs, Miriam Margolyes, Helen McCrory, Gary Oldman, Alan Rickman, Fiona Shaw, Maggie Smith, Timothy Spall, Imelda Staunton, David Thewlis, Emma Thompson, and Julie Walters, among others.  Thirteen actors have appeared as the same character in all eight films of the series.\n\n## Y\u016bki Tokiwa",
+          "text_preview": "Who is the author of the series in which Rupert Gr...\n\n## List of Harry Potter cast members\n\nSeveral actors of the United Kingdom and Ireland have voiced or portrayed characters appearing in the \"Harry Potter\" film series based on the book series by J. K. Rowling.  Daniel Radcliffe, Rupert Grint and Emma Watson have played Harry Potter, Ron Weasley and Hermione Granger in all the films.  When they were cast only Radcliffe had previously acted in a film.  Complementing them on screen are such act...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6318,
+          "full_text": "## Ron Weasley\n\nRonald Bilius \"Ron\" Weasley is a fictional character in J. K. Rowling's \"Harry Potter\" series.  His first appearance was in the first book of the series, \"Harry Potter and the Philosopher's Stone\" as the best friend of Harry Potter and Hermione Granger.  He is a member of the Weasley family, a pure blood family, who reside in \"The Burrow\" outside Ottery St. Catchpole.  Along with Harry and Hermione, he is a member of the Gryffindor house.  Ron is present in most of the action throughout the series.\n\n## Sylvio Sarkis",
+          "text_preview": "## Ron Weasley\n\nRonald Bilius \"Ron\" Weasley is a fictional character in J. K. Rowling's \"Harry Potter\" series.  His first appearance was in the first book of the series, \"Harry Potter and the Philosopher's Stone\" as the best friend of Harry Potter and Hermione Granger.  He is a member of the Weasley family, a pure blood family, who reside in \"The Burrow\" outside Ottery St. Catchpole.  Along with Harry and Hermione, he is a member of the Gryffindor house.  Ron is present in most of the action thr...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 405.93,
+      "generation_latency_ms": 1812.4
+    },
+    {
+      "query_id": "5adebbbd554299728e26c793",
+      "question": "Northland Mall was the first directionally-named shopping center in Columbus, 5 years before which shopping center at the intersection of US-40 and I-270?",
+      "ground_truth": "Westland Mall",
+      "generated_answer": " Westland Mall was located at the western intersection of U.S. Route 40 and Interstate 270, five years after Northland Mall (which opened in 1964), so there was no shopping center at that intersection before Northland Mall.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.8048,
+          "full_text": "## Northland Mall\n\nNorthland Mall was a shopping mall located on the north side of Columbus, Ohio, at the intersection of Morse Road and Karl Road.  It opened in 1964 as an open-air shopping center and the first shopping mall in Columbus.  Northland was the first of the four directionally-named shopping hubs in Columbus, along with Eastland (1967), Westland (1969) and Southland (1975) [a small strip center, now closed].  Though popular through the 1990s, three new shopping centers were completed in the late 1990s and early 2000s that took businesses and shoppers away from Northland.  It closed in 2002 and was demolished in 2004.  The site has subsequently been redeveloped as Northland Village, a multi-use complex containing government offices, retail stores and the Franklin County Dog Shelter and Adoption Center.\n\n## Del Monte Center",
+          "text_preview": "## Northland Mall\n\nNorthland Mall was a shopping mall located on the north side of Columbus, Ohio, at the intersection of Morse Road and Karl Road.  It opened in 1964 as an open-air shopping center and the first shopping mall in Columbus.  Northland was the first of the four directionally-named shopping hubs in Columbus, along with Eastland (1967), Westland (1969) and Southland (1975) [a small strip center, now closed].  Though popular through the 1990s, three new shopping centers were completed...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7946,
+          "full_text": "## Westland Mall (Columbus)\n\nWestland Mall was an 860000 sqft shopping center located on the west side of Columbus, Ohio, at the western intersection of U.S. Route 40 and Interstate 270.\n\n## Bay Plaza Shopping Center",
+          "text_preview": "## Westland Mall (Columbus)\n\nWestland Mall was an 860000 sqft shopping center located on the west side of Columbus, Ohio, at the western intersection of U.S. Route 40 and Interstate 270.\n\n## Bay Plaza Shopping Center",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6618,
+          "full_text": "## Park City Center",
+          "text_preview": "## Park City Center",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 243.14,
+      "generation_latency_ms": 1671.65
+    },
+    {
+      "query_id": "5a8bc29a5542995d1e6f1446",
+      "question": "when was Quiet in Heaven/Song of Liberty recorded?",
+      "ground_truth": "Before settling on their current name in 1982",
+      "generated_answer": " The song \"Quiet in Heaven/Song of Liberty\" was recorded during the production of the album \"King for a Day... Fool for a Lifetime\", which was released in 1995.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.8072,
+          "full_text": "when was Quiet in Heaven/Song of Liberty recorded?...\n\n## Jefferson's Tree of Liberty",
+          "text_preview": "when was Quiet in Heaven/Song of Liberty recorded?...\n\n## Jefferson's Tree of Liberty",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.7693,
+          "full_text": ".  Their next studio album, \"Angel Dust\", moved away from the band's rap-influenced sound to experiment with different musical genres; a trend which became much more pronounced on the 1995 album \"King for a Day... Fool for a Lifetime\".",
+          "text_preview": ".  Their next studio album, \"Angel Dust\", moved away from the band's rap-influenced sound to experiment with different musical genres; a trend which became much more pronounced on the 1995 album \"King for a Day... Fool for a Lifetime\".",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.7538,
+          "full_text": "## List of songs recorded by Faith No More",
+          "text_preview": "## List of songs recorded by Faith No More",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 314.93,
+      "generation_latency_ms": 1010.54
+    },
+    {
+      "query_id": "5ab6988a554299710c8d1edc",
+      "question": "Which building, the Metropolitan Life Insurance Company Tower or the 432 Park Avenue building, has two addresses?",
+      "ground_truth": "Metropolitan Life Insurance Company Tower",
+      "generated_answer": " The Metropolitan Life Insurance Company Tower has two addresses, specifically 5 Madison Avenue (for the clock tower portion of the building) and 1 Madison Avenue (for the office building covering the rest of the block). On the other hand, the 432 Park Avenue building only has one address.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.725,
+          "full_text": "## Metropolitan Life Insurance Company Tower\n\nThe Metropolitan Life Insurance Company Tower, colloquially known as the Met Life Tower, is a landmark skyscraper located on Madison Avenue near the intersection with East 23rd Street, across from Madison Square Park in Manhattan, New York City.  Designed by the architectural firm of Napoleon LeBrun & Sons and built by the Hedden Construction Company, the tower is modeled after the Campanile in Venice, Italy.  The hotel located in the clock tower portion of the building has the address 5 Madison Avenue, while the office building covering the rest of the block, occupied primarily by Credit Suisse, is referred to as 1 Madison Avenue.\n\n## John Hancock Center",
+          "text_preview": "## Metropolitan Life Insurance Company Tower\n\nThe Metropolitan Life Insurance Company Tower, colloquially known as the Met Life Tower, is a landmark skyscraper located on Madison Avenue near the intersection with East 23rd Street, across from Madison Square Park in Manhattan, New York City.  Designed by the architectural firm of Napoleon LeBrun & Sons and built by the Hedden Construction Company, the tower is modeled after the Campanile in Venice, Italy.  The hotel located in the clock tower por...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7179,
+          "full_text": "## 432 Park Avenue\n\n432 Park Avenue is a residential skyscraper in New York City that overlooks Central Park.  Originally proposed to be 1300 ft in 2011, the structure topped out at 1396 ft .  It was developed by CIM Group and features 104 condominium apartments.  Construction began in 2012 and was completed on December 23, 2015.\n\n## Lyceum Theatre (Park Avenue South)\n\nThe Lyceum Theatre was a theatre in New York City located on Fourth Avenue, now Park Avenue South, between 23rd and 24th Streets in Manhattan.  It was built in 1885 and operated until 1902, when it was torn down to make way for the Metropolitan Life Insurance Company Tower.  It was replaced by a new Lyceum Theatre on 45th Street.  For most of its existence, the theatre was home to Daniel Frohman\u2019s Lyceum Theatre Stock Company, which presented many important plays and actors of the day.\n\n## Metropolitan Life Insurance Company Tower",
+          "text_preview": "## 432 Park Avenue\n\n432 Park Avenue is a residential skyscraper in New York City that overlooks Central Park.  Originally proposed to be 1300 ft in 2011, the structure topped out at 1396 ft .  It was developed by CIM Group and features 104 condominium apartments.  Construction began in 2012 and was completed on December 23, 2015.\n\n## Lyceum Theatre (Park Avenue South)\n\nThe Lyceum Theatre was a theatre in New York City located on Fourth Avenue, now Park Avenue South, between 23rd and 24th Streets...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6895,
+          "full_text": "## Metropolitan Life North Building\n\nThe Metropolitan Life North Building, now known as Eleven Madison, is a 30-story art deco skyscraper on Madison Square Park in Manhattan, New York City, at 11-25 Madison Avenue.  The building is bordered by East 24th Street, Madison Avenue, East 25th Street and Park Avenue South, and is connected by an elevated walkway to the Met Life Tower just south of it.  The North Building was built on the site of Richard Upjohn's original Madison Square Presbyterian Church.  The second church, designed by Stanford White of McKim, Mead and White was built in 1906, across 24th street on land conveyed by Metropolitan Life.  As part of the Metropolitan Life Home Office Complex, the North Building was added to the National Register of Historic Places on January 19, 1996.\n\n## 432 Park Avenue",
+          "text_preview": "## Metropolitan Life North Building\n\nThe Metropolitan Life North Building, now known as Eleven Madison, is a 30-story art deco skyscraper on Madison Square Park in Manhattan, New York City, at 11-25 Madison Avenue.  The building is bordered by East 24th Street, Madison Avenue, East 25th Street and Park Avenue South, and is connected by an elevated walkway to the Met Life Tower just south of it.  The North Building was built on the site of Richard Upjohn's original Madison Square Presbyterian Chu...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 253.98,
+      "generation_latency_ms": 2389.96
+    },
+    {
+      "query_id": "5ab859a955429934fafe6d7b",
+      "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+      "ground_truth": "Phil Spector",
+      "generated_answer": " The first track on the box set \"Back to Mono\" is \"To Know Him Is to Love Him,\" which was performed by Phil Spector as part of the group the Teddy Bears. However, the song itself was written by Phil Everly and his brother, Don Everly, members of the Everly Brothers.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6086,
+          "full_text": "## Back to Mono (1958\u20131969)\n\nBack to Mono (1958\u20131969) is a box set (4 compact discs or 5 vinyl LPs) compilation of the recorded work of record producer Phil Spector, through the 1960s, released in 1991 by ABKCO as #7118-2.  The first track, \"To Know Him Is to Love Him,\" released in 1958, features Spector performing as part of the group the Teddy Bears.  Initially a vinyl album-sized package, the box contained a booklet with photographs, complete song lyrics, discographical information, and a reproduction of the essay on Spector by Tom Wolfe, \"The First Tycoon of Teen.\"  The package also contained a small, round, red \"Back to Mono\" pin.\n\n## Live in Japan (John Coltrane album)",
+          "text_preview": "## Back to Mono (1958\u20131969)\n\nBack to Mono (1958\u20131969) is a box set (4 compact discs or 5 vinyl LPs) compilation of the recorded work of record producer Phil Spector, through the 1960s, released in 1991 by ABKCO as #7118-2.  The first track, \"To Know Him Is to Love Him,\" released in 1958, features Spector performing as part of the group the Teddy Bears.  Initially a vinyl album-sized package, the box contained a booklet with photographs, complete song lyrics, discographical information, and a rep...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5518,
+          "full_text": "Mono Masters is a compilation album by the Beatles, and is an alternate, all-mono version of the album \"Past Masters\".  \"Mono Masters\" was originally a two-CD set included as part of \"The Beatles in Mono\" box set.  The premise of this box set was to compile only Beatles material which was released or prepared for release with a dedicated mono mix (the set excludes later material mixed and released only in stereo, and material whose mono version was simply created as an equal mix of the two channels of the stereo version).  As a result, the track listing for \"Mono Masters\" differs from \"Past Masters\" on the second half of disc two, omitting some later songs that never had a mono mix (\"Old Brown Shoe\", \"The Ballad of John and Yoko\" and \"Let It Be\"), and adding several songs released on stereo-only albums that had unreleased mono mixes",
+          "text_preview": "Mono Masters is a compilation album by the Beatles, and is an alternate, all-mono version of the album \"Past Masters\".  \"Mono Masters\" was originally a two-CD set included as part of \"The Beatles in Mono\" box set.  The premise of this box set was to compile only Beatles material which was released or prepared for release with a dedicated mono mix (the set excludes later material mixed and released only in stereo, and material whose mono version was simply created as an equal mix of the two chann...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5289,
+          "full_text": ".  Tracks 9\u201312 and 15 were prepared in March 1969 for release as a 7\" mono \"Yellow Submarine\" EP, two months after the release of the similarly titled soundtrack album, but the project was scrapped, although the EP was mastered.  Subsequently, the tracks were only released in stereo (and in an electronically produced mono mixdown, or \"fold-down\", of the stereo mix), while the true mono mixes remained unreleased.  \"Get Back\" (with B-side \"Don't Let Me Down\") was the final Beatles single mixed for mono format.  It was released in the UK in mono, though the US release was in stereo.  Thus, the songs that were originally released on stereo singles in the UK are omitted on this release.",
+          "text_preview": ".  Tracks 9\u201312 and 15 were prepared in March 1969 for release as a 7\" mono \"Yellow Submarine\" EP, two months after the release of the similarly titled soundtrack album, but the project was scrapped, although the EP was mastered.  Subsequently, the tracks were only released in stereo (and in an electronically produced mono mixdown, or \"fold-down\", of the stereo mix), while the true mono mixes remained unreleased.  \"Get Back\" (with B-side \"Don't Let Me Down\") was the final Beatles single mixed for...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 294.0,
+      "generation_latency_ms": 2411.07
+    },
+    {
+      "query_id": "5abeb3525542993fe9a41d03",
+      "question": "Which community did Otto Gross join which includes the popular destination Monte Verita?",
+      "ground_truth": "joined the utopian Ascona community",
+      "generated_answer": " Otto Gross joined the community at Monte Verit\u00e0 in Ascona, Switzerland.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7359,
+          "full_text": "## Monte Verit\u00e0\n\nMonte Verit\u00e0 (literally Hill of Truth) is a hill (350 m high) in Ascona (Swiss canton of Ticino), which has served as the site of many different Utopian and cultural events and communities since the beginning of the twentieth century, having started out as a popular destination for Wandervogel hikers during the Lebensreform period.\n\n## McCarren Park",
+          "text_preview": "## Monte Verit\u00e0\n\nMonte Verit\u00e0 (literally Hill of Truth) is a hill (350 m high) in Ascona (Swiss canton of Ticino), which has served as the site of many different Utopian and cultural events and communities since the beginning of the twentieth century, having started out as a popular destination for Wandervogel hikers during the Lebensreform period.\n\n## McCarren Park",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6878,
+          "full_text": "Which community did Otto Gross join which includes...\n\n## Enchanted Valley Chalet",
+          "text_preview": "Which community did Otto Gross join which includes...\n\n## Enchanted Valley Chalet",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6134,
+          "full_text": "## Coles Point, Virginia\n\nColes Point is an unincorporated community in Westmoreland County, in the U. S. state of Virginia.  Coles Point is part of the Northern Neck of Virginia and lies on a peninsula the juts out into the Chesapeake Bay on its East side and is flanked by the Potomac River to the North and the Rappahannock.  River to the South.  Coles Point Marina, www.colespointmarina.com, is a destination marina located on the water at Coles Point about 15 minutes from Montross, VA.  Coles Point is a popular destination for visitors who enjoy boating, fishing & crabbing and there are many vacation homes here.  Many Coles Point locals are involved in commercial fishing trade and primarily focused on blue crabs, striped bass (rockfish) and shellfish.\n\n## Otto Gross\n\nOtto Hans Adolf Gross (17 March 1877 \u2013 13 February 1920) was an Austrian psychoanalyst.  A maverick early disciple of Sigmund Freud, he later became an anarchist and joined the utopian Ascona community.\n\n## Monte Verit\u00e0",
+          "text_preview": "## Coles Point, Virginia\n\nColes Point is an unincorporated community in Westmoreland County, in the U. S. state of Virginia.  Coles Point is part of the Northern Neck of Virginia and lies on a peninsula the juts out into the Chesapeake Bay on its East side and is flanked by the Potomac River to the North and the Rappahannock.  River to the South.  Coles Point Marina, www.colespointmarina.com, is a destination marina located on the water at Coles Point about 15 minutes from Montross, VA.  Coles P...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 225.06,
+      "generation_latency_ms": 1129.63
+    },
+    {
+      "query_id": "5abdf06355429976d4830a2d",
+      "question": "In Ancient Egyptian religion how would a citizen be weighted to decide if they where worthy of damnation and would face the torment in the lake of fire ?",
+      "ground_truth": "against the feather of truth",
+      "generated_answer": " In Ancient Egyptian religious tradition, a citizen's worthiness for damnation was decided through a ritual called the Weighing of the Heart. After death, the heart of the deceased individual was weighed against the feather of Maat (symbolizing truth and justice) before the god Osiris in the presence of Anubis and Thoth. If the citizen's heart was heavier than the feather, it meant that their heart was full of sin, and they would face torment in a lake of fire or the Duat (the underworld). Conversely, if the heart was lighter, it indicated that the deceased had led a virtuous life and could proceed to the afterlife.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7335,
+          "full_text": "Damnation (from Latin \"damnatis\") is the concept of divine punishment and torment in an afterlife for actions that were committed on Earth.  In Ancient Egyptian religious tradition, citizens would recite the 42 negative confessions of Maat as their heart was weighed against the feather of truth.  If the citizen's heart was heavier than a feather they would face torment in a lake of fire.  Zoroastrianism developed an eschatological concept of a Last Judgment called Frashokereti where the dead will be raised and the righteous wade though a river of milk while the wicked will be burned in a river of molten metal.  Abrahamic religions such as Christianity have similar concepts of believers facing judgement on a last day to determine if they will spend eternity in Gehenna or heaven for their sin .  A damned human \"in damnation\" is said to be either in Hell, or living in a state wherein they are divorced from Heaven and/or in a state of disgrace from God's favor",
+          "text_preview": "Damnation (from Latin \"damnatis\") is the concept of divine punishment and torment in an afterlife for actions that were committed on Earth.  In Ancient Egyptian religious tradition, citizens would recite the 42 negative confessions of Maat as their heart was weighed against the feather of truth.  If the citizen's heart was heavier than a feather they would face torment in a lake of fire.  Zoroastrianism developed an eschatological concept of a Last Judgment called Frashokereti where the dead wil...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5887,
+          "full_text": ".  In traditional Abrahamic demonology, the Devil rules Hell, where he and his demons punish the damned.",
+          "text_preview": ".  In traditional Abrahamic demonology, the Devil rules Hell, where he and his demons punish the damned.",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.5643,
+          "full_text": "In Ancient Egyptian religion how would a citizen b...\n\n## Ancient Egyptian religion\n\nAncient Egyptian religion was a complex system of polytheistic beliefs and rituals which were an integral part of ancient Egyptian society.  It centered on the Egyptians' interaction with many deities who were believed to be present in, and in control of, the forces of nature.  Rituals such as prayers and offerings were efforts to provide for the gods and gain their favor.  Formal religious practice centered on the pharaoh, the king of Egypt, who was believed to possess a divine power by virtue of his position.  He acted as the intermediary between his people and the gods and was obligated to sustain the gods through rituals and offerings so that they could maintain order in the universe.  The state dedicated enormous resources to Egyptian rituals and to the construction of the temples.\n\n## Hatmehit",
+          "text_preview": "In Ancient Egyptian religion how would a citizen b...\n\n## Ancient Egyptian religion\n\nAncient Egyptian religion was a complex system of polytheistic beliefs and rituals which were an integral part of ancient Egyptian society.  It centered on the Egyptians' interaction with many deities who were believed to be present in, and in control of, the forces of nature.  Rituals such as prayers and offerings were efforts to provide for the gods and gain their favor.  Formal religious practice centered on ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 224.75,
+      "generation_latency_ms": 3570.69
+    },
+    {
+      "query_id": "5abbe40555429931dba145cd",
+      "question": "Which rock band has released more albums, Shihad or Morningwood? ",
+      "ground_truth": "Shihad",
+      "generated_answer": " Based on the provided context, Shihad has released more albums than Morningwood. While we don't have specific numbers for each band's discography in the given information, it is mentioned that Shihad has produced five number-one studio albums, and Morningwood only released two albums before they were disbanded.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7006,
+          "full_text": "## FVEY (album)\n\nFVEY (pronounced Five Eyes) is the ninth studio album by New Zealand alternative rock band Shihad, released on 8 August 2014.  The album debuted at number one on the New Zealand albums chart, making it Shihad's fifth New Zealand number one album.  The chart position also makes Shihad the only New Zealand band to have five number one albums, tying them with solo artist Hayley Westenra who also has five number one albums.\n\n## Morningwood\n\nMorningwood was an alternative rock band from New York City.  Founded in 2001, it primarily consisted of Pedro Yanowitz and Chantal Claret.  Morningwood was signed to Capitol Records and released two albums.  Claret went solo in 2012 and folded the band.\n\n## Devolve (EP)\n\nThe Devolve EP is the 1990 debut release by New Zealand rock band Shihad.  The EP was originally released in 1990 on a limited run of 1000 vinyl records, and later rereleased as a limited run of CDs.\n\n## Shihad discography",
+          "text_preview": "## FVEY (album)\n\nFVEY (pronounced Five Eyes) is the ninth studio album by New Zealand alternative rock band Shihad, released on 8 August 2014.  The album debuted at number one on the New Zealand albums chart, making it Shihad's fifth New Zealand number one album.  The chart position also makes Shihad the only New Zealand band to have five number one albums, tying them with solo artist Hayley Westenra who also has five number one albums.\n\n## Morningwood\n\nMorningwood was an alternative rock band f...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6651,
+          "full_text": "Which rock band has released more albums, Shihad o...\n\n## Steve Miller Band",
+          "text_preview": "Which rock band has released more albums, Shihad o...\n\n## Steve Miller Band",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.6625,
+          "full_text": "## Shihad\n\nShihad are a rock band from New Zealand, formed in 1988.  The band consists of Jon Toogood (lead vocals, rhythm guitar), Phil Knight (lead guitar, synthesiser, backing vocals), Karl Kippenberger (bass guitar, backing vocals), and Tom Larkin (drums, backing vocals, samplers).  During their recording career, Shihad have produced five number-one studio albums, holding the title for most number one records for any New Zealand artist, alongside Hayley Westenra, and three top-ten singles in New Zealand.\n\n## Joe Lynn Turner",
+          "text_preview": "## Shihad\n\nShihad are a rock band from New Zealand, formed in 1988.  The band consists of Jon Toogood (lead vocals, rhythm guitar), Phil Knight (lead guitar, synthesiser, backing vocals), Karl Kippenberger (bass guitar, backing vocals), and Tom Larkin (drums, backing vocals, samplers).  During their recording career, Shihad have produced five number-one studio albums, holding the title for most number one records for any New Zealand artist, alongside Hayley Westenra, and three top-ten singles in...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 273.9,
+      "generation_latency_ms": 2133.55
+    },
+    {
+      "query_id": "5a77691455429966f1a36d2b",
+      "question": "What movement is this music seen as that released Facta Loquuntur as their first full length album?",
+      "ground_truth": "neo-v\u00f6lkisch",
+      "generated_answer": " The music seen as releasing \"Facta Loquuntur\" as their first full-length album is German National Socialist Black Metal.",
+      "answer_found_in_context": false,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6984,
+          "full_text": "## Facta Loquuntur\n\nFacta Loquuntur was the first full-length album ever released by German National Socialist black metal band Absurd.  The CD and vinyl were originally released on No Colours Records, each limited to 500 copies.  A picture disc vinyl version was released on No Colours and Silencelike Death Productions.  The material has been re-released on tape by NSBM labels Stellar Winter Records and Totenkopf Propaganda.  \"Facta Loquuntur\" was also released in digipack format by World Terror Committee with three bonus tracks.  Each of the re-releases have their own cover art, and several bonus tracks.\n\n## Season of the Dead",
+          "text_preview": "## Facta Loquuntur\n\nFacta Loquuntur was the first full-length album ever released by German National Socialist black metal band Absurd.  The CD and vinyl were originally released on No Colours Records, each limited to 500 copies.  A picture disc vinyl version was released on No Colours and Silencelike Death Productions.  The material has been re-released on tape by NSBM labels Stellar Winter Records and Totenkopf Propaganda.  \"Facta Loquuntur\" was also released in digipack format by World Terror...",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.5048,
+          "full_text": "## Season of the Dead\n\nSeason of the Dead is the first full length studio album by the death metal band Necrophagia.  It was released in 1987 on New Renaissance Records.  It is the only album to feature Joe Blazer on drums, Larry Madison on guitar, and Bill James on bass.  It is also the band's last album until 1998.  The album was released a few months before Death's Scream Bloody Gore debut release which makes it one of the first full length Death Metal albums making it important to collectors.\n\n## Apathy and Exhaustion",
+          "text_preview": "## Season of the Dead\n\nSeason of the Dead is the first full length studio album by the death metal band Necrophagia.  It was released in 1987 on New Renaissance Records.  It is the only album to feature Joe Blazer on drums, Larry Madison on guitar, and Bill James on bass.  It is also the band's last album until 1998.  The album was released a few months before Death's Scream Bloody Gore debut release which makes it one of the first full length Death Metal albums making it important to collectors...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.4962,
+          "full_text": "## Apathy and Exhaustion\n\nApathy and Exhaustion is the third album by the Chicago, Illinois punk rock band The Lawrence Arms, released in 2002 by Fat Wreck Chords.  It was the band's first album to be released on Fat Wreck Chords, and with this release, the band formed a close relationship with the label and its founder Fat Mike, for whom they released their next two albums with.  It's also their first full length album they recorded with producer, Matt Allison, who they would go on to record all of their full length albums with.  Apathy and Exhaustion shows the band experimenting with verse/chorus structures, and infectious pop melodies.  It's often considered to be one of their finest efforts.  Fat Mike included this album on a list of the 25 best albums released on his label, Fat Wreck Chords.  An independent music video was filmed for the song \"Porno and Snuff Films.\"\n\n## Young American Primitive",
+          "text_preview": "## Apathy and Exhaustion\n\nApathy and Exhaustion is the third album by the Chicago, Illinois punk rock band The Lawrence Arms, released in 2002 by Fat Wreck Chords.  It was the band's first album to be released on Fat Wreck Chords, and with this release, the band formed a close relationship with the label and its founder Fat Mike, for whom they released their next two albums with.  It's also their first full length album they recorded with producer, Matt Allison, who they would go on to record al...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 259.14,
+      "generation_latency_ms": 1567.89
+    },
+    {
+      "query_id": "5abea9a35542990832d3a07e",
+      "question": "Bullewijk metro station is part of a mixed rapid transit and light rail system that is how many km long?",
+      "ground_truth": "42.5",
+      "generated_answer": " The Amsterdam Metro network, to which the Bullewijk metro station belongs, has a total length of 42.5 kilometres.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6886,
+          "full_text": "## Amsterdam Metro\n\nThe Amsterdam Metro (Dutch: \"Amsterdamse metro\" ) is a mixed rapid transit and light rail system in Amsterdam, and its surrounding municipalities Amstelveen, Diemen, and Ouder-Amstel in the Netherlands.  The network is owned by the city of Amsterdam and operated by municipal public transport company GVB which also operates trams, ferries, and local buses.  The metro system consists of four routes, with a total length of 42.5 kilometres, and serves 52 stations.\n\n## List of Los Angeles Metro Rail stations",
+          "text_preview": "## Amsterdam Metro\n\nThe Amsterdam Metro (Dutch: \"Amsterdamse metro\" ) is a mixed rapid transit and light rail system in Amsterdam, and its surrounding municipalities Amstelveen, Diemen, and Ouder-Amstel in the Netherlands.  The network is owned by the city of Amsterdam and operated by municipal public transport company GVB which also operates trams, ferries, and local buses.  The metro system consists of four routes, with a total length of 42.5 kilometres, and serves 52 stations.\n\n## List of Los...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6751,
+          "full_text": "## Bullewijk metro station\n\nBullewijk is an Amsterdam Metro station in the Bijlmermeer area of Amsterdam, Netherlands.  The station opened in 1977 and is served by 2 lines, the 50 (Isolatorweg - Gein) and 54 (Amsterdam Centraal - Gein).\n\n## RTA Rapid Transit\n\nRTA Rapid Transit (generally known as The Rapid) is a rapid transit and light rail system in Cleveland and Cuyahoga County owned by the Greater Cleveland Regional Transit Authority (RTA).  The system comprises three lines\u2014the Red Line (rapid transit), and Blue and Green Lines (light rail).\n\n## Rapid transit in Canada",
+          "text_preview": "## Bullewijk metro station\n\nBullewijk is an Amsterdam Metro station in the Bijlmermeer area of Amsterdam, Netherlands.  The station opened in 1977 and is served by 2 lines, the 50 (Isolatorweg - Gein) and 54 (Amsterdam Centraal - Gein).\n\n## RTA Rapid Transit\n\nRTA Rapid Transit (generally known as The Rapid) is a rapid transit and light rail system in Cleveland and Cuyahoga County owned by the Greater Cleveland Regional Transit Authority (RTA).  The system comprises three lines\u2014the Red Line (rapi...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6609,
+          "full_text": "## DART Light Rail\n\nDART Light Rail is a light rail system in Dallas, Texas and its suburbs owned and operated by Dallas Area Rapid Transit.  The system comprises 93 mi among its four lines \u2014 the Red Line , the Blue Line , the Green Line , and the Orange Line .  It is the longest light rail system in the United States.  As of the fourth quarter of 2014, the system has an average weekday ridership of 101,800, making it the largest light rail system in the Southern United States by ridership, and the seventh largest in the United States by ridership.  As of Fiscal Year 2015, the system average weekday riderships had fallen to 97,800.  (The system utilizes 163 light rail trains manufactured by Kinki Sharyo, with all trains being converted to \"Super\" LRVs which feature level boarding and higher passenger capacity.\n\n## Bullewijk metro station",
+          "text_preview": "## DART Light Rail\n\nDART Light Rail is a light rail system in Dallas, Texas and its suburbs owned and operated by Dallas Area Rapid Transit.  The system comprises 93 mi among its four lines \u2014 the Red Line , the Blue Line , the Green Line , and the Orange Line .  It is the longest light rail system in the United States.  As of the fourth quarter of 2014, the system has an average weekday ridership of 101,800, making it the largest light rail system in the Southern United States by ridership, and ...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 386.2,
+      "generation_latency_ms": 1556.74
+    },
+    {
+      "query_id": "5ade1ddf55429939a52fe827",
+      "question": "The Findlater Castle built on a 50 ft -high cliff overlooking the Moray Firth was redesigned in the 14th century based on the model of what Scottish castle?",
+      "ground_truth": "Roslyn Castle",
+      "generated_answer": " The Findlater Castle was redesigned in the 14th century based on the Roslyn Castle model.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.8017,
+          "full_text": "## Findlater Castle\n\nFindlater Castle is the old seat of the Earls of Findlater and Seafield, sitting on a 50 ft -high cliff overlooking the Moray Firth on the coast of Banff and Buchan, Aberdeenshire, Scotland.  It lies about 15 km west of Banff, near the village of Sandend, between Cullen and Portsoy.  The cliffs here contain quartz; the name \"Findlater\" is derived not from Norse as earlier stated here, but from the Scots Gaelic words \"fionn\" (\"white\") and \"leitir\" (\"cliff or steep slope\").  The first historical reference to the castle is from 1246.  King Alexander III of Scotland repaired this castle in the 1260s in preparation for an invasion by King Haakon IV of Norway.  The Vikings took and held the castle for some time.  The castle remains that are still there are from the 14th-century rebuilding, when the castle was redesigned based on the Roslyn Castle model.\n\n## Ch\u00e2teau d'Ainay-le-Vieil",
+          "text_preview": "## Findlater Castle\n\nFindlater Castle is the old seat of the Earls of Findlater and Seafield, sitting on a 50 ft -high cliff overlooking the Moray Firth on the coast of Banff and Buchan, Aberdeenshire, Scotland.  It lies about 15 km west of Banff, near the village of Sandend, between Cullen and Portsoy.  The cliffs here contain quartz; the name \"Findlater\" is derived not from Norse as earlier stated here, but from the Scots Gaelic words \"fionn\" (\"white\") and \"leitir\" (\"cliff or steep slope\").  T...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.7571,
+          "full_text": "The Findlater Castle built on a 50 ft -high cliff ...\n\n## Moray Firth\n\nThe Moray Firth ( ; Scottish Gaelic: \"An Cuan Moireach\", \"Linne Mhoireibh\" or \"Caolas Mhoireibh\") is a roughly triangular inlet (or firth) of the North Sea, north and east of Inverness, which is in the Highland council area of north of Scotland.  It is the largest firth in Scotland, stretching from Duncansby Head (near John o' Groats) in the north, in the Highland council area, and Fraserburgh in the east, in the Aberdeenshire council area, to Inverness and the Beauly Firth in the west.  Therefore, three council areas have Moray Firth coastline: Highland to the west and north of the Moray Firth and Highland, Moray and Aberdeenshire to the south.  The firth has more than 800 kilometres (about 500 miles) of coastline, much of which is cliff.\n\n## Findlater Castle",
+          "text_preview": "The Findlater Castle built on a 50 ft -high cliff ...\n\n## Moray Firth\n\nThe Moray Firth ( ; Scottish Gaelic: \"An Cuan Moireach\", \"Linne Mhoireibh\" or \"Caolas Mhoireibh\") is a roughly triangular inlet (or firth) of the North Sea, north and east of Inverness, which is in the Highland council area of north of Scotland.  It is the largest firth in Scotland, stretching from Duncansby Head (near John o' Groats) in the north, in the Highland council area, and Fraserburgh in the east, in the Aberdeenshir...",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.718,
+          "full_text": ".  The Gaelic king Mac Bethad Mac Findl\u00e1ich (MacBeth) whose 11th-century killing of King Duncan was immortalised in Shakespeare's largely fictionalized play \"Macbeth\", held a castle within the city where he ruled as Mormaer of Moray and Ross.",
+          "text_preview": ".  The Gaelic king Mac Bethad Mac Findl\u00e1ich (MacBeth) whose 11th-century killing of King Duncan was immortalised in Shakespeare's largely fictionalized play \"Macbeth\", held a castle within the city where he ruled as Mormaer of Moray and Ross.",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 409.59,
+      "generation_latency_ms": 1621.7
+    },
+    {
+      "query_id": "5adce36e5542990d50227d55",
+      "question": "Vivian Pinn taught at which college founded in Massachusetts in 1852?",
+      "ground_truth": "Tufts College",
+      "generated_answer": " Vivian Pinn did not teach at Tufts University, which was founded in Massachusetts in 1852. The provided context does not mention any specific person named Vivian Pinn associated with Berkshire Community College or Sri Shariputhra Maha Vidyalaya, so it is unclear if she taught at either of those institutions. However, the question asks about Tufts University specifically.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7098,
+          "full_text": "## Berkshire Community College\n\nBerkshire Community College is an accredited, co-educational two-year community college in Berkshire County, Massachusetts.  Its primary campus is in Pittsfield, Massachusetts, with a satellite campus in Great Barrington, Massachusetts and classroom spaces in the city of Pittsfield.  Established in the 1960s, it is the oldest college founded by the Massachusetts Community Colleges Executive Office.\n\n## Tufts University",
+          "text_preview": "## Berkshire Community College\n\nBerkshire Community College is an accredited, co-educational two-year community college in Berkshire County, Massachusetts.  Its primary campus is in Pittsfield, Massachusetts, with a satellite campus in Great Barrington, Massachusetts and classroom spaces in the city of Pittsfield.  Established in the 1960s, it is the oldest college founded by the Massachusetts Community Colleges Executive Office.\n\n## Tufts University",
+          "contains_answer": false
+        },
+        {
+          "rank": 2,
+          "score": 0.6857,
+          "full_text": "## Sri Shariputhra Maha Vidyalaya",
+          "text_preview": "## Sri Shariputhra Maha Vidyalaya",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.6482,
+          "full_text": "## Tufts University\n\nTufts University is a private research university incorporated in the municipality of Medford, Massachusetts, United States.  Tufts College was founded in 1852 by Christian Universalists who worked for years to open a nonsectarian institution of higher learning.  Charles Tufts donated the land for the campus on Walnut Hill, the highest point in Medford, saying that he wanted to set a \"light on the hill\".  The name was changed to Tufts University in 1954, although the corporate name remains \"the Trustees of Tufts College\".  For more than a century, Tufts was a small New England liberal arts college until its transformation into a larger research university in the 1970s.  Tufts is a charter member of the New England Small College Athletic Conference (NESCAC).  In 2017, the university accepted 14.8% of undergraduate applicants from a pool of 21,101.  In 2016, it was ranked 27th nationally and 156th internationally by \"U.S. News & World Report\".",
+          "text_preview": "## Tufts University\n\nTufts University is a private research university incorporated in the municipality of Medford, Massachusetts, United States.  Tufts College was founded in 1852 by Christian Universalists who worked for years to open a nonsectarian institution of higher learning.  Charles Tufts donated the land for the campus on Walnut Hill, the highest point in Medford, saying that he wanted to set a \"light on the hill\".  The name was changed to Tufts University in 1954, although the corpora...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 303.69,
+      "generation_latency_ms": 2217.76
+    },
+    {
+      "query_id": "5a8f25ba55429924144829e9",
+      "question": "Which country is home to Alsa Mall and Spencer Plaza?",
+      "ground_truth": "India",
+      "generated_answer": " India",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7809,
+          "full_text": "## Alsa Mall\n\nAlsa Mall is a shopping mall on Montieth Road in the neighbourhood of Egmore in Chennai, India.  Established in the mid-1980s, along with the Spencer Plaza, it is one of the oldest surviving malls in Chennai city.\n\n## Desert Fashion Plaza",
+          "text_preview": "## Alsa Mall\n\nAlsa Mall is a shopping mall on Montieth Road in the neighbourhood of Egmore in Chennai, India.  Established in the mid-1980s, along with the Spencer Plaza, it is one of the oldest surviving malls in Chennai city.\n\n## Desert Fashion Plaza",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.748,
+          "full_text": "## Spencer Plaza\n\nSpencer Plaza(Tamil: \u0bb8\u0bcd\u0baa\u0bc6\u0ba9\u0bcd\u0b9a\u0bb0\u0bcd \u0baa\u0bbf\u0bb3\u0bbe\u0b9a\u0bbe) is a shopping mall located on Anna Salai in Chennai, Tamil Nadu, India, and is one of the modern landmarks of the city.  Originally built during the period of the British Raj and reconstructed in 1985 on the site of the original Spencer's departmental store, it is the oldest shopping mall in India and one of the biggest shopping malls in South Asia when it was built.  It is one of the earliest Grade A commercial projects of the city, which were developed in the second half of the 1990s.  As of March 2010, it is the 11th largest mall in the country with a gross lettable area of 530,000 sq ft.\n\n## Ashley Landing",
+          "text_preview": "## Spencer Plaza\n\nSpencer Plaza(Tamil: \u0bb8\u0bcd\u0baa\u0bc6\u0ba9\u0bcd\u0b9a\u0bb0\u0bcd \u0baa\u0bbf\u0bb3\u0bbe\u0b9a\u0bbe) is a shopping mall located on Anna Salai in Chennai, Tamil Nadu, India, and is one of the modern landmarks of the city.  Originally built during the period of the British Raj and reconstructed in 1985 on the site of the original Spencer's departmental store, it is the oldest shopping mall in India and one of the biggest shopping malls in South Asia when it was built.  It is one of the earliest Grade A commercial projects of the city, which...",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.7206,
+          "full_text": "Which country is home to Alsa Mall and Spencer Pla...\n\n## Harbor Square\n\nHarbor Square, formerly Shore Mall, is a shopping plaza (formerly a shopping mall) in Egg Harbor Township, New Jersey on U.S. Route 40/U.S. Route 322 originally known as \"Searstown\".  The plaza is accessible from Exit 36 off the Garden State Parkway.  The plaza is owned by Aetna Realty.  The plaza has a gross leasable area of 337,423\u00a0ft\u00b2, formerly 620,000\u00a0ft\u00b2 when it was a mall, located on 73 acre of land.  The plaza's anchor stores include Boscov's and Burlington Coat Factory.\n\n## Smith Road, Chennai\n\nSmith Road in Chennai, Tamil Nadu, India branches off from Anna Salai, Chennai's arterial road near Spencer Plaza from the TVS Junction to join Whites Road near Hobart Muslim Girls Higher Secondary School.\n\n## The Plaza (mall)",
+          "text_preview": "Which country is home to Alsa Mall and Spencer Pla...\n\n## Harbor Square\n\nHarbor Square, formerly Shore Mall, is a shopping plaza (formerly a shopping mall) in Egg Harbor Township, New Jersey on U.S. Route 40/U.S. Route 322 originally known as \"Searstown\".  The plaza is accessible from Exit 36 off the Garden State Parkway.  The plaza is owned by Aetna Realty.  The plaza has a gross leasable area of 337,423\u00a0ft\u00b2, formerly 620,000\u00a0ft\u00b2 when it was a mall, located on 73 acre of land.  The plaza's anch...",
+          "contains_answer": true
+        }
+      ],
+      "retrieval_latency_ms": 353.52,
+      "generation_latency_ms": 1072.27
+    },
+    {
+      "query_id": "5a8b7e9c5542995d1e6f13c1",
+      "question": "Psychopsis and Aubrieta are both genuses of which type of plants?",
+      "ground_truth": "flowering plants",
+      "generated_answer": " Both Psychopsis and Aubrieta are genera of flowering plants. Specifically, Psychopsis is a genus of orchids, while Aubrieta belongs to the cabbage family Brassicaceae.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.7341,
+          "full_text": "## Psychopsis\n\nPsychopsis, abbreviated Psychp in horticultural trade, is a genus of 5 known species of orchids native to northern South America, Central America and Trinidad.  It was formerly included in the massively paraphyletic \"wastebin genus\" \"Oncidium\".  The genus as a whole is commonly called butterfly orchids, but some species of other orchid genera are also called thus.\n\n## Aubrieta\n\nAubrieta (commonly known as Aubretia) is a genus of about 12 species of flowering plants in the cabbage family Brassicaceae.  The genus is named after Claude Aubriet, a French flower-painter.  It originates from southern Europe east to central Asia but is now a common garden escape throughout Europe.  It is a low, spreading plant, hardy, evergreen and perennial, with small violet, pink or white flowers, and inhabits rocks and banks.  It prefers light, well-drained soil, is tolerant of a wide pH range, and can grow in partial shade or full sun.",
+          "text_preview": "## Psychopsis\n\nPsychopsis, abbreviated Psychp in horticultural trade, is a genus of 5 known species of orchids native to northern South America, Central America and Trinidad.  It was formerly included in the massively paraphyletic \"wastebin genus\" \"Oncidium\".  The genus as a whole is commonly called butterfly orchids, but some species of other orchid genera are also called thus.\n\n## Aubrieta\n\nAubrieta (commonly known as Aubretia) is a genus of about 12 species of flowering plants in the cabbage ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.6879,
+          "full_text": "## Stellacyanin",
+          "text_preview": "## Stellacyanin",
+          "contains_answer": false
+        },
+        {
+          "rank": 3,
+          "score": 0.632,
+          "full_text": "## Biocommunication (science)",
+          "text_preview": "## Biocommunication (science)",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 263.45,
+      "generation_latency_ms": 1310.68
+    },
+    {
+      "query_id": "5ae31d5a5542990afbd1e0b1",
+      "question": "What famous composer was born in the town that hosts a festival of music and drama has featured Lilian Sukis?",
+      "ground_truth": "Wolfgang Amadeus Mozart",
+      "generated_answer": " Wolfgang Amadeus Mozart, who was born in Salzburg, the same town where the Salzburg Festival takes place.",
+      "answer_found_in_context": true,
+      "retrieved_contexts": [
+        {
+          "rank": 1,
+          "score": 0.6418,
+          "full_text": "Lilian Sukis (born 29 June 1939, Kaunas) is a Canadian operatic soprano of Lithuanian birth.  After earning diplomas from the University of Toronto and McMaster University, she made her professional opera debut in 1964 as Kate Pinkerton in Giacomo Puccini's \"Madama Butterfly\" with the Canadian Opera Company.  In 1965 she sang the role of Countess Almaviva in Wolfgang Amadeus Mozart's \"The Marriage of Figaro\" at the Stratford Festival.  That same year she became a pupil at the Metropolitan Opera Studio and School.  She made her debut at the Met in 1967 as Helen Niles in the world premiere of Marvin David Levy's \"Mourning Becomes Electra\".  In 1969 she became a member of the Bavarian State Opera where she remained for more than 20 years",
+          "text_preview": "Lilian Sukis (born 29 June 1939, Kaunas) is a Canadian operatic soprano of Lithuanian birth.  After earning diplomas from the University of Toronto and McMaster University, she made her professional opera debut in 1964 as Kate Pinkerton in Giacomo Puccini's \"Madama Butterfly\" with the Canadian Opera Company.  In 1965 she sang the role of Countess Almaviva in Wolfgang Amadeus Mozart's \"The Marriage of Figaro\" at the Stratford Festival.  That same year she became a pupil at the Metropolitan Opera ...",
+          "contains_answer": true
+        },
+        {
+          "rank": 2,
+          "score": 0.5765,
+          "full_text": "## Salzburg Festival\n\nThe Salzburg Festival (German: \"Salzburger Festspiele\" ) is a prominent festival of music and drama established in 1920.  It is held each summer (for five weeks starting in late July) within the Austrian town of Salzburg, the birthplace of Wolfgang Amadeus Mozart.  One highlight is the annual performance of the play \"Jedermann\" (\"Everyman\") by Hugo von Hofmannsthal.\n\n## Lilian Sukis",
+          "text_preview": "## Salzburg Festival\n\nThe Salzburg Festival (German: \"Salzburger Festspiele\" ) is a prominent festival of music and drama established in 1920.  It is held each summer (for five weeks starting in late July) within the Austrian town of Salzburg, the birthplace of Wolfgang Amadeus Mozart.  One highlight is the annual performance of the play \"Jedermann\" (\"Everyman\") by Hugo von Hofmannsthal.\n\n## Lilian Sukis",
+          "contains_answer": true
+        },
+        {
+          "rank": 3,
+          "score": 0.4974,
+          "full_text": "## National Peace Jubilee\n\nThe National Peace Jubilee was a celebration, organized by Patrick Gilmore in Boston on June 15, 1869.  It featured an orchestra and a chorus, as well as numerous soloists.  More than 11,000 performers participated, including the famous violinist Ole Bull as the orchestra's concertmaster, and Carl Zerrahn as director of the choral forces.  The Jubilee became the \"high-water mark in the influence of the band in American life\".  Along with the World's Peace Jubilee and International Musical Festival in 1872, it made Gilmore a famous composer and bandmaster.  For the Jubilee, a newly commissioned \"Hymn of Peace\" was written by Dr. Oliver Wendell Holmes, set to the music from \"American Hymn\" by Matthais Keller.\n\n## Cleveland Thyagaraja Festival",
+          "text_preview": "## National Peace Jubilee\n\nThe National Peace Jubilee was a celebration, organized by Patrick Gilmore in Boston on June 15, 1869.  It featured an orchestra and a chorus, as well as numerous soloists.  More than 11,000 performers participated, including the famous violinist Ole Bull as the orchestra's concertmaster, and Carl Zerrahn as director of the choral forces.  The Jubilee became the \"high-water mark in the influence of the band in American life\".  Along with the World's Peace Jubilee and I...",
+          "contains_answer": false
+        }
+      ],
+      "retrieval_latency_ms": 272.49,
+      "generation_latency_ms": 1625.9
+    }
+  ]
+}

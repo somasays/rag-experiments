@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment and Secrets
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+*.credentials
+config.local.*
+
+# API Keys
+*_api_key*
+*_secret*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+
+# Claude Code
+CLAUDE.md
+.claude/
+docs/

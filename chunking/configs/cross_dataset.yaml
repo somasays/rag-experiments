@@ -1,0 +1,67 @@
+# Experiment: Cross-Dataset Generalization
+# Research Question: Do HotpotQA findings generalize to Natural Questions?
+#
+# HotpotQA findings:
+#   - Sentence chunking > Token > Recursive > Semantic
+#   - Larger chunks correlate with better recall (r=0.56)
+#   - Multi-hop questions, 3K-9K char documents
+#
+# Natural Questions characteristics:
+#   - Single-hop factual questions (real Google queries)
+#   - Full Wikipedia articles (25K-85K chars - much longer)
+#   - Different query distribution
+#
+# Key questions:
+#   1. Does the strategy ranking change on different dataset?
+#   2. Does the chunk size effect hold on longer documents?
+#   3. Is semantic chunking better for factual lookup?
+
+name: cross_dataset
+description: Cross-dataset generalization from HotpotQA to Natural Questions
+
+# Dataset: Natural Questions with long documents
+dataset: natural_questions
+dataset_args:
+  num_examples: 40
+  min_length: 60000   # Long documents only (60K+ chars)
+  seed: 42
+
+# Compare all 4 strategies with default settings
+configurations:
+  # Token chunking (~256 tokens = ~1024 chars)
+  - name: token_nq
+    strategy: token
+    chunk_size: 1024
+    chunk_overlap: 128
+
+  # Sentence chunking
+  - name: sentence_nq
+    strategy: sentence
+    chunk_size: 1024
+    chunk_overlap: 200
+
+  # Recursive chunking (industry standard)
+  - name: recursive_nq
+    strategy: recursive
+    chunk_size: 1024
+    chunk_overlap: 128
+
+  # Semantic chunking (embedding-based)
+  - name: semantic_nq
+    strategy: semantic
+    chunk_size: 1024        # Ignored
+
+# Evaluation settings
+evaluation:
+  metrics:
+    - context_recall
+    - context_precision
+    - faithfulness
+    - answer_relevancy
+  top_k: 3
+  num_queries: 40           # Same as HotpotQA for fair comparison
+
+# Output settings
+output:
+  detailed: true
+  summary: true
